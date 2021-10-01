@@ -2,6 +2,8 @@ const axios = require("axios")
 const fs = require("fs")
 const ethers = require("ethers")
 
+let currentTokenList = require("./euler-tokenlist.json");
+
 
 const COINGECKO_URI = "https://tokens.coingecko.com/uniswap/all.json";
 const UNIV3_GRAPH_URI = "https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v3";
@@ -12,7 +14,7 @@ let schema = {
   name: "Euler Default List",
   timestamp: "",
   version: {
-    major: 2,
+    major: 1,
     minor: 0,
     patch: 0
   },
@@ -33,6 +35,7 @@ let eulerList = [];
 let coingeckoAddressesL = [];
 let coingeckoAddressesR = [];
 
+let currentTokens = 0;
 
 const uniTokenQuery = `
   query tokens($id_in: [String], $first: Int){
@@ -153,42 +156,27 @@ async function getUniv3LP(_addresses, _first, _slice, addressPosition="left") {
 
 function generateEulerTokenList() {
 
-  //univ3List.forEach(coin => {
-        //if(coingeckoDict[coin.id] !== undefined){
-    //  schema.tokens.push(Object.assign({}, coin, coingeckoDict[coin.id]));
-    //}
-  //})
-
   coingeckoList.forEach(coin => {
     if(univ3Dict[coin.address])
-      schema.tokens.push(coin);
+      currentTokenList.tokens.push(coin);
   })
 
-  console.log("eulerList: "+schema.tokens.length);
+  console.log("eulerList: "+currentTokenList.tokens.length);
+  if(currentTokenList.tokens.length > currentTokens)
+    currentTokenList.version.minor += 1
 
-  schema.timestamp = new Date().toISOString();
+  currentTokenList.timestamp = new Date().toISOString();
 
-  fs.writeFileSync("./euler-tokenlist.json", JSON.stringify(schema, null, 4));
+  fs.writeFileSync("./euler-tokenlist.json", JSON.stringify(currentTokenList, null, 4));
 }
 
 
 async function getTokens() {
+
+  currentTokens = currentTokenList.tokens.length;
+  currentTokenList.tokens = [];
+
   coingeckoList = await getCoinGeckoTokens();
-  
-  //coingeckoList.forEach(coin => coingeckoDict[coin.address]= {
-  //  'chainId': coin.chainId, 
-  //  'name': coin.name, 
-  //  'symbol': coin.symbol, 
-  //  'decimals': coin.decimals, 
-  //  'logoURI': coin.logoURI
-  //});
-
-  //console.log("coingeckoList: "+Object.keys(coingeckoDict).length)
-  
-  //await getUniv3Tokens(coingeckoAddressesL);
-  //console.log("univ3total: "+univ3List.length);
-  //generateEulerTokenList();
-
 
   console.log("coingeckoList: "+coingeckoList.length)
 
@@ -207,7 +195,7 @@ async function getTokens() {
   console.log("univ3total: "+ Object.keys(univ3Dict).length);
 
   generateEulerTokenList();
-
 }
+
 
 getTokens();

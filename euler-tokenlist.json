@@ -1,9 +1,9 @@
 {
     "name": "Euler Default List",
-    "timestamp": "2021-09-29T07:57:56.173Z",
+    "timestamp": "2021-10-01T07:37:45.858Z",
     "version": {
-        "major": 2,
-        "minor": 0,
+        "major": 1,
+        "minor": 1,
         "patch": 0
     },
     "tags": {},
@@ -1511,6 +1511,14 @@
         },
         {
             "chainId": 1,
+            "address": "0xc6c6224cf32f5b0850ddf740b47cd1ed31abead4",
+            "name": "KUPP",
+            "symbol": "KUPP",
+            "decimals": 8,
+            "logoURI": "https://assets.coingecko.com/coins/images/14705/thumb/kupp_icon.png?1617859709"
+        },
+        {
+            "chainId": 1,
             "address": "0x0c7d5ae016f806603cb1782bea29ac69471cab9c",
             "name": "Bifrost",
             "symbol": "BFC",
@@ -2420,6 +2428,14 @@
             "symbol": "FET",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/5681/thumb/Fetch.jpg?1572098136"
+        },
+        {
+            "chainId": 1,
+            "address": "0x9c4a4204b79dd291d6b6571c5be8bbcd0622f050",
+            "name": "Tracer DAO",
+            "symbol": "TCR",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/18271/thumb/tracer_logo.png?1631176676"
         },
         {
             "chainId": 1,
