@@ -162,10 +162,11 @@ function generateEulerTokenList() {
   })
 
   console.log("eulerList: "+currentTokenList.tokens.length);
-  if(currentTokenList.tokens.length > currentTokens)
+  
+  if(currentTokenList.tokens.length > currentTokens){
     currentTokenList.version.minor += 1
-
-  currentTokenList.timestamp = new Date().toISOString();
+    currentTokenList.timestamp = new Date().toISOString();
+  }
 
   fs.writeFileSync("./euler-tokenlist.json", JSON.stringify(currentTokenList, null, 4));
 }
