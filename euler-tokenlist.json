@@ -1,9 +1,9 @@
 {
-    "name": "Euler Default List",
-    "timestamp": "2021-10-01T07:41:53.534Z",
+    "name": "Euler Markets",
+    "timestamp": "2021-10-04T10:36:50.324Z",
     "version": {
         "major": 1,
-        "minor": 1,
+        "minor": 2,
         "patch": 0
     },
     "tags": {},
@@ -100,6 +100,14 @@
             "symbol": "USDP",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/6013/thumb/Pax_Dollar.png?1629877204"
+        },
+        {
+            "chainId": 1,
+            "address": "0x4b1e80cac91e2216eeb63e29b957eb91ae9c2be8",
+            "name": "Jupiter",
+            "symbol": "JUP",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/10351/thumb/Jupiter-Logo-Def-No-Stroke-256px.png?1613529417"
         },
         {
             "chainId": 1,
@@ -1751,6 +1759,14 @@
         },
         {
             "chainId": 1,
+            "address": "0x723cbfc05e2cfcc71d3d89e770d32801a5eef5ab",
+            "name": "Bitcoin Pro",
+            "symbol": "BTCP",
+            "decimals": 8,
+            "logoURI": "https://assets.coingecko.com/coins/images/3545/thumb/DSiD9ZhWsAE_8cS.png?1547038353"
+        },
+        {
+            "chainId": 1,
             "address": "0x5f98805a4e8be255a32880fdec7f6728c6568ba0",
             "name": "Liquity USD",
             "symbol": "LUSD",
@@ -1788,6 +1804,14 @@
             "symbol": "MAHA",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/13404/thumb/MAHA_Token.png?1625651604"
+        },
+        {
+            "chainId": 1,
+            "address": "0x903bef1736cddf2a537176cf3c64579c3867a881",
+            "name": "ICHI",
+            "symbol": "ICHI",
+            "decimals": 9,
+            "logoURI": "https://assets.coingecko.com/coins/images/13119/thumb/ICHI_%28Round%29.jpg?1614308761"
         },
         {
             "chainId": 1,
@@ -3463,6 +3487,14 @@
         },
         {
             "chainId": 1,
+            "address": "0x0f2d719407fdbeff09d87557abb7232601fd9f29",
+            "name": "Synapse",
+            "symbol": "SYN",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/18024/thumb/syn.PNG?1630288945"
+        },
+        {
+            "chainId": 1,
             "address": "0xbdec45952b5e234eddc2981b43eed360826d5087",
             "name": "Mogu",
             "symbol": "MOGX",
@@ -4972,6 +5004,14 @@
             "symbol": "FIDENZ",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/17851/thumb/fidenza.png?1629531578"
+        },
+        {
+            "chainId": 1,
+            "address": "0x53bd789f2cdb846b227d8ffc7b46ed4263231fdf",
+            "name": "SimbCoin Swap",
+            "symbol": "SMBSWAP",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/16808/thumb/smb.png?1625134960"
         },
         {
             "chainId": 1,

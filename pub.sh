@@ -6,7 +6,7 @@ node ./index.js
 latest=$(jq '.tokens | length' ./euler-tokenlist.json)
 echo "Latest Tokens $latest"
 
-if [[ $latest -gt $current ]]
+if [[ $latest == $current ]]
 then
     dt=$(date '+%d/%m/%Y');
     echo "$dt"
