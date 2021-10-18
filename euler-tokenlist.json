@@ -1,9 +1,9 @@
 {
     "name": "Euler Markets",
-    "timestamp": "2021-10-11T08:36:42.476Z",
+    "timestamp": "2021-10-18T06:23:57.482Z",
     "version": {
         "major": 1,
-        "minor": 3,
+        "minor": 4,
         "patch": 0
     },
     "tags": {},
@@ -503,6 +503,14 @@
         },
         {
             "chainId": 1,
+            "address": "0x7e9d8f07a64e363e97a648904a89fb4cd5fb94cd",
+            "name": "Forefront",
+            "symbol": "FF",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/14659/thumb/N2kir6jx_400x400.jpg?1617608020"
+        },
+        {
+            "chainId": 1,
             "address": "0x4691937a7508860f876c9c0a2a617e7d9e945d4b",
             "name": "WOO Network",
             "symbol": "WOO",
@@ -700,6 +708,14 @@
             "symbol": "ESS",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/2483/thumb/Essentia-token.jpg?1547036604"
+        },
+        {
+            "chainId": 1,
+            "address": "0xd0d6d6c5fe4a677d343cc433536bb717bae167dd",
+            "name": "adToken",
+            "symbol": "ADT",
+            "decimals": 9,
+            "logoURI": "https://assets.coingecko.com/coins/images/778/thumb/adtoken.png?1547034537"
         },
         {
             "chainId": 1,
@@ -1780,6 +1796,14 @@
             "symbol": "NGM",
             "decimals": 6,
             "logoURI": "https://assets.coingecko.com/coins/images/13722/thumb/logo-200x200.jpg?1626095888"
+        },
+        {
+            "chainId": 1,
+            "address": "0x96610186f3ab8d73ebee1cf950c750f3b1fb79c2",
+            "name": "Enjinstarter",
+            "symbol": "EJS",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/18732/thumb/l-R1nYA0_400x400.jpg?1633297242"
         },
         {
             "chainId": 1,
@@ -4927,6 +4951,14 @@
         },
         {
             "chainId": 1,
+            "address": "0xb64cd4f56043f8d80691433e395d08b1bebdadf0",
+            "name": "Meliora",
+            "symbol": "MORA",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/14553/thumb/3vcbfVWS_400x400.png?1616992649"
+        },
+        {
+            "chainId": 1,
             "address": "0xc581b735a1688071a1746c968e0798d642ede491",
             "name": "Euro Tether",
             "symbol": "EURT",
@@ -7727,6 +7759,14 @@
         },
         {
             "chainId": 1,
+            "address": "0x8a3d77e9d6968b780564936d15b09805827c21fa",
+            "name": "Uniris",
+            "symbol": "UCO",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/12330/thumb/e353ZVj.png?1599112996"
+        },
+        {
+            "chainId": 1,
             "address": "0xae697f994fc5ebc000f8e22ebffee04612f98a0d",
             "name": "LGCY Network",
             "symbol": "LGCY",
@@ -8204,6 +8244,14 @@
             "symbol": "AGS",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/16918/thumb/AGS.png?1625626120"
+        },
+        {
+            "chainId": 1,
+            "address": "0x9393fdc77090f31c7db989390d43f454b1a6e7f3",
+            "name": "Dark Energy Crystal",
+            "symbol": "DEC",
+            "decimals": 3,
+            "logoURI": "https://assets.coingecko.com/coins/images/12923/thumb/DEC_token.png?1603683753"
         },
         {
             "chainId": 1,
