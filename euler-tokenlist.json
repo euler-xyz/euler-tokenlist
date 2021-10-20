@@ -1,9 +1,9 @@
 {
     "name": "Euler Markets",
-    "timestamp": "2021-10-18T06:23:57.482Z",
+    "timestamp": "2021-10-20T10:24:09.689Z",
     "version": {
         "major": 1,
-        "minor": 4,
+        "minor": 5,
         "patch": 0
     },
     "tags": {},
@@ -188,6 +188,14 @@
             "symbol": "PLBT",
             "decimals": 6,
             "logoURI": "https://assets.coingecko.com/coins/images/766/thumb/polybius.png?1547034516"
+        },
+        {
+            "chainId": 1,
+            "address": "0xbe1a001fe942f96eea22ba08783140b9dcc09d28",
+            "name": "Beta Finance",
+            "symbol": "BETA",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/18715/thumb/beta_finance.jpg?1633087053"
         },
         {
             "chainId": 1,
@@ -4972,6 +4980,14 @@
             "symbol": "ADX",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/847/thumb/adex.png?1547034643"
+        },
+        {
+            "chainId": 1,
+            "address": "0xe9fa21e671bcfb04e6868784b89c19d5aa2424ea",
+            "name": "EurocoinToken",
+            "symbol": "ECTE",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/7634/thumb/logotoken200x200.png?1550742362"
         },
         {
             "chainId": 1,
