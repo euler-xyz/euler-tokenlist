@@ -3,6 +3,7 @@ const fs = require("fs")
 const ethers = require("ethers")
 const shell = require('shelljs')
 const { exec } = require('child_process');
+var cron = require('node-cron');
 
 let currentTokenList = require("./euler-tokenlist.json");
 
@@ -180,9 +181,9 @@ function generateEulerTokenList() {
     currentTokenList.timestamp = new Date().toISOString();
 
     fs.writeFileSync("./euler-tokenlist.json", JSON.stringify(currentTokenList, null, 4));
-  }
 
-  commitLatestList();
+    commitLatestList();
+  }
 
 }
 
@@ -214,5 +215,8 @@ async function getTokens() {
 }
 
 
-//getTokens();
-commitLatestList();
+getTokens();
+
+cron.schedule('0 0 0 * * *', () => {
+  getTokens();
+});
