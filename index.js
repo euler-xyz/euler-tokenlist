@@ -1,6 +1,8 @@
 const axios = require("axios")
 const fs = require("fs")
 const ethers = require("ethers")
+const shell = require('shelljs')
+const { exec } = require('child_process');
 
 let currentTokenList = require("./euler-tokenlist.json");
 
@@ -153,6 +155,16 @@ async function getUniv3LP(_addresses, _first, _slice, addressPosition="left") {
   }
 }
 
+function commitLatestList() {
+  
+  exec('sh ./pub.sh',  (error, stdout, stderr) => {
+      console.log(stdout);
+      console.log(stderr);
+      if (error !== null) {
+          console.log(`exec error: ${error}`);
+      }
+  });
+}
 
 function generateEulerTokenList() {
 
@@ -166,9 +178,12 @@ function generateEulerTokenList() {
   if(currentTokenList.tokens.length > currentTokens){
     currentTokenList.version.minor += 1
     currentTokenList.timestamp = new Date().toISOString();
+
+    fs.writeFileSync("./euler-tokenlist.json", JSON.stringify(currentTokenList, null, 4));
   }
 
-  fs.writeFileSync("./euler-tokenlist.json", JSON.stringify(currentTokenList, null, 4));
+  commitLatestList();
+
 }
 
 
@@ -199,4 +214,5 @@ async function getTokens() {
 }
 
 
-getTokens();
+//getTokens();
+commitLatestList();
