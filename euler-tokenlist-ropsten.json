@@ -141,6 +141,78 @@
             "symbol": "AVGC",
             "decimals": 18,
             "logoURI": ""
+        },
+        {
+            "chainId": 3,
+            "address": "0x4EDe843bC2553c021564246b3821760A688C4B1f",
+            "name": "Celer Network",
+            "symbol": "CELR",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/4379/small/Celr.png?1554705437"
+        },
+        {
+            "chainId": 3,
+            "address": "0x3B57Dd5d1f2986b5De501fA9f71A1365De93B7D2",
+            "name": "Convex Finance",
+            "symbol": "CVX",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/15585/small/convex.png?1621256328"
+        },
+        {
+            "chainId": 3,
+            "address": "0xD64ADc0CB2FF061a867DA4437c7ebe7b6c92074D",
+            "name": "renDOGE",
+            "symbol": "renDOGE",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/13796/small/Dogecoin.jpg?1628072827"
+        },
+        {
+            "chainId": 3,
+            "address": "0x83eF02A4EC7591561574593f3a6BEf0F93885cFE",
+            "name": "Decentraland",
+            "symbol": "MANA",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/878/small/decentraland-mana.png?1550108745"
+        },
+        {
+            "chainId": 3,
+            "address": "0xc2f90c2Df88eB89C56c305621776d5C38dbD7EEF",
+            "name": "Liquity USD", 
+            "symbol": "LUSD",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/14666/small/Group_3.png?1617631327"
+        },
+        {
+            "chainId": 3,
+            "address": "0x9980F2f3a1D5C7D66bE05d5609a38195B0762ACC",
+            "name": "renBTC", 
+            "symbol": "renBTC",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/11370/small/Bitcoin.jpg?1628072791"
+        },
+        {
+            "chainId": 3,
+            "address": "0xf049AFaCa21B0e9e076Bf0200c9511a1A6E374Ce",
+            "name": "Maker", 
+            "symbol": "MKR",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/1364/small/Mark_Maker.png?1585191826"
+        },
+        {
+            "chainId": 3,
+            "address": "0x8230335ea1980A124678fF2297Be692cF2FDE6BE",
+            "name": "Aave", 
+            "symbol": "AAVE",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/12645/small/AAVE.png?1601374110"
+        },
+        {
+            "chainId": 3,
+            "address": "0xf778348670eFb8572a13918974BB64aC977295bb",
+            "name": "Basic Attention Token", 
+            "symbol": "BAT",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/677/small/basic-attention-token.png?1547034427"
         }
     ]
 }
