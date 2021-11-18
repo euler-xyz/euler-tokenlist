@@ -104,19 +104,11 @@
         },
         {
             "chainId": 3,
-            "address": "0x1AE7a0A4F6Ff2Ba4449D52A22160eA8D095513fB",
-            "name": "QAO",
-            "symbol": "127760",
+            "address": "0xf778348670eFb8572a13918974BB64aC977295bb",
+            "name": "Basic Attention Token",
+            "symbol": "BAT",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/17159/thumb/qao.PNG?1626672944"
-        },
-        {
-            "chainId": 3,
-            "address": "0x9980F2f3a1D5C7D66bE05d5609a38195B0762ACC",
-            "name": "renBTC", 
-            "symbol": "renBTC",
-            "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/11370/small/Bitcoin.jpg?1628072791"
+            "logoURI": "https://assets.coingecko.com/coins/images/677/small/basic-attention-token.png?1547034427"
         },
         {
             "chainId": 3,
@@ -125,6 +117,14 @@
             "symbol": "MKR",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/1364/small/Mark_Maker.png?1585191826"
+        },
+        {
+            "chainId": 3,
+            "address": "0x9980F2f3a1D5C7D66bE05d5609a38195B0762ACC",
+            "name": "renBTC", 
+            "symbol": "renBTC",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/11370/small/Bitcoin.jpg?1628072791"
         },
         {
             "chainId": 3,
