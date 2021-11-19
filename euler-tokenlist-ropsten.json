@@ -29,7 +29,7 @@
             "name": "USDC",
             "mainnetAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
             "symbol": "USDC",
-            "decimals": 18,
+            "decimals": 6,
             "logoURI": "https://assets.coingecko.com/coins/images/6319/thumb/USD_Coin_icon.png?1547042389"
         },
         {
@@ -38,7 +38,7 @@
             "mainnetAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
             "name": "USDT",
             "symbol": "USDT",
-            "decimals": 18,
+            "decimals": 6,
             "logoURI": "https://assets.coingecko.com/coins/images/325/thumb/Tether-logo.png?1598003707"
         },
         {
@@ -136,7 +136,7 @@
             "mainnetAddress": "0xeb4c2781e4eba804ce9a9803c67d0893436bb27d",
             "name": "renBTC", 
             "symbol": "renBTC",
-            "decimals": 18,
+            "decimals": 8,
             "logoURI": "https://assets.coingecko.com/coins/images/11370/small/Bitcoin.jpg?1628072791"
         },
         {
@@ -181,7 +181,7 @@
             "mainnetAddress": "0x3832d2f059e55934220881f831be501d180671a7",
             "name": "renDOGE",
             "symbol": "renDOGE",
-            "decimals": 18,
+            "decimals": 8,
             "logoURI": "https://assets.coingecko.com/coins/images/13796/small/Dogecoin.jpg?1628072827"
         },
         {
