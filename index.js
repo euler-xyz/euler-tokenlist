@@ -4,6 +4,8 @@ const ethers = require("ethers")
 const shell = require('shelljs')
 const { exec } = require('child_process');
 var cron = require('node-cron');
+const https = require('https');
+const Downloader = require('nodejs-file-downloader');
 
 let currentTokenList = require("./euler-tokenlist.json");
 
@@ -81,8 +83,37 @@ const uniLPQueryR = `
 
 
 async function getCoinGeckoTokens() {
+  try{
     const output = await axios.get(COINGECKO_URI)
     return output.data.tokens
+  }
+  catch(e){
+    console.log(e.response)
+    return []
+  }
+}
+
+async function downloadCoinGeckoTokens() {
+  // const file = fs.createWriteStream("coingecko_uniswap_all.json");
+  // const fileRes = await https.get(COINGECKO_URI)
+  // console.log(fileRes)
+  // fileRes.pipe(file);
+
+  const downloader = new Downloader({     
+    url: COINGECKO_URI,     
+    directory: "./",  
+    cloneFiles:false//This will cause the downloader to re-write an existing file.   
+  }) 
+
+  try {
+    await downloader.download();//Downloader.download() returns a promise.
+
+    console.log('All done');
+  } catch (error) {//IMPORTANT: Handle a possible error. An error is thrown in case of network errors, or status codes of 400 and above.
+    //Note that if the maxAttempts is set to higher than 1, the error is thrown only if all attempts fail.
+    console.log('Download failed',error)
+  }
+  
 }
 
 async function getUniv3Tokens(_addresses, _first=1000, _slice=1000) {
@@ -197,6 +228,9 @@ async function getTokens() {
 
   console.log("coingeckoList: "+coingeckoList.length)
 
+  console.log("START")
+  return
+
   //Consider Token Addresses Greater than WETH
   coingeckoList.forEach(_token => {
     if(!ethers.BigNumber.from(_token.address).gt(quoteToken))
@@ -215,8 +249,10 @@ async function getTokens() {
 }
 
 
-getTokens();
+//getTokens();
 
-cron.schedule('0 0 0 * * *', () => {
-  getTokens();
-});
+downloadCoinGeckoTokens();
+
+// cron.schedule('0 0 0 * * *', () => {
+//   getTokens();
+// });

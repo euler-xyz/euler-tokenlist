@@ -16,6 +16,7 @@
     "graphql": "^15.6.0",
     "node-cron": "^3.0.0",
     "node-jq": "^2.0.0",
+    "nodejs-file-downloader": "^4.7.4",
     "shelljs": "^0.8.4"
   }
 }
