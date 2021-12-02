@@ -1,9 +1,9 @@
 {
     "name": "Euler Markets",
-    "timestamp": "2021-12-01T18:30:27.641Z",
+    "timestamp": "2021-12-02T18:50:00.000Z",
     "version": {
         "major": 1,
-        "minor": 25,
+        "minor": 26,
         "patch": 0
     },
     "tags": {},
@@ -13,6 +13,14 @@
         "default"
     ],
     "tokens": [
+        {
+            "name": "Wrapped Ether",
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "symbol": "WETH",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+        },
         {
             "chainId": 1,
             "address": "0xcc8fa225d80b9c7d42f96e9570156c65d6caaa25",
