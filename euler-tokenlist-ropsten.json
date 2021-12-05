@@ -132,15 +132,6 @@
         },
         {
             "chainId": 3,
-            "address": "0x9980F2f3a1D5C7D66bE05d5609a38195B0762ACC",
-            "mainnetAddress": "0xeb4c2781e4eba804ce9a9803c67d0893436bb27d",
-            "name": "renBTC", 
-            "symbol": "renBTC",
-            "decimals": 8,
-            "logoURI": "https://assets.coingecko.com/coins/images/11370/small/Bitcoin.jpg?1628072791"
-        },
-        {
-            "chainId": 3,
             "address": "0xc2f90c2Df88eB89C56c305621776d5C38dbD7EEF",
             "mainnetAddress": "0x5f98805a4e8be255a32880fdec7f6728c6568ba0",
             "name": "Liquity USD", 
