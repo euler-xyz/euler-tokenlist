@@ -159,15 +159,6 @@
         },
         {
             "chainId": 3,
-            "address": "0x3B57Dd5d1f2986b5De501fA9f71A1365De93B7D2",
-            "mainnetAddress": "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b",
-            "name": "Convex Finance",
-            "symbol": "CVX",
-            "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/15585/small/convex.png?1621256328"
-        },
-        {
-            "chainId": 3,
             "address": "0xD64ADc0CB2FF061a867DA4437c7ebe7b6c92074D",
             "mainnetAddress": "0x3832d2f059e55934220881f831be501d180671a7",
             "name": "renDOGE",
