@@ -9084,14 +9084,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x3db6ba6ab6f95efed1a6e794cad492faaabf294d",
-      "name": "LTO Network",
-      "symbol": "LTO",
-      "decimals": 8,
-      "logoURI": "https://assets.coingecko.com/coins/images/6068/thumb/LTO_Network.png?1567443682"
-    },
-    {
-      "chainId": 1,
       "address": "0x081131434f93063751813c619ecca9c4dc7862a3",
       "name": "Mines of Dalarnia",
       "symbol": "DAR",
