@@ -201,6 +201,15 @@
             "symbol": "PAXG",
             "decimals": 18,
             "logoURI": ""
+        },
+        {
+            "chainId": 3,
+            "address": "0x00B35EE42334216376FCf95E3A33820E953624C5",
+            "mainnetAddress": "",
+            "name": "Dodge",
+            "symbol": "DOG",
+            "decimals": 18,
+            "logoURI": ""
         }
     ]
 }
