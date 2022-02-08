@@ -5868,14 +5868,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x17ac188e09a7890a1844e5e65471fe8b0ccfadf3",
-      "name": "Cryptocurrency Top ",
-      "symbol": "CC10",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/13692/thumb/BRfNDy1.png?1610960481"
-    },
-    {
-      "chainId": 1,
       "address": "0xe95a203b1a91a908f9b9ce46459d101078c2c3cb",
       "name": "Ankr Reward Bearing",
       "symbol": "AETHC",
