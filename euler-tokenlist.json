@@ -3,13 +3,29 @@
   "timestamp": "2021-12-03T18:30:55.314Z",
   "version": {
     "major": 1,
-    "minor": 27,
+    "minor": 28,
     "patch": 0
   },
   "tags": {},
   "logoURI": "https://www.euler.finance/static/media/EF_logo__EF_social_element_lite-bg.18ad02c6.svg",
   "keywords": ["euler", "default"],
   "tokens": [
+    {
+      "name": "Vader Protocol",
+      "address": "0x2602278EE1882889B946eb11DC0E810075650983",
+      "symbol": "VADER",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/15959.png"
+    },
+    {
+      "name": "Vader USD",
+      "address": "0xea3fb6f331735252e7bfb0b24b3b761301293dbe",
+      "symbol": "USDV",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://assets.coingecko.com/coins/images/23288/small/usdv.png?1643548395"
+    },
     {
       "name": "Gamma Strategies",
       "address": "0x6bea7cfef803d1e3d5f7c0103f7ded065644e197",
