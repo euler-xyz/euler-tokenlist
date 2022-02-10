@@ -3,7 +3,7 @@
   "timestamp": "2021-12-03T18:30:55.314Z",
   "version": {
     "major": 1,
-    "minor": 28,
+    "minor": 29,
     "patch": 0
   },
   "tags": {},
@@ -17,14 +17,6 @@
       "decimals": 18,
       "chainId": 1,
       "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/15959.png"
-    },
-    {
-      "name": "Vader USD",
-      "address": "0xea3fb6f331735252e7bfb0b24b3b761301293dbe",
-      "symbol": "USDV",
-      "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://assets.coingecko.com/coins/images/23288/small/usdv.png?1643548395"
     },
     {
       "name": "Gamma Strategies",
