@@ -201,6 +201,15 @@
             "symbol": "DOG",
             "decimals": 18,
             "logoURI": ""
+        },
+        {
+            "chainId": 3,
+            "address": "0x67b3A5f8a863BC605c7b5BE4B297FA14bcbf2fE0",
+            "mainnetAddress": "",
+            "name": "Fantom",
+            "symbol": "FTC",
+            "decimals": 18,
+            "logoURI": ""
         }
     ]
 }
