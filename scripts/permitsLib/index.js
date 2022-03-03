@@ -14,29 +14,26 @@ const {
     MULTICALL2_ADDRESS,
     MULTICALL2_ABI,
 } = require('./constants');
-const nonStandardTokens = require('../../curated/nonStandardPermits');
 
-const provider = new ethers.providers.JsonRpcProvider(process.env.JSON_RPC_URL);
-const signer = ethers.Wallet.createRandom().connect(provider);
+const CHAIN_ID = process.env.CHAIN_ID || 1;
 
-const detectToken = async (token) => {
-    const signTypedData = signer._signTypedData
-        ? signer._signTypedData.bind(signer)
-        : signer.signTypedData.bind(signer);
-    const TypedDataEncoder = ethers.utils._TypedDataEncoder || ethers.utils.TypedDataEncoder;
+module.exports = class PermitDetector {
+    constructor() {
+        this.provider = new ethers.providers.JsonRpcProvider(process.env.JSON_RPC_URL);
+        this.signer = ethers.Wallet.createRandom().connect(this.provider);
+        this.signTypedData = this.signer._signTypedData
+            ? this.signer._signTypedData.bind(this.signer)
+            : this.signer.signTypedData.bind(this.signer);
+        this.TypedDataEncoder = ethers.utils._TypedDataEncoder || ethers.utils.TypedDataEncoder;
+    }
 
-    const multicall2Contract = new ethers.Contract(
-        MULTICALL2_ADDRESS,
-        MULTICALL2_ABI,
-        signer,
-    )
+    async multicallPermit(tokenContract, owner, spender, permitPayload) {
+        const multicall2Contract = new ethers.Contract(
+            MULTICALL2_ADDRESS,
+            MULTICALL2_ABI,
+            this.signer,
+        )
 
-    const spender = '0x'+'a'.repeat(40);
-    const value = ethers.utils.parseEther('1.23');
-
-    const result = { logs: [] };
-
-    const multicallPermit = async (tokenContract, owner, spender, permitPayload) => {
         const allowancePayload = tokenContract.interface.encodeFunctionData('allowance', [owner, spender]);
 
         const res = await multicall2Contract.callStatic.tryAggregate(false, [
@@ -52,21 +49,25 @@ const detectToken = async (token) => {
         return ethers.BigNumber.from(res[1].returnData);
     }
 
-    const testDomain = async (testName, domain) => {
+    async testDomain(tmpResult, token, testName, domain) {
         if (!domain) return;
 
-        if (result.domainSeparator && TypedDataEncoder.hashDomain(domain) !== result.domainSeparator) {
-            result.logs.push(`${testName}: Unrecognized domain separator `);
+        if (tmpResult.domainSeparator && this.TypedDataEncoder.hashDomain(domain) !== tmpResult.domainSeparator) {
+            tmpResult.logs.push(`${testName}: Unrecognized domain separator `);
         }
+
+        const spender = '0x'+'a'.repeat(40);
+        const value = ethers.utils.parseEther('1.23');
+        const nonce = tmpResult.nonce;
 
         let contract;
         // are you EIP2612?
         try {
-            contract = new ethers.Contract(token, ABI_PERMIT, signer)
+            contract = new ethers.Contract(token, ABI_PERMIT, this.signer)
             const deadline = ethers.constants.MaxUint256;
 
-            const rawSignature = await signTypedData(domain, TYPES_PERMIT, {
-                owner: signer.address,
+            const rawSignature = await this.signTypedData(domain, TYPES_PERMIT, {
+                owner: this.signer.address,
                 spender,
                 value,
                 nonce,
@@ -75,60 +76,60 @@ const detectToken = async (token) => {
 
             const { r, s, v } = ethers.utils.splitSignature(rawSignature);
 
-            const permitPayload =  contract.interface.encodeFunctionData('permit', [signer.address, spender, value, deadline, v, r, s]);
-            const allowance = await multicallPermit(contract, signer.address, spender, permitPayload);
+            const permitPayload =  contract.interface.encodeFunctionData('permit', [this.signer.address, spender, value, deadline, v, r, s]);
+            const allowance = await this.multicallPermit(contract, this.signer.address, spender, permitPayload);
 
             if (allowance.eq(value)) {
-                result.permitType = 'EIP2612';
-                result.domain = domain;
+                tmpResult.permitType = 'EIP2612';
+                tmpResult.domain = domain;
                 return;
             } else {
-                result.logs.push(`${testName}: EIP2612 allowance doesn't match value`);
+                tmpResult.logs.push(`${testName}: EIP2612 allowance doesn't match value`);
             }
         } catch (e) {
             if (!e.message.includes('PERMIT_CALL_FAILED')) {
-                result.logs.push(`${testName}: EIP2612 error: ${e}`);
-                result.unexpectedError = true;
+                tmpResult.logs.push(`${testName}: EIP2612 error: ${e}`);
+                tmpResult.unexpectedError = true;
             }
         }
 
         // are you packed signature?
         try {
-            contract = new ethers.Contract(token, ABI_PERMIT_PACKED, signer)
+            contract = new ethers.Contract(token, ABI_PERMIT_PACKED, this.signer)
             const deadline = ethers.constants.MaxUint256;
 
-            const rawSignature = await signTypedData(domain, TYPES_PERMIT, {
-                owner: signer.address,
+            const rawSignature = await this.signTypedData(domain, TYPES_PERMIT, {
+                owner: this.signer.address,
                 spender,
                 value,
                 nonce,
                 deadline,
             });
 
-            const permitPayload = contract.interface.encodeFunctionData('permit', [signer.address, spender, value, deadline, rawSignature]);
-            const allowance = await multicallPermit(contract, signer.address, spender, permitPayload);
+            const permitPayload = contract.interface.encodeFunctionData('permit', [this.signer.address, spender, value, deadline, rawSignature]);
+            const allowance = await this.multicallPermit(contract, this.signer.address, spender, permitPayload);
 
             if (allowance.eq(value)) {
-                result.permitType = 'Packed';
-                result.domain = domain;
+                tmpResult.permitType = 'Packed';
+                tmpResult.domain = domain;
                 return;
             } else {
-                result.logs.push(`${testName}: Packed type allowance doesn't match value`);
+                tmpResult.logs.push(`${testName}: Packed type allowance doesn't match value`);
             }
         } catch (e) {
             if (!e.message.includes('PERMIT_CALL_FAILED')) {
-                result.logs.push(`${testName}: Packed type error: ${e}`);
-                result.unexpectedError = true;
+                tmpResult.logs.push(`${testName}: Packed type error: ${e}`);
+                tmpResult.unexpectedError = true;
             }
         }
 
         // are you `allowed` type permit?
         try {
-            contract = new ethers.Contract(token, ABI_PERMIT_ALLOWED, signer)
+            contract = new ethers.Contract(token, ABI_PERMIT_ALLOWED, this.signer)
             const expiry = ethers.constants.MaxUint256;
 
-            const rawSignature = await signTypedData(domain, TYPES_PERMIT_ALLOWED, {
-                holder: signer.address,
+            const rawSignature = await this.signTypedData(domain, TYPES_PERMIT_ALLOWED, {
+                holder: this.signer.address,
                 spender,
                 nonce,
                 expiry,
@@ -137,160 +138,156 @@ const detectToken = async (token) => {
 
             const { r, s, v } = ethers.utils.splitSignature(rawSignature);
 
-            const permitPayload =  contract.interface.encodeFunctionData('permit', [signer.address, spender, nonce, expiry, true, v, r, s]);
-            let allowance = await multicallPermit(contract, signer.address, spender, permitPayload);
+            const permitPayload =  contract.interface.encodeFunctionData('permit', [this.signer.address, spender, nonce, expiry, true, v, r, s]);
+            let allowance = await this.multicallPermit(contract, this.signer.address, spender, permitPayload);
             allowance = ethers.BigNumber.from(allowance);
 
             if (allowance.eq(ethers.constants.MaxUint256)) {
-                result.permitType = 'Allowed';
-                result.domain = domain;
+                tmpResult.permitType = 'Allowed';
+                tmpResult.domain = domain;
                 return;
             } else {
-                result.logs.push(`${testName}: Allowed type allowance is not max uint`);
+                tmpResult.logs.push(`${testName}: Allowed type allowance is not max uint`);
             }
         } catch (e) {
             if (!e.message.includes('PERMIT_CALL_FAILED')) {
-                result.logs.push(`${testName}: Allowed type error: ${e}`);
-                result.unexpectedError = true;
+                tmpResult.logs.push(`${testName}: Allowed type error: ${e}`);
+                tmpResult.unexpectedError = true;
             }
         }
     }
 
-    if (nonStandardTokens[token] === 'not supported' || nonStandardTokens[token] === 'non-standard') return result;
-    
-    let contract;
-    contract = new ethers.Contract(token, ABI_PERMIT, signer)
-    try {
-        result.typeHash = await contract.PERMIT_TYPEHASH();
-        result.typeHash = {[PERMIT_TYPE_HASH]: 'EIP2612', [PERMIT_ALLOWED_TYPE_HASH]: 'Allowed'}[result.typeHash] || result.typeHash;
-    } catch {};
+    async detectToken(token, curatedList = {}) {
+        const tmpResult = { logs: [] };
 
-    try {
-        result.domainSeparator = await contract.DOMAIN_SEPARATOR();
-    } catch {
-        result.logs.push('No DOMAIN_SEPARATOR');
+        if (curatedList[token] === 'not supported' || curatedList[token] === 'non-standard') return tmpResult;
+
+        let contract = new ethers.Contract(token, ABI_PERMIT, this.signer)
+        try {
+            tmpResult.typeHash = await contract.PERMIT_TYPEHASH();
+            tmpResult.typeHash = {[PERMIT_TYPE_HASH]: 'EIP2612', [PERMIT_ALLOWED_TYPE_HASH]: 'Allowed'}[tmpResult.typeHash] || tmpResult.typeHash;
+        } catch {}
+
+        try {
+            tmpResult.domainSeparator = await contract.DOMAIN_SEPARATOR();
+        } catch {
+            tmpResult.logs.push('No DOMAIN_SEPARATOR');
+        }
+
+        try {
+            tmpResult.nonce = await contract.nonces(this.signer.address);
+        } catch (e) {
+            tmpResult.logs.push(`Nonces call failed ${e}`);
+            return tmpResult;
+        }
+
+        if (curatedList[token]) await this.testDomain(tmpResult, token, 'NON-STANDARD', curatedList[token].domain);
+        if (tmpResult.permitType) return tmpResult;
+
+        let version = "1";
+        try {
+            version = await contract.version();
+        } catch {}
+
+        let contractName = await contract.name();
+        let symbol = await contract.symbol();
+
+        await this.testDomain(tmpResult, token, 'FULL', {
+            name: contractName,
+            version,
+            chainId: CHAIN_ID,
+            verifyingContract: token,
+        });
+
+        await this.testDomain(tmpResult, token, 'SYMBOL FOR NAME', {
+            name: symbol,
+            version,
+            chainId: CHAIN_ID,
+            verifyingContract: token,
+        });
+
+        if (tmpResult.permitType) return tmpResult;
+
+        await this.testDomain(tmpResult, token, 'VERSION 2', {
+            name: contractName,
+            version: '2',
+            chainId: CHAIN_ID,
+            verifyingContract: token,
+        });
+
+        if (tmpResult.permitType) return tmpResult;
+
+        await this.testDomain(tmpResult, token, 'NO VERSION', {
+            name: contractName,
+            chainId: CHAIN_ID,
+            verifyingContract: token,
+        });
+
+        if (tmpResult.permitType) return tmpResult;
+
+        await this.testDomain(tmpResult, token, 'VERSION 1.0', {
+            name: contractName,
+            chainId: CHAIN_ID,
+            version: "1.0",
+            verifyingContract: token,
+        });
+
+        if (tmpResult.permitType) return tmpResult;
+
+        await this.testDomain(tmpResult, token, 'NO VERSION NO NAME', {
+            chainId: CHAIN_ID,
+            verifyingContract: token,
+        });
+
+        return tmpResult;
     };
 
-    try {
-        nonce = await contract.nonces(signer.address);
-    } catch (e) {
-        result.logs.push(`Nonces call failed ${e}`);
-        return result;
-    }
+    async detectList(curatedList = {}, tokenList, filePath, batchSize) {
+        const errorsPath = './detect-permit-errors.log';
 
+        const counts = { yes: 0, no: 0, error: 0 };
+        fs.writeFileSync(errorsPath, '');
 
-    if (nonStandardTokens[token]) await testDomain('NON-STANDARD', nonStandardTokens[token].domain);
-    if (result.permitType) return result;
+        for (let batch of chunk(tokenList.tokens, batchSize)) {
+            await Promise.all(batch.map(async token => {
+                const result = await this.detectToken(token.address, curatedList);
+                if (result.permitType) {
+                    console.log(`${token.symbol}: DETECTED ${result.permitType}`);
+                    token.extensions = {
+                        permit: {
+                            type: result.permitType,
+                            domain: result.domain,
+                        },
+                    };
+                    fs.writeFileSync(filePath, JSON.stringify(tokenList, null, 2));
+                    counts.yes++;
+                    return;
+                }
 
-    let version = "1";
-    try {
-        version = await contract.version();
-    } catch {}
+                if (!result.domainSeparator && !result.typeHash && !result.unexpectedError) {
+                    console.log(`${token.symbol}: not detected`);
+                    counts.no++;
+                    return;
+                }
 
-    let contractName = await contract.name();
-    let symbol = await contract.symbol();
+                if (result.logs.some(l => l.includes('SERVER_ERROR')) && !token.retry) {
+                    console.log(token.symbol + ": RETRYING ~~~~~~~~ ")
+                    token.retry = true;
+                    tokenList.tokens.push(token);
+                    return;
+                }
 
-    await testDomain('FULL', {
-        name: contractName,
-        version,
-        chainId: 1,
-        verifyingContract: token,
-    });
-
-    await testDomain('SYMBOL FOR NAME', {
-        name: symbol,
-        version,
-        chainId: 1,
-        verifyingContract: token,
-    });
-    
-    if (result.permitType) return result;
-
-    await testDomain('VERSION 2', {
-        name: contractName,
-        version: '2',
-        chainId: 1,
-        verifyingContract: token,
-    });
-    
-    if (result.permitType) return result;
-    
-    await testDomain('NO VERSION', {
-        name: contractName,
-        chainId: 1,
-        verifyingContract: token,
-    });
-
-    if (result.permitType) return result;
-
-    await testDomain('VERSION 1.0', {
-        name: contractName,
-        chainId: 1,
-        version: "1.0",
-        verifyingContract: token,
-    });
-
-    if (result.permitType) return result;
-
-    await testDomain('NO VERSION NO NAME', {
-        chainId: 1,
-        verifyingContract: token,
-    });
-
-    return result;
-};
-
-const detectList = async (tokenList, filePath, batchSize) => {
-    const errorsPath = './detect-permit-errors.log';
-
-    const counts = { yes: 0, no: 0, error: 0 };
-    fs.writeFileSync(errorsPath, '');
-
-    for (let batch of chunk(tokenList.tokens, batchSize)) {
-        await Promise.all(batch.map(async token => {
-            const result = await detectToken(token.address);
-            if (result.permitType) {
-                console.log(`${token.symbol}: DETECTED ${result.permitType}`);
-                token.extensions = {
-                    permit: {
-                        type: result.permitType,
-                        domain: result.domain,
-                    },
+                const error = {
+                    token: token.symbol,
+                    address: token.address,
+                    result,
                 };
-                fs.writeFileSync(filePath, JSON.stringify(tokenList, null, 2));
-                counts.yes++;
-                return;
-            }
 
-            if (!result.domainSeparator && !result.typeHash && !result.unexpectedError) {
-                console.log(`${token.symbol}: not detected`);
-                counts.no++;
-                return;
-            }
-
-            if (result.logs.some(l => l.includes('SERVER_ERROR')) && !token.retry) {
-                console.log(token.symbol + ": RETRYING ~~~~~~~~ ")
-                token.retry = true;
-                tokenList.tokens.push(token);
-                return;
-            }
-
-            const error = {
-                token: token.symbol,
-                address: token.address,
-                result
-            }
-            console.log('ERROR', error);
-            fs.appendFileSync(errorsPath, JSON.stringify(error, null, 2) + '\n\n\n');
-            counts.error++;
-        }));
-    }
-    console.log("DETECTED TOTAL:", counts.yes);
-    console.log("NO SUPPORT TOTAL:", counts.no);
-    console.log("ERRORS TOTAL:", counts.error);
-};
-
-module.exports = {
-    detectToken,
-    detectList,
+                console.log('ERROR', error);
+                fs.appendFileSync(errorsPath, JSON.stringify(error, null, 2) + '\n\n\n');
+                counts.error++;
+            }));
+        }
+        return counts;
+    };
 };

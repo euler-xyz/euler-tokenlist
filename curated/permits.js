@@ -18,15 +18,6 @@ module.exports = {
           verifyingContract: '0x9d409a0a012cfba9b15f6d4b36ac57a46966ab9a',
       },
   },
-//   '0xbe1a001fe942f96eea22ba08783140b9dcc09d28': { // Beta
-//       permitType: 'EIP2612',
-//       domain: {
-//           name: 'BETA',
-//           version: '1',
-//           chainId: 1,
-//           verifyingContract: '0xbe1a001fe942f96eea22ba08783140b9dcc09d28',
-//       },
-//   },
   '0x24a6a37576377f63f194caa5f518a60f45b42921': { // BANK
       permitType: 'EIP2612',
       domain: {
@@ -36,42 +27,6 @@ module.exports = {
           verifyingContract: '0x24a6a37576377f63f194caa5f518a60f45b42921',
       },
   },
-//   '0x7ae1d57b58fa6411f32948314badd83583ee0e8c': { // PAPER
-//       permitType: 'EIP2612',
-//       domain: {
-//           name: 'PAPER',
-//           version: '1',
-//           chainId: 1,
-//           verifyingContract: '0x7ae1d57b58fa6411f32948314badd83583ee0e8c',
-//       },
-//   },
-//   '0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38': { // PUNDIX
-//       permitType: 'EIP2612',
-//       domain: {
-//           name: 'PUNDIX',
-//           version: '1',
-//           chainId: 1,
-//           verifyingContract: '0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38'
-//       },
-//   },
-//   '0xe80c0cd204d654cebe8dd64a4857cab6be8345a3': { // JPEG
-//       permitType: 'EIP2612',
-//       domain: {
-//         name: 'JPEG',
-//         version: '1',
-//         chainId: 1,
-//         verifyingContract: '0xe80c0cd204d654cebe8dd64a4857cab6be8345a3'
-//       },
-//   },
-//   '0xd779eea9936b4e323cddff2529eb6f13d0a4d66e': { // ENTR
-//       permitType: 'EIP2612',
-//       domain: {
-//         name: 'ENTR',
-//         version: '1',
-//         chainId: 1,
-//         verifyingContract: '0xd779eea9936b4e323cddff2529eb6f13d0a4d66e'
-//       },
-//   },
   '0x6b0b3a982b4634ac68dd83a4dbf02311ce324181': { // ALI
       permitType: 'EIP2612',
       domain: {
@@ -80,15 +35,6 @@ module.exports = {
         verifyingContract: '0x6b0b3a982b4634ac68dd83a4dbf02311ce324181'
       },
   },
-//   '0xfa57f00d948bb6a28072f5416fcbf7836c3d62dd': { // FRIES
-//       permitType: 'EIP2612',
-//       domain: {
-//         name: 'FRIES',
-//         version: '1',
-//         chainId: 1,
-//         verifyingContract: '0xfa57f00d948bb6a28072f5416fcbf7836c3d62dd'
-//       },
-//   },
   '0x3be5d86be59a9ccd990f054f234c02f6d0d48512': { // XPAD
       permitType: 'EIP2612',
       domain: {
@@ -98,15 +44,33 @@ module.exports = {
         verifyingContract: '0x3be5d86be59a9ccd990f054f234c02f6d0d48512'
       },
   },
-//   '0x7b39917f9562c8bc83c7a6c2950ff571375d505d': { // LEAG
-//       permitType: 'EIP2612',
-//       domain: {
-//         name: 'LEAG',
-//         version: '1',
-//         chainId: 1,
-//         verifyingContract: '0x7b39917f9562c8bc83c7a6c2950ff571375d505d'
-//       },
-//   },
+  '0xae6e307c3fe9e922e5674dbd7f830ed49c014c6b': { // CREDI
+      permitType: 'EIP2612',
+      domain: {
+        name: 'Credi',
+        version: '1',
+        chainId: 1,
+        verifyingContract: '0xae6e307c3fe9e922e5674dbd7f830ed49c014c6b'
+      },
+  },
+  '0xdef1fac7bf08f173d286bbbdcbeeade695129840': { // CERBY
+      permitType: 'EIP2612',
+      domain: {
+        name: 'Defi Factory Token',
+        version: '1',
+        chainId: 1,
+        verifyingContract: '0xdef1fac7bf08f173d286bbbdcbeeade695129840'
+      },
+  },
+  '0xdef1fac7bf08f173d286bbbdcbeeade695129840': { // ZERO
+      permitType: 'EIP2612',
+      domain: {
+        name: 'Zero Exchange Token',
+        version: '1',
+        chainId: 1,
+        verifyingContract: '0xf0939011a9bb95c3b791f0cb546377ed2693a574'
+      },
+  },
 
   '0x33349b282065b0284d756f0577fb39c158f935e6': 'non-standard', // MPL - non standard, using 'amount' instead of 'value' in permit typehash:
   // {
@@ -134,14 +98,19 @@ module.exports = {
   
   '0x7f0693074f8064cfbcf9fa6e5a3fa0e4f58ccccf': 'not supported', // GM - permit handles NFTs
   '0xcc7ab8d78dba187dc95bf3bb86e65e0c26d0041f': 'not supported', // SPACE - domain separator not initialized properly
-  '0x6100dd79fcaa88420750dcee3f735d168abcb771': 'not supported', // OS - Ethereans - domain separator not recognized - wasn't debugged further - IGNORED
   '0xd69f306549e9d96f183b1aeca30b8f4353c2ecc3': 'not supported', // MCHC - domain typehash doesn't match domain separator (typehash doesn't include version)
   '0x1ceb5cb57c4d4e2b2433641b95dd330a33185a44': 'not supported', // KP3R - non standard encoding of typehashes ('uint' alias used)
   '0x226f7b842e0f0120b7e194d05432b3fd14773a9d': 'not supported', // UNN - contract not verified on etherscan
   '0xc5bddf9843308380375a611c18b50fb9341f502a': 'not supported', // yveCRV-DAO - non standard encoding of typehashes ('uint' alias used)
-  '0x058bc8ef040bd3971418e36aa88b64899378ccf4': 'not supported', // DONA - incorrect permit function implementation (owner replaced by msg.sender)
-  '0xe9f84de264e91529af07fa2c746e934397810334': 'not supported', // SAK3 - incorrect permit function implementation (owner replaced by msg.sender)
-  '0x5166e09628b696285e3a151e84fb977736a83575': 'not supported', // VOL - incorrect permit function implementation (owner replaced by msg.sender)
+  '0x058bc8ef040bd3971418e36aa88b64899378ccf4': 'not supported', // DONA - incorrect permit logic implementation (owner replaced by msg.sender)
+  '0xe9f84de264e91529af07fa2c746e934397810334': 'not supported', // SAK3 - incorrect permit logic implementation (owner replaced by msg.sender)
+  '0x5166e09628b696285e3a151e84fb977736a83575': 'not supported', // VOL - incorrect permit logic implementation (owner replaced by msg.sender)
+  '0x6a68de599e8e0b1856e322ce5bd11c5c3c79712b': 'not supported', // IBY - incorrect permit logic implementation (owner replaced by msg.sender)
   '0xa456b515303b2ce344e9d2601f91270f8c2fea5e': 'not supported', // CORN - non standard vyper implementation
   '0x99fe3b1391503a1bc1788051347a1324bff41452': 'not supported', // SX - non standard typehash ('holder' for 'owner')
+  '0x9c78ee466d6cb57a4d01fd887d2b5dfb2d46288f': 'not supported', // MUST - non standard domain type hash
+  '0xe46f290cd59195a83e757891430d8d517d16b334': 'not supported', // AFN - proxy contract, unknown implementation
+  '0xfd9cd8c0d18cd7e06958f3055e0ec3adbdba0b17': 'not supported', // STFI - ignored
+  '0x6100dd79fcaa88420750dcee3f735d168abcb771': 'not supported', // OS - ignored
+  '0xf0f9d895aca5c8678f706fb8216fa22957685a13': 'not supported', // CULT - ignored
 }

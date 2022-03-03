@@ -1,4 +1,4 @@
-const { detectToken } = require('./permitsLib');
+const PermitDetector = require('./permitsLib');
 
 const run = async () => {
     const token = process.argv[2];
@@ -6,8 +6,8 @@ const run = async () => {
         console.log('No token address provided. See README');
         return;
     }
-
-    const result = await detectToken(token); 
+    const pertmitDetector = new PermitDetector();
+    const result = await pertmitDetector.detectToken(token); 
 
     if (result.permitType) {
         console.log("DETECTED:", result.permitType, 'type');

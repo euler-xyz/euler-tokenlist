@@ -1,5 +1,6 @@
 const axios = require('axios');
-const { detectList } = require('./permitsLib');
+const PermitDetector = require('./permitsLib');
+const curatedList = require('../curated/permits');
 
 const run = async () => {
     const tokenListUrl = process.argv[2];
@@ -12,7 +13,12 @@ const run = async () => {
 
     const batchSize = process.env.DETECT_PERMIT_BATCH_SIZE || 20;
 
-    await detectList(tokenList, filePath, batchSize); 
+    const permitDetector = new PermitDetector();
+    const counts = await permitDetector.detectList(curatedList, tokenList, filePath, batchSize);
+
+    console.log("DETECTED TOTAL:", counts.yes);
+    console.log("NO SUPPORT TOTAL:", counts.no);
+    console.log("ERRORS TOTAL:", counts.error);
 };
 
 run().then(() => process.exit());
