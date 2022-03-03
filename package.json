@@ -4,16 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "detect-permit": "node ./scripts/detectPermit.js",
+    "detect-permit:list": "node ./scripts/detectPermitsList.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.4",
-    "ethers": "^5.4.7",
+    "dotenv": "^16.0.0",
+    "ethers": "^5.5.4",
     "graphql": "^15.6.0",
+    "lodash": "^4.17.21",
     "node-cron": "^3.0.0",
     "node-jq": "^2.0.0",
     "nodejs-file-downloader": "^4.7.4",
