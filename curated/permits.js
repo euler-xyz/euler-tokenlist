@@ -1,21 +1,5 @@
 module.exports = {
-
-  // Non standard implementation of permit
-
-  '0x33349b282065b0284d756f0577fb39c158f935e6': 'non-standard', // MPL - non standard, using 'amount' instead of 'value' in permit typehash:
-  // {
-  //     permitType: 'EIP2612',
-  //     permitTypeHash: '0xfc77c2b9d30fe91687fd39abb7d16fcdfe1472d065740051ab8b13e4bf4a617f',  
-  //     domain: {
-  //         name: 'Maple Token',
-  //         version: '1',
-  //         chainId: 1,
-  //         verifyingContract: '0x33349b282065b0284d756f0577fb39c158f935e6'
-  //     },
-  //     comment: 'Using amount insead of value in permit typehash',
-  // },
-
-  // Non standard or unusual domain values
+  // Unusual domain values
 
   '0xc944e90c64b2c07662a292be6244bdf05cda44a7': {
       permitType: 'EIP2612',
@@ -106,19 +90,22 @@ module.exports = {
   '0x4f81c790581b240a5c948afd173620ecc8c71c8d': 'not supported', // XDG - domain separator not initialized
   '0xd69f306549e9d96f183b1aeca30b8f4353c2ecc3': 'not supported', // MCHC - domain typehash doesn't match domain separator (typehash doesn't include version)
   '0x1ceb5cb57c4d4e2b2433641b95dd330a33185a44': 'not supported', // KP3R - non standard encoding of typehashes ('uint' alias used)
+  '0x33349b282065b0284d756f0577fb39c158f935e6': 'not supported', // MPL - non standard, using 'amount' instead of 'value' in permit typehash:
   '0x226f7b842e0f0120b7e194d05432b3fd14773a9d': 'not supported', // UNN - contract not verified on etherscan
   '0xc5bddf9843308380375a611c18b50fb9341f502a': 'not supported', // yveCRV-DAO - non standard encoding of typehashes ('uint' alias used)
-  '0x058bc8ef040bd3971418e36aa88b64899378ccf4': 'not supported', // DONA - incorrect permit logic implementation (owner replaced by msg.sender)
-  '0xe9f84de264e91529af07fa2c746e934397810334': 'not supported', // SAK3 - incorrect permit logic implementation (owner replaced by msg.sender)
-  '0x5166e09628b696285e3a151e84fb977736a83575': 'not supported', // VOL - incorrect permit logic implementation (owner replaced by msg.sender)
-  '0x6a68de599e8e0b1856e322ce5bd11c5c3c79712b': 'not supported', // IBY - incorrect permit logic implementation (owner replaced by msg.sender)
-  '0xd084944d3c05cd115c09d072b9f44ba3e0e45921': 'not supported', // FOLD - incorrect permit logic implementation (owner replaced by msg.sender)
+  '0x058bc8ef040bd3971418e36aa88b64899378ccf4': 'not supported', // DONA - non standard permit logic implementation (owner replaced by msg.sender)
+  '0xe9f84de264e91529af07fa2c746e934397810334': 'not supported', // SAK3 - non standard permit logic implementation (owner replaced by msg.sender)
+  '0x5166e09628b696285e3a151e84fb977736a83575': 'not supported', // VOL - non standard permit logic implementation (owner replaced by msg.sender)
+  '0x6a68de599e8e0b1856e322ce5bd11c5c3c79712b': 'not supported', // IBY - non standard permit logic implementation (owner replaced by msg.sender)
+  '0xd084944d3c05cd115c09d072b9f44ba3e0e45921': 'not supported', // FOLD - non standard permit logic implementation (owner replaced by msg.sender)
   '0xa456b515303b2ce344e9d2601f91270f8c2fea5e': 'not supported', // CORN - non standard vyper implementation
   '0x99fe3b1391503a1bc1788051347a1324bff41452': 'not supported', // SX - non standard typehash ('holder' for 'owner')
   '0x9c78ee466d6cb57a4d01fd887d2b5dfb2d46288f': 'not supported', // MUST - non standard domain type hash
   '0xe46f290cd59195a83e757891430d8d517d16b334': 'not supported', // AFN - proxy contract, unknown implementation
   '0xb6c4267c4877bb0d6b1685cfd85b0fbe82f105ec': 'not supported', // REL - non standard getNonce
-  '0x429876c4a6f89fb470e92456b8313879df98b63c': 'not supported', // REL - non standard getNonce
+  '0x429876c4a6f89fb470e92456b8313879df98b63c': 'not supported', // CNT - non standard getNonce
+  '0xc22b30e4cce6b78aaaadae91e44e73593929a3e9': 'not supported', // RAC - non standard permitNonce
+  '0xcdf7028ceab81fa0c6971208e83fa7872994bee5': 'not supported', // T - non standard nonce
   '0xfd9cd8c0d18cd7e06958f3055e0ec3adbdba0b17': 'not supported', // STFI - not investigated
   '0x6100dd79fcaa88420750dcee3f735d168abcb771': 'not supported', // OS - not investigated
   '0xf0f9d895aca5c8678f706fb8216fa22957685a13': 'not supported', // CULT - not investigated

@@ -273,13 +273,16 @@ module.exports = class PermitDetector {
                     }
 
                     if (result.permitType) {
-                        this.log(`${token.symbol}: ${result.verified ? 'VERIFIED' : 'DETECTED'} ${result.permitType} ${result.variant}`);
+                        this.log(`${token.symbol}: ${result.verified ? 'VERIFIED' : 'DETECTED'} ${result.permitType} ${result.variant || ''}`);
                         token.extensions = {
                             permit: {
                                 type: result.permitType,
                                 domain: result.domain,
                             },
                         };
+                        if (result.variant) {
+                            token.extensions.permit.variant = result.variant;
+                        }
                         counts.yes++;
                         return;
                     }
