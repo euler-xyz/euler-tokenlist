@@ -162,7 +162,7 @@ module.exports = class PermitDetector {
 
         if (curatedList[token] === 'not supported' || curatedList[token] === 'non-standard') return tmpResult;
 
-        let contract = new ethers.Contract(token, ABI_PERMIT, this.signer)
+        let contract = new ethers.Contract(token, ABI_PERMIT, this.signer);
         try {
             tmpResult.typeHash = await contract.PERMIT_TYPEHASH();
             tmpResult.typeHash = {[PERMIT_TYPE_HASH]: 'EIP2612', [PERMIT_ALLOWED_TYPE_HASH]: 'Allowed'}[tmpResult.typeHash] || tmpResult.typeHash;
@@ -248,10 +248,23 @@ module.exports = class PermitDetector {
     }
 
     async verifyToken(list, token) {
-        const currentToken = list.tokens.find(t => t.address.toLowerCase() === token.address.toLowerCase())
+        const currentToken = list.tokens.find(t => t.address.toLowerCase() === token.address.toLowerCase());
 
         if (currentToken && currentToken.extensions && currentToken.extensions.permit) {
-            const result = { logs: [], nonce: 0 };
+            let contract = new ethers.Contract(token.address, ABI_PERMIT, this.signer);
+
+            const result = { logs: [] };
+            try {
+                if (currentToken.extensions.permit.variant === 'UNDERSCORE_NONCE') {
+                    result.nonce = await contract._nonces(this.signer.address);
+                    result.variant = 'UNDERSCORE_NONCE';
+                } else {
+                    result.nonce = await contract.nonces(this.signer.address);
+                }
+            } catch (e) {
+                result.unexpectedError = true;
+                result.logs.push(`VERIFY nonces call failed ${e}`);
+            }
             await this.testDomain(result, token.address, 'VERIFY', currentToken.extensions.permit.domain);
             return result;
         }
@@ -266,6 +279,7 @@ module.exports = class PermitDetector {
             for (let batch of chunk(list, batchSize)) {
                 await Promise.all(batch.map(async token => {
                     let result = await this.verifyToken(currentList, token);
+
                     if (result && result.permitType) {
                         result.verified = true
                     } else {
