@@ -1,4 +1,22 @@
 module.exports = {
+
+  // Non standard implementation of permit
+
+  '0x33349b282065b0284d756f0577fb39c158f935e6': 'non-standard', // MPL - non standard, using 'amount' instead of 'value' in permit typehash:
+  // {
+  //     permitType: 'EIP2612',
+  //     permitTypeHash: '0xfc77c2b9d30fe91687fd39abb7d16fcdfe1472d065740051ab8b13e4bf4a617f',  
+  //     domain: {
+  //         name: 'Maple Token',
+  //         version: '1',
+  //         chainId: 1,
+  //         verifyingContract: '0x33349b282065b0284d756f0577fb39c158f935e6'
+  //     },
+  //     comment: 'Using amount insead of value in permit typehash',
+  // },
+
+  // Non standard or unusual domain values
+
   '0xc944e90c64b2c07662a292be6244bdf05cda44a7': {
       permitType: 'EIP2612',
       domain: {
@@ -62,7 +80,7 @@ module.exports = {
         verifyingContract: '0xdef1fac7bf08f173d286bbbdcbeeade695129840'
       },
   },
-  '0xdef1fac7bf08f173d286bbbdcbeeade695129840': { // ZERO
+  '0xf0939011a9bb95c3b791f0cb546377ed2693a574': { // ZERO
       permitType: 'EIP2612',
       domain: {
         name: 'Zero Exchange Token',
@@ -71,33 +89,21 @@ module.exports = {
         verifyingContract: '0xf0939011a9bb95c3b791f0cb546377ed2693a574'
       },
   },
+  '0x6f80310ca7f2c654691d1383149fa1a57d8ab1f8': { // SILO
+      permitType: 'EIP2612',
+      domain: {
+        name: 'SiloGovernanceToken',
+        version: '1',
+        chainId: 1,
+        verifyingContract: '0x6f80310ca7f2c654691d1383149fa1a57d8ab1f8'
+      },
+  },
 
-  '0x33349b282065b0284d756f0577fb39c158f935e6': 'non-standard', // MPL - non standard, using 'amount' instead of 'value' in permit typehash:
-  // {
-  //     permitType: 'EIP2612',
-  //     permitTypeHash: '0xfc77c2b9d30fe91687fd39abb7d16fcdfe1472d065740051ab8b13e4bf4a617f',  
-  //     domain: {
-  //         name: 'Maple Token',
-  //         version: '1',
-  //         chainId: 1,
-  //         verifyingContract: '0x33349b282065b0284d756f0577fb39c158f935e6'
-  //     },
-  //     comment: 'Using amount insead of value in permit typehash',
-  // },
-  '0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9': 'non-standard', // AAVE - using _nonces instead of nonces
-  // {
-  //     permitType: 'EIP2612',
-  //     domain: {
-  //         name: 'Aave Token',
-  //         version: '1',
-  //         chainId: 1,
-  //         verifyingContract: '0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9'
-  //     },
-  //     comment: 'using _nonces',
-  // },
-  
+  // Contracts with intended permit support with various issues
+
   '0x7f0693074f8064cfbcf9fa6e5a3fa0e4f58ccccf': 'not supported', // GM - permit handles NFTs
   '0xcc7ab8d78dba187dc95bf3bb86e65e0c26d0041f': 'not supported', // SPACE - domain separator not initialized properly
+  '0x4f81c790581b240a5c948afd173620ecc8c71c8d': 'not supported', // XDG - domain separator not initialized
   '0xd69f306549e9d96f183b1aeca30b8f4353c2ecc3': 'not supported', // MCHC - domain typehash doesn't match domain separator (typehash doesn't include version)
   '0x1ceb5cb57c4d4e2b2433641b95dd330a33185a44': 'not supported', // KP3R - non standard encoding of typehashes ('uint' alias used)
   '0x226f7b842e0f0120b7e194d05432b3fd14773a9d': 'not supported', // UNN - contract not verified on etherscan
@@ -106,11 +112,15 @@ module.exports = {
   '0xe9f84de264e91529af07fa2c746e934397810334': 'not supported', // SAK3 - incorrect permit logic implementation (owner replaced by msg.sender)
   '0x5166e09628b696285e3a151e84fb977736a83575': 'not supported', // VOL - incorrect permit logic implementation (owner replaced by msg.sender)
   '0x6a68de599e8e0b1856e322ce5bd11c5c3c79712b': 'not supported', // IBY - incorrect permit logic implementation (owner replaced by msg.sender)
+  '0xd084944d3c05cd115c09d072b9f44ba3e0e45921': 'not supported', // FOLD - incorrect permit logic implementation (owner replaced by msg.sender)
   '0xa456b515303b2ce344e9d2601f91270f8c2fea5e': 'not supported', // CORN - non standard vyper implementation
   '0x99fe3b1391503a1bc1788051347a1324bff41452': 'not supported', // SX - non standard typehash ('holder' for 'owner')
   '0x9c78ee466d6cb57a4d01fd887d2b5dfb2d46288f': 'not supported', // MUST - non standard domain type hash
   '0xe46f290cd59195a83e757891430d8d517d16b334': 'not supported', // AFN - proxy contract, unknown implementation
-  '0xfd9cd8c0d18cd7e06958f3055e0ec3adbdba0b17': 'not supported', // STFI - ignored
-  '0x6100dd79fcaa88420750dcee3f735d168abcb771': 'not supported', // OS - ignored
-  '0xf0f9d895aca5c8678f706fb8216fa22957685a13': 'not supported', // CULT - ignored
+  '0xb6c4267c4877bb0d6b1685cfd85b0fbe82f105ec': 'not supported', // REL - non standard getNonce
+  '0x429876c4a6f89fb470e92456b8313879df98b63c': 'not supported', // REL - non standard getNonce
+  '0xfd9cd8c0d18cd7e06958f3055e0ec3adbdba0b17': 'not supported', // STFI - not investigated
+  '0x6100dd79fcaa88420750dcee3f735d168abcb771': 'not supported', // OS - not investigated
+  '0xf0f9d895aca5c8678f706fb8216fa22957685a13': 'not supported', // CULT - not investigated
+  '0x0cd022dde27169b20895e0e2b2b8a33b25e63579': 'not supported', // RISE - not investigated
 }

@@ -1,7 +1,6 @@
-const fs = require('fs');
 const { ethers } = require('ethers');
-const { chunk } = require('lodash');
 require('dotenv').config();
+const { chunk } = require('lodash');
 
 const {
     PERMIT_TYPE_HASH,
@@ -15,10 +14,11 @@ const {
     MULTICALL2_ABI,
 } = require('./constants');
 
-const CHAIN_ID = process.env.CHAIN_ID || 1;
-
 module.exports = class PermitDetector {
-    constructor() {
+    constructor(chainId, withLogs = false) {
+        this.chainId = chainId;
+        this.withLogs = withLogs;
+
         this.provider = new ethers.providers.JsonRpcProvider(process.env.JSON_RPC_URL);
         this.signer = ethers.Wallet.createRandom().connect(this.provider);
         this.signTypedData = this.signer._signTypedData
@@ -32,7 +32,7 @@ module.exports = class PermitDetector {
             MULTICALL2_ADDRESS,
             MULTICALL2_ABI,
             this.signer,
-        )
+        );
 
         const allowancePayload = tokenContract.interface.encodeFunctionData('allowance', [owner, spender]);
 
@@ -43,8 +43,8 @@ module.exports = class PermitDetector {
 
         if (!res[0].success) {
             // if there was a revert reason decoding will throw it
-            tokenContract.interface.decodeFunctionResult('permit', res[0].returnData)
-            throw new Error('PERMIT_CALL_FAILED')
+            tokenContract.interface.decodeFunctionResult('permit', res[0].returnData);
+            throw new Error('PERMIT_CALL_FAILED');
         }
         return ethers.BigNumber.from(res[1].returnData);
     }
@@ -53,7 +53,7 @@ module.exports = class PermitDetector {
         if (!domain) return;
 
         if (tmpResult.domainSeparator && this.TypedDataEncoder.hashDomain(domain) !== tmpResult.domainSeparator) {
-            tmpResult.logs.push(`${testName}: Unrecognized domain separator `);
+            tmpResult.logs.push(`${testName}: Unrecognized domain separator`);
         }
 
         const spender = '0x'+'a'.repeat(40);
@@ -110,7 +110,7 @@ module.exports = class PermitDetector {
             const allowance = await this.multicallPermit(contract, this.signer.address, spender, permitPayload);
 
             if (allowance.eq(value)) {
-                tmpResult.permitType = 'Packed';
+                tmpResult.permitType = 'PACKED';
                 tmpResult.domain = domain;
                 return;
             } else {
@@ -143,7 +143,7 @@ module.exports = class PermitDetector {
             allowance = ethers.BigNumber.from(allowance);
 
             if (allowance.eq(ethers.constants.MaxUint256)) {
-                tmpResult.permitType = 'Allowed';
+                tmpResult.permitType = 'ALLOWED';
                 tmpResult.domain = domain;
                 return;
             } else {
@@ -176,12 +176,17 @@ module.exports = class PermitDetector {
 
         try {
             tmpResult.nonce = await contract.nonces(this.signer.address);
-        } catch (e) {
-            tmpResult.logs.push(`Nonces call failed ${e}`);
-            return tmpResult;
+        } catch(e1) {
+            try {
+                tmpResult.nonce = await contract._nonces(this.signer.address);
+                tmpResult.variant = 'UNDERSCORE_NONCES';
+            } catch(e2) {
+                tmpResult.logs.push(`Nonces call failed ${e1} ${e2}`);
+                return tmpResult;
+            }
         }
 
-        if (curatedList[token]) await this.testDomain(tmpResult, token, 'NON-STANDARD', curatedList[token].domain);
+        if (curatedList[token]) await this.testDomain(tmpResult, token, 'CURATED', curatedList[token].domain);
         if (tmpResult.permitType) return tmpResult;
 
         let version = "1";
@@ -195,14 +200,14 @@ module.exports = class PermitDetector {
         await this.testDomain(tmpResult, token, 'FULL', {
             name: contractName,
             version,
-            chainId: CHAIN_ID,
+            chainId: this.chainId,
             verifyingContract: token,
         });
 
         await this.testDomain(tmpResult, token, 'SYMBOL FOR NAME', {
             name: symbol,
             version,
-            chainId: CHAIN_ID,
+            chainId: this.chainId,
             verifyingContract: token,
         });
 
@@ -211,7 +216,7 @@ module.exports = class PermitDetector {
         await this.testDomain(tmpResult, token, 'VERSION 2', {
             name: contractName,
             version: '2',
-            chainId: CHAIN_ID,
+            chainId: this.chainId,
             verifyingContract: token,
         });
 
@@ -219,7 +224,7 @@ module.exports = class PermitDetector {
 
         await this.testDomain(tmpResult, token, 'NO VERSION', {
             name: contractName,
-            chainId: CHAIN_ID,
+            chainId: this.chainId,
             verifyingContract: token,
         });
 
@@ -227,7 +232,7 @@ module.exports = class PermitDetector {
 
         await this.testDomain(tmpResult, token, 'VERSION 1.0', {
             name: contractName,
-            chainId: CHAIN_ID,
+            chainId: this.chainId,
             version: "1.0",
             verifyingContract: token,
         });
@@ -235,59 +240,89 @@ module.exports = class PermitDetector {
         if (tmpResult.permitType) return tmpResult;
 
         await this.testDomain(tmpResult, token, 'NO VERSION NO NAME', {
-            chainId: CHAIN_ID,
+            chainId: this.chainId,
             verifyingContract: token,
         });
 
         return tmpResult;
-    };
+    }
 
-    async detectList(curatedList = {}, tokenList, filePath, batchSize) {
-        const errorsPath = './detect-permit-errors.log';
+    async verifyToken(list, token) {
+        const currentToken = list.tokens.find(t => t.address.toLowerCase() === token.address.toLowerCase())
 
-        const counts = { yes: 0, no: 0, error: 0 };
-        fs.writeFileSync(errorsPath, '');
-
-        for (let batch of chunk(tokenList.tokens, batchSize)) {
-            await Promise.all(batch.map(async token => {
-                const result = await this.detectToken(token.address, curatedList);
-                if (result.permitType) {
-                    console.log(`${token.symbol}: DETECTED ${result.permitType}`);
-                    token.extensions = {
-                        permit: {
-                            type: result.permitType,
-                            domain: result.domain,
-                        },
-                    };
-                    fs.writeFileSync(filePath, JSON.stringify(tokenList, null, 2));
-                    counts.yes++;
-                    return;
-                }
-
-                if (!result.domainSeparator && !result.typeHash && !result.unexpectedError) {
-                    console.log(`${token.symbol}: not detected`);
-                    counts.no++;
-                    return;
-                }
-
-                if (result.logs.some(l => l.includes('SERVER_ERROR')) && !token.retry) {
-                    console.log(token.symbol + ": RETRYING ~~~~~~~~ ")
-                    token.retry = true;
-                    tokenList.tokens.push(token);
-                    return;
-                }
-
-                const error = {
-                    token: token.symbol,
-                    address: token.address,
-                    result,
-                };
-
-                console.log('ERROR', error);
-                fs.appendFileSync(errorsPath, JSON.stringify(error, null, 2) + '\n\n\n');
-                counts.error++;
-            }));
+        if (currentToken && currentToken.extensions && currentToken.extensions.permit) {
+            const result = { logs: [], nonce: 0 };
+            await this.testDomain(result, token.address, 'VERIFY', currentToken.extensions.permit.domain);
+            return result;
         }
-        return counts;
-    };
-};
+    }
+
+    async detectList(curatedList = {}, currentList, tokenList, batchSize) {
+        const counts = { yes: 0, no: 0, error: 0 };
+        const retryList = [];
+        const errors = [];
+
+        const processList = async (list, isRetry) => {
+            for (let batch of chunk(list, batchSize)) {
+                await Promise.all(batch.map(async token => {
+                    let result = await this.verifyToken(currentList, token);
+                    if (result && result.permitType) {
+                        result.verified = true
+                    } else {
+                        result = await this.detectToken(token.address, curatedList);
+                    }
+
+                    if (result.permitType) {
+                        this.log(`${token.symbol}: ${result.verified ? 'VERIFIED' : 'DETECTED'} ${result.permitType} ${result.variant}`);
+                        token.extensions = {
+                            permit: {
+                                type: result.permitType,
+                                domain: result.domain,
+                            },
+                        };
+                        counts.yes++;
+                        return;
+                    }
+
+                    if (!result.domainSeparator && !result.typeHash && !result.unexpectedError) {
+                        this.log(`${token.symbol}: not detected`);
+                        counts.no++;
+                        return;
+                    }
+
+                    if (!isRetry && result.logs.some(l => l.includes('SERVER_ERROR'))) {
+                        retryList.push(token);
+                        return;
+                    }
+
+                    const error = {
+                        token: token.symbol,
+                        address: token.address,
+                        result,
+                    };
+
+                    this.log('ERROR', error);
+                    errors.push(error);
+                    counts.error++;
+                }));
+            }
+        }
+
+        await processList(tokenList.tokens);
+        if (retryList.length) {
+            this.log(`RETRYING ${retryList.length}`)
+            await processList(retryList, true);
+        }
+
+        return {
+            counts,
+            processedList: tokenList,
+            errors,
+        };
+    }
+
+    log(...args) {
+        if (this.withLogs) console.log(...args);
+    }
+}
+

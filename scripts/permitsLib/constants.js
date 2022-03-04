@@ -12,6 +12,7 @@ const ABI_COMMON = [
     'function DOMAIN_SEPARATOR() external view returns (bytes32)',
     'function DOMAIN_TYPEHASH() external view returns (bytes32)',
     'function nonces(address owner) external view returns (uint)',
+    'function _nonces(address owner) external view returns (uint)',
     'function PERMIT_TYPEHASH() external view returns (bytes32)',
     'function allowance(address owner, address spender) external view returns (uint256)',
 ]
