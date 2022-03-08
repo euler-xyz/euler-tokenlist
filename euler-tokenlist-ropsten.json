@@ -210,6 +210,15 @@
             "symbol": "FTC",
             "decimals": 18,
             "logoURI": ""
+        },
+        {
+            "chainId": 3,
+            "address": "0xc778417E063141139Fce010982780140Aa0cD5Ab",
+            "mainnetAddress": "",
+            "name": "GALA",
+            "symbol": "GLA",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/12493/small/GALA-COINGECKO.png?1600233435"
         }
     ]
 }
