@@ -6,14 +6,13 @@ const { getExistingUniPools } = require('./lib/uniPools');
 const { isEulerMarket } = require('./lib/euler');
 const { sendAlert, alertRun } = require('./lib/discord');
 const { initRepo, commitRepo } = require('./git')
-const { WETH_ADDRESS } = require('./lib/constants');
 
-const CHAIN_ID = process.env.CHAIN_ID || 1;
 const detectPermitErrorsPath = './detect-permit-errors.log';
+const CHAIN_ID = process.env.CHAIN_ID || 1;
 const batchSize = process.env.DETECT_PERMIT_BATCH_SIZE || 20;
 
 const processedListFileName = process.env.PROCESSED_LIST_FILE_NAME || 'coingecko-with-permits-tokenlist.json';
-const currentList = require(`../${processedListFileName}`);
+const currentProcessed = require(`../${processedListFileName}`);
 
 const eulerListPath = `${__dirname}/../euler-tokenlist.json`;
 const eulerList = require(eulerListPath);
@@ -24,13 +23,12 @@ const curatedPermits = require('../curated/permits');
 const { isEqual } = require('lodash');
 
 
-const isInList = (token, list) => list.some(t => t.address === token.address);
+const isInList = (token, list) => list.some(t => t.address.toLowerCase() === token.address.toLowerCase());
 const describeToken = token => `${token.address}, ${token.symbol}, ${token.name}`;
 const prettyJson = o => JSON.stringify(o, null, 2);
 const sortBySymbol = list => list.sort((a, b) => a.symbol.localeCompare(b.symbol));
 
 const run = async () => {
-    
     if (!process.env.TOKENLIST_URL) {
         console.log('Missing token list url in env');
         process.exit(1);
@@ -50,20 +48,19 @@ const run = async () => {
 
         // Detect permits and update processed full list
 
-        // const permitDetector = new PermitDetector(CHAIN_ID, true);
-        // let { counts: permitCounts, processedList, errors } = await permitDetector.detectList(curatedPermits, currentList, newList, batchSize);
+        const permitDetector = new PermitDetector(CHAIN_ID, true);
+        let { counts: permitCounts, processedList, errors } = await permitDetector.detectList(curatedPermits, currentProcessed, newList, batchSize);
 
-        // fs.writeFileSync(`${__dirname}/../${processedListFileName}`, prettyJson(processedList));
-        // if (errors.length) {
-        //     fs.writeFileSync(detectPermitErrorsPath, prettyJson(errors));
-        //     logs.push('DETECT PERMIT ERRORS', prettyJson(errors));
-        // }
-        let permitCounts = {yes: 2, no: 30, error: 0}
-        let processedList = currentList;
+        fs.writeFileSync(`${__dirname}/../${processedListFileName}`, prettyJson(processedList));
+        if (errors.length) {
+            fs.writeFileSync(detectPermitErrorsPath, prettyJson(errors));
+            logs.push('DETECT PERMIT ERRORS', prettyJson(errors));
+        }
+
         // Handle removed tokens
 
         eulerList.tokens = await Promise.all(eulerList.tokens.map(async et => {
-            if (!isInList(et, processedList.tokens)) {
+            if (!isInList(et, processedList.tokens) && !isInList(et, curatedAdded)) {
                 const symbolMatch = processedList.tokens.find(t => t.symbol === et.symbol);
                 if (await isEulerMarket(et.address)) {
                     if (symbolMatch) {
@@ -115,8 +112,6 @@ const run = async () => {
         curatedAdded.forEach(ct => {
             if (!isInList(ct, eulerList.tokens)) {
                 eulerList.tokens.push(ct);
-            } else {
-                logs.push(`REVIEW READDED ${describeToken(ct)}`)
             }
         })
         eulerList.tokens = eulerList.tokens.filter(et => !isInList(et, curatedRemoved));
