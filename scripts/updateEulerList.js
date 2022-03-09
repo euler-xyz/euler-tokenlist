@@ -1,12 +1,11 @@
 const axios = require('axios');
 const fs = require('fs');
-const util = require('util');
-const exec = util.promisify(require('child_process').exec);
 
 const PermitDetector = require('./lib/PermitDetector');
 const { getExistingUniPools } = require('./lib/uniPools');
 const { isEulerMarket } = require('./lib/euler');
 const { sendAlert, alertRun } = require('./lib/discord');
+const { initRepo, commitRepo } = require('./git')
 const { WETH_ADDRESS } = require('./lib/constants');
 
 const CHAIN_ID = process.env.CHAIN_ID || 1;
@@ -31,6 +30,7 @@ const prettyJson = o => JSON.stringify(o, null, 2);
 const sortBySymbol = list => list.sort((a, b) => a.symbol.localeCompare(b.symbol));
 
 const run = async () => {
+    
     if (!process.env.TOKENLIST_URL) {
         console.log('Missing token list url in env');
         process.exit(1);
@@ -43,9 +43,9 @@ const run = async () => {
             updated: 0,
         };
 
-        // Pull repo and fetch latest list
-
-        await exec('git pull');
+        // Clean repo and fetch latest list
+        await initRepo()
+        
         const { data: newList }  = await axios.get(process.env.TOKENLIST_URL);
 
         // Detect permits and update processed full list
@@ -131,12 +131,12 @@ const run = async () => {
 
         eulerList.version.minor++;
         eulerList.timestamp = new Date().toISOString();
-        await exec(`${__dirname}/commit.sh`);
+        await commitRepo();
 
         await alertRun(logs, permitCounts, tokenListCounts);
     } catch (e) {
         console.log('e: ', e);
-        await sendAlert(e);
+        await sendAlert(e.message);
     }
 };
 
