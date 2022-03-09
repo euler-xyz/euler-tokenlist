@@ -75,6 +75,7 @@ const TYPES_PERMIT_ALLOWED = {
     ],
 };
 
+const WETH_ADDRESS = '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2';
 
 module.exports = {
     PERMIT_TYPE_HASH,
@@ -86,4 +87,5 @@ module.exports = {
     TYPES_PERMIT_ALLOWED,
     MULTICALL2_ADDRESS,
     MULTICALL2_ABI,
+    WETH_ADDRESS,
 }

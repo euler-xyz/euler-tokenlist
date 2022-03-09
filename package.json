@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "detect-permit": "node ./scripts/detectPermit.js",
-    "detect-permit:list": "node ./scripts/detectPermitsList.js"
+    "detect-permit:list": "node ./scripts/detectPermitsList.js",
+    "update-euler-list": "node ./scripts/updateEulerList.js"
   },
   "keywords": [],
   "author": "",
