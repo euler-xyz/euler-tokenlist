@@ -50,15 +50,16 @@ const run = async () => {
 
         // Detect permits and update processed full list
 
-        const permitDetector = new PermitDetector(CHAIN_ID, true);
-        let { counts: permitCounts, processedList, errors } = await permitDetector.detectList(curatedPermits, currentList, newList, batchSize);
+        // const permitDetector = new PermitDetector(CHAIN_ID, true);
+        // let { counts: permitCounts, processedList, errors } = await permitDetector.detectList(curatedPermits, currentList, newList, batchSize);
 
-        fs.writeFileSync(`${__dirname}/../${processedListFileName}`, prettyJson(processedList));
-        if (errors.length) {
-            fs.writeFileSync(detectPermitErrorsPath, prettyJson(errors));
-            logs.push('DETECT PERMIT ERRORS', prettyJson(errors));
-        }
-
+        // fs.writeFileSync(`${__dirname}/../${processedListFileName}`, prettyJson(processedList));
+        // if (errors.length) {
+        //     fs.writeFileSync(detectPermitErrorsPath, prettyJson(errors));
+        //     logs.push('DETECT PERMIT ERRORS', prettyJson(errors));
+        // }
+        let permitCounts = {yes: 2, no: 30, error: 0}
+        let processedList = currentList;
         // Handle removed tokens
 
         eulerList.tokens = await Promise.all(eulerList.tokens.map(async et => {
