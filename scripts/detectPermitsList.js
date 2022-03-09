@@ -16,7 +16,6 @@ const run = async () => {
         return;
     }
 
-    console.log(BigNumber.from('0xc18360217d8f7ab5e7c516566761ea12ce7f9d72').gt('0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'));
     const errorsPath = './detect-permit-errors.log';
     const batchSize = process.env.DETECT_PERMIT_BATCH_SIZE || 20;
     const currentList = fs.existsSync(filePath) ? require(`../${filePath}`) : { tokens: [] };
