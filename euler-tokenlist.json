@@ -551,6 +551,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xfd4168e642ebd04c3684a6cdb3a5e86de85d3908",
+      "name": "The APIS",
+      "symbol": "API",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/14055/thumb/Screenshot_2022-03-10_at_11.09.50_AM.png?1646882043"
+    },
+    {
+      "chainId": 1,
       "address": "0x0b38210ea11411557c13457d4da7dc6ea731b88a",
       "name": "API3",
       "symbol": "API3",
@@ -1998,7 +2006,7 @@
     {
       "chainId": 1,
       "address": "0x41c37a4683d6a05adb31c39d71348a8403b13ca9",
-      "name": "Chain",
+      "name": "Chain  OLD ",
       "symbol": "CHN",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/19678/thumb/Chain_icon.png?1635741399"
@@ -2720,7 +2728,7 @@
       "name": "DBX",
       "symbol": "DBX",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/15682/thumb/photo_2021-05-17_22-10-35.jpg?1621549173"
+      "logoURI": "https://assets.coingecko.com/coins/images/15682/thumb/logo.png?1646903349"
     },
     {
       "chainId": 1,
@@ -5267,6 +5275,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x64cdf819d3e75ac8ec217b3496d7ce167be42e80",
+      "name": "InsurePal",
+      "symbol": "IPL",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/1858/thumb/ipl.png?1547036172"
+    },
+    {
+      "chainId": 1,
       "address": "0x579cea1889991f68acc35ff5c3dd0621ff29b0c9",
       "name": "Everipedia",
       "symbol": "IQ",
@@ -5468,6 +5484,14 @@
       "symbol": "KAU",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/17802/thumb/200%C3%97200-logo.png?1629291816"
+    },
+    {
+      "chainId": 1,
+      "address": "0x5552e5a89a70cb2ef5adbbc45a6be442fe7160ec",
+      "name": "Kawakami",
+      "symbol": "KAWA",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/16369/thumb/kawainu.PNG?1623820805"
     },
     {
       "chainId": 1,
@@ -10490,12 +10514,12 @@
       "logoURI": "https://assets.coingecko.com/coins/images/13166/thumb/uniwhale.png?1611967645"
     },
     {
+      "chainId": 1,
+      "address": "0x2602278ee1882889b946eb11dc0e810075650983",
       "name": "Vader Protocol",
-      "address": "0x2602278EE1882889B946eb11DC0E810075650983",
       "symbol": "VADER",
       "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/15959.png"
+      "logoURI": "https://assets.coingecko.com/coins/images/20497/thumb/AcF08Jk1_400x400.jpg?1637131991"
     },
     {
       "chainId": 1,
@@ -10875,12 +10899,12 @@
       "logoURI": "https://assets.coingecko.com/coins/images/13301/thumb/wrappeddgld_32.png?1607310693"
     },
     {
-      "name": "Wrapped Ether",
-      "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+      "chainId": 1,
+      "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "name": "WETH",
       "symbol": "WETH",
       "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+      "logoURI": "https://assets.coingecko.com/coins/images/2518/thumb/weth.png?1628852295"
     },
     {
       "chainId": 1,
@@ -11073,13 +11097,14 @@
       "logoURI": "https://assets.coingecko.com/coins/images/15410/thumb/woofy.png?1622566328",
       "extensions": {
         "permit": {
-          "type": "PACKED",
+          "type": "EIP2612",
           "domain": {
             "name": "Woofy",
             "version": "1",
             "chainId": 1,
             "verifyingContract": "0xd0660cd418a64a1d44e9214ad8e459324d8157f1"
-          }
+          },
+          "variant": "PACKED"
         }
       }
     },
@@ -11613,13 +11638,14 @@
       "logoURI": "https://assets.coingecko.com/coins/images/15152/thumb/yvBOOST.png?1619978216",
       "extensions": {
         "permit": {
-          "type": "PACKED",
+          "type": "EIP2612",
           "domain": {
             "name": "Yearn Vault",
             "version": "0.3.5",
             "chainId": 1,
             "verifyingContract": "0x9d409a0a012cfba9b15f6d4b36ac57a46966ab9a"
-          }
+          },
+          "variant": "PACKED"
         }
       }
     },
