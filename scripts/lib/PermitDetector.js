@@ -159,8 +159,11 @@ module.exports = class PermitDetector {
 
     async detectToken(token, curatedList = {}) {
         const tmpResult = { logs: [] };
-
-        if (curatedList[token] === 'not supported' || curatedList[token] === 'non-standard') return tmpResult;
+        if (
+            token.chainId !== this.chainId ||
+            curatedList[token] === 'not supported' ||
+            curatedList[token] === 'non-standard'
+        ) return tmpResult;
 
         let contract = new ethers.Contract(token, ABI_PERMIT, this.signer);
         try {
@@ -302,7 +305,8 @@ module.exports = class PermitDetector {
                     }
 
                     if (!result.domainSeparator && !result.typeHash && !result.unexpectedError) {
-                        this.log(`${token.symbol}: not detected`);
+                        if (token.chainId !== this.chainId) this.log(`${token.symbol}: chain id mismatch`)
+                        else this.log(`${token.symbol}: not detected`)
                         counts.no++;
                         return;
                     }
