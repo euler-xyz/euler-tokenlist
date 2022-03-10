@@ -10,6 +10,7 @@ const { initRepo, commitRepo } = require('./git');
 
 const detectPermitErrorsPath = './detect-permit-errors.log';
 const chainId = process.env.CHAIN_ID || 1;
+const multicallAddress = process.env.MULTICALL2_ADDRESS || '0x5ba1e12693dc8f9c48aad8770482f4739beed696';
 const batchSize = process.env.DETECT_PERMIT_BATCH_SIZE || 20;
 
 const eulerListPath = `${__dirname}/../euler-tokenlist.json`;
@@ -49,7 +50,7 @@ const run = async () => {
 
         // Detect permits and update processed full list
 
-        const permitDetector = new PermitDetector(chainId, true);
+        const permitDetector = new PermitDetector(chainId, multicallAddress, true);
         let { counts: permitCounts, processedList, errors } = await permitDetector.detectList(curatedPermits, currentProcessed, newList, batchSize);
 
         fs.writeFileSync(`${__dirname}/../${processedListFileName}`, prettyJson(processedList));

@@ -1,6 +1,5 @@
 const PERMIT_TYPE_HASH = '0x6e71edae12b1b97f4d1f60370fef10105fa2faae0126114a169c64845d6126c9'; // EIP2612
 const PERMIT_ALLOWED_TYPE_HASH = '0xea2aa0a1be11a07ed86d755c93467f4f82362b452371d1ba94d1715123511acb'; // DAI and the like
-const MULTICALL2_ADDRESS = '0x5ba1e12693dc8f9c48aad8770482f4739beed696';
 const MULTICALL2_ABI = [
     'function tryAggregate(bool requireSuccess, tuple(address target, bytes callData)[] calls) public returns(tuple(bool success, bytes returnData)[])',
 ];
@@ -85,7 +84,6 @@ module.exports = {
     ABI_PERMIT_PACKED,
     TYPES_PERMIT,
     TYPES_PERMIT_ALLOWED,
-    MULTICALL2_ADDRESS,
     MULTICALL2_ABI,
     WETH_ADDRESS,
 }

@@ -2,6 +2,7 @@ const PermitDetector = require('./lib/PermitDetector');
 const curatedList = require('../curated/permits');
 const CHAIN_ID = process.env.CHAIN_ID || 1;
 
+
 const run = async () => {
     const token = process.argv[2];
     if (!token) {

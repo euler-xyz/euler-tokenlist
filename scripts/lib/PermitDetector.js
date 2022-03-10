@@ -10,14 +10,14 @@ const {
     ABI_PERMIT_PACKED,
     TYPES_PERMIT,
     TYPES_PERMIT_ALLOWED,
-    MULTICALL2_ADDRESS,
     MULTICALL2_ABI,
 } = require('./constants');
 
 module.exports = class PermitDetector {
-    constructor(chainId, withLogs = false) {
+    constructor(chainId, multicallAddress, withLogs = false) {
         this.chainId = chainId;
         this.withLogs = withLogs;
+        this.multicallAddress = multicallAddress;
 
         this.provider = new ethers.providers.JsonRpcProvider(process.env.JSON_RPC_URL);
         this.signer = ethers.Wallet.createRandom().connect(this.provider);
@@ -29,7 +29,7 @@ module.exports = class PermitDetector {
 
     async multicallPermit(tokenContract, owner, spender, permitPayload) {
         const multicall2Contract = new ethers.Contract(
-            MULTICALL2_ADDRESS,
+            this.multicallAddress,
             MULTICALL2_ABI,
             this.signer,
         );
@@ -110,7 +110,8 @@ module.exports = class PermitDetector {
             const allowance = await this.multicallPermit(contract, this.signer.address, spender, permitPayload);
 
             if (allowance.eq(value)) {
-                tmpResult.permitType = 'PACKED';
+                tmpResult.permitType = 'EIP2612';
+                tmpResult.variant = 'PACKED';
                 tmpResult.domain = domain;
                 return;
             } else {
@@ -158,9 +159,9 @@ module.exports = class PermitDetector {
     }
 
     async detectToken(token, curatedList = {}) {
+        token = token.toLowerCase();
         const tmpResult = { logs: [] };
         if (
-            token.chainId !== this.chainId ||
             curatedList[token] === 'not supported' ||
             curatedList[token] === 'non-standard'
         ) return tmpResult;

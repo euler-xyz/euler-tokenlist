@@ -4,6 +4,7 @@ const PermitDetector = require('./lib/PermitDetector');
 const curatedList = require('../curated/permits');
 
 const CHAIN_ID = process.env.CHAIN_ID || 1;
+const MULTICALL2_ADDRESS = process.env.MULTICALL2_ADDRESS || '0x5ba1e12693dc8f9c48aad8770482f4739beed696';
 
 const { BigNumber } = require('ethers')
 
@@ -22,7 +23,7 @@ const run = async () => {
 
     const { data: tokenList } = await axios.get(tokenListUrl);
 
-    const permitDetector = new PermitDetector(CHAIN_ID, true);
+    const permitDetector = new PermitDetector(CHAIN_ID, MULTICALL2_ADDRESS, true);
     const { counts, processedList, errors } = await permitDetector.detectList(curatedList, currentList, tokenList, batchSize);
 
     fs.writeFileSync(filePath, JSON.stringify(processedList, null, 2));
