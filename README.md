@@ -75,7 +75,7 @@ When the tool is run to process the tokenlist, the result is a new tokenlist, wi
 
 ## Coingecko list with permits
 
-The full [Coingecko token list](https://tokens.coingecko.com/uniswap/all.json) is processed daily to detect permit support in all tokens. The results are commited to the repo and available in `coingecko-tokenlist-with-permits.json` and under a [TODO url]().
+The full [Coingecko token list](https://tokens.coingecko.com/uniswap/all.json) is processed daily to detect permit support in all tokens. The results are commited to the repo and available in `coingecko-tokenlist-with-permits.json` and under a [url]('https://raw.githubusercontent.com/euler-xyz/euler-tokenlist/master/coingecko-tokenlist-with-permits.json').
 
 ## Euler token list
 

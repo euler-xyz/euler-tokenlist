@@ -56,6 +56,7 @@ const run = async () => {
         const permitDetector = new PermitDetector(chainId, multicallAddress, logger);
         let { counts: permitCounts, processedList, errors } = await permitDetector.detectList(curatedPermits, currentProcessed, newList, batchSize);
 
+        processedList.name += ' with permits by Euler';
         fs.writeFileSync(`${__dirname}/../${processedListFileName}`, prettyJson(processedList));
         if (errors.length) {
             fs.writeFileSync(detectPermitErrorsPath, prettyJson(errors));
@@ -134,9 +135,9 @@ const run = async () => {
         eulerList.timestamp = new Date().toISOString();
         await commitRepo();
 
-        // await alertRun(logs, permitCounts, tokenListCounts);
+        await alertRun(logs, permitCounts, tokenListCounts);
     } catch (e) {
-        console.log('e: ', e);
+        logger.error(e);
         await sendAlert(e.message);
     }
 };
