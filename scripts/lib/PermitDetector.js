@@ -14,10 +14,10 @@ const {
 } = require('./constants');
 
 module.exports = class PermitDetector {
-    constructor(chainId, multicallAddress, withLogs = false) {
+    constructor(chainId, multicallAddress, logger) {
         this.chainId = chainId;
-        this.withLogs = withLogs;
         this.multicallAddress = multicallAddress;
+        this.logger = logger;
 
         this.provider = new ethers.providers.JsonRpcProvider(process.env.JSON_RPC_URL);
         this.signer = ethers.Wallet.createRandom().connect(this.provider);
@@ -323,7 +323,7 @@ module.exports = class PermitDetector {
                         result,
                     };
 
-                    this.log('ERROR', error);
+                    this.logError(`ERROR ${error}`);
                     errors.push(error);
                     counts.error++;
                 }));
@@ -343,8 +343,12 @@ module.exports = class PermitDetector {
         };
     }
 
-    log(...args) {
-        if (this.withLogs) console.log(...args);
+    log(msg) {
+        if (this.logger) this.logger.log(msg);
+    }
+
+    logError(e) {
+        if (this.logger) this.logger.error(e);
     }
 }
 

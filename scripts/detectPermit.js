@@ -1,7 +1,7 @@
 const PermitDetector = require('./lib/PermitDetector');
 const curatedList = require('../curated/permits');
 const CHAIN_ID = process.env.CHAIN_ID || 1;
-
+const MULTICALL2_ADDRESS = process.env.MULTICALL2_ADDRESS || '0x5ba1e12693dc8f9c48aad8770482f4739beed696';
 
 const run = async () => {
     const token = process.argv[2];
@@ -9,7 +9,7 @@ const run = async () => {
         console.log('No token address provided. See README');
         return;
     }
-    const pertmitDetector = new PermitDetector(CHAIN_ID);
+    const pertmitDetector = new PermitDetector(CHAIN_ID, MULTICALL2_ADDRESS);
     const result = await pertmitDetector.detectToken(token, curatedList); 
 
     if (result.permitType) {

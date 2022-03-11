@@ -7,6 +7,11 @@ const { getExistingUniPools } = require('./lib/uniPools');
 const { isEulerMarket } = require('./lib/euler');
 const { sendAlert, alertRun } = require('./lib/discord');
 const { initRepo, commitRepo } = require('./git');
+const Logger = require('./lib/logger');
+
+const curatedRemoved = require('../curated/remove');
+const curatedAdded = require('../curated/add');
+const curatedPermits = require('../curated/permits');
 
 const detectPermitErrorsPath = './detect-permit-errors.log';
 const chainId = process.env.CHAIN_ID || 1;
@@ -16,14 +21,12 @@ const batchSize = process.env.DETECT_PERMIT_BATCH_SIZE || 20;
 const eulerListPath = `${__dirname}/../euler-tokenlist.json`;
 const eulerList = require(eulerListPath);
 
-const curatedRemoved = require('../curated/remove');
-const curatedAdded = require('../curated/add');
-const curatedPermits = require('../curated/permits');
-
 const processedListFileName = process.env.PROCESSED_LIST_FILE_NAME;
 const currentProcessed = fs.existsSync(`${__dirname}/../${processedListFileName}`)
     ? require(`../${processedListFileName}`)
     : { tokens: [] };
+
+const logger = new Logger('tokenlist');
 
 const isInList = (token, list) => list.some(t => t.address.toLowerCase() === token.address.toLowerCase());
 const describeToken = token => `${token.address}, ${token.symbol}, ${token.name}`;
@@ -50,7 +53,7 @@ const run = async () => {
 
         // Detect permits and update processed full list
 
-        const permitDetector = new PermitDetector(chainId, multicallAddress, true);
+        const permitDetector = new PermitDetector(chainId, multicallAddress, logger);
         let { counts: permitCounts, processedList, errors } = await permitDetector.detectList(curatedPermits, currentProcessed, newList, batchSize);
 
         fs.writeFileSync(`${__dirname}/../${processedListFileName}`, prettyJson(processedList));
@@ -131,7 +134,7 @@ const run = async () => {
         eulerList.timestamp = new Date().toISOString();
         await commitRepo();
 
-        await alertRun(logs, permitCounts, tokenListCounts);
+        // await alertRun(logs, permitCounts, tokenListCounts);
     } catch (e) {
         console.log('e: ', e);
         await sendAlert(e.message);

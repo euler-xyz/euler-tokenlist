@@ -23,7 +23,7 @@ const run = async () => {
 
     const { data: tokenList } = await axios.get(tokenListUrl);
 
-    const permitDetector = new PermitDetector(CHAIN_ID, MULTICALL2_ADDRESS, true);
+    const permitDetector = new PermitDetector(CHAIN_ID, MULTICALL2_ADDRESS, console);
     const { counts, processedList, errors } = await permitDetector.detectList(curatedList, currentList, tokenList, batchSize);
 
     fs.writeFileSync(filePath, JSON.stringify(processedList, null, 2));

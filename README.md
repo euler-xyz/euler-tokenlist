@@ -96,7 +96,7 @@ The script:
 
 ### Config
 
-In addition to permit detection config, it is required to provide `TOKENLIST_URL` and `PROCESSED_LIST_FILE_NAME` (currently `coingecko-tokenlist-with-permits.json`). To automatically commit changes, `UPDATE_REPO` must be set to `true`.
+In addition to permit detection config, it is required to provide `TOKENLIST_URL` and `PROCESSED_LIST_FILE_NAME` (currently `coingecko-tokenlist-with-permits.json`). To automatically commit changes, `UPDATE_REPO` must be set to `true`. For Cloudwatch logging set up `CLOUDWATCH_LOG_GROUP`, `CLOUDWATCH_LOG_STREAM` and `AWS_REGION`.
 
 ### Adding and removing tokens manually
 
