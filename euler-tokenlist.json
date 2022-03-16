@@ -1885,6 +1885,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xc8d07671afba9492da95819de4ad10859e00ab7f",
+      "name": "CryptoCoinPay",
+      "symbol": "CCP",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/7127/thumb/T9ywgTGYuoYBFagC3PzdSVNKHxZSPB6Kmz.png?1647433798"
+    },
+    {
+      "chainId": 1,
       "address": "0x5d3a536e4d6dbd6114cc1ead35777bab948e3643",
       "name": "cDAI",
       "symbol": "CDAI",
@@ -5890,6 +5898,14 @@
       "symbol": "LINK",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/877/thumb/chainlink-new-logo.png?1547034700"
+    },
+    {
+      "chainId": 1,
+      "address": "0x739317d519ab3bc640a0058230550089a96a2ca5",
+      "name": "Liquidator DAO",
+      "symbol": "LIQUIDATOR",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24354/thumb/LIQUIDATOR_Logo_200pxSQUARE.png?1647434180"
     },
     {
       "chainId": 1,
