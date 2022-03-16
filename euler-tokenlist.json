@@ -308,14 +308,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x6b4d5e9ec2acea23d4110f4803da99e25443c5df",
-      "name": "AlphaKlima",
-      "symbol": "AKLIMA",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/18389/thumb/BSUSa5Gq_400x400.jpg?1631759526"
-    },
-    {
-      "chainId": 1,
       "address": "0x8ab7404063ec4dbcfd4598215992dc3f8ec853d7",
       "name": "Akropolis",
       "symbol": "AKRO",
@@ -674,6 +666,14 @@
       "symbol": "ARTE",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/11720/thumb/Arte.png?1607332372"
+    },
+    {
+      "chainId": 1,
+      "address": "0xe83d5fb2c60b3a2597452e248cf7b2f52a7e731e",
+      "name": "ARTIC Foundation",
+      "symbol": "ARTIC",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24279/thumb/Artic_logo_02.png?1647181452"
     },
     {
       "chainId": 1,
@@ -1200,6 +1200,14 @@
       "symbol": "BIFI",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13671/thumb/ysYIu7Q.png?1610679337"
+    },
+    {
+      "chainId": 1,
+      "address": "0xaaca86b876ca011844b5798eca7a67591a9743c8",
+      "name": "0x nodes",
+      "symbol": "BIOS",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/15600/thumb/BIOS_01.png?1621737736"
     },
     {
       "chainId": 1,
@@ -1747,7 +1755,7 @@
     {
       "chainId": 1,
       "address": "0x1934e252f840aa98dfce2b6205b3e45c41aef830",
-      "name": "Creator Cabins",
+      "name": "Cabin",
       "symbol": "CABIN",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/23874/thumb/z8CMVDb8_400x400.jpg?1645600167",
@@ -2740,6 +2748,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xb566e883555aebf5b1db211070b530ab00a4b18a",
+      "name": "DCTDAO",
+      "symbol": "DCTD",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/14626/thumb/dctdao.jpg?1617321308"
+    },
+    {
+      "chainId": 1,
       "address": "0x8ca9a0fbd8db501f013f2e9e33a1b9dc129a48e0",
       "name": "People s Punk",
       "symbol": "DDDD",
@@ -3167,14 +3183,6 @@
       "symbol": "DTH",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/2231/thumb/dether.png?1547036510"
-    },
-    {
-      "chainId": 1,
-      "address": "0xf3d6af45c6dfec43216cc3347ea91fefba0849d1",
-      "name": "Decentralized Unive",
-      "symbol": "DUBI",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/2606/thumb/decentralized-universal-basic-income.png?1547036752"
     },
     {
       "chainId": 1,
@@ -7466,7 +7474,7 @@
       "name": "Oraichain Token",
       "symbol": "ORAI",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/12931/thumb/2000x2000_azfsy0.png?1603696770"
+      "logoURI": "https://assets.coingecko.com/coins/images/12931/thumb/orai.png?1647077378"
     },
     {
       "chainId": 1,
@@ -8630,6 +8638,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x1c7e83f8c581a967940dbfa7984744646ae46b29",
+      "name": "The RandomDAO",
+      "symbol": "RND",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24256/thumb/rnd.png?1647160021"
+    },
+    {
+      "chainId": 1,
       "address": "0x6de037ef9ad2725eb40118bb1702ebb27e4aeb24",
       "name": "Render Token",
       "symbol": "RNDR",
@@ -9382,14 +9398,6 @@
           }
         }
       }
-    },
-    {
-      "chainId": 1,
-      "address": "0x26d0ee7d0fad46b0deb495fa09e283151438c102",
-      "name": "TokenStand Network",
-      "symbol": "STAND",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/23768/thumb/xOVT3sG.png?1645425261"
     },
     {
       "chainId": 1,
@@ -11337,6 +11345,14 @@
       "symbol": "XI",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/18640/thumb/v5NMxPo.png?1632751046"
+    },
+    {
+      "chainId": 1,
+      "address": "0xf6650117017ffd48b725b4ec5a00b414097108a7",
+      "name": "Xido Finance",
+      "symbol": "XIDO",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/16161/thumb/KJw4clj.png?1623141959"
     },
     {
       "chainId": 1,
