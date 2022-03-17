@@ -527,6 +527,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x4d224452801aced8b2f0aebe155379bb5d594381",
+      "name": "ApeCoin",
+      "symbol": "APE",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24383/thumb/apecoin.jpg?1647476455"
+    },
+    {
+      "chainId": 1,
       "address": "0xfa898efdb91e35bd311c45b9b955f742b6719aa2",
       "name": "Baddest Alpha Ape B",
       "symbol": "APED",
@@ -4074,6 +4082,14 @@
       "symbol": "FOXX",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/16018/thumb/starfoxx.PNG?1622611911"
+    },
+    {
+      "chainId": 1,
+      "address": "0x1f81f8f262714cc932141c7c79495b481ef27258",
+      "name": "Fraktal",
+      "symbol": "FRAK",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24136/thumb/FRAKLogo.png?1646546083"
     },
     {
       "chainId": 1,
