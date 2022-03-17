@@ -312,7 +312,7 @@ module.exports = class PermitDetector {
                         return;
                     }
 
-                    if (!isRetry && result.logs.some(l => l.includes('SERVER_ERROR'))) {
+                    if (!isRetry && result.logs.some(l => l.includes('SERVER_ERROR') || l.includes('TIMEOUT'))) {
                         retryList.push(token);
                         return;
                     }
