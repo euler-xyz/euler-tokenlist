@@ -5745,7 +5745,7 @@
       "name": "Kylin Network",
       "symbol": "KYL",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/14164/thumb/kylin_logo.png?1615771554"
+      "logoURI": "https://assets.coingecko.com/coins/images/14164/thumb/kyl_logo.jpg?1647507720"
     },
     {
       "chainId": 1,
@@ -11179,6 +11179,14 @@
       "symbol": "WPC",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/21914/thumb/WPC200.png?1640262945"
+    },
+    {
+      "chainId": 1,
+      "address": "0x3c2a309d9005433c1bc2c92ef1be06489e5bf258",
+      "name": "Wrapped Paycoin",
+      "symbol": "WPCI",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/24390/thumb/wf5kG6Ks_400x400.png?1647518395"
     },
     {
       "chainId": 1,
