@@ -31,5 +31,13 @@ module.exports = [
   {
     "address": "0xdd1ad9a21ce722c151a836373babe42c868ce9a4",
     "name": "Universal Basic Income",
-  }
+  },
+  {
+    "name": "ApeCoin",
+    "address": "0x4d224452801ACEd8B2F0aebE155379bb5D594381",
+    "symbol": "APE",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/18876.png"
+  },
 ];
