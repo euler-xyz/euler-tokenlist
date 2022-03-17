@@ -3479,7 +3479,7 @@
     {
       "chainId": 1,
       "address": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
-      "name": "Ethereum Name Servi",
+      "name": "Ethereum Name Service",
       "symbol": "ENS",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/19785/thumb/acatxTm8_400x400.jpg?1635850140",
@@ -3883,7 +3883,7 @@
     {
       "chainId": 1,
       "address": "0xb05097849bca421a3f51b249ba6cca4af4b97cb9",
-      "name": "Float Protocol  Flo",
+      "name": "Float Protocol: FLOAT",
       "symbol": "FLOAT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/15502/thumb/FLOAT_LOGO-reduced_01.png?1621081152",
@@ -3945,7 +3945,7 @@
     {
       "chainId": 1,
       "address": "0x6243d8cea23066d098a15582d81a598b4e8391f4",
-      "name": "Reflexer Ungovernan",
+      "name": "Flex Ungovernance Token",
       "symbol": "FLX",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14123/thumb/EAfYdwgd_400x400.jpg?1614564508"
@@ -5623,6 +5623,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x3541a5c1b04adaba0b83f161747815cd7b1516bc",
+      "name": "CitaDAO",
+      "symbol": "KNIGHT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/22848/thumb/KNIGHT_TOKEN_LOGO.png?1643190758"
+    },
+    {
+      "chainId": 1,
       "address": "0xe93a27d4ed64f44a2b356d78c06115e5c9d97da0",
       "name": "KnoxEdge",
       "symbol": "KNX",
@@ -6515,7 +6523,7 @@
     {
       "chainId": 1,
       "address": "0x99d8a9c45b2eca8864373a26d1459e3dff1e17f3",
-      "name": "Magic Internet Mone",
+      "name": "Magic Internet Money",
       "symbol": "MIM",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/16786/thumb/mimlogopng.png?1624979612",
@@ -9178,7 +9186,7 @@
     {
       "chainId": 1,
       "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
-      "name": "Synthetix Network T",
+      "name": "Synthetix Network Token",
       "symbol": "SNX",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/3406/thumb/SNX.png?1598631139"
@@ -10129,7 +10137,7 @@
     {
       "chainId": 1,
       "address": "0xdd1ad9a21ce722c151a836373babe42c868ce9a4",
-      "name": "Universal Basic Inc",
+      "name": "Universal Basic Income",
       "symbol": "UBI",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/15269/thumb/ubi.png?1620287853"

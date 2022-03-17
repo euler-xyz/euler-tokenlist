@@ -116,7 +116,13 @@ const run = async () => {
         // Apply curated changes
 
         curatedAdded.forEach(ct => {
-            if (!isInList(ct, eulerList.tokens)) {
+            const index = eulerList.tokens.findIndex(t => t.address.toLowerCase() === ct.address.toLowerCase())
+            if (index > -1) {
+                eulerList.tokens[index] = {
+                    ...eulerList.tokens[index],
+                    ...ct,
+                }
+            } else {
                 eulerList.tokens.push(ct);
             }
         })

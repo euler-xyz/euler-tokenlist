@@ -98,6 +98,17 @@ The script:
 
 In addition to permit detection config, it is required to provide `TOKENLIST_URL` and `PROCESSED_LIST_FILE_NAME` (currently `coingecko-tokenlist-with-permits.json`). To automatically commit changes, `UPDATE_REPO` must be set to `true`. For Cloudwatch logging set up `CLOUDWATCH_LOG_GROUP`, `CLOUDWATCH_LOG_STREAM` and `AWS_REGION`.
 
-### Adding and removing tokens manually
-
-To add or remove tokens from the Euler list manually, edit `curated/add.js` and `curated/remove.js` respectively. These patches will always be applied to the Euler list, regardless of the source token list.
+### Adding, removing and updating tokens manually
+To manually add a token, put it in `curated/add.js`. If the token exists in the source list, the provided properties will be overwritten. Example updating the name of a token:
+```json
+{
+  "address": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
+  "name": "Ethereum Name Service",
+},
+```
+To remove a token from the list, add an entry in `curated/remove.js`
+```
+{
+  "address": "0x9865af71cf0b288b4e7f654f4f7851eb46a2b7f8",
+},
+```
