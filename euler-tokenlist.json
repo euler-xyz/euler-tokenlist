@@ -527,11 +527,11 @@
     },
     {
       "chainId": 1,
-      "address": "0x4d224452801aced8b2f0aebe155379bb5d594381",
+      "address": "0x4d224452801ACEd8B2F0aebE155379bb5D594381",
       "name": "ApeCoin",
       "symbol": "APE",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/24383/thumb/apecoin.jpg?1647476455"
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/18876.png"
     },
     {
       "chainId": 1,
@@ -6442,6 +6442,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x1afb69dbc9f54d08dab1bd3436f8da1af819e647",
+      "name": "Melos Studio",
+      "symbol": "MELOS",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24411/thumb/18551.png?1647558428"
+    },
+    {
+      "chainId": 1,
       "address": "0xd5525d397898e5502075ea5e830d8914f6f0affe",
       "name": "Meme",
       "symbol": "MEME",
@@ -8089,6 +8097,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x6d0f5149c502faf215c89ab306ec3e50b15e2892",
+      "name": "Portion",
+      "symbol": "PRT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13617/thumb/OKeO2FI.png?1610327038"
+    },
+    {
+      "chainId": 1,
       "address": "0xb64fde8f199f073f41c132b9ec7ad5b61de0b1b7",
       "name": "Incognito",
       "symbol": "PRV",
@@ -9036,7 +9052,7 @@
     {
       "chainId": 1,
       "address": "0x7bef710a5759d197ec0bf621c3df802c2d60d848",
-      "name": "Splyt",
+      "name": "SHOPX",
       "symbol": "SHOPX",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14600/thumb/shopx_icon_.png?1646381164"
@@ -11329,6 +11345,14 @@
       "symbol": "XCHF",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/8465/thumb/WhuiuJBc_400x400.jpg?1558699947"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa2cd3d43c775978a96bdbf12d733d5a1ed94fb18",
+      "name": "Chain",
+      "symbol": "XCN",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24210/thumb/Chain_icon_200x200.png?1646895054"
     },
     {
       "chainId": 1,
