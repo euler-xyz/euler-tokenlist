@@ -3155,7 +3155,7 @@
     {
       "chainId": 1,
       "address": "0xb78b3320493a4efaa1028130c5ba26f0b6085ef8",
-      "name": "Dracula Token",
+      "name": "Dracula",
       "symbol": "DRC",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12758/thumb/dracula_protocol.png?1602316655"
@@ -3549,7 +3549,7 @@
       "name": "Ethernity Chain",
       "symbol": "ERN",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/14238/thumb/ethernity_logo.png?1615189750"
+      "logoURI": "https://assets.coingecko.com/coins/images/14238/thumb/photo_2022-03-20_00.57.08.jpeg?1647709069"
     },
     {
       "chainId": 1,
@@ -6773,7 +6773,7 @@
       "name": "Marshall Rogan Inu",
       "symbol": "MRI",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/23784/thumb/GMN0y9Ib_400x400.jpg?1645436856"
+      "logoURI": "https://assets.coingecko.com/coins/images/23784/thumb/mri.png?1647693409"
     },
     {
       "chainId": 1,
@@ -9494,6 +9494,14 @@
       "symbol": "STETH",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13442/thumb/steth_logo.png?1608607546"
+    },
+    {
+      "chainId": 1,
+      "address": "0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6",
+      "name": "Stargate Finance",
+      "symbol": "STG",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24413/thumb/STG_LOGO.png?1647654518"
     },
     {
       "chainId": 1,
