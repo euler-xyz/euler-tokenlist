@@ -1572,6 +1572,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xe57425f1598f9b0d6219706b77f4b3da573a3695",
+      "name": "Bitcoin BR",
+      "symbol": "BTCBR",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/21205/thumb/200x200.png?1638551617"
+    },
+    {
+      "chainId": 1,
       "address": "0x723cbfc05e2cfcc71d3d89e770d32801a5eef5ab",
       "name": "Bitcoin Pro",
       "symbol": "BTCP",
@@ -4567,14 +4575,6 @@
       "symbol": "GLQ",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14474/thumb/graphlinq_logo.jpg?1616397109"
-    },
-    {
-      "chainId": 1,
-      "address": "0x75d0fb8db2f6485fdfe6ff58321e91effae759a8",
-      "name": "Galaxer",
-      "symbol": "GLX",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/18464/thumb/logo-token.png?1632109751"
     },
     {
       "chainId": 1,
@@ -8307,7 +8307,7 @@
     {
       "chainId": 1,
       "address": "0x1d96fd43ee07aa79f8fd003cbdf404fb5ce41ad2",
-      "name": "Qawalla Token",
+      "name": "Qawalla",
       "symbol": "QWLA",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/15242/thumb/qawalla-token-logo-200.png?1620203833"
