@@ -665,7 +665,7 @@
       "name": "ArGoApp",
       "symbol": "ARGO",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/15477/thumb/argo.jpeg?1620995773"
+      "logoURI": "https://assets.coingecko.com/coins/images/15477/thumb/Group_118.png?1647877401"
     },
     {
       "chainId": 1,
@@ -3557,7 +3557,7 @@
       "name": "Ethernity Chain",
       "symbol": "ERN",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/14238/thumb/photo_2022-03-20_00.57.08.jpeg?1647709069"
+      "logoURI": "https://assets.coingecko.com/coins/images/14238/thumb/LOGO_HIGH_QUALITY.png?1647831402"
     },
     {
       "chainId": 1,
@@ -4347,6 +4347,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x6307b25a665efc992ec1c1bc403c38f3ddd7c661",
+      "name": "Global Coin Researc",
+      "symbol": "GCR",
+      "decimals": 4,
+      "logoURI": "https://assets.coingecko.com/coins/images/14815/thumb/gcr.jpeg?1641461197"
+    },
+    {
+      "chainId": 1,
       "address": "0x515d7e9d75e2b76db60f8a051cd890eba23286bc",
       "name": "Governor DAO",
       "symbol": "GDAO",
@@ -5105,6 +5113,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x7c07f7abe10ce8e33dc6c5ad68fe033085256a84",
+      "name": "Interest Compoundin",
+      "symbol": "ICETH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24483/thumb/icETH-token-logo.png?1647826356"
+    },
+    {
+      "chainId": 1,
       "address": "0x903bef1736cddf2a537176cf3c64579c3867a881",
       "name": "ICHI",
       "symbol": "ICHI",
@@ -5855,6 +5871,14 @@
           }
         }
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0x09970aec766b6f3223aca9111555e99dc50ff13a",
+      "name": "Levolution",
+      "symbol": "LEVL",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/7370/thumb/L_Icon_Blue_200x200.png?1618983083"
     },
     {
       "chainId": 1,
@@ -8694,6 +8718,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x8f53af5d2ef322b4c4ed063738d5baa47edcd996",
+      "name": "RematicEGC",
+      "symbol": "RMTX",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/21240/thumb/Rematic_Circle_Logo_200x200.png?1647851612"
+    },
+    {
+      "chainId": 1,
       "address": "0x1c7e83f8c581a967940dbfa7984744646ae46b29",
       "name": "The RandomDAO",
       "symbol": "RND",
@@ -9837,7 +9869,7 @@
     },
     {
       "chainId": 1,
-      "address": "0x03e173ad8d1581a4802d3b532ace27a62c5b81dc",
+      "address": "0x8947da500eb47f82df21143d0c01a29862a8c3c5",
       "name": "Thales",
       "symbol": "THALES",
       "decimals": 18,
