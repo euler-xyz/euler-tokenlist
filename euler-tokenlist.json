@@ -733,6 +733,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x2f9411088cef82fd9fb904eb8092f28eb485c8f6",
+      "name": "Athens",
+      "symbol": "ATH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24514/thumb/ATH-logo-round.png?1647951491"
+    },
+    {
+      "chainId": 1,
       "address": "0xdacd69347de42babfaecd09dc88958378780fb62",
       "name": "Atari",
       "symbol": "ATRI",
@@ -6447,6 +6455,14 @@
       "symbol": "MDX",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13736/thumb/png-cmc.png?1611288725"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc5bcc8ba3f33ab0d64f3473e861bdc0685b19ef5",
+      "name": "MechaChain",
+      "symbol": "MECHA",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24374/thumb/w4K4OOMo_400x400.jpg?1647940092"
     },
     {
       "chainId": 1,
