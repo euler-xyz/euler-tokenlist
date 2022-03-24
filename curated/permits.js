@@ -110,4 +110,5 @@ module.exports = {
   '0x6100dd79fcaa88420750dcee3f735d168abcb771': 'not supported', // OS - not investigated
   '0xf0f9d895aca5c8678f706fb8216fa22957685a13': 'not supported', // CULT - not investigated
   '0x0cd022dde27169b20895e0e2b2b8a33b25e63579': 'not supported', // RISE - not investigated
+  '0x0e498afce58de8651b983f136256fa3b8d9703bc': 'not supported', // DOC - using symbol for version
 }

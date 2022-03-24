@@ -17,7 +17,6 @@ const alertRun = (logs, permitCounts, tokenListCounts) =>
 Tokenlist report ${new Date().toISOString()}
 TOKENS: ${tokenListCounts.added} ADDED, ${tokenListCounts.removed} REMOVED, ${tokenListCounts.updated} UPDATED
 PERMITS: ${permitCounts.yes} DETECTED, ${permitCounts.no} NOT DETECTED, ${permitCounts.error} ERRORS
-LOGS: ${JSON.stringify(logs, null, 2)}
 \`\`\``
 );
 
