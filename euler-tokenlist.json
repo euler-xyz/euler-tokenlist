@@ -669,6 +669,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xedf6568618a00c6f0908bf7758a16f76b6e04af9",
+      "name": "Arianee",
+      "symbol": "ARIA20",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/5054/thumb/Aria_Logo_256.png?1610097866"
+    },
+    {
+      "chainId": 1,
       "address": "0x34612903db071e888a4dadcaa416d3ee263a87b9",
       "name": "Items",
       "symbol": "ARTE",
