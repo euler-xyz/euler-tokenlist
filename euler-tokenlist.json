@@ -11,6 +11,14 @@
   "keywords": ["euler", "default"],
   "tokens": [
     {
+      "chainId": 1,
+      "address": "0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6",
+      "name": "Stargate Finance",
+      "symbol": "STG",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24413/thumb/STG_LOGO.png?1647654518"
+    },
+    {
       "name": "Vader Protocol",
       "address": "0x2602278EE1882889B946eb11DC0E810075650983",
       "symbol": "VADER",
