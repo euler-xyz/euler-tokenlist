@@ -709,6 +709,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x351caa9045d65107b9d311d922d15887cfd634e4",
+      "name": "Arowana Token",
+      "symbol": "ARW",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/17114/thumb/ARW_logo_final.jpg?1626616242"
+    },
+    {
+      "chainId": 1,
       "address": "0x7d8daff6d70cead12c6f077048552cf89130a2b1",
       "name": "ARCS",
       "symbol": "ARX",
@@ -4781,6 +4789,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x21d486f6b7eb7b556978c5a0c96c79a08eb841de",
+      "name": "Grok",
+      "symbol": "GROK",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24574/thumb/ZtRMy9Z7_400x400.png?1648197386"
+    },
+    {
+      "chainId": 1,
       "address": "0x64b986211c0cc675143f895c437b79c3cadf364a",
       "name": "Grapefruit Coin",
       "symbol": "GRPFT",
@@ -7812,6 +7828,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x37e83a94c6b1bdb816b59ac71dd02cf154d8111f",
+      "name": "PhotoChromic",
+      "symbol": "PHCR",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/23640/thumb/L7vabJibqXHHmGtsIfIEQRaR3SjaE94QSaKWGlqYU7fpuz--nKsWG4BlB6Ddhn5-tGPWo-MDhfZPVAYG7ZM2vpWrVZlSx1Euw78tZcNey6FvpKX6a8w26qBWYeV7wxFzvW7VKieijrMXQ0BkISpt8d6jrCMBvx2ZFKVxF1x31_2X7WhRyqAgIG3epFPNz7v0j0ECaS7HmE0_sTHM4RS3CW1d0a.jpg?1644908390"
+    },
+    {
+      "chainId": 1,
       "address": "0x758b4684be769e92eefea93f60dda0181ea303ec",
       "name": "Phonon DAO",
       "symbol": "PHONON",
@@ -10459,6 +10483,25 @@
       "symbol": "UMI",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/17874/thumb/Umi-200-x-200.png?1629700077"
+    },
+    {
+      "chainId": 1,
+      "address": "0xe99de844ef3ef72806cf006224ef3b813e82662f",
+      "name": "YouMinter",
+      "symbol": "UMINT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24564/thumb/xXlHazn__400x400.jpg?1648190269",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "YouMinter",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0xe99de844ef3ef72806cf006224ef3b813e82662f"
+          }
+        }
+      }
     },
     {
       "chainId": 1,
