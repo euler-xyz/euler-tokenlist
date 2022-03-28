@@ -1283,6 +1283,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x284b19a5fa65f706422c0c86566e407b0e70e537",
+      "name": "BitAstir",
+      "symbol": "BITA",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/24647/thumb/Logomark-color.png?1648480914"
+    },
+    {
+      "chainId": 1,
       "address": "0x77271813bd9167e75b5df9c230cf58d64f0a58fd",
       "name": "Balkari Token",
       "symbol": "BKR",
@@ -1320,6 +1328,14 @@
       "symbol": "BLT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/2662/thumb/bloom.png?1547036854"
+    },
+    {
+      "chainId": 1,
+      "address": "0x539efe69bcdd21a83efd9122571a64cc25e0282b",
+      "name": "Blue Protocol",
+      "symbol": "BLUE",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/1036/thumb/blue-protocol.jpg?1547034969"
     },
     {
       "chainId": 1,
@@ -2379,6 +2395,25 @@
       "symbol": "COVAL",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/588/thumb/coval-logo.png?1599493950"
+    },
+    {
+      "chainId": 1,
+      "address": "0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab",
+      "name": "CoW Protocol",
+      "symbol": "COW",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24384/thumb/COW-token-1024x1024.png?1647488013",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "CoW Protocol Token",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab"
+          }
+        }
+      }
     },
     {
       "chainId": 1,
@@ -6766,6 +6801,14 @@
       "symbol": "MNE",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/702/thumb/mne.png?1587615060"
+    },
+    {
+      "chainId": 1,
+      "address": "0x97a9bac06f90940bce9caec2b880ff17707519e4",
+      "name": "Minato",
+      "symbol": "MNTO",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24622/thumb/MNTO_200x200.png?1648448664"
     },
     {
       "chainId": 1,
