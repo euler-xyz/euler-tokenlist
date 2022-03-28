@@ -36,6 +36,11 @@ const getExistingUniPools = async tokens => {
                 headers: {'Content-Type': 'application/json'}
             },
         );
+        if (!res.data.data) {
+            console.log(batch.map(t => t.symbol));
+            console.log(JSON.stringify(res.data, null, 2));
+            throw new Error('Unexpected response from the graph')
+        }
         res.data.data.as0.forEach(p => {
             poolExists[p.token0.id] = true;
         });
