@@ -2009,7 +2009,7 @@
       "name": "Ceres",
       "symbol": "CERES",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/17959/thumb/IEKrWqK.png?1630508022"
+      "logoURI": "https://assets.coingecko.com/coins/images/17959/thumb/sQLDgqx.png?1648442923"
     },
     {
       "chainId": 1,
@@ -5872,6 +5872,25 @@
     },
     {
       "chainId": 1,
+      "address": "0xa23c1194d421f252b4e6d5edcc3205f7650a4ebe",
+      "name": "LaunchBlock",
+      "symbol": "LBP",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24181/thumb/S6z_-9GB_400x400.jpg?1646786017",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Launch Block",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0xa23c1194d421f252b4e6d5edcc3205f7650a4ebe"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xaa19961b6b858d9f18a115f25aa1d98abc1fdba8",
       "name": "LocalCoinSwap",
       "symbol": "LCS",
@@ -6368,7 +6387,7 @@
       "name": "MASQ",
       "symbol": "MASQ",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/13699/thumb/MASQ_Logo_Blue_Solo_Transparent.png?1616661801"
+      "logoURI": "https://assets.coingecko.com/coins/images/13699/thumb/masq.png?1648364813"
     },
     {
       "chainId": 1,
@@ -6866,7 +6885,7 @@
     {
       "chainId": 1,
       "address": "0x0913ddae242839f8995c0375493f9a1a3bddc977",
-      "name": "Marshall Rogan Inu",
+      "name": "Marshall Inu",
       "symbol": "MRI",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/23784/thumb/mri.png?1647693409"
@@ -6921,6 +6940,14 @@
       "symbol": "MTO",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/17157/thumb/mto.PNG?1626672046"
+    },
+    {
+      "chainId": 1,
+      "address": "0xcd17fa52528f37facb3028688e62ec82d9417581",
+      "name": "Materium",
+      "symbol": "MTRM",
+      "decimals": 0,
+      "logoURI": "https://assets.coingecko.com/coins/images/24613/thumb/mtrm.png?1648373908"
     },
     {
       "chainId": 1,
@@ -11401,6 +11428,14 @@
       "symbol": "WTF",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/22581/thumb/feeswtf.jpg?1642120508"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4cff49d0a19ed6ff845a9122fa912abcfb1f68a6",
+      "name": "WadzPay Token",
+      "symbol": "WTK",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13083/thumb/200xWadzToken.png?1604984329"
     },
     {
       "chainId": 1,
