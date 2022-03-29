@@ -2177,7 +2177,7 @@
       "name": "Clover Finance",
       "symbol": "CLV",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/15278/thumb/clover.png?1645084454"
+      "logoURI": "https://assets.coingecko.com/coins/images/15278/thumb/photo_2022-03-24_10-22-33.jpg?1648531786"
     },
     {
       "chainId": 1,
@@ -3446,6 +3446,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xb79024d177bc8f50499118d2fa7f42b33fbc7056",
+      "name": "eGame",
+      "symbol": "EGI",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/18064/thumb/eGame.png?1630374053"
+    },
+    {
+      "chainId": 1,
       "address": "0x1e83916ea2ef2d7a6064775662e163b2d4c330a7",
       "name": "Ethereum Gas Limit",
       "symbol": "EGL",
@@ -3863,6 +3871,14 @@
       "symbol": "FARM",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12304/thumb/Harvest.png?1613016180"
+    },
+    {
+      "chainId": 1,
+      "address": "0x2ec95b8eda549b79a1248335a39d299d00ed314c",
+      "name": "Fatcoin",
+      "symbol": "FAT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/7109/thumb/SV2Xb94q_400x400.jpg?1547043605"
     },
     {
       "chainId": 1,
@@ -6536,6 +6552,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xb63b606ac810a52cca15e44bb630fd42d8d1d83d",
+      "name": "MCO",
+      "symbol": "MCO",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/739/thumb/1776.png?1648537078"
+    },
+    {
+      "chainId": 1,
       "address": "0xfc98e825a2264d890f9a1e68ed50e1526abccacd",
       "name": "Moss Carbon Credit",
       "symbol": "MCO2",
@@ -8209,6 +8233,14 @@
           }
         }
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0x044d078f1c86508e13328842cc75ac021b272958",
+      "name": "Peercoin",
+      "symbol": "PPC",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/4/thumb/peercoin-icon-green-transparent_6x.png?1547033591"
     },
     {
       "chainId": 1,
