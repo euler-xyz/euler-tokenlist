@@ -495,14 +495,6 @@
     },
     {
       "chainId": 1,
-      "address": "0xa9fbb83a2689f4ff86339a4b96874d718673b627",
-      "name": "FireAnts",
-      "symbol": "ANTS",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/11179/thumb/ants200.png?1589510693"
-    },
-    {
-      "chainId": 1,
       "address": "0xf99d58e463a2e07e5692127302c20a191861b4d6",
       "name": "Anyswap",
       "symbol": "ANY",
@@ -2518,6 +2510,14 @@
       "symbol": "CRFI",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/15162/thumb/11901619752967_.pic_hd.png?1620006681"
+    },
+    {
+      "chainId": 1,
+      "address": "0x12e951934246186f50146235d541d3bd1d463e4d",
+      "name": "Crypto International",
+      "symbol": "CRI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24700/thumb/logo200x200.png?1648641961"
     },
     {
       "chainId": 1,
@@ -7034,14 +7034,6 @@
     },
     {
       "chainId": 1,
-      "address": "0xea6412fb370e8d1605e6aeeaa21ad07c3c7e9f24",
-      "name": "Mushroom",
-      "symbol": "MUSH",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/14054/thumb/logo.jpeg?1614049972"
-    },
-    {
-      "chainId": 1,
       "address": "0x6069c9223e8a5da1ec49ac5525d4bb757af72cd8",
       "name": "MUSK Gold",
       "symbol": "MUSK",
@@ -7268,6 +7260,14 @@
       "symbol": "NFTI",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14215/thumb/nfti.png?1614992905"
+    },
+    {
+      "chainId": 1,
+      "address": "0x525ef76138bf76118d786dbedeae5f87aabf4a81",
+      "name": "Scalara NFT Index",
+      "symbol": "NFTI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/23647/thumb/NFTI-logo-white-bg.png?1644910969"
     },
     {
       "chainId": 1,
@@ -9241,6 +9241,25 @@
     },
     {
       "chainId": 1,
+      "address": "0xad996a45fd2373ed0b10efa4a8ecb9de445a4302",
+      "name": "Shirtum",
+      "symbol": "SHI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/16955/thumb/4fWlpC0.png?1625794164",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Shirtum",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0xad996a45fd2373ed0b10efa4a8ecb9de445a4302"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
       "name": "Shiba Inu",
       "symbol": "SHIB",
@@ -9294,6 +9313,14 @@
       "symbol": "SI",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13955/thumb/Siren_Logo_circle_256px.png?1645684572"
+    },
+    {
+      "chainId": 1,
+      "address": "0x29127fe04ffa4c32acac0ffe17280abd74eac313",
+      "name": "Sifu Vision",
+      "symbol": "SIFU",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24692/thumb/token_%283%29.png?1648620836"
     },
     {
       "chainId": 1,
