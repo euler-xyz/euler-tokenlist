@@ -130,14 +130,14 @@ const run = async () => {
         // Sort for cleaner diffs and save the updated list
 
         eulerList.tokens = sortBySymbol(eulerList.tokens);
+        eulerList.version.minor++;
+        eulerList.timestamp = new Date().toISOString();
         fs.writeFileSync(eulerListPath, prettyJson(eulerList));
 
         fs.writeFileSync('./logs', prettyJson(logs));
 
         // Push changes and report
 
-        eulerList.version.minor++;
-        eulerList.timestamp = new Date().toISOString();
         await commitRepo();
 
         await alertRun(logs, permitCounts, tokenListCounts);
