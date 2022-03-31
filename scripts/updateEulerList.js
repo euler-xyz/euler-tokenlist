@@ -60,7 +60,6 @@ const run = async () => {
         fs.writeFileSync(`${__dirname}/../${processedListFileName}`, prettyJson(processedList));
         if (errors.length) {
             fs.writeFileSync(detectPermitErrorsPath, prettyJson(errors));
-            logs.push('DETECT PERMIT ERRORS', prettyJson(errors));
         }
 
         // Handle removed tokens

@@ -11,14 +11,15 @@ const sendAlert = (alert) => {
   return hook.send(alert);
 }
 
-const alertRun = (logs, permitCounts, tokenListCounts) => 
-  sendAlert(
+const alertRun = (logs, permitCounts, tokenListCounts) => {
+  const msg = 
 `\`\`\`
 Tokenlist report ${new Date().toISOString()}
 TOKENS: ${tokenListCounts.added} ADDED, ${tokenListCounts.removed} REMOVED, ${tokenListCounts.updated} UPDATED
-PERMITS: ${permitCounts.yes} DETECTED, ${permitCounts.no} NOT DETECTED, ${permitCounts.error} ERRORS
+PERMITS: ${permitCounts.yes} DETECTED, ${permitCounts.no} NOT DETECTED, ${permitCounts.error} ERRORS${logs.length ? `\nLOGS: ${JSON.stringify(logs, null, 2)}` : ''}
 \`\`\``
-);
+  return sendAlert(msg);
+}
 
 module.exports = {
   sendAlert,
