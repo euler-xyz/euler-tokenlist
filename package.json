@@ -4,19 +4,26 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "detect-permit": "node ./scripts/detectPermit.js",
+    "detect-permit:list": "node ./scripts/detectPermitsList.js",
+    "update-euler-list": "node ./scripts/updateEulerList.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.1091.0",
     "axios": "^0.21.4",
-    "ethers": "^5.4.7",
+    "discord-webhook-node": "^1.1.8",
+    "dotenv": "^16.0.0",
+    "ethers": "^5.5.4",
     "graphql": "^15.6.0",
+    "lodash": "^4.17.21",
     "node-cron": "^3.0.0",
     "node-jq": "^2.0.0",
     "nodejs-file-downloader": "^4.7.4",
-    "shelljs": "^0.8.4"
+    "shelljs": "^0.8.4",
+    "winston": "^3.6.0",
+    "winston-cloudwatch": "^3.1.1"
   }
 }
