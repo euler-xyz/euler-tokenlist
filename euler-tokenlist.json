@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2021-12-03T18:30:55.314Z",
+  "timestamp": "2022-03-31T15:42:11.927Z",
   "version": {
     "major": 1,
-    "minor": 29,
+    "minor": 30,
     "patch": 0
   },
   "tags": {},
@@ -3569,14 +3569,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x92b914f1ddcbb1d117a718e83c9ed7eb32fc44d1",
-      "name": "Enkronos",
-      "symbol": "ENK",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/4214/thumb/enkronos.jpg?1553680821"
-    },
-    {
-      "chainId": 1,
       "address": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
       "name": "Ethereum Name Service",
       "symbol": "ENS",
@@ -5268,6 +5260,14 @@
           }
         }
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0x6fb1e018f107d3352506c23777e4cd62e063584a",
+      "name": "Identity",
+      "symbol": "IDTT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/18384/thumb/identity.PNG?1631745919"
     },
     {
       "chainId": 1,
@@ -10924,14 +10924,6 @@
       "symbol": "VETH",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14484/thumb/veth_logo_uniswap_200x200.png?1616471309"
-    },
-    {
-      "chainId": 1,
-      "address": "0xcc394f10545aeef24483d2347b32a34a44f20e6f",
-      "name": "Vault Guardian Token",
-      "symbol": "VGT",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/4652/thumb/Vault12.jpg?1547039918"
     },
     {
       "chainId": 1,
