@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-03-31T22:35:45.874Z",
+  "timestamp": "2022-04-01T22:36:24.936Z",
   "version": {
     "major": 1,
-    "minor": 31,
+    "minor": 32,
     "patch": 0
   },
   "tags": {},
@@ -394,7 +394,7 @@
     {
       "chainId": 1,
       "address": "0xa1faa113cbe53436df28ff0aee54275c13b40975",
-      "name": "Alpha Finance",
+      "name": "Alpha Venture DAO",
       "symbol": "ALPHA",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12738/thumb/AlphaToken_256x256.png?1617160876"
@@ -1069,6 +1069,14 @@
       "symbol": "BBW",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/24168/thumb/babywhale_32.png?1646716918"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9669890e48f330acd88b78d63e1a6b3482652cd9",
+      "name": "Bincentive",
+      "symbol": "BCNT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/9661/thumb/bcnt.png?1640328324"
     },
     {
       "chainId": 1,
@@ -2262,6 +2270,25 @@
       "symbol": "CNN",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/2787/thumb/cnn_logo_big.png?1547036967"
+    },
+    {
+      "chainId": 1,
+      "address": "0x000000007a58f5f58e697e51ab0357bc9e260a04",
+      "name": "Concave",
+      "symbol": "CNV",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24492/thumb/concave.jpg?1648795376",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Concave",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x000000007a58f5f58e697e51ab0357bc9e260a04"
+          }
+        }
+      }
     },
     {
       "chainId": 1,
@@ -3521,11 +3548,38 @@
     },
     {
       "chainId": 1,
+      "address": "0x5c6d51ecba4d8e4f20373e3ce96a62342b125d6d",
+      "name": "Element Finance",
+      "symbol": "ELFI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24734/thumb/new-large.png?1648822042",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Element Finance",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x5c6d51ecba4d8e4f20373e3ce96a62342b125d6d"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x761d38e5ddf6ccf6cf7c55759d5210750b5d60f3",
       "name": "Dogelon Mars",
       "symbol": "ELON",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14962/thumb/6GxcPRo3_400x400.jpg?1619157413"
+    },
+    {
+      "chainId": 1,
+      "address": "0xfc1cb4920dc1110fd61afab75cf085c1f871b8c6",
+      "name": "EdenLoop",
+      "symbol": "ELT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24746/thumb/voRjghoA_400x400.jpg?1648784263"
     },
     {
       "chainId": 1,
@@ -4765,6 +4819,14 @@
           }
         }
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0xdc732972811d25de61808b3d6e0d2ac44a7f036f",
+      "name": "GOSH Realm",
+      "symbol": "GOSH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24768/thumb/Untitled.png?1648817598"
     },
     {
       "chainId": 1,
@@ -9148,6 +9210,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x2fcf250cadba1d08f38b5b4705ecc4d0fe0d81dc",
+      "name": "SocialBlox",
+      "symbol": "SBLX",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24769/thumb/x86VE7oQ.png?1648817788"
+    },
+    {
+      "chainId": 1,
       "address": "0x993864e43caa7f7f12953ad6feb1d1ca635b875f",
       "name": "SingularityDAO",
       "symbol": "SDAO",
@@ -11462,7 +11532,7 @@
       "name": "Wrapped Paycoin",
       "symbol": "WPCI",
       "decimals": 8,
-      "logoURI": "https://assets.coingecko.com/coins/images/24390/thumb/wf5kG6Ks_400x400.png?1647518395"
+      "logoURI": "https://assets.coingecko.com/coins/images/24390/thumb/new_logo_square_%281%29.png?1648792416"
     },
     {
       "chainId": 1,
