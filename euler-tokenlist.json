@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-04-01T22:36:24.936Z",
+  "timestamp": "2022-04-02T22:34:54.992Z",
   "version": {
     "major": 1,
-    "minor": 32,
+    "minor": 33,
     "patch": 0
   },
   "tags": {},
@@ -363,6 +363,24 @@
             "version": "1",
             "chainId": 1,
             "verifyingContract": "0x27702a26126e0b3702af63ee09ac4d1a084ef628"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x6b0b3a982b4634ac68dd83a4dbf02311ce324181",
+      "name": "Alethea Artificial Liquid Intelligence ",
+      "symbol": "ALI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/22062/thumb/alethea-logo-transparent-colored.png?1642748848",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "AliERC20v2",
+            "chainId": 1,
+            "verifyingContract": "0x6b0b3a982b4634ac68dd83a4dbf02311ce324181"
           }
         }
       }
@@ -2858,6 +2876,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x0b44547be0a0df5dcd5327de8ea73680517c5a54",
+      "name": "DATACHAIN FOUNDATION",
+      "symbol": "DC",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24783/thumb/dc.png?1648903780"
+    },
+    {
+      "chainId": 1,
       "address": "0x08d32b0da63e2c3bcf8019c9c5d849d7a9d791e6",
       "name": "Dentacoin",
       "symbol": "DCN",
@@ -3984,14 +4010,6 @@
       "symbol": "FF",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14659/thumb/N2kir6jx_400x400.jpg?1617608020"
-    },
-    {
-      "chainId": 1,
-      "address": "0x7e442206da059905050ba02be63cbb85c559eb04",
-      "name": "French ICO Coin",
-      "symbol": "FICO",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/12528/thumb/Icon-French-ICO.png?1600495093"
     },
     {
       "chainId": 1,
@@ -6178,10 +6196,10 @@
     {
       "chainId": 1,
       "address": "0x80ce3027a70e0a928d9268994e9b85d03bd4cdcf",
-      "name": "Polkalokr",
+      "name": "Lokr",
       "symbol": "LKR",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/14692/thumb/coingeckoLogo.png?1617809622"
+      "logoURI": "https://assets.coingecko.com/coins/images/14692/thumb/lokr.png?1648886932"
     },
     {
       "chainId": 1,
