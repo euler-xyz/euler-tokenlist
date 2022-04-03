@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-04-02T22:34:54.992Z",
+  "timestamp": "2022-04-03T22:35:35.494Z",
   "version": {
     "major": 1,
-    "minor": 33,
+    "minor": 34,
     "patch": 0
   },
   "tags": {},
@@ -2677,6 +2677,14 @@
       "symbol": "CUDL",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/17479/thumb/cudl.PNG?1627950486"
+    },
+    {
+      "chainId": 1,
+      "address": "0xf0f9d895aca5c8678f706fb8216fa22957685a13",
+      "name": "Cult DAO",
+      "symbol": "CULT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/23331/thumb/quxZPrbC_400x400.jpg?1643880172"
     },
     {
       "chainId": 1,
@@ -6736,6 +6744,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x364fcd7325c035cc4f2cde8b6c8d7df5e7db6589",
+      "name": "Metalk",
+      "symbol": "META",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24801/thumb/meta.png?1648983422"
+    },
+    {
+      "chainId": 1,
       "address": "0xd796b8eff23d5c4c71f43c99ffd7d8a3119f7475",
       "name": "Metaverse Exchange",
       "symbol": "METACEX",
@@ -9855,6 +9871,14 @@
       "symbol": "STMX",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/1369/thumb/StormX.png?1603113002"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9040e237c3bf18347bb00957dc22167d0f2b999d",
+      "name": "Standard Protocol",
+      "symbol": "STND",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/15100/thumb/standard.jpeg?1619691869"
     },
     {
       "chainId": 1,
