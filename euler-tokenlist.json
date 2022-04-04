@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-04-03T22:35:35.494Z",
+  "timestamp": "2022-04-04T22:37:46.787Z",
   "version": {
     "major": 1,
-    "minor": 34,
+    "minor": 35,
     "patch": 0
   },
   "tags": {},
@@ -6502,7 +6502,7 @@
       "name": "MAP Protocol",
       "symbol": "MAP",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/10085/thumb/MAP_LOGO.png?1597227221"
+      "logoURI": "https://assets.coingecko.com/coins/images/10085/thumb/53819931.png?1649044945"
     },
     {
       "chainId": 1,
