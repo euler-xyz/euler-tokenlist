@@ -40,4 +40,12 @@ module.exports = [
     "chainId": 1,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/18876.png"
   },
+  {
+    "name": "Axelar Wrapped ATOM",
+    "address": "0x27292cf0016E5dF1d8b37306B2A98588aCbD6fCA",
+    "symbol": "axlATOM",
+    "decimals": 6,
+    "chainId": 1,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/3794.png"
+  },
 ];
