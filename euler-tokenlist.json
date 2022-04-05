@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-04-04T22:37:46.787Z",
+  "timestamp": "2022-04-05T22:36:53.518Z",
   "version": {
     "major": 1,
-    "minor": 35,
+    "minor": 36,
     "patch": 0
   },
   "tags": {},
@@ -13,14 +13,6 @@
     "default"
   ],
   "tokens": [
-    {
-      "name": "Axelar Wrapped ATOM",
-      "address": "0x27292cf0016E5dF1d8b37306B2A98588aCbD6fCA",
-      "symbol": "axlATOM",
-      "decimals": 6,
-      "chainId": 1,
-      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/3794.png"
-    },
     {
       "chainId": 1,
       "address": "0xb6ed7644c69416d67b522e20bc294a9a9b405b31",
@@ -1476,7 +1468,7 @@
     {
       "chainId": 1,
       "address": "0x5c84bc60a796534bfec3439af0e6db616a966335",
-      "name": "Bone",
+      "name": "Bone  OLD ",
       "symbol": "BONE",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/11860/thumb/photo_2021-06-24_00-48-28.jpg?1625495610"
@@ -4663,6 +4655,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xfa99a87b14b02e2240c79240c5a20f945ca5ef76",
+      "name": "GG Token",
+      "symbol": "GGTK",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13666/thumb/ggtk.png?1629348879"
+    },
+    {
+      "chainId": 1,
       "address": "0x3bb86d867a9f3addf994cdadb210fa82f0d4157a",
       "name": "Ghoul Token",
       "symbol": "GHOUL",
@@ -6109,6 +6109,14 @@
       "symbol": "LEVL",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/7370/thumb/L_Icon_Blue_200x200.png?1618983083"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb620be8a1949aa9532e6a3510132864ef9bc3f82",
+      "name": "Lend Flare Dao Token",
+      "symbol": "LFT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24846/thumb/e5x55-kU_400x400.jpg?1649116244"
     },
     {
       "chainId": 1,
@@ -10231,10 +10239,10 @@
     {
       "chainId": 1,
       "address": "0x24e89bdf2f65326b94e36978a7edeac63623dafa",
-      "name": "Tiger King",
+      "name": "Tiger King Coin",
       "symbol": "TKING",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/15605/thumb/tking.png?1639994014"
+      "logoURI": "https://assets.coingecko.com/coins/images/15605/thumb/tigerking.png?1649149229"
     },
     {
       "chainId": 1,
