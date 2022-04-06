@@ -1,6 +1,6 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-04-06T06:23:22.633Z",
+  "timestamp": "2022-04-06T22:36:28.676Z",
   "version": {
     "major": 1,
     "minor": 37,
@@ -288,7 +288,7 @@
       "name": "AIOZ Network",
       "symbol": "AIOZ",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/14631/thumb/aioz_logo.png?1617413126"
+      "logoURI": "https://assets.coingecko.com/coins/images/14631/thumb/aioz-logo-200.png?1649237507"
     },
     {
       "chainId": 1,
@@ -510,6 +510,14 @@
           }
         }
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0xa9fbb83a2689f4ff86339a4b96874d718673b627",
+      "name": "FireAnts",
+      "symbol": "ANTS",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/11179/thumb/ants200.png?1589510693"
     },
     {
       "chainId": 1,
@@ -882,22 +890,11 @@
     },
     {
       "name": "Axelar Wrapped ATOM",
-      "address": "0x27292cf0016e5df1d8b37306b2a98588acbd6fca",
+      "address": "0x27292cf0016E5dF1d8b37306B2A98588aCbD6fCA",
       "symbol": "axlATOM",
       "decimals": 6,
       "chainId": 1,
-      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/3794.png",
-      "extensions": {
-        "permit": {
-          "type": "EIP2612",
-          "domain": {
-            "name": "Axelar Wrapped ATOM",
-            "version": "1",
-            "chainId": 1,
-            "verifyingContract": "0x27292cf0016e5df1d8b37306b2a98588acbd6fca"
-          }
-        }
-      }
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/3794.png"
     },
     {
       "chainId": 1,
@@ -3847,6 +3844,14 @@
       "symbol": "ETHMNY",
       "decimals": 2,
       "logoURI": "https://assets.coingecko.com/coins/images/9025/thumb/20200605_131214.png?1597297671"
+    },
+    {
+      "chainId": 1,
+      "address": "0x6020da0f7c1857dbe4431ec92a15cc318d933eaa",
+      "name": "En Tan Mo",
+      "symbol": "ETM",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/8652/thumb/En-tan-mo.jpg?1560148966"
     },
     {
       "chainId": 1,
