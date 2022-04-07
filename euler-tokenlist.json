@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-04-06T22:36:28.676Z",
+  "timestamp": "2022-04-07T22:36:56.802Z",
   "version": {
     "major": 1,
-    "minor": 37,
+    "minor": 38,
     "patch": 0
   },
   "tags": {},
@@ -764,6 +764,14 @@
       "symbol": "AST",
       "decimals": 4,
       "logoURI": "https://assets.coingecko.com/coins/images/1019/thumb/Airswap.png?1630903484"
+    },
+    {
+      "chainId": 1,
+      "address": "0x823556202e86763853b40e9cde725f412e294689",
+      "name": "Altered State Token",
+      "symbol": "ASTO",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24893/thumb/ASTO.png?1649303806"
     },
     {
       "chainId": 1,
@@ -5430,7 +5438,7 @@
       "name": "INLOCK",
       "symbol": "ILK",
       "decimals": 8,
-      "logoURI": "https://assets.coingecko.com/coins/images/9377/thumb/inlock_kor_logo.png?1623246682"
+      "logoURI": "https://assets.coingecko.com/coins/images/9377/thumb/yfpmaELg_400x400.jpg?1649307014"
     },
     {
       "chainId": 1,
@@ -7185,7 +7193,7 @@
       "name": "MUSK Gold",
       "symbol": "MUSK",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/21696/thumb/musk-icon-200x200.png?1639721837"
+      "logoURI": "https://assets.coingecko.com/coins/images/21696/thumb/musk-icon-200x200.png?1649329802"
     },
     {
       "chainId": 1,
@@ -9107,6 +9115,25 @@
             "name": "Route",
             "chainId": 1,
             "verifyingContract": "0x16eccfdbb4ee1a85a33f3a9b21175cd7ae753db4"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xed025a9fe4b30bcd68460bca42583090c2266468",
+      "name": "Ripio Coin",
+      "symbol": "RPC",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24901/thumb/624e429cffe3fe0001456cb8_01_rpc-icon.png?1649324477",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Ripio Coin",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0xed025a9fe4b30bcd68460bca42583090c2266468"
           }
         }
       }
