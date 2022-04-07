@@ -890,11 +890,22 @@
     },
     {
       "name": "Axelar Wrapped ATOM",
-      "address": "0x27292cf0016E5dF1d8b37306B2A98588aCbD6fCA",
+      "address": "0x27292cf0016e5df1d8b37306b2a98588acbd6fca",
       "symbol": "axlATOM",
       "decimals": 6,
       "chainId": 1,
-      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/3794.png"
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/3794.png",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Axelar Wrapped ATOM",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x27292cf0016e5df1d8b37306b2a98588acbd6fca"
+          }
+        }
+      }
     },
     {
       "chainId": 1,

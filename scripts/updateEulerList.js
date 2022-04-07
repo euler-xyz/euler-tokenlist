@@ -9,22 +9,12 @@ const { sendAlert, alertRun } = require('./lib/discord');
 const { initRepo, commitRepo } = require('./git');
 const Logger = require('./lib/logger');
 
-const curatedRemoved = require('../curated/remove');
-const curatedAdded = require('../curated/add');
-const curatedPermits = require('../curated/permits');
-
 const detectPermitErrorsPath = './detect-permit-errors.log';
 const chainId = process.env.CHAIN_ID || 1;
 const multicallAddress = process.env.MULTICALL2_ADDRESS || '0x5ba1e12693dc8f9c48aad8770482f4739beed696';
 const batchSize = process.env.DETECT_PERMIT_BATCH_SIZE || 20;
-
 const eulerListPath = `${__dirname}/../euler-tokenlist.json`;
-const eulerList = require(eulerListPath);
-
 const processedListFileName = process.env.PROCESSED_LIST_FILE_NAME;
-const currentProcessed = fs.existsSync(`${__dirname}/../${processedListFileName}`)
-    ? require(`../${processedListFileName}`)
-    : { tokens: [] };
 
 const logger = new Logger('tokenlist');
 
@@ -46,8 +36,15 @@ const run = async () => {
             updated: 0,
         };
 
-        // Clean repo and fetch latest list
-        await initRepo()
+        // Clean repo, pull and load lists
+        await initRepo();
+        const eulerList = require(eulerListPath);
+        const curatedRemoved = require('../curated/remove');
+        const curatedAdded = require('../curated/add');
+        const curatedPermits = require('../curated/permits');
+        const currentProcessed = fs.existsSync(`${__dirname}/../${processedListFileName}`)
+        ? require(`../${processedListFileName}`)
+        : { tokens: [] };
         
         const { data: newList }  = await axios.get(process.env.TOKENLIST_URL);
 
