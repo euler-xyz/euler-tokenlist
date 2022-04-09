@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-04-08T22:37:12.425Z",
+  "timestamp": "2022-04-09T22:37:02.779Z",
   "version": {
     "major": 1,
-    "minor": 39,
+    "minor": 40,
     "patch": 0
   },
   "tags": {},
@@ -1435,6 +1435,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x695106ad73f506f9d0a9650a78019a93149ae07c",
+      "name": "BNS Token",
+      "symbol": "BNS",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/11926/thumb/HS7eNJdt_400x400.jpg?1596170654"
+    },
+    {
+      "chainId": 1,
       "address": "0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c",
       "name": "Bancor Network Token",
       "symbol": "BNT",
@@ -2744,6 +2752,14 @@
       "symbol": "CVA",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/10071/thumb/logo_tondo_%281%29.png?1575499784"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa1a4e303e9c56962f201c5e834abc1e677a3c4f3",
+      "name": "CVNX",
+      "symbol": "CVNX",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/862/thumb/CVNX-logo.png?1649528798"
     },
     {
       "chainId": 1,
@@ -4307,6 +4323,22 @@
     },
     {
       "chainId": 1,
+      "address": "0x5ca135cb8527d76e932f34b5145575f9d8cbe08e",
+      "name": "Frax Price Index",
+      "symbol": "FPI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24945/thumb/fpi.png?1649485834"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc2544a32872a91f4a553b404c6950e89de901fdb",
+      "name": "Frax Price Index Share",
+      "symbol": "FPIS",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24944/thumb/fpis.png?1649485832"
+    },
+    {
+      "chainId": 1,
       "address": "0x1f81f8f262714cc932141c7c79495b481ef27258",
       "name": "Fraktal",
       "symbol": "FRAK",
@@ -4687,6 +4719,14 @@
       "symbol": "GET",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/1927/thumb/GET_Protocol.png?1552893230"
+    },
+    {
+      "chainId": 1,
+      "address": "0x3802c218221390025bceabbad5d8c59f40eb74b8",
+      "name": "Guarded Ether",
+      "symbol": "GETH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/14001/thumb/guarda-shield-logo.png?1613603915"
     },
     {
       "chainId": 1,
