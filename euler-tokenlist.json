@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-04-09T22:37:02.779Z",
+  "timestamp": "2022-04-10T22:37:28.905Z",
   "version": {
     "major": 1,
-    "minor": 40,
+    "minor": 41,
     "patch": 0
   },
   "tags": {},
@@ -7669,6 +7669,14 @@
       "symbol": "NOTE",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/20282/thumb/NOTE-340x340.png?1636821924"
+    },
+    {
+      "chainId": 1,
+      "address": "0xe9a95d175a5f4c9369f3b74222402eb1b837693b",
+      "name": "ChangeNOW",
+      "symbol": "NOW",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/8224/thumb/nowtoken.png?1557131607"
     },
     {
       "chainId": 1,
