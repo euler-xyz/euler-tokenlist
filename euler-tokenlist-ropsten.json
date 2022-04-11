@@ -89,6 +89,7 @@
         {
             "chainId": 3,
             "address": "0x6F37e457464B7D605F468FAB68F4f64ac48C2dEa",
+            "mainnetAddress": "0xad32A8e6220741182940c5aBF610bDE99E737b2D",
             "name": "DOUGH",
             "symbol": "DOUGH",
             "decimals": 18,
