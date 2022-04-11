@@ -111,4 +111,5 @@ module.exports = {
   '0xf0f9d895aca5c8678f706fb8216fa22957685a13': 'not supported', // CULT - not investigated
   '0x0cd022dde27169b20895e0e2b2b8a33b25e63579': 'not supported', // RISE - not investigated
   '0x0e498afce58de8651b983f136256fa3b8d9703bc': 'not supported', // DOC - using symbol for version
+  '0xc17c30e98541188614df99239cabd40280810ca3': 'not supported', // RISE (new?)- non standard per user domain separator
 }
