@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-04-11T22:37:51.029Z",
+  "timestamp": "2022-04-12T22:37:25.502Z",
   "version": {
     "major": 1,
-    "minor": 42,
+    "minor": 43,
     "patch": 0
   },
   "tags": {},
@@ -9664,6 +9664,14 @@
       "symbol": "SKULL",
       "decimals": 4,
       "logoURI": "https://assets.coingecko.com/coins/images/10641/thumb/skull.png?1581339740"
+    },
+    {
+      "chainId": 1,
+      "address": "0x638f24096ff33e047e05e59fabc76325207090dc",
+      "name": "SquishiVerse",
+      "symbol": "SLIME",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25004/thumb/19481.png?1649759045"
     },
     {
       "chainId": 1,
