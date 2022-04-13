@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-04-12T22:37:25.502Z",
+  "timestamp": "2022-04-13T22:36:58.551Z",
   "version": {
     "major": 1,
-    "minor": 43,
+    "minor": 44,
     "patch": 0
   },
   "tags": {},
@@ -1796,14 +1796,6 @@
       "symbol": "BUSD",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/9576/thumb/BUSD.png?1568947766"
-    },
-    {
-      "chainId": 1,
-      "address": "0xff0a024b66739357c4ed231fb3dbc0c8c22749f5",
-      "name": "Wrapped WRX",
-      "symbol": "BWRX",
-      "decimals": 8,
-      "logoURI": "https://assets.coingecko.com/coins/images/18969/thumb/bwrx.png?1634031209"
     },
     {
       "chainId": 1,
@@ -6177,6 +6169,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xa6586e19ef681b1ac0ed3d46413d199a555dbb95",
+      "name": "Lets Go Brandon",
+      "symbol": "LETSGO",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24034/thumb/3zKU0T83_400x400.jpeg?1646117523"
+    },
+    {
+      "chainId": 1,
       "address": "0xbc194e6f748a222754c3e8b9946922c09e7d4e91",
       "name": "Lever Network",
       "symbol": "LEV",
@@ -7447,6 +7447,14 @@
       "symbol": "NFD",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/17834/thumb/doge-fractionalized.png?1629390495"
+    },
+    {
+      "chainId": 1,
+      "address": "0x198d14f2ad9ce69e76ea330b374de4957c3f850a",
+      "name": "APENFT",
+      "symbol": "NFT",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/15687/thumb/apenft.jpg?1621562368"
     },
     {
       "chainId": 1,
@@ -9680,6 +9688,25 @@
       "symbol": "SLP",
       "decimals": 0,
       "logoURI": "https://assets.coingecko.com/coins/images/10366/thumb/SLP.png?1578640057"
+    },
+    {
+      "chainId": 1,
+      "address": "0x16b3e050e9e2f0ac4f1bea1b3e4fdc43d7f062dd",
+      "name": "Sombra",
+      "symbol": "SMBR",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/17884/thumb/sombra-200.png?1629710204",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "SOMBRA",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x16b3e050e9e2f0ac4f1bea1b3e4fdc43d7f062dd"
+          }
+        }
+      }
     },
     {
       "chainId": 1,
