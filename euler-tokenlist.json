@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-04-13T22:36:58.551Z",
+  "timestamp": "2022-04-14T22:36:43.949Z",
   "version": {
     "major": 1,
-    "minor": 44,
+    "minor": 45,
     "patch": 0
   },
   "tags": {},
@@ -2269,6 +2269,14 @@
           }
         }
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0x9ae380f0272e2162340a5bb646c354271c0f5cfc",
+      "name": "Conic",
+      "symbol": "CNC",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24747/thumb/MJEDO-OY_400x400.png?1648785199"
     },
     {
       "chainId": 1,
@@ -5845,14 +5853,6 @@
     },
     {
       "chainId": 1,
-      "address": "0xf34960d9d60be18cc1d5afc1a6f012a723a28811",
-      "name": "KuCoin Token",
-      "symbol": "KCS",
-      "decimals": 6,
-      "logoURI": "https://assets.coingecko.com/coins/images/1047/thumb/sa9z79.png?1610678720"
-    },
-    {
-      "chainId": 1,
       "address": "0x85eee30c52b0b379b046fb0f85f4f3dc3009afec",
       "name": "Keep Network",
       "symbol": "KEEP",
@@ -9115,7 +9115,7 @@
     {
       "chainId": 1,
       "address": "0x98b69ebb4ce228145463d7c08aa71fbb6791fe86",
-      "name": "RocketToken",
+      "name": "RocketToken  OLD ",
       "symbol": "RKTN",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/23942/thumb/5F8FyJDt_400x400.jpg?1645769245"
@@ -9290,6 +9290,14 @@
       "symbol": "RUNE",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13677/thumb/IMG_20210123_132049_458.png?1612179252"
+    },
+    {
+      "chainId": 1,
+      "address": "0x382a1667c9062f0621362f49076ef6e4fe4c9ec7",
+      "name": "RushCoin",
+      "symbol": "RUSH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25053/thumb/Kax1yBSz_400x400.jpg?1649938887"
     },
     {
       "chainId": 1,
