@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-04-14T22:36:43.949Z",
+  "timestamp": "2022-04-15T22:37:52.277Z",
   "version": {
     "major": 1,
-    "minor": 45,
+    "minor": 46,
     "patch": 0
   },
   "tags": {},
@@ -9297,7 +9297,7 @@
       "name": "RushCoin",
       "symbol": "RUSH",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/25053/thumb/Kax1yBSz_400x400.jpg?1649938887"
+      "logoURI": "https://assets.coingecko.com/coins/images/25053/thumb/Kax1yBSz_400x400.png?1649979044"
     },
     {
       "chainId": 1,
