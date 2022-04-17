@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-04-16T22:39:53.097Z",
+  "timestamp": "2022-04-17T22:37:14.777Z",
   "version": {
     "major": 1,
-    "minor": 47,
+    "minor": 48,
     "patch": 0
   },
   "tags": {},
@@ -7704,6 +7704,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x525a8f6f3ba4752868cde25164382bfbae3990e1",
+      "name": "Nym",
+      "symbol": "NYM",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/24488/thumb/NYM_Token.png?1649926353"
+    },
+    {
+      "chainId": 1,
       "address": "0x8064d9ae6cdf087b1bcd5bdf3531bd5d8c537a68",
       "name": "BoringDAO BTC",
       "symbol": "OBTC",
@@ -11873,6 +11881,13 @@
       "symbol": "WWC",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/16173/thumb/WWC-200x200.png?1623198141"
+    },
+    {
+      "chainId": 1,
+      "address": "0x465e07d6028830124be2e4aa551fbe12805db0f5",
+      "name": "Wrapped XMR by BTSE",
+      "symbol": "WXMR",
+      "decimals": 18
     },
     {
       "chainId": 1,
