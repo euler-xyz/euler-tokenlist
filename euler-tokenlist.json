@@ -11884,13 +11884,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x465e07d6028830124be2e4aa551fbe12805db0f5",
-      "name": "Wrapped XMR by BTSE",
-      "symbol": "WXMR",
-      "decimals": 18
-    },
-    {
-      "chainId": 1,
       "address": "0xa02120696c7b8fe16c09c749e4598819b2b0e915",
       "name": "Wirex",
       "symbol": "WXT",
