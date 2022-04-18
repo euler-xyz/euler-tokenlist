@@ -43,9 +43,9 @@ const run = async () => {
         const curatedAdded = require('../curated/add');
         const curatedPermits = require('../curated/permits');
         const currentProcessed = fs.existsSync(`${__dirname}/../${processedListFileName}`)
-        ? require(`../${processedListFileName}`)
-        : { tokens: [] };
-        
+            ? require(`../${processedListFileName}`)
+            : { tokens: [] };
+
         const { data: newList }  = await axios.get(process.env.TOKENLIST_URL);
 
         // Detect permits and update processed full list
@@ -101,6 +101,7 @@ const run = async () => {
         const poolExists = await getExistingUniPools(processedList.tokens);
         processedList.tokens
             .filter(t => poolExists[t.address])
+            .filter(t => t.name && t.symbol && t.chainId && t.decimals && t.logoURI)
             .forEach(t => {
                 if (!isInList(t, eulerList.tokens) && !isInList(t, curatedRemoved)) {
                     eulerList.tokens.push(t);
