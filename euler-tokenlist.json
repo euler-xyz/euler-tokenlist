@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-04-18T10:40:32.812Z",
+  "timestamp": "2022-04-18T22:37:11.808Z",
   "version": {
     "major": 1,
-    "minor": 49,
+    "minor": 50,
     "patch": 0
   },
   "tags": {},
@@ -8718,6 +8718,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xa71d0588eaf47f12b13cf8ec750430d21df04974",
+      "name": "Shiba Predator",
+      "symbol": "QOM",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24430/thumb/l1KzMcL.png?1647660619"
+    },
+    {
+      "chainId": 1,
       "address": "0x4123a133ae3c521fd134d7b13a2dec35b56c2463",
       "name": "Qredo",
       "symbol": "QRDO",
@@ -11889,6 +11897,13 @@
       "symbol": "WWC",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/16173/thumb/WWC-200x200.png?1623198141"
+    },
+    {
+      "chainId": 1,
+      "address": "0x465e07d6028830124be2e4aa551fbe12805db0f5",
+      "name": "Wrapped XMR by BTSE",
+      "symbol": "WXMR",
+      "decimals": 18
     },
     {
       "chainId": 1,
