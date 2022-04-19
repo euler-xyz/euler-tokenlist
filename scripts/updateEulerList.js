@@ -110,6 +110,16 @@ const run = async () => {
                 }
             });
 
+        // Replace coingecko thumb logos with larger image
+
+        eulerList.tokens = eulerList.tokens.map(t => {
+            if (t.logoURI.includes('assets.coingecko')) {
+                t.logoURI = t.logoURI.replace('/thumb/', '/large/');
+            }
+
+            return t;
+        });
+
         // Apply curated changes
 
         curatedAdded.forEach(ct => {
