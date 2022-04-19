@@ -21,8 +21,9 @@ const poolQuery = `
 
 const getExistingUniPools = async tokens => {
     const poolExists = {};
+    const delay = () => new Promise(r => setTimeout(r, 5000));
 
-    for (let batch of chunk(tokens, BATCH_SIZE)) {
+    const queryGraph = async batch => {
         const res = await axios.post(
             UNIV3_GRAPH_URI, 
             {
@@ -47,6 +48,15 @@ const getExistingUniPools = async tokens => {
         res.data.data.as1.forEach(p => {
             poolExists[p.token1.id] = true;
         });
+    }
+
+    for (let batch of chunk(tokens, BATCH_SIZE)) {
+        try {
+            await queryGraph(batch);
+        } catch {
+            await delay();
+            await queryGraph(batch);
+        }
     }
     return poolExists;
 }
