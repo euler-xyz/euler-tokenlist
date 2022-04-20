@@ -220,6 +220,14 @@
             "symbol": "GLA",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/12493/small/GALA-COINGECKO.png?1600233435"
+        },
+        {
+            "chainId": 3,
+            "address": "0xE4E6F37A02B353abc11C735eE8F7D4e9e6C0BFC8",
+            "name": "AMP",
+            "symbol": "AMP",
+            "decimals": 18,
+            "logoURI": ""
         }
     ]
 }
