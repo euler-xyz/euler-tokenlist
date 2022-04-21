@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-04-20T22:40:22.877Z",
+  "timestamp": "2022-04-21T22:48:55.977Z",
   "version": {
     "major": 1,
-    "minor": 53,
+    "minor": 54,
     "patch": 0
   },
   "tags": {},
@@ -2135,6 +2135,14 @@
       "symbol": "CGG",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14326/large/cgg_logo.png?1615429976"
+    },
+    {
+      "chainId": 1,
+      "address": "0xf5238462e7235c7b62811567e63dd17d12c2eaa0",
+      "name": "CACHE Gold",
+      "symbol": "CGT",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/11601/large/cache-gold-icon-200x200.png?1591755874"
     },
     {
       "chainId": 1,
@@ -7146,14 +7154,6 @@
     },
     {
       "chainId": 1,
-      "address": "0xe1a0da60f8802b49cc36313bafade3f9e12342fd",
-      "name": "MP4",
-      "symbol": "MP4",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/14092/large/Ko5uWOr8_400x400.png?1614222859"
-    },
-    {
-      "chainId": 1,
       "address": "0x8888801af4d980682e47f1a9036e589479e835c5",
       "name": "88mph",
       "symbol": "MPH",
@@ -9969,7 +9969,7 @@
       "name": "Squawk",
       "symbol": "SQUAWK",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/25087/large/redred.png?1650268819"
+      "logoURI": "https://assets.coingecko.com/coins/images/25087/large/soo.png?1650534077"
     },
     {
       "chainId": 1,
@@ -11632,7 +11632,7 @@
       "name": "WGMI",
       "symbol": "WGMI",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/20330/large/0lXK3XOJ_400x400.jpg?1636925939"
+      "logoURI": "https://assets.coingecko.com/coins/images/20330/large/new_WGMI_logo-01.png?1650534006"
     },
     {
       "chainId": 1,
@@ -12219,7 +12219,7 @@
       "name": "xToken",
       "symbol": "XTK",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/14089/large/xToken.png?1614226407"
+      "logoURI": "https://assets.coingecko.com/coins/images/14089/large/xtk_logo.png?1650508832"
     },
     {
       "chainId": 1,
