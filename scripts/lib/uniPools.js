@@ -55,6 +55,7 @@ const getExistingUniPools = async tokens => {
             await queryGraph(batch);
         } catch {
             await delay();
+            console.log('getExistingUniPools, retrying...');
             await queryGraph(batch);
         }
     }

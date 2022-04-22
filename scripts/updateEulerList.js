@@ -19,7 +19,7 @@ const processedListFileName = process.env.PROCESSED_LIST_FILE_NAME;
 const logger = new Logger('tokenlist');
 
 const isInList = (token, list) => list.some(t => t.address.toLowerCase() === token.address.toLowerCase());
-const isValidToken = t => t.name && t.symbol && t.chainId && t.decimals && t.logoURI;
+const isValidToken = t => t.name && t.symbol && t.chainId && t.decimals !== undefined && t.logoURI;
 const describeToken = token => `${token.address}, ${token.symbol}, ${token.name}`;
 const prettyJson = o => JSON.stringify(o, null, 2);
 const sortBySymbol = list => list.sort((a, b) => a.symbol.localeCompare(b.symbol));
