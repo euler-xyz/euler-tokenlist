@@ -102,6 +102,7 @@ module.exports = {
   '0x99fe3b1391503a1bc1788051347a1324bff41452': 'not supported', // SX - non standard typehash ('holder' for 'owner')
   '0x9c78ee466d6cb57a4d01fd887d2b5dfb2d46288f': 'not supported', // MUST - non standard domain type hash
   '0xe46f290cd59195a83e757891430d8d517d16b334': 'not supported', // AFN - proxy contract, unknown implementation
+  '0xa54d2ebfd977ad836203c85f18db2f0a0cf88854': 'not supported', // BACON - proxy contract, unknown implementation
   '0xb6c4267c4877bb0d6b1685cfd85b0fbe82f105ec': 'not supported', // REL - non standard getNonce
   '0x429876c4a6f89fb470e92456b8313879df98b63c': 'not supported', // CNT - non standard getNonce
   '0xc22b30e4cce6b78aaaadae91e44e73593929a3e9': 'not supported', // RAC - non standard permitNonce
