@@ -19,9 +19,17 @@ const processedListFileName = process.env.PROCESSED_LIST_FILE_NAME;
 const logger = new Logger('tokenlist');
 
 const isInList = (token, list) => list.some(t => t.address.toLowerCase() === token.address.toLowerCase());
+const isValidToken = t => t.name && t.symbol && t.chainId && t.decimals && t.logoURI;
 const describeToken = token => `${token.address}, ${token.symbol}, ${token.name}`;
 const prettyJson = o => JSON.stringify(o, null, 2);
 const sortBySymbol = list => list.sort((a, b) => a.symbol.localeCompare(b.symbol));
+const replaceLogo = t => {
+    if (t.logoURI.includes('assets.coingecko')) {
+        t.logoURI = t.logoURI.replace('/thumb/', '/large/');
+    }
+
+    return t;
+}
 
 const run = async () => {
     if (!process.env.TOKENLIST_URL || !process.env.PROCESSED_LIST_FILE_NAME) {
@@ -85,9 +93,15 @@ const run = async () => {
         // Update existing tokens
 
         eulerList.tokens = await Promise.all(eulerList.tokens.map(async et => {
-            const newToken = processedList.tokens.find(t => t.address.toLowerCase() === et.address.toLowerCase());
+            let newToken = processedList.tokens.find(t => t.address.toLowerCase() === et.address.toLowerCase());
             if (!newToken) return et; // from curated added
 
+            newToken = replaceLogo(newToken);
+
+            if (!isValidToken(newToken)) {
+                logs.push(`REVIEW UPDATE TO INVALID ${JSON.stringify(et)} TO ${JSON.stringify(newToken)}`);
+                return et;
+            }
             if (et.decimals !== newToken.decimals && await isEulerMarket(et.address)) {
                 logs.push(`REVIEW UPDATED DECIMALS ${JSON.stringify(et)} TO ${JSON.stringify(newToken)}`);
             }
@@ -101,7 +115,7 @@ const run = async () => {
         const poolExists = await getExistingUniPools(processedList.tokens);
         processedList.tokens
             .filter(t => poolExists[t.address])
-            .filter(t => t.name && t.symbol && t.chainId && t.decimals && t.logoURI)
+            .filter(isValidToken)
             .forEach(t => {
                 if (!isInList(t, eulerList.tokens) && !isInList(t, curatedRemoved)) {
                     eulerList.tokens.push(t);
@@ -112,13 +126,7 @@ const run = async () => {
 
         // Replace coingecko thumb logos with larger image
 
-        eulerList.tokens = eulerList.tokens.map(t => {
-            if (t.logoURI.includes('assets.coingecko')) {
-                t.logoURI = t.logoURI.replace('/thumb/', '/large/');
-            }
-
-            return t;
-        });
+        eulerList.tokens = eulerList.tokens.map(replaceLogo);
 
         // Apply curated changes
 
