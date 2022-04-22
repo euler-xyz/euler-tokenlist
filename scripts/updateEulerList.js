@@ -96,12 +96,13 @@ const run = async () => {
             let newToken = processedList.tokens.find(t => t.address.toLowerCase() === et.address.toLowerCase());
             if (!newToken) return et; // from curated added
 
-            newToken = replaceLogo(newToken);
-
             if (!isValidToken(newToken)) {
                 logs.push(`REVIEW UPDATE TO INVALID ${JSON.stringify(et)} TO ${JSON.stringify(newToken)}`);
                 return et;
             }
+
+            newToken = replaceLogo(newToken);
+
             if (et.decimals !== newToken.decimals && await isEulerMarket(et.address)) {
                 logs.push(`REVIEW UPDATED DECIMALS ${JSON.stringify(et)} TO ${JSON.stringify(newToken)}`);
             }
