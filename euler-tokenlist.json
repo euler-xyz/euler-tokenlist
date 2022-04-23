@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-04-22T22:39:13.900Z",
+  "timestamp": "2022-04-23T22:40:18.855Z",
   "version": {
     "major": 1,
-    "minor": 55,
+    "minor": 56,
     "patch": 0
   },
   "tags": {},
@@ -8597,14 +8597,6 @@
       "symbol": "PROS",
       "decimals": 6,
       "logoURI": "https://assets.coingecko.com/coins/images/15203/large/logo-icon_200x200-02.jpg?1622174709"
-    },
-    {
-      "chainId": 1,
-      "address": "0xa3d29c52bf09ef16f23317029a01c40363131827",
-      "name": "Pharma Pay Coin",
-      "symbol": "PRP",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/17342/large/prp.PNG?1627362889"
     },
     {
       "chainId": 1,
