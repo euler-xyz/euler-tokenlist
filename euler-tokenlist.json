@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-04-23T22:40:18.855Z",
+  "timestamp": "2022-04-24T22:38:33.357Z",
   "version": {
     "major": 1,
-    "minor": 56,
+    "minor": 57,
     "patch": 0
   },
   "tags": {},
@@ -9624,6 +9624,14 @@
           }
         }
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0x243cacb4d5ff6814ad668c3e225246efa886ad5a",
+      "name": "Shina Inu",
+      "symbol": "SHI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25208/large/coingecko-shina-purple-bg.png?1650771360"
     },
     {
       "chainId": 1,
