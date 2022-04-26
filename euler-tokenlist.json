@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-04-25T22:38:08.389Z",
+  "timestamp": "2022-04-26T22:38:20.335Z",
   "version": {
     "major": 1,
-    "minor": 58,
+    "minor": 59,
     "patch": 0
   },
   "tags": {},
@@ -1866,14 +1866,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x26e75307fc0c021472feb8f727839531f112f317",
-      "name": "CRYPTO20",
-      "symbol": "C20",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/2097/large/c20.png?1547036413"
-    },
-    {
-      "chainId": 1,
       "address": "0xf1a91c7d44768070f711c68f33a7ca25c8d30268",
       "name": "Charli3",
       "symbol": "C3",
@@ -2094,10 +2086,10 @@
     {
       "chainId": 1,
       "address": "0x1122b6a0e00dce0563082b6e2953f3a943855c1f",
-      "name": "Centrality",
+      "name": "CENNZnet",
       "symbol": "CENNZ",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/3408/large/logo.PNG?1547038083"
+      "logoURI": "https://assets.coingecko.com/coins/images/3408/large/CENNZ_ticker.png?1650943548"
     },
     {
       "chainId": 1,
@@ -4171,6 +4163,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x9280abf1af455d6228def9c93b5e6d85f3f1ecc8",
+      "name": "Film Coin",
+      "symbol": "FLIKS",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25117/large/Filmcoin_icon_32x32.png?1650349948"
+    },
+    {
+      "chainId": 1,
       "address": "0xb05097849bca421a3f51b249ba6cca4af4b97cb9",
       "name": "Float Protocol: FLOAT",
       "symbol": "FLOAT",
@@ -6107,6 +6107,24 @@
       "symbol": "KUMA",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/15526/large/kuma_inu.PNG?1621128824"
+    },
+    {
+      "chainId": 1,
+      "address": "0x286c0936c7eaf6651099ab5dab9ee5a6cb5d229d",
+      "name": "KwikSwap Protocol",
+      "symbol": "KWIK",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/15853/large/communityIcon_b03b6vdbo0171.png?1622163636",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Kwikswap",
+            "chainId": 1,
+            "verifyingContract": "0x286c0936c7eaf6651099ab5dab9ee5a6cb5d229d"
+          }
+        }
+      }
     },
     {
       "chainId": 1,
