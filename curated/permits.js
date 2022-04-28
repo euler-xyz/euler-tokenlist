@@ -82,6 +82,15 @@ module.exports = {
         verifyingContract: '0x6f80310ca7f2c654691d1383149fa1a57d8ab1f8'
       },
   },
+  '0x52a8845df664d76c69d2eea607cd793565af42b8': { // APEX
+      permitType: 'EIP2612',
+      domain: {
+        name: '',
+        version: '1',
+        chainId: 1,
+        verifyingContract: '0x52a8845df664d76c69d2eea607cd793565af42b8'
+      },
+  },
 
   // Contracts with intended permit support with various issues
 
