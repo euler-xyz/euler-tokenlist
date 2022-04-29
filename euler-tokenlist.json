@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-04-28T22:40:48.444Z",
+  "timestamp": "2022-04-29T22:38:48.769Z",
   "version": {
     "major": 1,
-    "minor": 61,
+    "minor": 62,
     "patch": 0
   },
   "tags": {},
@@ -1614,6 +1614,25 @@
       "symbol": "BREE",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12096/large/cbdao_logo.jpg?1597059848"
+    },
+    {
+      "chainId": 1,
+      "address": "0x94e9eb8b5ab9fd6b9ea3169d55ffade62a01702e",
+      "name": "BreederDAO",
+      "symbol": "BREED",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25203/large/BreederDAO-Breed_Token-FINAL.png?1650638916",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "BreederDAO",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x94e9eb8b5ab9fd6b9ea3169d55ffade62a01702e"
+          }
+        }
+      }
     },
     {
       "chainId": 1,
@@ -5009,6 +5028,25 @@
       "symbol": "GXT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12226/large/200.png?1643188059"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0642026e7f0b6ccac5925b4e7fa61384250e1701",
+      "name": "H2O OCEAN",
+      "symbol": "H2O",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25315/large/h2o_32.png?1651215712",
+      "extensions": {
+        "permit": {
+          "type": "ALLOWED",
+          "domain": {
+            "name": "H2O",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x0642026e7f0b6ccac5925b4e7fa61384250e1701"
+          }
+        }
+      }
     },
     {
       "chainId": 1,
@@ -8515,6 +8553,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xa5b947687163fe88c3e6af5b17ae69896f4abccf",
+      "name": "Poseidon",
+      "symbol": "PSDN",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25316/large/psdn_32.png?1651216148"
+    },
+    {
+      "chainId": 1,
       "address": "0xcafe001067cdef266afb7eb5a286dcfd277f3de5",
       "name": "ParaSwap",
       "symbol": "PSP",
@@ -9145,7 +9191,7 @@
     {
       "chainId": 1,
       "address": "0xfa5047c9c78b8877af97bdcb85db743fd7313d4a",
-      "name": "KeeperDAO",
+      "name": "Rook",
       "symbol": "ROOK",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13005/large/keeper_dao_logo.jpg?1604316506"
