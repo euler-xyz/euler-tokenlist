@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-04-29T22:38:48.769Z",
+  "timestamp": "2022-04-30T22:35:11.042Z",
   "version": {
     "major": 1,
-    "minor": 62,
+    "minor": 63,
     "patch": 0
   },
   "tags": {},
@@ -807,6 +807,14 @@
       "symbol": "AURORA",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/20582/large/aurora.jpeg?1637250883"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4c3bae16c79c30eeb1004fb03c878d89695e3a99",
+      "name": "Autumn",
+      "symbol": "AUTUMN",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25366/large/autumn.png?1651317533"
     },
     {
       "chainId": 1,
@@ -9929,6 +9937,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xf04af3f4e4929f7cd25a751e6149a3318373d4fe",
+      "name": "Spring",
+      "symbol": "SPRING",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25364/large/spring.png?1651317225"
+    },
+    {
+      "chainId": 1,
       "address": "0xeff3f1b9400d6d0f1e8805bdde592f61535f5ecd",
       "name": "Squawk",
       "symbol": "SQUAWK",
@@ -10167,6 +10183,14 @@
       "symbol": "STRP",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/18327/large/Logo-Strips-200-x-200px---without-words.png?1631543556"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4d4f3715050571a447fffa2cd4cf091c7014ca5c",
+      "name": "Summer",
+      "symbol": "SUMMER",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25365/large/summer.png?1651317403"
     },
     {
       "chainId": 1,
@@ -11632,6 +11656,14 @@
       "symbol": "WILD",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/17206/large/wild.png?1640155748"
+    },
+    {
+      "chainId": 1,
+      "address": "0xccba0b2bc4babe4cbfb6bd2f1edc2a9e86b7845f",
+      "name": "Winter",
+      "symbol": "WINTER",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25367/large/winter.png?1651317666"
     },
     {
       "chainId": 1,
