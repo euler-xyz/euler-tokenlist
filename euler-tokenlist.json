@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-04-30T22:35:11.042Z",
+  "timestamp": "2022-05-01T22:37:33.285Z",
   "version": {
     "major": 1,
-    "minor": 63,
+    "minor": 64,
     "patch": 0
   },
   "tags": {},
@@ -2157,14 +2157,6 @@
       "symbol": "CHI",
       "decimals": 0,
       "logoURI": "https://assets.coingecko.com/coins/images/11583/large/chi.png?1591331659"
-    },
-    {
-      "chainId": 1,
-      "address": "0x41c37a4683d6a05adb31c39d71348a8403b13ca9",
-      "name": "Chain  OLD ",
-      "symbol": "CHN",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/19678/large/Chain_icon.png?1635741399"
     },
     {
       "chainId": 1,
@@ -9446,6 +9438,14 @@
       "symbol": "SBLX",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/24769/large/x86VE7oQ.png?1648817788"
+    },
+    {
+      "chainId": 1,
+      "address": "0xdfddf7a69716124bc346ba556d4b9f9e74c4a8bc",
+      "name": "Succession",
+      "symbol": "SCCN",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25377/large/sccn.png?1651410204"
     },
     {
       "chainId": 1,
