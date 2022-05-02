@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-05-01T22:37:33.285Z",
+  "timestamp": "2022-05-02T22:40:24.511Z",
   "version": {
     "major": 1,
-    "minor": 64,
+    "minor": 65,
     "patch": 0
   },
   "tags": {},
@@ -1700,6 +1700,14 @@
       "symbol": "BTCP",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/3545/large/DSiD9ZhWsAE_8cS.png?1547038353"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc631be100f6cf9a7012c23de5a6ccb990eafc133",
+      "name": "Banana Task Force Ape",
+      "symbol": "BTFA",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/25032/large/ZZpipp8e_400x400.jpg?1649851881"
     },
     {
       "chainId": 1,
