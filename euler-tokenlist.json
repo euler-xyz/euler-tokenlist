@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-05-02T22:40:24.511Z",
+  "timestamp": "2022-05-03T22:41:05.185Z",
   "version": {
     "major": 1,
-    "minor": 65,
+    "minor": 66,
     "patch": 0
   },
   "tags": {},
@@ -4051,6 +4051,14 @@
       "symbol": "FET",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/5681/large/Fetch.jpg?1572098136"
+    },
+    {
+      "chainId": 1,
+      "address": "0xe8e06a5613dc86d459bc8fb989e173bb8b256072",
+      "name": "Feyorra",
+      "symbol": "FEY",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13689/large/1_XiKKk5_400x400.jpg?1610953208"
     },
     {
       "chainId": 1,
@@ -12192,14 +12200,6 @@
       "symbol": "XYZ",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/15809/large/universexyz.png?1621950483"
-    },
-    {
-      "chainId": 1,
-      "address": "0xd19f9858de386c938d1b832a5b87f80a178fe28d",
-      "name": "Yandere Shiba",
-      "symbol": "YANSH",
-      "decimals": 9,
-      "logoURI": "https://assets.coingecko.com/coins/images/19787/large/yansh.jpg?1635868195"
     },
     {
       "chainId": 1,
