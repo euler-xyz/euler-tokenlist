@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-05-03T22:41:05.185Z",
+  "timestamp": "2022-05-04T22:41:29.172Z",
   "version": {
     "major": 1,
-    "minor": 66,
+    "minor": 67,
     "patch": 0
   },
   "tags": {},
@@ -3451,6 +3451,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xe7f58a92476056627f9fdb92286778abd83b285f",
+      "name": "DecentraWeb",
+      "symbol": "DWEB",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/18971/large/dweb-logo-transparent.png?1634082358"
+    },
+    {
+      "chainId": 1,
       "address": "0xa1d65e8fb6e87b60feccbc582f7f97804b725521",
       "name": "DXdao",
       "symbol": "DXD",
@@ -4235,7 +4243,7 @@
       "name": "Fodl Finance",
       "symbol": "FODL",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/19040/large/new.jpg?1634559024"
+      "logoURI": "https://assets.coingecko.com/coins/images/19040/large/Fodl_Symbol_Gradient.png?1651644153"
     },
     {
       "chainId": 1,
@@ -5341,6 +5349,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x5aa7c403c7de4b3bb0cc07079a03e389671a4771",
+      "name": "Ibiza Token",
+      "symbol": "IBZ",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/19349/large/AZHnAHiY_400x400.jpg?1635127261"
+    },
+    {
+      "chainId": 1,
       "address": "0xd83c569268930fadad4cde6d0cb64450fef32b65",
       "name": "Invictus Capital Token",
       "symbol": "ICAP",
@@ -5682,6 +5698,14 @@
       "symbol": "JEJUDOGE",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/15983/large/jejudoge.png?1634782252"
+    },
+    {
+      "chainId": 1,
+      "address": "0xf5f06ffa53ad7f5914f493f16e57b56c8dd2ea80",
+      "name": "Jelly",
+      "symbol": "JELLY",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25386/large/200x200Jtokenlogo.png?1651641389"
     },
     {
       "chainId": 1,
@@ -8763,7 +8787,7 @@
     {
       "chainId": 1,
       "address": "0x6c28aef8977c9b773996d0e8376d2ee379446f2f",
-      "name": "Quickswap",
+      "name": "Quickswap  OLD ",
       "symbol": "QUICK",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13970/large/1_pOU6pBMEmiL-ZJVb0CYRjQ.png?1613386659"
