@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-05-04T22:41:29.172Z",
+  "timestamp": "2022-05-05T22:42:13.876Z",
   "version": {
     "major": 1,
-    "minor": 67,
+    "minor": 68,
     "patch": 0
   },
   "tags": {},
@@ -256,7 +256,7 @@
       "name": "Multiverse",
       "symbol": "AI",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/16329/large/AI.jpg?1623749973"
+      "logoURI": "https://assets.coingecko.com/coins/images/16329/large/Multiverse-Logo-200x200.png?1651745614"
     },
     {
       "chainId": 1,
@@ -2208,6 +2208,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x77f0cc420dea0ae726db6bef1460a4b69176a8ea",
+      "name": "KONG Land Alpha Citizenship",
+      "symbol": "CITIZEN",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/17751/large/QmQmZNp7JNdvYAA8ichVr5bVZUUTfU83zJ8hTZoQfb9YBh.png?1629175195"
+    },
+    {
+      "chainId": 1,
       "address": "0x37fe0f067fa808ffbdd12891c0858532cfe7361d",
       "name": "Civilization",
       "symbol": "CIV",
@@ -3074,6 +3082,14 @@
       "symbol": "DFI",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/16817/large/dfi.png?1644656347"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8fc8f8269ebca376d046ce292dc7eac40c8d358a",
+      "name": "DeFiChain",
+      "symbol": "DFI",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/11757/large/symbol-defi-blockchain_200.png?1597306538"
     },
     {
       "chainId": 1,
@@ -4473,6 +4489,25 @@
     },
     {
       "chainId": 1,
+      "address": "0x5faa989af96af85384b8a938c2ede4a7378d9875",
+      "name": "Project Galaxy",
+      "symbol": "GAL",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24530/large/GAL-Token-Icon.png?1651483533",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Project Galaxy",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x5faa989af96af85384b8a938c2ede4a7378d9875"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x15d4c048f83bd7e37d49ea4c83a07267ec4203da",
       "name": "Gala",
       "symbol": "GALA",
@@ -5346,14 +5381,6 @@
           }
         }
       }
-    },
-    {
-      "chainId": 1,
-      "address": "0x5aa7c403c7de4b3bb0cc07079a03e389671a4771",
-      "name": "Ibiza Token",
-      "symbol": "IBZ",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/19349/large/AZHnAHiY_400x400.jpg?1635127261"
     },
     {
       "chainId": 1,
@@ -10861,7 +10888,7 @@
     {
       "chainId": 1,
       "address": "0x8a3d77e9d6968b780564936d15b09805827c21fa",
-      "name": "ArchEthic",
+      "name": "Archethic",
       "symbol": "UCO",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12330/large/uco.png?1639550258"
@@ -11316,6 +11343,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x469084939d1c20fae3c73704fe963941c51be863",
+      "name": "Envision",
+      "symbol": "VIS",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/23907/large/J3JCKVq2.png?1645681725"
+    },
+    {
+      "chainId": 1,
       "address": "0xf406f7a9046793267bc276908778b29563323996",
       "name": "APY vision",
       "symbol": "VISION",
@@ -11621,14 +11656,6 @@
       "symbol": "WG0",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12870/large/wg0_logo.png?1603176705"
-    },
-    {
-      "chainId": 1,
-      "address": "0x20f6a313cb250062331fe70b9567e3ee5f01888b",
-      "name": "WGMI",
-      "symbol": "WGMI",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/20330/large/new_WGMI_logo-01.png?1650534006"
     },
     {
       "chainId": 1,
