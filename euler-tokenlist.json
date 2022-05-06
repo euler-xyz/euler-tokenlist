@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-05-05T22:42:13.876Z",
+  "timestamp": "2022-05-06T22:38:51.574Z",
   "version": {
     "major": 1,
-    "minor": 68,
+    "minor": 69,
     "patch": 0
   },
   "tags": {},
@@ -1602,7 +1602,7 @@
     {
       "chainId": 1,
       "address": "0x677ad66762c009aab99509c2f903e68a57bc1f80",
-      "name": "BoHr",
+      "name": "BoHr  OLD ",
       "symbol": "BR",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/21636/large/br.png?1639628226"
@@ -2205,14 +2205,6 @@
       "symbol": "CIG",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/22145/large/cig.png?1640929916"
-    },
-    {
-      "chainId": 1,
-      "address": "0x77f0cc420dea0ae726db6bef1460a4b69176a8ea",
-      "name": "KONG Land Alpha Citizenship",
-      "symbol": "CITIZEN",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/17751/large/QmQmZNp7JNdvYAA8ichVr5bVZUUTfU83zJ8hTZoQfb9YBh.png?1629175195"
     },
     {
       "chainId": 1,
@@ -5874,10 +5866,18 @@
     {
       "chainId": 1,
       "address": "0x14eb60f5f270b059b0c788de0ddc51da86f8a06d",
-      "name": "Phantasma Energy",
+      "name": "Phantasma Energy  OLD ",
       "symbol": "KCAL",
       "decimals": 10,
       "logoURI": "https://assets.coingecko.com/coins/images/12678/large/kcal-logo-coingecko.png?1602063865"
+    },
+    {
+      "chainId": 1,
+      "address": "0x47c1178f49140ecdbfbdf0ae2935cdb640d579f9",
+      "name": "Phantasma Energy",
+      "symbol": "KCAL",
+      "decimals": 10,
+      "logoURI": "https://assets.coingecko.com/coins/images/25447/large/Screenshot_from_2022-05-06_09-46-03.png?1651801573"
     },
     {
       "chainId": 1,
@@ -8553,6 +8553,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x6361f338ab8def2af3f2a1be7bd8a7db3156f7e7",
+      "name": "Probably Nothing",
+      "symbol": "PRBLY",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/20193/large/pn.png?1645338665"
+    },
+    {
+      "chainId": 1,
       "address": "0xdfc3829b127761a3218bfcee7fc92e1232c9d116",
       "name": "PRCY Coin",
       "symbol": "PRCY",
@@ -8986,6 +8994,14 @@
       "symbol": "RDPX",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/16659/large/rDPX_200x200_Coingecko.png?1624614475"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4740735aa98dc8aa232bd049f8f0210458e7fca3",
+      "name": "Ridotto",
+      "symbol": "RDT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/18671/large/200x200_%2832%29.png?1632875527"
     },
     {
       "chainId": 1,
@@ -9920,7 +9936,7 @@
     },
     {
       "chainId": 1,
-      "address": "0x79c75e2e8720b39e258f41c37cc4f309e0b0ff80",
+      "address": "0x75858677e27c930fb622759feaffee2b754af07f",
       "name": "Phantasma",
       "symbol": "SOUL",
       "decimals": 8,
