@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-05-08T22:45:07.786Z",
+  "timestamp": "2022-05-09T22:59:30.988Z",
   "version": {
     "major": 1,
-    "minor": 71,
+    "minor": 72,
     "patch": 0
   },
   "tags": {},
@@ -354,7 +354,7 @@
     {
       "chainId": 1,
       "address": "0x6b0b3a982b4634ac68dd83a4dbf02311ce324181",
-      "name": "Alethea Artificial Liquid Intelligence ",
+      "name": "Alethea Artificial Liquid Intelligence",
       "symbol": "ALI",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/22062/large/alethea-logo-transparent-colored.png?1642748848",
@@ -2233,7 +2233,7 @@
     {
       "chainId": 1,
       "address": "0x3e828ac5c480069d4765654fb4b8733b910b13b2",
-      "name": "Colony Network Token",
+      "name": "Colony Network",
       "symbol": "CLNY",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/23269/large/Logo.png?1644482438"
@@ -2477,7 +2477,7 @@
     {
       "chainId": 1,
       "address": "0x5cac718a3ae330d361e39244bf9e67ab17514ce8",
-      "name": "Cosplay Token",
+      "name": "Cosplay",
       "symbol": "COT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/21294/large/brave_ZxsjzUc8xn.png?1638874098"
@@ -2935,6 +2935,14 @@
       "symbol": "DBD",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/21691/large/DBD-icon_200x200_%281%29.png?1639721079"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4f7aff8f0c78b51c0e30f02f27a67b5a6a11552b",
+      "name": "Decentralized Business Systems",
+      "symbol": "DBS",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/25489/large/dbstoken2_32.png?1652072861"
     },
     {
       "chainId": 1,
@@ -4111,7 +4119,7 @@
     {
       "chainId": 1,
       "address": "0x62406995cafd18f57e7375e8e0060725acebce58",
-      "name": "Firulais Wallet Token",
+      "name": "Firulais Wallet",
       "symbol": "FIWT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/20716/large/FIWT-Logo.png?1637584712"
@@ -6359,14 +6367,6 @@
       "symbol": "LKR",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14692/large/lokr.png?1648886932"
-    },
-    {
-      "chainId": 1,
-      "address": "0xd9b89eee86b15634c70cab51baf85615a4ab91a1",
-      "name": "Locklet",
-      "symbol": "LKT",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/17288/large/locklet.PNG?1627251710"
     },
     {
       "chainId": 1,
@@ -10439,7 +10439,7 @@
     {
       "chainId": 1,
       "address": "0xcdf7028ceab81fa0c6971208e83fa7872994bee5",
-      "name": "Threshold Network Token",
+      "name": "Threshold Network",
       "symbol": "T",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/22228/large/nFPNiSbL_400x400.jpg?1641220340"
@@ -11608,6 +11608,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xed40834a13129509a89be39a9be9c0e96a0ddd71",
+      "name": "Warp Finance",
+      "symbol": "WARP",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13910/large/601ed0ac35c687c6e07d17c2_warp_token.png?1612834360"
+    },
+    {
+      "chainId": 1,
       "address": "0x7a2bc711e19ba6aff6ce8246c546e8c4b4944dfd",
       "name": "WAXE",
       "symbol": "WAXE",
@@ -11945,7 +11953,7 @@
     {
       "chainId": 1,
       "address": "0xa68dd8cb83097765263adad881af6eed479c4a33",
-      "name": "WTF Token",
+      "name": "Fees wtf",
       "symbol": "WTF",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/22581/large/feeswtf.jpg?1642120508"
@@ -12140,7 +12148,7 @@
     {
       "chainId": 1,
       "address": "0x44f262622248027f8e2a8fb1090c4cf85072392c",
-      "name": "Project Inverse",
+      "name": "Planet Inverse",
       "symbol": "XIV",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14231/large/photo_2021-06-07_22-10-41.jpg?1623075271"
