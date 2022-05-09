@@ -228,6 +228,35 @@
             "symbol": "AMP",
             "decimals": 18,
             "logoURI": ""
-        }
+        },
+        {
+            "chainId": 3,
+            "address": "0x3fd7bf4b341b724d3714dd562b47e49c089e0701",
+            "mainnetAddress": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+            "name": "Wrapped stETH",
+            "symbol": "WSTETH",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/18834/large/wstETH.png?1633565443",
+            "extensions": {
+              "permit": {
+                "type": "EIP2612",
+                "domain": {
+                  "name": "Wrapped liquid staked Ether 2.0",
+                  "version": "1",
+                  "chainId": 1,
+                  "verifyingContract": "0x3fd7bf4b341b724d3714dd562b47e49c089e0701"
+                }
+              }
+            }
+          },
+          {
+            "chainId": 3,
+            "address": "0xd40eefcfab888c9159a61221def03bf77773fc19",
+            "mainnetAddress": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+            "name": "Lido Staked Ether",
+            "symbol": "STETH",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/13442/large/steth_logo.png?1608607546"
+          }
     ]
 }
