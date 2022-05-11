@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-05-10T22:40:44.687Z",
+  "timestamp": "2022-05-11T22:40:11.102Z",
   "version": {
     "major": 1,
-    "minor": 73,
+    "minor": 74,
     "patch": 0
   },
   "tags": {},
@@ -1227,6 +1227,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x35f67c1d929e106fdff8d1a55226afe15c34dbe2",
+      "name": "Beta Token",
+      "symbol": "BETA",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25539/large/Beta-47.png?1652265414"
+    },
+    {
+      "chainId": 1,
       "address": "0xe22c4e46c6f54e72315ca6eda934e7b766b0173d",
       "name": "ByteDex",
       "symbol": "BEXT",
@@ -1368,6 +1376,14 @@
       "symbol": "BLOCKS",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/19666/large/BLOCKS_200x200_logo_%282%29..png?1635738258"
+    },
+    {
+      "chainId": 1,
+      "address": "0x95392f142af1c12f6e39897ff9b09c599666b50c",
+      "name": "Impostors Blood",
+      "symbol": "BLOOD",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25527/large/RV4nKK2RDO47XzfSLgGs_llgXivhdfpI3tso0.png?1652240523"
     },
     {
       "chainId": 1,
@@ -5897,6 +5913,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x3d875a26d9afcbf4f58c920509c876b594499c87",
+      "name": "K Chain",
+      "symbol": "KCT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25531/large/IMG_3487.PNG?1652250658"
+    },
+    {
+      "chainId": 1,
       "address": "0x85eee30c52b0b379b046fb0f85f4f3dc3009afec",
       "name": "Keep Network",
       "symbol": "KEEP",
@@ -8570,7 +8594,7 @@
     {
       "chainId": 1,
       "address": "0xdfc3829b127761a3218bfcee7fc92e1232c9d116",
-      "name": "PRCY Coin",
+      "name": "PRivaCY Coin",
       "symbol": "PRCY",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/14151/large/prcy.png?1614666991"
@@ -9190,6 +9214,14 @@
       "symbol": "RGT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12900/large/Rari_Logo_Transparent.png?1613978014"
+    },
+    {
+      "chainId": 1,
+      "address": "0x3f3cd642e81d030d7b514a2ab5e3a5536beb90ec",
+      "name": "Rho Token",
+      "symbol": "RHO",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25540/large/Rho-icon-03.png?1652265700"
     },
     {
       "chainId": 1,
