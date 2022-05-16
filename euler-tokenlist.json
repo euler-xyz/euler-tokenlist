@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-05-15T22:37:28.090Z",
+  "timestamp": "2022-05-16T22:43:53.889Z",
   "version": {
     "major": 1,
-    "minor": 77,
+    "minor": 78,
     "patch": 0
   },
   "tags": {},
@@ -7556,6 +7556,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x377d552914e7a104bc22b4f3b6268ddc69615be7",
+      "name": "NEXT",
+      "symbol": "NEXT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/7014/large/NEXT.exchange_Logo.png?1569212613"
+    },
+    {
+      "chainId": 1,
       "address": "0xdfdb7f72c1f195c5951a234e8db9806eb0635346",
       "name": "Feisty Doge NFT",
       "symbol": "NFD",
@@ -8212,6 +8220,14 @@
       "symbol": "PATH",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/21146/large/ZlAWCoU8_400x400.png?1638405815"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8ef47555856f6ce2e0cd7c36aef4fab317d2e2e2",
+      "name": "PayAccept",
+      "symbol": "PAYT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/12513/large/logo.png?1603801944"
     },
     {
       "chainId": 1,
