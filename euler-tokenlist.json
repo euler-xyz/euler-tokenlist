@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-05-16T22:43:53.889Z",
+  "timestamp": "2022-05-17T22:43:45.378Z",
   "version": {
     "major": 1,
-    "minor": 78,
+    "minor": 79,
     "patch": 0
   },
   "tags": {},
@@ -605,7 +605,7 @@
     {
       "chainId": 1,
       "address": "0xa92e7c82b11d10716ab534051b271d2f6aef7df5",
-      "name": "Ara Token",
+      "name": "Ara",
       "symbol": "ARA",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13877/large/ara-icon-200.png?1628171321"
@@ -1505,6 +1505,14 @@
           }
         }
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0xe803178b48a0e560c2b19f3b3d4e504f79d229ce",
+      "name": "Bobcoin",
+      "symbol": "BOBC",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24264/large/bobc.png?1647171532"
     },
     {
       "chainId": 1,
@@ -4331,7 +4339,7 @@
     {
       "chainId": 1,
       "address": "0x77fba179c79de5b7653f68b5039af940ada60ce0",
-      "name": "Ampleforth Governance Token",
+      "name": "Ampleforth Governance",
       "symbol": "FORTH",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14917/large/photo_2021-04-22_00.00.03.jpeg?1619020835",
@@ -4806,6 +4814,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x3b544e6fcf6c8dce9d8b45a4fdf21c9b02f9fda9",
+      "name": "Giftedhands",
+      "symbol": "GHD",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/12540/large/K-8uHktJ.png?1600644856"
+    },
+    {
+      "chainId": 1,
       "address": "0x3bb86d867a9f3addf994cdadb210fa82f0d4157a",
       "name": "Ghoul",
       "symbol": "GHOUL",
@@ -4917,7 +4933,7 @@
     {
       "chainId": 1,
       "address": "0x7ddc52c4de30e94be3a6a0a2b259b2850f421989",
-      "name": "GMT Token",
+      "name": "GMT",
       "symbol": "GMT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/15662/large/gmt.png?1640069038"
@@ -6979,7 +6995,7 @@
     {
       "chainId": 1,
       "address": "0x9e32b13ce7f2e80a01932b42553652e053d6ed8e",
-      "name": "Metis Token",
+      "name": "Metis",
       "symbol": "METIS",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/15595/large/metis.PNG?1621298076"
@@ -7238,6 +7254,14 @@
       "symbol": "MPL",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14097/large/photo_2021-05-03_14.20.41.jpeg?1620022863"
+    },
+    {
+      "chainId": 1,
+      "address": "0x6731827cb6879a2091ce3ab3423f7bf20539b579",
+      "name": "ClubRare Empower",
+      "symbol": "MPWR",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25456/large/MPWR_200x200.png?1651815610"
     },
     {
       "chainId": 1,
@@ -10766,7 +10790,7 @@
     {
       "chainId": 1,
       "address": "0x3a856d4effa670c54585a5d523e96513e148e95d",
-      "name": "Trias Token",
+      "name": "TriasLab",
       "symbol": "TRIAS",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13963/large/5ELqtwp__400x400_%281%29.jpg?1613527958"
@@ -11067,7 +11091,7 @@
     {
       "chainId": 1,
       "address": "0xa499648fd0e80fd911972bbeb069e4c20e68bf22",
-      "name": "Jenny Metaverse DAO Token",
+      "name": "Jenny Metaverse DAO",
       "symbol": "UJENNY",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/15453/large/ujenny.png?1620870247"
@@ -12577,7 +12601,7 @@
     {
       "chainId": 1,
       "address": "0xaa602de53347579f86b996d2add74bb6f79462b2",
-      "name": "Zipmex Token",
+      "name": "Zipmex",
       "symbol": "ZMT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13866/large/ZMT_Token.png?1637241562"
