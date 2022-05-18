@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-05-17T22:43:45.378Z",
+  "timestamp": "2022-05-18T22:45:39.748Z",
   "version": {
     "major": 1,
-    "minor": 79,
+    "minor": 80,
     "patch": 0
   },
   "tags": {},
@@ -2445,6 +2445,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x832c8b1bf8c89f1f827c2bdee2a951530a4e712f",
+      "name": "BitCoke",
+      "symbol": "COKE",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/25622/large/bitcoke_32.png?1652857605"
+    },
+    {
+      "chainId": 1,
       "address": "0x957891c11616d3e0b0a76a76fb42724c382e0ef3",
       "name": "Collateral Pay",
       "symbol": "COLL",
@@ -2977,7 +2985,7 @@
       "name": "Decentralized Business Systems",
       "symbol": "DBS",
       "decimals": 8,
-      "logoURI": "https://assets.coingecko.com/coins/images/25489/large/dbstoken2_32.png?1652072861"
+      "logoURI": "https://assets.coingecko.com/coins/images/25489/large/27e0a1_7f0b762e0eeb4584af7cff0fdccedc8e_mv2.png?1652856877"
     },
     {
       "chainId": 1,
