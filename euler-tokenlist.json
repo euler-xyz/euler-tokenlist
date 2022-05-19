@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-05-18T22:45:39.748Z",
+  "timestamp": "2022-05-19T22:33:56.774Z",
   "version": {
     "major": 1,
-    "minor": 80,
+    "minor": 81,
     "patch": 0
   },
   "tags": {},
@@ -2020,7 +2020,7 @@
     {
       "chainId": 1,
       "address": "0xd85a6ae55a7f33b0ee113c234d2ee308edeaf7fd",
-      "name": "Cobak Token",
+      "name": "Cobak",
       "symbol": "CBK",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13459/large/cbk-128-128.png?1608760936"
@@ -2754,6 +2754,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xcb8fb2438a805664cd8c3e640b85ac473da5be87",
+      "name": "ClinTex CTi",
+      "symbol": "CTI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13266/large/CTI.png?1606817542"
+    },
+    {
+      "chainId": 1,
       "address": "0x491604c0fdf08347dd1fa4ee062a822a5dd06b5d",
       "name": "Cartesi",
       "symbol": "CTSI",
@@ -3479,7 +3487,7 @@
     {
       "chainId": 1,
       "address": "0xc0ba369c8db6eb3924965e5c4fd0b4c1b91e305f",
-      "name": "DLP Duck Token",
+      "name": "DLP Duck",
       "symbol": "DUCK",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13440/large/DLP_Duck_Token.png?1612840740"
@@ -4815,7 +4823,7 @@
     {
       "chainId": 1,
       "address": "0xfa99a87b14b02e2240c79240c5a20f945ca5ef76",
-      "name": "GG Token",
+      "name": "GG",
       "symbol": "GGTK",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13666/large/ggtk.png?1629348879"
@@ -6397,6 +6405,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x78132543d8e20d2417d8a07d9ae199d458a0d581",
+      "name": "Luna Inu",
+      "symbol": "LINU",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25623/large/6rG1s5Dx_400x400.jpeg?1652857836"
+    },
+    {
+      "chainId": 1,
       "address": "0x739317d519ab3bc640a0058230550089a96a2ca5",
       "name": "Liquidator DAO",
       "symbol": "LIQUIDATOR",
@@ -6907,7 +6923,7 @@
     {
       "chainId": 1,
       "address": "0x947aeb02304391f8fbe5b25d7d98d649b57b1788",
-      "name": "Mandala Exchange Token",
+      "name": "Mandala Exchange",
       "symbol": "MDX",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13736/large/png-cmc.png?1611288725"
@@ -7523,7 +7539,7 @@
     {
       "chainId": 1,
       "address": "0x8a9c4dfe8b9d8962b31e4e16f8321c44d48e246e",
-      "name": "Name Change Token",
+      "name": "Name Change",
       "symbol": "NCT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13826/large/hashmasks-nct.png?1612879286"
@@ -11224,7 +11240,7 @@
     {
       "chainId": 1,
       "address": "0x226f7b842e0f0120b7e194d05432b3fd14773a9d",
-      "name": "UNION Protocol Governance Token",
+      "name": "UNION Protocol Governance",
       "symbol": "UNN",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13408/large/unn_finance.png?1608262290"
@@ -11379,7 +11395,7 @@
     {
       "chainId": 1,
       "address": "0xe88f8313e61a97cec1871ee37fbbe2a8bf3ed1e4",
-      "name": "Sora Validator Token",
+      "name": "Sora Validator",
       "symbol": "VAL",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13299/large/val-gold-256.png?1607242927"
