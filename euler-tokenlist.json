@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-05-19T22:33:56.774Z",
+  "timestamp": "2022-05-20T22:41:42.737Z",
   "version": {
     "major": 1,
-    "minor": 81,
+    "minor": 82,
     "patch": 0
   },
   "tags": {},
@@ -1533,10 +1533,10 @@
     {
       "chainId": 1,
       "address": "0x91dfbee3965baaee32784c2d546b7a0c62f268c9",
-      "name": "Bondly",
+      "name": "Forj",
       "symbol": "BONDLY",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/13322/large/logomark.png?1607474416"
+      "logoURI": "https://assets.coingecko.com/coins/images/13322/large/FORJ_twitter_twitter-linked_in_profile_%281%29.png?1653026729"
     },
     {
       "chainId": 1,
@@ -4727,6 +4727,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xe304283c3e60cefaf7ea514007cf4e8fdc3d869d",
+      "name": "Gecoin",
+      "symbol": "GEC",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25646/large/62162f0d583e5a047dc02e7e_gecoin_200x200.png?1653019356"
+    },
+    {
+      "chainId": 1,
       "address": "0x15b7c0c907e4c6b9adaaaabc300c08991d6cea05",
       "name": "Gelato",
       "symbol": "GEL",
@@ -7262,6 +7270,14 @@
           }
         }
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0x12300ed54f65648524c1bfaf86712927da6cc6fc",
+      "name": "MOVE Network",
+      "symbol": "MOVD",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/19236/large/MOVD_logo.png?1634772468"
     },
     {
       "chainId": 1,
