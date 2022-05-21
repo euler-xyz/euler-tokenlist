@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-05-20T22:41:42.737Z",
+  "timestamp": "2022-05-21T22:36:25.546Z",
   "version": {
     "major": 1,
-    "minor": 82,
+    "minor": 83,
     "patch": 0
   },
   "tags": {},
@@ -1864,6 +1864,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xff0a024b66739357c4ed231fb3dbc0c8c22749f5",
+      "name": "Wrapped WRX",
+      "symbol": "BWRX",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/18969/large/bwrx.png?1634031209"
+    },
+    {
+      "chainId": 1,
       "address": "0x97a3bd8a445cc187c6a751f392e15c3b2134d695",
       "name": "Blockster",
       "symbol": "BXR",
@@ -2801,6 +2809,14 @@
       "symbol": "CUDL",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/17479/large/cudl.PNG?1627950486"
+    },
+    {
+      "chainId": 1,
+      "address": "0x817bbdbc3e8a1204f3691d14bb44992841e3db35",
+      "name": "Cudos",
+      "symbol": "CUDOS",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13651/large/CudosIconTransparent.png?1610631426"
     },
     {
       "chainId": 1,
@@ -5969,14 +5985,6 @@
       "symbol": "KCAL",
       "decimals": 10,
       "logoURI": "https://assets.coingecko.com/coins/images/25447/large/Screenshot_from_2022-05-06_09-46-03.png?1651801573"
-    },
-    {
-      "chainId": 1,
-      "address": "0x3d875a26d9afcbf4f58c920509c876b594499c87",
-      "name": "K Chain",
-      "symbol": "KCT",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/25531/large/IMG_3487.PNG?1652250658"
     },
     {
       "chainId": 1,
