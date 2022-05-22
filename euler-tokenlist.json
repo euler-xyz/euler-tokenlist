@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-05-21T22:36:25.546Z",
+  "timestamp": "2022-05-22T22:36:39.373Z",
   "version": {
     "major": 1,
-    "minor": 83,
+    "minor": 84,
     "patch": 0
   },
   "tags": {},
@@ -12230,6 +12230,23 @@
     },
     {
       "chainId": 1,
+      "address": "0x72b886d09c117654ab7da13a14d603001de0b777",
+      "name": "XDEFI",
+      "symbol": "XDEFI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/19524/large/xdefi.png?1637917251",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "chainId": 1,
+            "verifyingContract": "0x72b886d09c117654ab7da13a14d603001de0b777"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xee573a945b01b788b9287ce062a0cfc15be9fd86",
       "name": "Exeedme",
       "symbol": "XED",
@@ -12633,7 +12650,7 @@
       "name": "Panther Protocol",
       "symbol": "ZKP",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/18611/large/DvXVFEkp_400x400.png?1632669379",
+      "logoURI": "https://assets.coingecko.com/coins/images/18611/large/1_FVXTRf8HogOiXOQDzonE5g.png?1653199708",
       "extensions": {
         "permit": {
           "type": "EIP2612",
