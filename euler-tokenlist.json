@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-05-22T22:36:39.373Z",
+  "timestamp": "2022-05-23T22:37:23.626Z",
   "version": {
     "major": 1,
-    "minor": 84,
+    "minor": 85,
     "patch": 0
   },
   "tags": {},
@@ -621,7 +621,7 @@
     {
       "chainId": 1,
       "address": "0x1f3f9d3068568f8040775be2e8c03c103c61f3af",
-      "name": "Archer DAO Governance Token",
+      "name": "Archer DAO Governance",
       "symbol": "ARCH",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13188/large/archer_logo.png?1606097487",
@@ -1723,7 +1723,7 @@
     {
       "chainId": 1,
       "address": "0x6628606c321faf52b7230a57b26c01b19aa68e82",
-      "name": "BitHash Token",
+      "name": "BitHash",
       "symbol": "BT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13224/large/bt.png?1606358296"
@@ -2004,7 +2004,7 @@
     {
       "chainId": 1,
       "address": "0x56015bbe3c01fe05bc30a8a9a9fd9a88917e7db3",
-      "name": "Cat Token",
+      "name": "Mooncat CAT",
       "symbol": "CAT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12177/large/happy2-2.jpg?1619593488"
@@ -2361,25 +2361,6 @@
     },
     {
       "chainId": 1,
-      "address": "0xbc138bd20c98186cc0342c8e380953af0cb48ba8",
-      "name": "Candle",
-      "symbol": "CNDL",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/23958/large/18327.png?1645777988",
-      "extensions": {
-        "permit": {
-          "type": "EIP2612",
-          "domain": {
-            "name": "Candle",
-            "version": "1",
-            "chainId": 1,
-            "verifyingContract": "0xbc138bd20c98186cc0342c8e380953af0cb48ba8"
-          }
-        }
-      }
-    },
-    {
-      "chainId": 1,
       "address": "0x5c1d9aa868a30795f92fae903edc9eff269044bf",
       "name": "Changer",
       "symbol": "CNG",
@@ -2731,7 +2712,7 @@
     {
       "chainId": 1,
       "address": "0xd533a949740bb3306d119cc777fa900ba034cd52",
-      "name": "Curve DAO Token",
+      "name": "Curve DAO",
       "symbol": "CRV",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12124/large/Curve.png?1597369484"
@@ -4020,7 +4001,7 @@
     {
       "chainId": 1,
       "address": "0xd6c67b93a7b248df608a653d82a100556144c5da",
-      "name": "ExNetwork Token",
+      "name": "ExNetwork",
       "symbol": "EXNT",
       "decimals": 16,
       "logoURI": "https://assets.coingecko.com/coins/images/12328/large/exnt_logo.png?1599102916"
@@ -4469,7 +4450,7 @@
     {
       "chainId": 1,
       "address": "0xf6832ea221ebfdc2363729721a146e6745354b14",
-      "name": "FRMx Token",
+      "name": "FRMx",
       "symbol": "FRMX",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13082/large/New_Project_%2862%29.png?1609811248"
@@ -8138,7 +8119,7 @@
     {
       "chainId": 1,
       "address": "0x4c11249814f11b9346808179cf06e71ac328c1b5",
-      "name": "Oraichain Token",
+      "name": "Oraichain",
       "symbol": "ORAI",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12931/large/orai.png?1647077378"
@@ -9301,7 +9282,7 @@
     {
       "chainId": 1,
       "address": "0xa287fd349d80dfd2a8aee1c0d90f17281f24c061",
-      "name": "REUCOIN",
+      "name": "REUCOIN  OLD ",
       "symbol": "REU",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/20691/large/3Npgxehf_400x400.jpg?1637562059"
@@ -9325,7 +9306,7 @@
     {
       "chainId": 1,
       "address": "0xd291e7a03283640fdc51b121ac401383a46cc623",
-      "name": "Rari Governance Token",
+      "name": "Rari Governance",
       "symbol": "RGT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12900/large/Rari_Logo_Transparent.png?1613978014"
@@ -10944,7 +10925,7 @@
     {
       "chainId": 1,
       "address": "0xef2e239b21a81719abaabc6239e2e90859b44d9b",
-      "name": "Talent Token",
+      "name": "Talent TTX",
       "symbol": "TTX",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12770/large/ttx.png?1640758151"
@@ -11729,7 +11710,7 @@
     {
       "chainId": 1,
       "address": "0xb2279b6769cfba691416f00609b16244c0cf4b20",
-      "name": "Waifu Token",
+      "name": "Waifu",
       "symbol": "WAIF",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12100/large/Small-Waifu_token.png?1597120029"
@@ -12108,7 +12089,7 @@
     {
       "chainId": 1,
       "address": "0x4cff49d0a19ed6ff845a9122fa912abcfb1f68a6",
-      "name": "WadzPay Token",
+      "name": "WadzPay",
       "symbol": "WTK",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13083/large/200xWadzToken.png?1604984329"
