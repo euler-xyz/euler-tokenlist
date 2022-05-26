@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-05-25T22:35:28.625Z",
+  "timestamp": "2022-05-26T22:40:35.051Z",
   "version": {
     "major": 1,
-    "minor": 87,
+    "minor": 88,
     "patch": 0
   },
   "tags": {},
@@ -2220,7 +2220,7 @@
     {
       "chainId": 1,
       "address": "0x0000000000004946c0e9f43f4dee607b0ef1fa1c",
-      "name": "Chi Gastoken",
+      "name": "Chi Gas",
       "symbol": "CHI",
       "decimals": 0,
       "logoURI": "https://assets.coingecko.com/coins/images/11583/large/chi.png?1591331659"
@@ -6698,7 +6698,7 @@
     {
       "chainId": 1,
       "address": "0xa8b919680258d369114910511cc87595aec0be6d",
-      "name": "LUKSO Token",
+      "name": "LUKSO",
       "symbol": "LYXE",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/11423/large/1_QAHTciwVhD7SqVmfRW70Pw.png?1590110612"
