@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-05-26T22:40:35.051Z",
+  "timestamp": "2022-05-27T22:38:34.112Z",
   "version": {
     "major": 1,
-    "minor": 88,
+    "minor": 89,
     "patch": 0
   },
   "tags": {},
@@ -6644,8 +6644,8 @@
     {
       "chainId": 1,
       "address": "0xd2877702675e6ceb975b4a1dff9fb7baf4c91ea9",
-      "name": "Wrapped Terra",
-      "symbol": "LUNA",
+      "name": "Wrapped Terra Classic",
+      "symbol": "LUNC",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13628/large/wluna.png?1610448334"
     },
@@ -7589,7 +7589,7 @@
       "name": "Nash",
       "symbol": "NEX",
       "decimals": 8,
-      "logoURI": "https://assets.coingecko.com/coins/images/3246/large/Nash-token_icon.png?1550821163"
+      "logoURI": "https://assets.coingecko.com/coins/images/3246/large/nash.png?1653656442"
     },
     {
       "chainId": 1,
@@ -11359,19 +11359,19 @@
     },
     {
       "chainId": 1,
-      "address": "0xa47c8bf37f92abed4a126bda807a7b7498661acd",
-      "name": "Wrapped UST",
-      "symbol": "UST",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/15462/large/ust.png?1620910058"
-    },
-    {
-      "chainId": 1,
       "address": "0xa693b19d2931d498c5b318df961919bb4aee87a5",
       "name": "TerraUSD  Wormhole ",
       "symbol": "UST",
       "decimals": 6,
       "logoURI": "https://assets.coingecko.com/coins/images/21150/large/UST_wh_small.png?1644223065"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa47c8bf37f92abed4a126bda807a7b7498661acd",
+      "name": "Wrapped USTC",
+      "symbol": "USTC",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/15462/large/ust.png?1620910058"
     },
     {
       "chainId": 1,
