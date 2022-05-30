@@ -91,6 +91,15 @@ module.exports = {
         verifyingContract: '0x52a8845df664d76c69d2eea607cd793565af42b8'
       },
   },
+  '0x632806bf5c8f062932dd121244c9fbe7becb8b48': { // PDI
+      permitType: 'EIP2612',
+      domain: {
+        name: 'PhutureIndex',
+        version: '1',
+        chainId: 1,
+        verifyingContract: '0x632806bf5c8f062932dd121244c9fbe7becb8b48'
+      },
+  },
 
   // Contracts with intended permit support with various issues
 
