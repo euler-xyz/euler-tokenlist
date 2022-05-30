@@ -12694,6 +12694,14 @@
           }
         }
       }
+    },
+    {
+      "name": "Ribbon ETH Theta Vault",
+      "address": "0x25751853eab4d0eb3652b5eb6ecb102a2789644b",
+      "symbol": "rETH-THETA",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": ""
     }
   ]
 }
