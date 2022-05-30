@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-05-29T22:35:55.404Z",
+  "timestamp": "2022-05-30T22:36:20.143Z",
   "version": {
     "major": 1,
-    "minor": 91,
+    "minor": 92,
     "patch": 0
   },
   "tags": {},
@@ -5868,7 +5868,7 @@
     {
       "chainId": 1,
       "address": "0x8a9c67fee641579deba04928c4bc45f66e26343a",
-      "name": "Jarvis Reward Token",
+      "name": "Jarvis Reward",
       "symbol": "JRT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/10390/large/cfeii0y.png?1578868949",
@@ -9280,6 +9280,14 @@
       "logoURI": "https://assets.coingecko.com/coins/images/20764/large/reth.png?1637652366"
     },
     {
+      "name": "Ribbon ETH Theta Vault",
+      "address": "0x25751853eab4d0eb3652b5eb6ecb102a2789644b",
+      "symbol": "rETH-THETA",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": ""
+    },
+    {
       "chainId": 1,
       "address": "0xa287fd349d80dfd2a8aee1c0d90f17281f24c061",
       "name": "REUCOIN  OLD ",
@@ -9322,7 +9330,7 @@
     {
       "chainId": 1,
       "address": "0x9469d013805bffb7d3debe5e7839237e535ec483",
-      "name": "Darwinia Network Native Token",
+      "name": "Darwinia Network",
       "symbol": "RING",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/9443/large/RING.png?1615271827"
@@ -9463,7 +9471,7 @@
     {
       "chainId": 1,
       "address": "0x320623b8e4ff03373931769a31fc52a4e78b5d70",
-      "name": "Reserve Rights Token",
+      "name": "Reserve Rights",
       "symbol": "RSR",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/8365/large/rsr.png?1637983320",
@@ -10306,6 +10314,25 @@
     },
     {
       "chainId": 1,
+      "address": "0x2c5bcad9ade17428874855913def0a02d8be2324",
+      "name": "pSTAKE Staked ETH",
+      "symbol": "STKETH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25798/large/Ethereum.png?1653921854",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Staked ETH",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x2c5bcad9ade17428874855913def0a02d8be2324"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x89dcff5fd892f2bfc8b75dba12804b651f769579",
       "name": "Staker DAO",
       "symbol": "STKR",
@@ -10634,7 +10661,7 @@
     {
       "chainId": 1,
       "address": "0x4057db5bd9f67a566aa10e5587b1a964affc6a16",
-      "name": "Truefeedback Token",
+      "name": "Truefeedback",
       "symbol": "TFBX",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/8842/large/5rd7a55q_400x400.png?1562902557"
@@ -12694,14 +12721,6 @@
           }
         }
       }
-    },
-    {
-      "name": "Ribbon ETH Theta Vault",
-      "address": "0x25751853eab4d0eb3652b5eb6ecb102a2789644b",
-      "symbol": "rETH-THETA",
-      "decimals": 18,
-      "chainId": 1,
-      "logoURI": ""
     }
   ]
 }
