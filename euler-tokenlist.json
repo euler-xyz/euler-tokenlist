@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-05-30T22:36:20.143Z",
+  "timestamp": "2022-05-31T22:36:08.595Z",
   "version": {
     "major": 1,
-    "minor": 92,
+    "minor": 93,
     "patch": 0
   },
   "tags": {},
@@ -167,7 +167,7 @@
     {
       "chainId": 1,
       "address": "0xd0d6d6c5fe4a677d343cc433536bb717bae167dd",
-      "name": "adToken",
+      "name": "adChain",
       "symbol": "ADT",
       "decimals": 9,
       "logoURI": "https://assets.coingecko.com/coins/images/778/large/adtoken.png?1547034537"
@@ -1073,7 +1073,7 @@
     {
       "chainId": 1,
       "address": "0x0d8775f648430679a709e98d2b0cb6250d2887ef",
-      "name": "Basic Attention Token",
+      "name": "Basic Attention",
       "symbol": "BAT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/677/large/basic-attention-token.png?1547034427"
@@ -1354,7 +1354,7 @@
       "name": "BitDAO",
       "symbol": "BIT",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/17627/large/bitdao.jpg?1628679607"
+      "logoURI": "https://assets.coingecko.com/coins/images/17627/large/rI_YptK8.png?1653983088"
     },
     {
       "chainId": 1,
@@ -1474,7 +1474,7 @@
     {
       "chainId": 1,
       "address": "0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c",
-      "name": "Bancor Network Token",
+      "name": "Bancor Network",
       "symbol": "BNT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/736/large/bancor-bnt.png?1628822309"
@@ -2092,7 +2092,7 @@
     {
       "chainId": 1,
       "address": "0xb056c38f6b7dc4064367403e26424cd2c60655e1",
-      "name": "CEEK Smart VR Token",
+      "name": "CEEK Smart VR",
       "symbol": "CEEK",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/2581/large/ceek-smart-vr-token-logo.png?1547036714"
@@ -3257,7 +3257,7 @@
     {
       "chainId": 1,
       "address": "0xc719d010b63e5bbf2c0551872cd5316ed26acd83",
-      "name": "Etherisc DIP Token",
+      "name": "Etherisc DIP",
       "symbol": "DIP",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/4586/large/dip.png?1547039863"
@@ -4490,7 +4490,7 @@
     {
       "chainId": 1,
       "address": "0x419d0d8bdd9af5e606ae2232ed285aff190e711b",
-      "name": "FUNToken",
+      "name": "FUN",
       "symbol": "FUN",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/761/large/funfair.png?1592404368"
@@ -6344,7 +6344,7 @@
     {
       "chainId": 1,
       "address": "0x0a50c93c762fdd6e56d86215c24aaad43ab629aa",
-      "name": "LGO Token",
+      "name": "LGO",
       "symbol": "LGO",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/2353/large/2_JNnfVRPMBuA1hwnRubH72A.png?1595311622"
@@ -6406,7 +6406,7 @@
       "name": "Luna Inu",
       "symbol": "LINU",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/25623/large/6rG1s5Dx_400x400.jpeg?1652857836"
+      "logoURI": "https://assets.coingecko.com/coins/images/25623/large/output-onlinepngtools.png?1653983337"
     },
     {
       "chainId": 1,
@@ -6912,7 +6912,7 @@
     {
       "chainId": 1,
       "address": "0x814e0908b12a99fecf5bc101bb5d0b8b5cdf7d26",
-      "name": "Measurable Data Token",
+      "name": "Measurable Data",
       "symbol": "MDT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/2441/large/mdt_logo.png?1569813574"
@@ -11402,6 +11402,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xdc9ac3c20d1ed0b540df9b1fedc10039df13f99c",
+      "name": "Utrust",
+      "symbol": "UTK",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/1824/large/300x300_logo.png?1570520533"
+    },
+    {
+      "chainId": 1,
       "address": "0xa58a4f5c4bb043d2cc1e170613b74e767c94189b",
       "name": "UTU Coin",
       "symbol": "UTU",
@@ -11499,7 +11507,7 @@
     {
       "chainId": 1,
       "address": "0x3c4b6e6e1ea3d4863700d7f76b36b7f3d3f13e3d",
-      "name": "Voyager Token",
+      "name": "Voyager VGX",
       "symbol": "VGX",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/794/large/Voyager-vgx.png?1575693595"
@@ -12164,7 +12172,7 @@
     {
       "chainId": 1,
       "address": "0x910dfc18d6ea3d6a7124a6f8b5458f281060fa4c",
-      "name": "X8X Token",
+      "name": "X8X",
       "symbol": "X8X",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/1912/large/x8x.png?1547036213"
