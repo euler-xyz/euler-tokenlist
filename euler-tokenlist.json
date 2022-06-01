@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-05-31T22:36:08.595Z",
+  "timestamp": "2022-06-01T22:38:26.741Z",
   "version": {
     "major": 1,
-    "minor": 93,
+    "minor": 94,
     "patch": 0
   },
   "tags": {},
@@ -5441,7 +5441,7 @@
       "name": "Hyve",
       "symbol": "HYVE",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/13072/large/MKHXNbf.png?1604899269"
+      "logoURI": "https://assets.coingecko.com/coins/images/13072/large/bAe1G-lD_400x400.png?1654056255"
     },
     {
       "chainId": 1,
@@ -5547,6 +5547,14 @@
       "symbol": "IDTT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/18384/large/identity.PNG?1631745919"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc383a3833a87009fd9597f8184979af5edfad019",
+      "name": "Instadapp ETH",
+      "symbol": "IETH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25822/large/iETH_100x100.png?1654055637"
     },
     {
       "chainId": 1,
@@ -11527,6 +11535,14 @@
       "symbol": "VIDYA",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12219/large/VIDYA_TOKEN.png?1598240425"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9416ba76e88d873050a06e5956a3ebf10386b863",
+      "name": "Virtue",
+      "symbol": "VIRTUE",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25834/large/discord.png?1654067486"
     },
     {
       "chainId": 1,
