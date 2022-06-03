@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-06-02T22:38:10.316Z",
+  "timestamp": "2022-06-03T22:36:46.221Z",
   "version": {
     "major": 1,
-    "minor": 95,
+    "minor": 96,
     "patch": 0
   },
   "tags": {},
@@ -59,7 +59,7 @@
     {
       "chainId": 1,
       "address": "0xf0bc1ae4ef7ffb126a8347d06ac6f8add770e1ce",
-      "name": "1Million Token",
+      "name": "1Million",
       "symbol": "1MT",
       "decimals": 7,
       "logoURI": "https://assets.coingecko.com/coins/images/8495/large/1MTp.png?1586964391"
@@ -569,6 +569,14 @@
       "symbol": "APEIN",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/18262/large/apein.PNG?1631158082"
+    },
+    {
+      "chainId": 1,
+      "address": "0xfd4168e642ebd04c3684a6cdb3a5e86de85d3908",
+      "name": "The APIS",
+      "symbol": "API",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/14055/large/Screenshot_2022-03-10_at_11.09.50_AM.png?1646882043"
     },
     {
       "chainId": 1,
@@ -1220,7 +1228,7 @@
     {
       "chainId": 1,
       "address": "0x1b073382e63411e3bcffe90ac1b9a43fefa1ec6f",
-      "name": "Bitpanda Ecosystem Token",
+      "name": "Bitpanda Ecosystem",
       "symbol": "BEST",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/8738/large/BEST-Coin-Logo.png?1619079782"
@@ -1611,7 +1619,7 @@
     {
       "chainId": 1,
       "address": "0x426fc8be95573230f6e6bc4af91873f0c67b21b4",
-      "name": "BlackPearl Token",
+      "name": "BlackPearl",
       "symbol": "BPLC",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/8931/large/EJIpComQ_400x400.png?1584653141"
@@ -2156,7 +2164,7 @@
     {
       "chainId": 1,
       "address": "0x081f67afa0ccf8c7b17540767bbe95df2ba8d97f",
-      "name": "CoinEx Token",
+      "name": "CoinEx",
       "symbol": "CET",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/4817/large/coinex-token.png?1547040183"
@@ -3415,7 +3423,7 @@
       "name": "Digital Reserve Currency",
       "symbol": "DRC",
       "decimals": 0,
-      "logoURI": "https://assets.coingecko.com/coins/images/12802/large/DRC-Digital-Reserve-Currency-Coingecko.png?1603355646"
+      "logoURI": "https://assets.coingecko.com/coins/images/12802/large/DRC_Logo.jpg?1654229818"
     },
     {
       "chainId": 1,
@@ -3594,7 +3602,7 @@
     {
       "chainId": 1,
       "address": "0xe9fa21e671bcfb04e6868784b89c19d5aa2424ea",
-      "name": "EurocoinToken",
+      "name": "Eurocoin ECTE",
       "symbol": "ECTE",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/7634/large/logotoken200x200.png?1550742362"
@@ -4474,7 +4482,7 @@
     {
       "chainId": 1,
       "address": "0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
-      "name": "FTX Token",
+      "name": "FTX",
       "symbol": "FTT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/9026/large/F.png?1609051564"
@@ -4868,7 +4876,7 @@
     {
       "chainId": 1,
       "address": "0xf6537fe0df7f0cc0985cf00792cc98249e73efa0",
-      "name": "GIV Token",
+      "name": "GIV",
       "symbol": "GIV",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/8996/large/giv.png?1629952637"
@@ -5414,7 +5422,7 @@
     {
       "chainId": 1,
       "address": "0x6be61833fc4381990e82d7d4a9f4c9b3f67ea941",
-      "name": "Hotbit Token",
+      "name": "Hotbit",
       "symbol": "HTB",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/5990/large/hotbit-token.png?1547041932"
@@ -5422,7 +5430,7 @@
     {
       "chainId": 1,
       "address": "0x9aab071b4129b083b01cb5a0cb513ce7eca26fa5",
-      "name": "HUNT",
+      "name": "Hunt",
       "symbol": "HUNT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/7989/large/HUNT.png?1571024256"
@@ -6612,7 +6620,7 @@
     {
       "chainId": 1,
       "address": "0x8a732bc91c33c167f868e0af7e6f31e0776d0f71",
-      "name": "Litecoin Token",
+      "name": "Litecoin LTK",
       "symbol": "LTK",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/7573/large/LTK.jpg?1550626784"
@@ -8446,7 +8454,7 @@
     {
       "chainId": 1,
       "address": "0x02f2d4a04e6e01ace88bd2cd632875543b2ef577",
-      "name": "PKG Token",
+      "name": "PKG",
       "symbol": "PKG",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/5422/large/pkg-token.png?1548331357"
@@ -10811,7 +10819,7 @@
     {
       "chainId": 1,
       "address": "0x4161725d019690a3e0de50f6be67b07a86a9fae1",
-      "name": "Token Pocket",
+      "name": "Pocket TPT",
       "symbol": "TPT",
       "decimals": 4,
       "logoURI": "https://assets.coingecko.com/coins/images/7603/large/_E6sbg1g_400x400.jpg?1548828066"
@@ -12395,7 +12403,7 @@
     {
       "chainId": 1,
       "address": "0x79c71d3436f39ce382d0f58f1b011d88100b9d91",
-      "name": "Xeonbit Token",
+      "name": "Xeonbit XNS",
       "symbol": "XNS",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/8744/large/200x200_icon_darkbg.png?1560826732"
