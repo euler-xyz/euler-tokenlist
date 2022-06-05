@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-06-04T22:40:14.982Z",
+  "timestamp": "2022-06-05T22:36:16.664Z",
   "version": {
     "major": 1,
-    "minor": 97,
+    "minor": 98,
     "patch": 0
   },
   "tags": {},
@@ -6616,6 +6616,14 @@
       "symbol": "LRC",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/913/large/LRC.png?1572852344"
+    },
+    {
+      "chainId": 1,
+      "address": "0x3b9be07d622accaed78f479bc0edabfd6397e320",
+      "name": "Lossless",
+      "symbol": "LSS",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/15917/large/Group_57.png?1623046307"
     },
     {
       "chainId": 1,
