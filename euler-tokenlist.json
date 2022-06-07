@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-06-06T22:39:26.264Z",
+  "timestamp": "2022-06-07T22:40:27.033Z",
   "version": {
     "major": 1,
-    "minor": 99,
+    "minor": 100,
     "patch": 0
   },
   "tags": {},
@@ -28,14 +28,6 @@
       "symbol": "0XBTC",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/4454/large/0xbtc.png?1561603765"
-    },
-    {
-      "chainId": 1,
-      "address": "0x7ff4169a6b5122b664c51c95727d87750ec07c84",
-      "name": "Tenset",
-      "symbol": "10SET",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/14629/large/10set.png?1617353812"
     },
     {
       "chainId": 1,
@@ -9612,14 +9604,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x8b3192f5eebd8579568a2ed41e6feb402f93f73f",
-      "name": "Saitama Inu",
-      "symbol": "SAITAMA",
-      "decimals": 9,
-      "logoURI": "https://assets.coingecko.com/coins/images/16353/large/Capture.PNG?1632126703"
-    },
-    {
-      "chainId": 1,
       "address": "0xfa14fa6958401314851a17d6c5360ca29f74b57b",
       "name": "Saito",
       "symbol": "SAITO",
@@ -11761,7 +11745,7 @@
     {
       "chainId": 1,
       "address": "0x1e987df68cc13d271e621ec82e050a1bbd62c180",
-      "name": "WAGMI Game",
+      "name": "WAGMI Game  OLD ",
       "symbol": "WAGMI",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/21149/large/61a220cb6d49682ecaba5506_wagmi-logo-square-black-p-500.png?1638410537"
