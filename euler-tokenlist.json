@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-06-07T22:40:27.033Z",
+  "timestamp": "2022-06-08T22:34:40.790Z",
   "version": {
     "major": 1,
-    "minor": 100,
+    "minor": 101,
     "patch": 0
   },
   "tags": {},
@@ -451,6 +451,14 @@
       "symbol": "ANB",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/17270/large/AngryBlockchain.png?1627005396"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4f14cdbd815b79e9624121f564f24685c6b1211b",
+      "name": "Angry Doge",
+      "symbol": "ANFD",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25921/large/angry-doge-anfd.png?1654653373"
     },
     {
       "chainId": 1,
@@ -2048,14 +2056,6 @@
       "symbol": "CBSN",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14781/large/bsn_dp_high.png?1618865566"
-    },
-    {
-      "chainId": 1,
-      "address": "0x17ac188e09a7890a1844e5e65471fe8b0ccfadf3",
-      "name": "Cryptocurrency Top 10 Index",
-      "symbol": "CC10",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/13692/large/BRfNDy1.png?1610960481"
     },
     {
       "chainId": 1,
@@ -6603,6 +6603,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xbbcd3e4eb43aa7f3f57286da31333d53b24d0d6a",
+      "name": "Laro",
+      "symbol": "LRC",
+      "decimals": 2,
+      "logoURI": "https://assets.coingecko.com/coins/images/25925/large/lorologo.png?1654673196"
+    },
+    {
+      "chainId": 1,
       "address": "0x3b9be07d622accaed78f479bc0edabfd6397e320",
       "name": "Lossless",
       "symbol": "LSS",
@@ -8029,14 +8037,6 @@
       "symbol": "OMI",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/4428/large/ECOMI.png?1557928886"
-    },
-    {
-      "chainId": 1,
-      "address": "0x224db5e6180761df4c3d8936585f6b8b83879770",
-      "name": "Omlira",
-      "symbol": "OML",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/17780/large/omlira.PNG?1629247142"
     },
     {
       "chainId": 1,
@@ -12152,14 +12152,6 @@
       "symbol": "WVG0",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12875/large/wvg0.png?1603211534"
-    },
-    {
-      "chainId": 1,
-      "address": "0x38118bdb3b480f570837a4c2e88fac6e83be6689",
-      "name": "Werewolf Coin",
-      "symbol": "WWC",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/16173/large/WWC-200x200.png?1623198141"
     },
     {
       "chainId": 1,
