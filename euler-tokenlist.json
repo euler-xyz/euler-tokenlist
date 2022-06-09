@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-06-08T22:34:40.790Z",
+  "timestamp": "2022-06-09T22:36:45.663Z",
   "version": {
     "major": 1,
-    "minor": 101,
+    "minor": 102,
     "patch": 0
   },
   "tags": {},
@@ -5373,6 +5373,25 @@
     },
     {
       "chainId": 1,
+      "address": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc",
+      "name": "Hop Protocol",
+      "symbol": "HOP",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25445/large/BVcNR51u_400x400.jpg?1651797443",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Hop",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xf5581dfefd8fb0e4aec526be659cfab1f8c781da",
       "name": "HOPR",
       "symbol": "HOPR",
@@ -6664,6 +6683,25 @@
       "symbol": "LUNC",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13628/large/wluna.png?1610448334"
+    },
+    {
+      "chainId": 1,
+      "address": "0x71a28feaee902966dc8d355e7b8aa427d421e7e0",
+      "name": "LunchDAO",
+      "symbol": "LUNCH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25808/large/200x200.png?1653979480",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "LunchDao",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x71a28feaee902966dc8d355e7b8aa427d421e7e0"
+          }
+        }
+      }
     },
     {
       "chainId": 1,
@@ -11741,14 +11779,6 @@
           }
         }
       }
-    },
-    {
-      "chainId": 1,
-      "address": "0x1e987df68cc13d271e621ec82e050a1bbd62c180",
-      "name": "WAGMI Game  OLD ",
-      "symbol": "WAGMI",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/21149/large/61a220cb6d49682ecaba5506_wagmi-logo-square-black-p-500.png?1638410537"
     },
     {
       "chainId": 1,
