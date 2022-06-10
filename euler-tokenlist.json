@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-06-09T22:36:45.663Z",
+  "timestamp": "2022-06-10T22:41:44.905Z",
   "version": {
     "major": 1,
-    "minor": 102,
+    "minor": 103,
     "patch": 0
   },
   "tags": {},
@@ -5518,11 +5518,21 @@
     },
     {
       "chainId": 1,
-      "address": "0x903bef1736cddf2a537176cf3c64579c3867a881",
-      "name": "ICHI",
+      "address": "0x111111517e4929d3dcbdfa7cce55d30d4b6bc4d6",
+      "name": "Ichi",
       "symbol": "ICHI",
-      "decimals": 9,
-      "logoURI": "https://assets.coingecko.com/coins/images/13119/large/ICHI_%28Round%29.jpg?1614308761"
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13119/large/ICHI_%28Round%29.jpg?1614308761",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "ICHI",
+            "chainId": 1,
+            "verifyingContract": "0x111111517e4929d3dcbdfa7cce55d30d4b6bc4d6"
+          }
+        }
+      }
     },
     {
       "chainId": 1,
@@ -9858,6 +9868,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x4e4a47cac6a28a62dcc20990ed2cda9bc659469f",
+      "name": "I will poop it NFT",
+      "symbol": "SHIT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25945/large/PCNoOl8.png?1654833800"
+    },
+    {
+      "chainId": 1,
       "address": "0x7bef710a5759d197ec0bf621c3df802c2d60d848",
       "name": "SHOPX",
       "symbol": "SHOPX",
@@ -10986,6 +11004,14 @@
       "symbol": "TT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/17216/large/EC65-CF15-3575-41-C7-8-D2-F-0-B2-FDC82-DF96.jpg?1626877437"
+    },
+    {
+      "chainId": 1,
+      "address": "0x1e053d89e08c24aa2ce5c5b4206744dc2d7bd8f5",
+      "name": "ThunderCore",
+      "symbol": "TT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/4375/large/ThunderCore_Logo_Mark_Gradient_%283%29.png?1650455349"
     },
     {
       "chainId": 1,
