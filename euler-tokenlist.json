@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-06-13T22:43:34.107Z",
+  "timestamp": "2022-06-14T22:39:06.370Z",
   "version": {
     "major": 1,
-    "minor": 106,
+    "minor": 107,
     "patch": 0
   },
   "tags": {},
@@ -8501,6 +8501,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x5718af2dd07cd76ab0606f66565275f6c29f132f",
+      "name": "Pixul",
+      "symbol": "PIXUL",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25992/large/jHyoPis.png?1655192889"
+    },
+    {
+      "chainId": 1,
       "address": "0x8b39b70e39aa811b69365398e0aace9bee238aeb",
       "name": "PolkaFoundry",
       "symbol": "PKF",
@@ -10572,7 +10580,7 @@
       "name": "GivingToServices SVS",
       "symbol": "SVS",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/16436/large/SVS.png?1624081687"
+      "logoURI": "https://assets.coingecko.com/coins/images/16436/large/9UbufKC.png?1655180835"
     },
     {
       "chainId": 1,
@@ -12631,14 +12639,6 @@
       "symbol": "YLD",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13365/large/Icon_Blue.png?1607917500"
-    },
-    {
-      "chainId": 1,
-      "address": "0x88cb253d4c8cab8cdf7948a9251db85a13669e23",
-      "name": "Yieldly",
-      "symbol": "YLDY",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/16757/large/YIELDLY_TOKEN_256x256px.png?1625732457"
     },
     {
       "chainId": 1,
