@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-06-14T22:39:06.370Z",
+  "timestamp": "2022-06-15T22:38:08.390Z",
   "version": {
     "major": 1,
-    "minor": 107,
+    "minor": 108,
     "patch": 0
   },
   "tags": {},
@@ -5544,6 +5544,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x903bef1736cddf2a537176cf3c64579c3867a881",
+      "name": "Legacy ICHI",
+      "symbol": "ICHI",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/26004/large/legacy.png?1655278844"
+    },
+    {
+      "chainId": 1,
       "address": "0xebd9d99a3982d547c5bb4db7e3b1f9f14b67eb83",
       "name": "Everest",
       "symbol": "ID",
@@ -5564,7 +5572,7 @@
       "name": "IDLE",
       "symbol": "IDLE",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/13286/large/token-logo.png?1607004948",
+      "logoURI": "https://assets.coingecko.com/coins/images/13286/large/image.png?1655284075",
       "extensions": {
         "permit": {
           "type": "EIP2612",
@@ -8336,7 +8344,7 @@
       "name": "PathDAO",
       "symbol": "PATH",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/21146/large/ZlAWCoU8_400x400.png?1638405815"
+      "logoURI": "https://assets.coingecko.com/coins/images/21146/large/thumbnail.png?1655283979"
     },
     {
       "chainId": 1,
@@ -9872,7 +9880,7 @@
       "name": "Shina Inu",
       "symbol": "SHI",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/25208/large/coingecko-shina-purple-bg.png?1650771360"
+      "logoURI": "https://assets.coingecko.com/coins/images/25208/large/coingecko-shina-purple-bg.png?1655266989"
     },
     {
       "chainId": 1,
@@ -10122,25 +10130,6 @@
       "symbol": "SOCKS",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/10717/large/qFrcoiM.png?1582525244"
-    },
-    {
-      "chainId": 1,
-      "address": "0x04f2694c8fcee23e8fd0dfea1d4f5bb8c352111f",
-      "name": "Staked Olympus v1",
-      "symbol": "SOHM",
-      "decimals": 9,
-      "logoURI": "https://assets.coingecko.com/coins/images/21575/large/staked_olym.png?1639493858",
-      "extensions": {
-        "permit": {
-          "type": "EIP2612",
-          "domain": {
-            "name": "Staked Olympus",
-            "version": "1",
-            "chainId": 1,
-            "verifyingContract": "0x04f2694c8fcee23e8fd0dfea1d4f5bb8c352111f"
-          }
-        }
-      }
     },
     {
       "chainId": 1,
