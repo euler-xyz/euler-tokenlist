@@ -100,6 +100,15 @@ module.exports = {
         verifyingContract: '0x632806bf5c8f062932dd121244c9fbe7becb8b48'
       },
   },
+  '0x1abaea1f7c830bd89acc67ec4af516284b1bc33c': { // EURC
+      permitType: 'EIP2612',
+      domain: {
+        name: 'SSS Coin',
+        version: '2',
+        chainId: 1,
+        verifyingContract: '0x1abaea1f7c830bd89acc67ec4af516284b1bc33c'
+      },
+  },
 
   // Contracts with intended permit support with various issues
 
