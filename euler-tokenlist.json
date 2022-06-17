@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-06-16T22:36:33.210Z",
+  "timestamp": "2022-06-17T22:35:43.104Z",
   "version": {
     "major": 1,
-    "minor": 109,
+    "minor": 110,
     "patch": 0
   },
   "tags": {},
@@ -170,7 +170,7 @@
       "name": "Ambire AdEx",
       "symbol": "ADX",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/847/large/ambireadex.png?1634704581"
+      "logoURI": "https://assets.coingecko.com/coins/images/847/large/Ambire_AdEx_Symbol_color.png?1655432540"
     },
     {
       "chainId": 1,
@@ -6771,7 +6771,7 @@
       "name": "Magic",
       "symbol": "MAGIC",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/18623/large/Magic.png?1635755672"
+      "logoURI": "https://assets.coingecko.com/coins/images/18623/large/magic.png?1655449387"
     },
     {
       "chainId": 1,
