@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-06-17T22:35:43.104Z",
+  "timestamp": "2022-06-18T22:37:28.739Z",
   "version": {
     "major": 1,
-    "minor": 110,
+    "minor": 111,
     "patch": 0
   },
   "tags": {},
@@ -2806,14 +2806,6 @@
       "symbol": "CULT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/23331/large/quxZPrbC_400x400.jpg?1643880172"
-    },
-    {
-      "chainId": 1,
-      "address": "0xf650c3d88d12db855b8bf7d11be6c55a4e07dcc9",
-      "name": "cUSDT",
-      "symbol": "CUSDT",
-      "decimals": 8,
-      "logoURI": "https://assets.coingecko.com/coins/images/11621/large/cUSDT.png?1592113270"
     },
     {
       "chainId": 1,
@@ -6100,6 +6092,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x7cc62d8e80be9bea3947f3443ad136f50f75b505",
+      "name": "Knekted",
+      "symbol": "KNT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/6488/large/42318068_480165755801061_8741315709394485248_n.jpg?1565651343"
+    },
+    {
+      "chainId": 1,
       "address": "0xe93a27d4ed64f44a2b356d78c06115e5c9d97da0",
       "name": "KnoxEdge",
       "symbol": "KNX",
@@ -7483,7 +7483,7 @@
       "name": "MXC",
       "symbol": "MXC",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/4604/large/MXC-app-icon10242x.png?1597628240"
+      "logoURI": "https://assets.coingecko.com/coins/images/4604/large/mxc.png?1655534336"
     },
     {
       "chainId": 1,
@@ -8444,7 +8444,7 @@
       "name": "Phuture",
       "symbol": "PHTR",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/16071/large/phuture.png?1637302684"
+      "logoURI": "https://assets.coingecko.com/coins/images/16071/large/phtr.png?1655535400"
     },
     {
       "chainId": 1,
@@ -8552,6 +8552,14 @@
       "symbol": "PLR",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/809/large/v2logo-1.png?1624906282"
+    },
+    {
+      "chainId": 1,
+      "address": "0x34f0915a5f15a66eba86f6a58be1a471fb7836a7",
+      "name": "PulseDogecoin",
+      "symbol": "PLSD",
+      "decimals": 12,
+      "logoURI": "https://assets.coingecko.com/coins/images/25327/large/token-icon-200x200.png?1651234941"
     },
     {
       "chainId": 1,
