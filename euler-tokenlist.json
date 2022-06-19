@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-06-18T22:37:28.739Z",
+  "timestamp": "2022-06-19T22:36:43.516Z",
   "version": {
     "major": 1,
-    "minor": 111,
+    "minor": 112,
     "patch": 0
   },
   "tags": {},
@@ -9220,7 +9220,7 @@
     {
       "chainId": 1,
       "address": "0xfe3e6a25e6b192a42a44ecddcd13796471735acf",
-      "name": "Reef Finance",
+      "name": "Reef",
       "symbol": "REEF",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13504/large/Group_10572.png?1610534130"
