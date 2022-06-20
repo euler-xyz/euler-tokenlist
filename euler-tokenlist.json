@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-06-19T22:36:43.516Z",
+  "timestamp": "2022-06-20T22:35:19.724Z",
   "version": {
     "major": 1,
-    "minor": 112,
+    "minor": 113,
     "patch": 0
   },
   "tags": {},
@@ -1093,14 +1093,6 @@
       "symbol": "BAT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/677/large/basic-attention-token.png?1547034427"
-    },
-    {
-      "chainId": 1,
-      "address": "0x9a0242b7a33dacbe40edb927834f96eb39f8fbcb",
-      "name": "BABB",
-      "symbol": "BAX",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/2168/large/babb.png?1547036466"
     },
     {
       "chainId": 1,
@@ -3858,14 +3850,6 @@
       "symbol": "ESD",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12440/large/esd_logo_circle.png?1603676421"
-    },
-    {
-      "chainId": 1,
-      "address": "0xebc345e12c14449f2b63f077fd86f3345b0f0d14",
-      "name": "ESplash",
-      "symbol": "ESPL",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/21758/large/output-onlinepngtools-25.png?1639988213"
     },
     {
       "chainId": 1,
