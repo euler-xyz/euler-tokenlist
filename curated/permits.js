@@ -109,6 +109,15 @@ module.exports = {
         verifyingContract: '0x1abaea1f7c830bd89acc67ec4af516284b1bc33c'
       },
   },
+  '0x41545f8b9472d758bb669ed8eaeeecd7a9c4ec29': { // FORT
+      permitType: 'EIP2612',
+      domain: {
+        name: 'Forta',
+        version: '1',
+        chainId: 1,
+        verifyingContract: '0x41545f8b9472d758bb669ed8eaeeecd7a9c4ec29'
+      },
+  },
 
   // Contracts with intended permit support with various issues
 
