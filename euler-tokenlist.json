@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-06-20T22:35:19.724Z",
+  "timestamp": "2022-06-21T22:36:24.887Z",
   "version": {
     "major": 1,
-    "minor": 113,
+    "minor": 114,
     "patch": 0
   },
   "tags": {},
@@ -10059,6 +10059,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xb8fb35e3406e597e5f86d4f3c0e3063a6fab71a5",
+      "name": "AnySniper",
+      "symbol": "SNIPE",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/23838/large/logo.png?1645516952"
+    },
+    {
+      "chainId": 1,
       "address": "0x46d0dac0926fa16707042cadc23f1eb4141fe86b",
       "name": "SONM",
       "symbol": "SNM",
@@ -10472,6 +10480,14 @@
       "symbol": "STRP",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/18327/large/Logo-Strips-200-x-200px---without-words.png?1631543556"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0763fdccf1ae541a5961815c0872a8c5bc6de4d7",
+      "name": "SUKU",
+      "symbol": "SUKU",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/11969/large/suku-200.png?1655447745"
     },
     {
       "chainId": 1,
