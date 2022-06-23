@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-06-22T22:36:15.492Z",
+  "timestamp": "2022-06-23T14:18:47.153Z",
   "version": {
     "major": 1,
-    "minor": 115,
+    "minor": 116,
     "patch": 0
   },
   "tags": {},
@@ -11594,6 +11594,14 @@
       "symbol": "VIDYA",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12219/large/VIDYA_TOKEN.png?1598240425"
+    },
+    {
+      "chainId": 1,
+      "address": "0xafcdd4f666c84fed1d8bd825aa762e3714f652c9",
+      "name": "Vita Inu",
+      "symbol": "VINU",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/20594/large/vita-inu-head-wallet-icon-transparent.png?1637286122"
     },
     {
       "chainId": 1,
