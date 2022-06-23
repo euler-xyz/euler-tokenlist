@@ -67,4 +67,23 @@ module.exports = [
     "chainId": 1,
     "logoURI": ""
   },
+  {
+    "name": "Euler",
+    "address": "0xd9fcd98c322942075a5c3860693e9f4f03aae07b",
+    "chainId": 1,
+    "symbol": "EUL",
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/14280.png",
+    "extensions": {
+       "permit": {
+          "type": "EIP2612",
+          "domain": {
+             "name": "Euler",
+             "version": "1",
+             "chainId": 1,
+             "verifyingContract": "0xd9fcd98c322942075a5c3860693e9f4f03aae07b"
+          }
+       }
+    }
+  },
 ];
