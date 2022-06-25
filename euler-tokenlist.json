@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-06-24T22:35:52.194Z",
+  "timestamp": "2022-06-25T22:57:43.228Z",
   "version": {
     "major": 1,
-    "minor": 119,
+    "minor": 120,
     "patch": 0
   },
   "tags": {},
@@ -6944,14 +6944,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x1a7981d87e3b6a95c1516eb820e223fe979896b3",
-      "name": "Multi Chain Capital  OLD ",
-      "symbol": "MCC",
-      "decimals": 9,
-      "logoURI": "https://assets.coingecko.com/coins/images/20680/large/mchainicon-web.png?1637551161"
-    },
-    {
-      "chainId": 1,
       "address": "0xd69f306549e9d96f183b1aeca30b8f4353c2ecc3",
       "name": "MCH Coin",
       "symbol": "MCHC",
@@ -12632,6 +12624,14 @@
       "symbol": "YFI",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/11849/large/yfi-192x192.png?1598325330"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa1d0e215a23d7030842fc67ce582a6afa3ccab83",
+      "name": "DFI money",
+      "symbol": "YFII",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/11902/large/YFII-logo.78631676.png?1598677348"
     },
     {
       "chainId": 1,
