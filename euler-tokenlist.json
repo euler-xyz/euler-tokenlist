@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-06-25T22:57:43.228Z",
+  "timestamp": "2022-06-26T22:38:29.840Z",
   "version": {
     "major": 1,
-    "minor": 120,
+    "minor": 121,
     "patch": 0
   },
   "tags": {},
@@ -1864,14 +1864,6 @@
     },
     {
       "chainId": 1,
-      "address": "0xff0a024b66739357c4ed231fb3dbc0c8c22749f5",
-      "name": "Wrapped WRX",
-      "symbol": "BWRX",
-      "decimals": 8,
-      "logoURI": "https://assets.coingecko.com/coins/images/18969/large/bwrx.png?1634031209"
-    },
-    {
-      "chainId": 1,
       "address": "0x97a3bd8a445cc187c6a751f392e15c3b2134d695",
       "name": "Blockster",
       "symbol": "BXR",
@@ -2719,14 +2711,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x3b3f95938958a4029fa8b01873e2721b02950883",
-      "name": "CardSwap",
-      "symbol": "CSWAP",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/17863/large/cardswap.PNG?1629685209"
-    },
-    {
-      "chainId": 1,
       "address": "0x3aadc3bce49724ce299fd9f3850211211c399c8c",
       "name": "Coinstox",
       "symbol": "CSX",
@@ -3427,14 +3411,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x39eafea0e07cb14ca17b088f301c1f29b409176b",
-      "name": "Dry Doge Metaverse",
-      "symbol": "DRYDOGE",
-      "decimals": 9,
-      "logoURI": "https://assets.coingecko.com/coins/images/20440/large/drydoge.jpeg?1637039589"
-    },
-    {
-      "chainId": 1,
       "address": "0xbd2f0cd039e0bfcf88901c98c0bfac5ab27566e3",
       "name": "Dynamic Set Dollar",
       "symbol": "DSD",
@@ -4075,14 +4051,6 @@
       "symbol": "FARM",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12304/large/Harvest.png?1613016180"
-    },
-    {
-      "chainId": 1,
-      "address": "0x2ec95b8eda549b79a1248335a39d299d00ed314c",
-      "name": "Fatcoin",
-      "symbol": "FAT",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/7109/large/SV2Xb94q_400x400.jpg?1547043605"
     },
     {
       "chainId": 1,
@@ -4975,14 +4943,6 @@
       "symbol": "GOL",
       "decimals": 4,
       "logoURI": "https://assets.coingecko.com/coins/images/14824/large/GOL.png?1618559300"
-    },
-    {
-      "chainId": 1,
-      "address": "0x150b0b96933b75ce27af8b92441f8fb683bf9739",
-      "name": "Dragonereum GOLD",
-      "symbol": "GOLD",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/9905/large/PO04AL0y_400x400.jpg?1573437136"
     },
     {
       "chainId": 1,
@@ -6218,25 +6178,6 @@
       "symbol": "L2",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12950/large/Gluon256x256.png?1604048379"
-    },
-    {
-      "chainId": 1,
-      "address": "0xcb58418aa51ba525aef0fe474109c0354d844b7c",
-      "name": "Laika Protocol",
-      "symbol": "LAIKA",
-      "decimals": 9,
-      "logoURI": "https://assets.coingecko.com/coins/images/15833/large/laika.PNG?1622067228",
-      "extensions": {
-        "permit": {
-          "type": "EIP2612",
-          "domain": {
-            "name": "LaikaProtocol",
-            "version": "1",
-            "chainId": 1,
-            "verifyingContract": "0xcb58418aa51ba525aef0fe474109c0354d844b7c"
-          }
-        }
-      }
     },
     {
       "chainId": 1,
@@ -7634,14 +7575,6 @@
     },
     {
       "chainId": 1,
-      "address": "0xcc80c051057b774cd75067dc48f8987c4eb97a5e",
-      "name": "Nectar",
-      "symbol": "NEC",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/3559/large/NecLogoLoad.png?1592795924"
-    },
-    {
-      "chainId": 1,
       "address": "0xe2dc070524a6e305ddb64d8513dc444b6a1ec845",
       "name": "Nash",
       "symbol": "NEX",
@@ -8086,14 +8019,6 @@
       "symbol": "OMI",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/4428/large/ECOMI.png?1557928886"
-    },
-    {
-      "chainId": 1,
-      "address": "0x4e30910845f0cb4f66781b35c832eafc09774022",
-      "name": "Mars OMT",
-      "symbol": "OMT",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/16506/large/OMT.jpeg?1624279796"
     },
     {
       "chainId": 1,
@@ -8783,14 +8708,6 @@
       "symbol": "PRINTS",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/18143/large/prints.png?1634698868"
-    },
-    {
-      "chainId": 1,
-      "address": "0x094f00cb5e31ab6164e3cacb654e8d6c2b3b471c",
-      "name": "ProSwap",
-      "symbol": "PROS",
-      "decimals": 6,
-      "logoURI": "https://assets.coingecko.com/coins/images/15203/large/logo-icon_200x200-02.jpg?1622174709"
     },
     {
       "chainId": 1,
@@ -10625,14 +10542,6 @@
           }
         }
       }
-    },
-    {
-      "chainId": 1,
-      "address": "0xfe2a5b942083d92135c7fe364bb75218e547cc62",
-      "name": "BAYC History  The Great Floor Sweep",
-      "symbol": "SWEEP",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/18017/large/bayc.png?1630251628"
     },
     {
       "chainId": 1,
