@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-06-28T22:38:35.644Z",
+  "timestamp": "2022-06-29T22:38:22.788Z",
   "version": {
     "major": 1,
-    "minor": 123,
+    "minor": 124,
     "patch": 0
   },
   "tags": {},
@@ -2761,6 +2761,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xbf9e72eeb5adb8b558334c8672950b7a379d4266",
+      "name": "CubToken",
+      "symbol": "CUBT",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/26197/large/photo-2022-04-20-13-35-28.jpg?1656471496"
+    },
+    {
+      "chainId": 1,
       "address": "0xecd20f0ebc3da5e514b4454e3dc396e7da18ca6a",
       "name": "Cudl Finance",
       "symbol": "CUDL",
@@ -2935,14 +2943,6 @@
           }
         }
       }
-    },
-    {
-      "chainId": 1,
-      "address": "0x77e9618179820961ee99a988983bc9ab41ff3112",
-      "name": "Dragon X",
-      "symbol": "DAX",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/18318/large/9hBYZa1.png?1631691495"
     },
     {
       "chainId": 1,
@@ -9041,7 +9041,7 @@
     {
       "chainId": 1,
       "address": "0x33d0568941c0c64ff7e0fb4fba0b11bd37deed9f",
-      "name": "RAMP",
+      "name": "RAMP  OLD ",
       "symbol": "RAMP",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12837/large/RAMP-Logo-v2-1000pxsq.png?1617952606"
