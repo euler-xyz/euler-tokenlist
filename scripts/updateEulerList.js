@@ -6,6 +6,7 @@ const PermitDetector = require('./lib/PermitDetector');
 const { getExistingUniPools } = require('./lib/uniPools');
 const { isEulerMarket } = require('./lib/euler');
 const { sendAlert, alertRun } = require('./lib/discord');
+const addProjectData = require('./lib/coingecko');
 const { initRepo, commitRepo } = require('./git');
 const Logger = require('./lib/logger');
 
@@ -143,6 +144,10 @@ const run = async () => {
             }
         })
         eulerList.tokens = eulerList.tokens.filter(et => !isInList(et, curatedRemoved));
+
+        // Add extra data from coingecko api
+
+        addProjectData(eulerList.tokens);
 
         // Sort for cleaner diffs and save the updated list
 
