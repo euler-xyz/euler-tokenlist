@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-06-30T22:34:59.415Z",
+  "timestamp": "2022-07-01T22:41:22.502Z",
   "version": {
     "major": 1,
-    "minor": 125,
+    "minor": 126,
     "patch": 0
   },
   "tags": {},
@@ -3931,6 +3931,25 @@
     },
     {
       "chainId": 1,
+      "address": "0x1abaea1f7c830bd89acc67ec4af516284b1bc33c",
+      "name": "Euro Coin",
+      "symbol": "EUROC",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/26045/large/euro-coin.png?1655394420",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "SSS Coin",
+            "version": "2",
+            "chainId": 1,
+            "verifyingContract": "0x1abaea1f7c830bd89acc67ec4af516284b1bc33c"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xdb25f211ab05b1c97d595516f45794528a807ad8",
       "name": "STASIS EURO",
       "symbol": "EURS",
@@ -7336,7 +7355,7 @@
       "name": "Monetha",
       "symbol": "MTH",
       "decimals": 5,
-      "logoURI": "https://assets.coingecko.com/coins/images/902/large/mth_logo_coingecko.png?1622448039"
+      "logoURI": "https://assets.coingecko.com/coins/images/902/large/LOGO-MTH-200-200.png?1656643069"
     },
     {
       "chainId": 1,
