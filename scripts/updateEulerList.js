@@ -1,6 +1,6 @@
 const axios = require('axios');
 const fs = require('fs');
-const { isEqual } = require('lodash');
+const { isEqual, merge } = require('lodash');
 
 const PermitDetector = require('./lib/PermitDetector');
 const { getExistingUniPools } = require('./lib/uniPools');
@@ -97,6 +97,10 @@ const run = async () => {
             let newToken = processedList.tokens.find(t => t.address.toLowerCase() === et.address.toLowerCase());
             if (!newToken) return et; // from curated added
 
+            if (et.extensions && et.extensions.project) {
+                merge(newToken, { extensions: { project: et.extensions.project } });
+            }
+
             if (!isValidToken(newToken)) {
                 logs.push(`REVIEW UPDATE TO INVALID ${JSON.stringify(et)} TO ${JSON.stringify(newToken)}`);
                 return et;
@@ -147,7 +151,7 @@ const run = async () => {
 
         // Add extra data from coingecko api
 
-        addProjectData(eulerList.tokens);
+        await addProjectData(eulerList.tokens);
 
         // Sort for cleaner diffs and save the updated list
 
