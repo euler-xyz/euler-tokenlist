@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-07-01T22:41:22.502Z",
+  "timestamp": "2022-07-02T22:36:08.614Z",
   "version": {
     "major": 1,
-    "minor": 126,
+    "minor": 127,
     "patch": 0
   },
   "tags": {},
@@ -8384,6 +8384,14 @@
           }
         }
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0x1fee5588cb1de19c70b6ad5399152d8c643fae7b",
+      "name": "Phun Token",
+      "symbol": "PHTK",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24773/large/2q6YoWkb_400x400.jpg?1648822416"
     },
     {
       "chainId": 1,
