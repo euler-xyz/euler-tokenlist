@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-07-02T22:36:08.614Z",
+  "timestamp": "2022-07-03T22:35:56.615Z",
   "version": {
     "major": 1,
-    "minor": 127,
+    "minor": 128,
     "patch": 0
   },
   "tags": {},
@@ -2342,6 +2342,14 @@
       "symbol": "CND",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/1006/large/cindicator.png?1547034913"
+    },
+    {
+      "chainId": 1,
+      "address": "0x3d97edb1c1d87c0cbf098a0d2230d7380d4b1432",
+      "name": "Candle",
+      "symbol": "CNDL",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/23958/large/candleenlargedicon.png?1653552548"
     },
     {
       "chainId": 1,
