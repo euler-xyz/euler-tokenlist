@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-07-03T22:35:56.615Z",
+  "timestamp": "2022-07-04T22:36:52.512Z",
   "version": {
     "major": 1,
-    "minor": 128,
+    "minor": 129,
     "patch": 0
   },
   "tags": {},
@@ -2772,7 +2772,7 @@
       "address": "0xbf9e72eeb5adb8b558334c8672950b7a379d4266",
       "name": "CubToken",
       "symbol": "CUBT",
-      "decimals": 8,
+      "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/26197/large/photo-2022-04-20-13-35-28.jpg?1656471496"
     },
     {
@@ -6095,25 +6095,6 @@
       "symbol": "KNT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/6488/large/42318068_480165755801061_8741315709394485248_n.jpg?1565651343"
-    },
-    {
-      "chainId": 1,
-      "address": "0xe93a27d4ed64f44a2b356d78c06115e5c9d97da0",
-      "name": "KnoxEdge",
-      "symbol": "KNX",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/19394/large/KnoxEdge_Symbol-sqr_big_dark_trans.png?1635150888",
-      "extensions": {
-        "permit": {
-          "type": "EIP2612",
-          "domain": {
-            "name": "KNX",
-            "version": "1",
-            "chainId": 1,
-            "verifyingContract": "0xe93a27d4ed64f44a2b356d78c06115e5c9d97da0"
-          }
-        }
-      }
     },
     {
       "chainId": 1,
