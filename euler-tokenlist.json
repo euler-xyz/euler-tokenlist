@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-07-04T22:36:52.512Z",
+  "timestamp": "2022-07-05T22:39:22.002Z",
   "version": {
     "major": 1,
-    "minor": 129,
+    "minor": 130,
     "patch": 0
   },
   "tags": {},
@@ -3845,6 +3845,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x24ae124c4cc33d6791f8e8b63520ed7107ac8b3e",
+      "name": "Empty Set Share",
+      "symbol": "ESS",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/17481/large/photo_2021-08-03_03-26-29.png?1627953584"
+    },
+    {
+      "chainId": 1,
       "address": "0xaa6e8127831c9de45ae56bb1b0d4d4da6e5665bd",
       "name": "Index Coop   ETH 2x Flexible Leverage I",
       "symbol": "ETH2X-FLI",
@@ -5665,6 +5673,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x050d94685c6b0477e1fc555888af6e2bb8dfbda5",
+      "name": "Inu ",
+      "symbol": "INU",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/26259/large/inulogo_200x200.png?1656941363"
+    },
+    {
+      "chainId": 1,
       "address": "0x41d5d79431a913c4ae7d69a668ecdfe5ff9dfb68",
       "name": "Inverse Finance",
       "symbol": "INV",
@@ -5795,6 +5811,14 @@
       "symbol": "IZI",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/21791/large/izumi-logo-symbol.png?1640053924"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7420b4b9a0110cdc71fb720908340c03f9bc03ec",
+      "name": "JasmyCoin",
+      "symbol": "JASMY",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13876/large/JASMY200x200.jpg?1612473259"
     },
     {
       "chainId": 1,
@@ -6015,6 +6039,14 @@
       "symbol": "KEY",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/4182/large/bihu-key-token.png?1547039459"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4cc19356f2d37338b9802aa8e8fc58b0373296e7",
+      "name": "SelfKey",
+      "symbol": "KEY",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/2034/large/selfkey.png?1548608934"
     },
     {
       "chainId": 1,
@@ -8464,6 +8496,14 @@
       "symbol": "PLA",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/9279/large/LOGO_BLACK.png?1565731302"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0198f46f520f33cd4329bd4be380a25a90536cd5",
+      "name": "PlayChip",
+      "symbol": "PLA",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/4567/large/pla.png?1547039851"
     },
     {
       "chainId": 1,
@@ -12596,7 +12636,7 @@
       "name": "YIELD App",
       "symbol": "YLD",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/13365/large/Icon_Blue.png?1607917500"
+      "logoURI": "https://assets.coingecko.com/coins/images/13365/large/Google_Play_Store_Icon.png?1657012535"
     },
     {
       "chainId": 1,
