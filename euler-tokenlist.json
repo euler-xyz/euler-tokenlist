@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-07-05T22:39:22.002Z",
+  "timestamp": "2022-07-06T22:39:10.392Z",
   "version": {
     "major": 1,
-    "minor": 130,
+    "minor": 131,
     "patch": 0
   },
   "tags": {},
@@ -3845,14 +3845,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x24ae124c4cc33d6791f8e8b63520ed7107ac8b3e",
-      "name": "Empty Set Share",
-      "symbol": "ESS",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/17481/large/photo_2021-08-03_03-26-29.png?1627953584"
-    },
-    {
-      "chainId": 1,
       "address": "0xaa6e8127831c9de45ae56bb1b0d4d4da6e5665bd",
       "name": "Index Coop   ETH 2x Flexible Leverage I",
       "symbol": "ETH2X-FLI",
@@ -4145,6 +4137,25 @@
       "symbol": "FF",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14659/large/N2kir6jx_400x400.jpg?1617608020"
+    },
+    {
+      "chainId": 1,
+      "address": "0x586aa273f262909eef8fa02d90ab65f5015e0516",
+      "name": "Fixed Income Asset",
+      "symbol": "FIAT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25477/large/fiat.png?1652007537",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Fixed Income Asset Token",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x586aa273f262909eef8fa02d90ab65f5015e0516"
+          }
+        }
+      }
     },
     {
       "chainId": 1,
@@ -5604,6 +5615,14 @@
       "symbol": "ILV",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14468/large/ILV.JPG?1617182121"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9631be8566fc71d91970b10acfdee29f21da6c27",
+      "name": "Intelligent Monsters",
+      "symbol": "IMON",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/26077/large/imonToken.png?1655690407"
     },
     {
       "chainId": 1,
