@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-07-07T22:37:34.938Z",
+  "timestamp": "2022-07-08T22:37:23.849Z",
   "version": {
     "major": 1,
-    "minor": 132,
+    "minor": 133,
     "patch": 0
   },
   "tags": {},
@@ -3363,6 +3363,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xad32a8e6220741182940c5abf610bde99e737b2d",
+      "name": "PieDAO DOUGH v2",
+      "symbol": "DOUGH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/12693/large/DOUGH2v.png?1602655308"
+    },
+    {
+      "chainId": 1,
       "address": "0xac3211a5025414af2866ff09c23fc18bc97e79b1",
       "name": "Dovu",
       "symbol": "DOV",
@@ -3901,14 +3909,6 @@
       "symbol": "ETHMAXY",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/24047/large/ethmaxy.png?1646194193"
-    },
-    {
-      "chainId": 1,
-      "address": "0xbf4a2ddaa16148a9d0fa2093ffac450adb7cd4aa",
-      "name": "Ethereum Money",
-      "symbol": "ETHMNY",
-      "decimals": 2,
-      "logoURI": "https://assets.coingecko.com/coins/images/9025/large/20200605_131214.png?1597297671"
     },
     {
       "chainId": 1,
@@ -12007,14 +12007,6 @@
       "symbol": "WILD",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/15407/large/WWLogo_Gradient_Cirlce.png?1620743969"
-    },
-    {
-      "chainId": 1,
-      "address": "0x08a75dbc7167714ceac1a8e43a8d643a4edd625a",
-      "name": "Wild Credit",
-      "symbol": "WILD",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/17206/thumb/wild.PNG?1626848440"
     },
     {
       "chainId": 1,
