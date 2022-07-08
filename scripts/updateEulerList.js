@@ -72,7 +72,7 @@ const run = async () => {
         eulerList.tokens = await Promise.all(eulerList.tokens.map(async et => {
             if (!isInList(et, processedList.tokens) && !isInList(et, curatedAdded)) {
                 const symbolMatch = processedList.tokens.find(t => t.symbol === et.symbol);
-                if (await isEulerMarket(et.address)) {
+                if (await isEulerMarket(et.address) && !isInList(et, curatedRemoved)) {
                     if (symbolMatch) {
                         logs.push(`REVIEW REMOVED ${describeToken(et)} POSSIBLE UPGRADE TO ${describeToken(symbolMatch)}`);
                     } else {
