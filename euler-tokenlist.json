@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-07-08T22:37:23.849Z",
+  "timestamp": "2022-07-09T22:39:31.588Z",
   "version": {
     "major": 1,
-    "minor": 133,
+    "minor": 134,
     "patch": 0
   },
   "tags": {},
@@ -8054,6 +8054,14 @@
       "symbol": "OIN",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/12339/large/OIN_FInance_-_cLogo-01.png?1631796334"
+    },
+    {
+      "chainId": 1,
+      "address": "0x92cfbec26c206c90aee3b7c66a9ae673754fab7e",
+      "name": "OpenLeverage",
+      "symbol": "OLE",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/26098/large/256x256_OLE_Token_Logo.png?1655859035"
     },
     {
       "chainId": 1,
