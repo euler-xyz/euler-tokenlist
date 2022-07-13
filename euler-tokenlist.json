@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-07-12T22:37:05.301Z",
+  "timestamp": "2022-07-13T22:37:31.924Z",
   "version": {
     "major": 1,
-    "minor": 137,
+    "minor": 138,
     "patch": 0
   },
   "tags": {},
@@ -8916,6 +8916,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x269616d549d7e8eaa82dfb17028d0b212d11232a",
+      "name": "Punk Vault  NFTX ",
+      "symbol": "PUNK",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/17018/large/Punk.png?1626086346"
+    },
+    {
+      "chainId": 1,
       "address": "0x30c084890fc07d78f3499ffc818b3225bc8812ea",
       "name": "PUNKS Comic",
       "symbol": "PUNKS",
@@ -12166,6 +12174,14 @@
       "symbol": "WPCI",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/24390/large/new_logo_square_%281%29.png?1648792416"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0407b4c4eaed35ce3c5b852bdfa1640b09eeedf4",
+      "name": "BlockWRK",
+      "symbol": "WRK",
+      "decimals": 4,
+      "logoURI": "https://assets.coingecko.com/coins/images/17282/large/blkwr.png?1635470283"
     },
     {
       "chainId": 1,
