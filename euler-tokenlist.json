@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-07-13T22:37:31.924Z",
+  "timestamp": "2022-07-14T22:37:37.429Z",
   "version": {
     "major": 1,
-    "minor": 138,
+    "minor": 139,
     "patch": 0
   },
   "tags": {},
@@ -921,10 +921,10 @@
     {
       "chainId": 1,
       "address": "0xdd0020b1d5ba47a54e2eb16800d73beb6546f91a",
-      "name": "aXpire",
+      "name": "Moola",
       "symbol": "AXPR",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/2682/large/OaQMPxm.png?1657616345"
+      "logoURI": "https://assets.coingecko.com/coins/images/2682/large/6QRknY7.png?1657767443"
     },
     {
       "chainId": 1,
@@ -1888,6 +1888,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x8d96b4ab6c741a4c8679ae323a100d74f085ba8f",
+      "name": "Bazaars",
+      "symbol": "BZR",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/26392/large/bazaars_logo-color-black-icon.png?1657753265"
+    },
+    {
+      "chainId": 1,
       "address": "0x56d811088235f11c8920698a204a5010a788f4b3",
       "name": "bZx Protocol",
       "symbol": "BZRX",
@@ -2064,6 +2072,14 @@
       "symbol": "CDAI",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/9281/large/cDAI.png?1576467585"
+    },
+    {
+      "chainId": 1,
+      "address": "0x3c48ca59bf2699e51d4974d4b6d284ae52076e5e",
+      "name": "Capital DAO Starter",
+      "symbol": "CDS",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/20332/large/cpdt_logo_200_200.png?1636928398"
     },
     {
       "chainId": 1,
@@ -7380,6 +7396,14 @@
       "symbol": "MSWAP",
       "decimals": 0,
       "logoURI": "https://assets.coingecko.com/coins/images/13576/large/logo_%281%29.png?1609888424"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9b4e2b4b13d125238aa0480dd42b4f6fc71b37cc",
+      "name": "MyToken",
+      "symbol": "MT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/4109/large/2712.png?1547039296"
     },
     {
       "chainId": 1,
