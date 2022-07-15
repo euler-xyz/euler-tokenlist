@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-07-14T22:37:37.429Z",
+  "timestamp": "2022-07-15T22:38:52.935Z",
   "version": {
     "major": 1,
-    "minor": 139,
+    "minor": 140,
     "patch": 0
   },
   "tags": {},
@@ -6359,6 +6359,25 @@
             "name": "Lever Token",
             "chainId": 1,
             "verifyingContract": "0xbc194e6f748a222754c3e8b9946922c09e7d4e91"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x4b5f49487ea7b3609b1ad05459be420548789f1f",
+      "name": "LeverFi",
+      "symbol": "LEVER",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/26205/large/WI72SpBl_400x400.jpeg?1656494480",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Lever",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x4b5f49487ea7b3609b1ad05459be420548789f1f"
           }
         }
       }
