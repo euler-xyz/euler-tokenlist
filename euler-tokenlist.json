@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-07-17T22:37:11.671Z",
+  "timestamp": "2022-07-18T22:36:25.085Z",
   "version": {
     "major": 1,
-    "minor": 142,
+    "minor": 143,
     "patch": 0
   },
   "tags": {},
@@ -585,6 +585,14 @@
       "symbol": "API3",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13256/large/api3.jpg?1606751424"
+    },
+    {
+      "chainId": 1,
+      "address": "0x475db18d764df7fadfbd3e73fccbbc1e14342ab3",
+      "name": "ApolloFi",
+      "symbol": "APO",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/26451/large/Logo-01.png?1658113408"
     },
     {
       "chainId": 1,
