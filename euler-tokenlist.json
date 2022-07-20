@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-07-19T22:40:26.824Z",
+  "timestamp": "2022-07-20T22:36:55.055Z",
   "version": {
     "major": 1,
-    "minor": 144,
+    "minor": 145,
     "patch": 0
   },
   "tags": {},
@@ -1949,6 +1949,25 @@
             "version": "1",
             "chainId": 1,
             "verifyingContract": "0x1934e252f840aa98dfce2b6205b3e45c41aef830"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xcadc0acd4b445166f12d2c07eac6e2544fbe2eef",
+      "name": "CAD Coin",
+      "symbol": "CADC",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/14149/large/cadc_2.png?1614666625",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "CAD Coin",
+            "version": "2",
+            "chainId": 1,
+            "verifyingContract": "0xcadc0acd4b445166f12d2c07eac6e2544fbe2eef"
           }
         }
       }
@@ -9038,6 +9057,14 @@
       "symbol": "QBU",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/17892/large/HsYrOmEy_400x400.jpg?1629717802"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9adc7710e9d1b29d8a78c04d52d32532297c2ef3",
+      "name": "Quadrans",
+      "symbol": "QDT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/26493/large/mu-N6mCY_400x400.png?1658285089"
     },
     {
       "chainId": 1,
