@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-07-21T22:38:20.711Z",
+  "timestamp": "2022-07-22T22:38:46.625Z",
   "version": {
     "major": 1,
-    "minor": 146,
+    "minor": 147,
     "patch": 0
   },
   "tags": {},
@@ -513,14 +513,6 @@
           }
         }
       }
-    },
-    {
-      "chainId": 1,
-      "address": "0xa9fbb83a2689f4ff86339a4b96874d718673b627",
-      "name": "FireAnts",
-      "symbol": "ANTS",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/11179/large/ants200.png?1589510693"
     },
     {
       "chainId": 1,
@@ -5175,6 +5167,14 @@
           }
         }
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0x473037de59cf9484632f4a27b509cfe8d4a31404",
+      "name": "Green Satoshi Token on ETH",
+      "symbol": "GST-ETH",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/26528/large/gst_eth.png?1658487279"
     },
     {
       "chainId": 1,
