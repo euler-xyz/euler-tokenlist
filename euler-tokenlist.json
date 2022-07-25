@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-07-23T22:35:52.552Z",
+  "timestamp": "2022-07-25T22:36:29.399Z",
   "version": {
     "major": 1,
-    "minor": 148,
+    "minor": 149,
     "patch": 0
   },
   "tags": {},
@@ -2147,14 +2147,6 @@
       "symbol": "CENNZ",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/3408/large/CENNZ_ticker.png?1650943548"
-    },
-    {
-      "chainId": 1,
-      "address": "0x504cde95dbc5d90d09b802f43b371971adbecf79",
-      "name": "Centralex",
-      "symbol": "CENX",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/16025/large/Centralex_Logo.png?1622618498"
     },
     {
       "chainId": 1,
@@ -4976,6 +4968,14 @@
       "symbol": "GM",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/20284/large/froLiJ3p_400x400.jpg?1636808699"
+    },
+    {
+      "chainId": 1,
+      "address": "0x35609dc59e15d03c5c865507e1348fa5abb319a8",
+      "name": "GhostMarket",
+      "symbol": "GM",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/22765/large/gm.png?1642574907"
     },
     {
       "chainId": 1,
@@ -12809,6 +12809,14 @@
       "symbol": "YOP",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/13678/large/J7zykPx.jpg?1610802162"
+    },
+    {
+      "chainId": 1,
+      "address": "0x3d371413dd5489f3a04c07c0c2ce369c20986ceb",
+      "name": "YOUcash",
+      "symbol": "YOUC",
+      "decimals": 10,
+      "logoURI": "https://assets.coingecko.com/coins/images/11152/large/round-400x400.png?1589162715"
     },
     {
       "chainId": 1,
