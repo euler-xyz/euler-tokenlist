@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-07-25T22:36:29.399Z",
+  "timestamp": "2022-07-26T22:41:50.066Z",
   "version": {
     "major": 1,
-    "minor": 149,
+    "minor": 150,
     "patch": 0
   },
   "tags": {},
@@ -695,6 +695,25 @@
       "symbol": "ARIA20",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/5054/large/Aria_Logo_256.png?1610097866"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8cc0f052fff7ead7f2edcccac895502e884a8a71",
+      "name": "ARTH",
+      "symbol": "ARTH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/16876/large/ARTH_Token.png?1625651538",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "ARTH",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x8cc0f052fff7ead7f2edcccac895502e884a8a71"
+          }
+        }
+      }
     },
     {
       "chainId": 1,
@@ -4497,7 +4516,7 @@
       "name": "Ferrum Network",
       "symbol": "FRM",
       "decimals": 6,
-      "logoURI": "https://assets.coingecko.com/coins/images/8251/large/frm.png?1563777564"
+      "logoURI": "https://assets.coingecko.com/coins/images/8251/large/FRM.png?1658819429"
     },
     {
       "chainId": 1,
@@ -4602,6 +4621,14 @@
       "symbol": "FYZ",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12202/large/fyooz.png?1598017956"
+    },
+    {
+      "chainId": 1,
+      "address": "0x874cb28a655e0ef827d810e211ae4b9cbcbaf614",
+      "name": "GainDao",
+      "symbol": "GAIN",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/26570/large/GAIN_listing_200.png?1658816125"
     },
     {
       "chainId": 1,
@@ -5561,7 +5588,7 @@
     {
       "chainId": 1,
       "address": "0x111111517e4929d3dcbdfa7cce55d30d4b6bc4d6",
-      "name": "Ichi",
+      "name": "ICHI",
       "symbol": "ICHI",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13119/large/ICHI_%28Round%29.jpg?1614308761",
@@ -6072,14 +6099,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x14eb60f5f270b059b0c788de0ddc51da86f8a06d",
-      "name": "Phantasma Energy  OLD ",
-      "symbol": "KCAL",
-      "decimals": 10,
-      "logoURI": "https://assets.coingecko.com/coins/images/12678/large/kcal-logo-coingecko.png?1602063865"
-    },
-    {
-      "chainId": 1,
       "address": "0x47c1178f49140ecdbfbdf0ae2935cdb640d579f9",
       "name": "Phantasma Energy",
       "symbol": "KCAL",
@@ -6371,14 +6390,6 @@
       "symbol": "LEO",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/8418/large/leo-token.png?1558326215"
-    },
-    {
-      "chainId": 1,
-      "address": "0x62786eeacc9246b4018e0146cb7a3efeacd9459d",
-      "name": "Less Network",
-      "symbol": "LESS",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/15936/large/Less.png?1622448675"
     },
     {
       "chainId": 1,
@@ -7195,6 +7206,14 @@
       "symbol": "MGH",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/20625/large/mgh.PNG?1637318966"
+    },
+    {
+      "chainId": 1,
+      "address": "0x227c7df69d3ed1ae7574a1a7685fded90292eb48",
+      "name": "Milady Vault  NFTX ",
+      "symbol": "MILADY",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/26540/large/256x256.png?1658730893"
     },
     {
       "chainId": 1,
@@ -12080,6 +12099,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xe8e8486228753e01dbc222da262aa706bd67e601",
+      "name": "Arch Ethereum Web3",
+      "symbol": "WEB3",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/26562/large/WEB3-TOKEN.png?1658798344"
+    },
+    {
+      "chainId": 1,
       "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
       "name": "WETH",
       "symbol": "WETH",
@@ -12125,25 +12152,6 @@
       "symbol": "WHL",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14328/large/ArEX8tkV_400x400.png?1615432175"
-    },
-    {
-      "chainId": 1,
-      "address": "0xbea76c71929788ab20e17759eac115798f9aef27",
-      "name": "Wrapped Injeolmi",
-      "symbol": "WIJM",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/22773/large/injeolmi.png?1642576522",
-      "extensions": {
-        "permit": {
-          "type": "EIP2612",
-          "domain": {
-            "name": "Wrapped Injeolmi",
-            "version": "1",
-            "chainId": 1,
-            "verifyingContract": "0xbea76c71929788ab20e17759eac115798f9aef27"
-          }
-        }
-      }
     },
     {
       "chainId": 1,
