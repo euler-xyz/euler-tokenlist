@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-07-28T22:36:37.449Z",
+  "timestamp": "2022-07-29T22:36:19.509Z",
   "version": {
     "major": 1,
-    "minor": 152,
+    "minor": 153,
     "patch": 0
   },
   "tags": {},
@@ -9568,14 +9568,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x8f53af5d2ef322b4c4ed063738d5baa47edcd996",
-      "name": "RematicEGC",
-      "symbol": "RMTX",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/21240/large/Rematic_Circle_Logo_200x200.png?1647851612"
-    },
-    {
-      "chainId": 1,
       "address": "0x1c7e83f8c581a967940dbfa7984744646ae46b29",
       "name": "The RandomDAO",
       "symbol": "RND",
@@ -11185,6 +11177,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xc5fb36dd2fb59d3b98deff88425a3f425ee469ed",
+      "name": "Dejitaru Tsuka",
+      "symbol": "TSUKA",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/26405/large/Tsuka_200x200.png?1657923568"
+    },
+    {
+      "chainId": 1,
       "address": "0xecacab6725ac1711d97e55df35d525b863b8b9f7",
       "name": "Trillion",
       "symbol": "TT",
@@ -12224,6 +12224,14 @@
           }
         }
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0x0c9c7712c83b3c70e7c5e11100d33d9401bdf9dd",
+      "name": "Wombat",
+      "symbol": "WOMBAT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/26430/large/Project_Page_Icon.png?1657930951"
     },
     {
       "chainId": 1,
