@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-07-30T22:41:06.718Z",
+  "timestamp": "2022-07-31T22:37:27.674Z",
   "version": {
     "major": 1,
-    "minor": 154,
+    "minor": 155,
     "patch": 0
   },
   "tags": {},
@@ -7576,6 +7576,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xbede1f59fa4412556fef69f1b9969f2003e3f8c1",
+      "name": "Meta MVRS",
+      "symbol": "MVRS",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/22140/large/mvrs-200x200.png?1640926136"
+    },
+    {
+      "chainId": 1,
       "address": "0x5ca381bbfb58f0092df149bd3d243b08b9a8386e",
       "name": "MXC",
       "symbol": "MXC",
@@ -9097,6 +9105,14 @@
       "symbol": "QDT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/26493/large/mu-N6mCY_400x400.png?1658285089"
+    },
+    {
+      "chainId": 1,
+      "address": "0x2217e5921b7edfb4bb193a6228459974010d2198",
+      "name": "Qmall",
+      "symbol": "QMALL",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/23630/large/tjVN6bQ5_400x400.jpg?1644891636"
     },
     {
       "chainId": 1,
@@ -12693,7 +12709,7 @@
       "name": "xToken",
       "symbol": "XTK",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/14089/large/xtk_logo.png?1650508832"
+      "logoURI": "https://assets.coingecko.com/coins/images/14089/large/xtk.png?1659278233"
     },
     {
       "chainId": 1,
