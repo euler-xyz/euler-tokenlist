@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-07-31T22:37:27.674Z",
+  "timestamp": "2022-08-01T22:37:03.256Z",
   "version": {
     "major": 1,
-    "minor": 155,
+    "minor": 156,
     "patch": 0
   },
   "tags": {},
@@ -9677,6 +9677,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x78223d31298107f3e310b09797b07967832046a6",
+      "name": "ROYAL SMART FUTURE TOKEN",
+      "symbol": "RSFT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/26630/large/RSF200x200.png?1659325435"
+    },
+    {
+      "chainId": 1,
       "address": "0x320623b8e4ff03373931769a31fc52a4e78b5d70",
       "name": "Reserve Rights",
       "symbol": "RSR",
@@ -12654,6 +12662,14 @@
       "symbol": "XOR",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/11093/large/sora_logo_cg_white.png?1588284194"
+    },
+    {
+      "chainId": 1,
+      "address": "0xe9f1d62c671efe99896492766c0b416bd3fb9e52",
+      "name": "XOYCoin",
+      "symbol": "XOY",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/26641/large/xoycoin_logo.png?1659347530"
     },
     {
       "chainId": 1,
