@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-08-03T22:40:53.792Z",
+  "timestamp": "2022-08-04T22:39:06.938Z",
   "version": {
     "major": 1,
-    "minor": 158,
+    "minor": 159,
     "patch": 0
   },
   "tags": {},
@@ -1939,14 +1939,6 @@
     },
     {
       "chainId": 1,
-      "address": "0xf1a91c7d44768070f711c68f33a7ca25c8d30268",
-      "name": "Charli3",
-      "symbol": "C3",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/15052/large/Charli3-Profile-Icon-1.png?1642643567"
-    },
-    {
-      "chainId": 1,
       "address": "0xae12c5930881c53715b369cec7606b70d8eb229f",
       "name": "Coin98",
       "symbol": "C98",
@@ -2817,14 +2809,6 @@
       "symbol": "CUBT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/26197/large/photo-2022-04-20-13-35-28.jpg?1656471496"
-    },
-    {
-      "chainId": 1,
-      "address": "0xecd20f0ebc3da5e514b4454e3dc396e7da18ca6a",
-      "name": "Cudl Finance",
-      "symbol": "CUDL",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/17479/large/cudl.PNG?1627950486"
     },
     {
       "chainId": 1,
@@ -4837,14 +4821,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x3431f91b3a388115f00c5ba9fdb899851d005fb5",
-      "name": "GeroWallet",
-      "symbol": "GERO",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/15602/large/PdAQXY8t_400x400.jpg?1621307751"
-    },
-    {
-      "chainId": 1,
       "address": "0x8a854288a5976036a725879164ca3e91d30c6a1b",
       "name": "GET Protocol",
       "symbol": "GET",
@@ -5056,25 +5032,6 @@
       "symbol": "GOL",
       "decimals": 4,
       "logoURI": "https://assets.coingecko.com/coins/images/14824/large/GOL.png?1618559300"
-    },
-    {
-      "chainId": 1,
-      "address": "0x7be647634a942e73f8492d15ae492d867ce5245c",
-      "name": "Feudalz Goldz",
-      "symbol": "GOLDZ",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/22316/large/XVgLQJ4F_400x400.png?1641453383",
-      "extensions": {
-        "permit": {
-          "type": "EIP2612",
-          "domain": {
-            "name": "Feudalz Goldz",
-            "version": "1",
-            "chainId": 1,
-            "verifyingContract": "0x7be647634a942e73f8492d15ae492d867ce5245c"
-          }
-        }
-      }
     },
     {
       "chainId": 1,
@@ -6093,6 +6050,14 @@
       "symbol": "KCAL",
       "decimals": 10,
       "logoURI": "https://assets.coingecko.com/coins/images/25447/large/Screenshot_from_2022-05-06_09-46-03.png?1651801573"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4c601dc69affb0d4fc8de1ac303705e432a4a27e",
+      "name": "Konnect",
+      "symbol": "KCT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25756/large/EAO_5JhW_400x400.jpg?1653516279"
     },
     {
       "chainId": 1,
@@ -12806,6 +12771,14 @@
       "symbol": "YFO",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13670/large/256.png?1610676054"
+    },
+    {
+      "chainId": 1,
+      "address": "0x706cb9e741cbfee00ad5b3f5acc8bd44d1644a74",
+      "name": "YFOX Finance",
+      "symbol": "YFOX",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/12702/large/Yfox.png?1601865990"
     },
     {
       "chainId": 1,
