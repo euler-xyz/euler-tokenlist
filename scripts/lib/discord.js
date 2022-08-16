@@ -12,6 +12,7 @@ const sendAlert = (alert) => {
 }
 
 const alertRun = (logs, permitCounts, tokenListCounts) => {
+  logs = [...new Set(logs)];
   const msg = 
 `\`\`\`
 Tokenlist report ${new Date().toISOString()}
