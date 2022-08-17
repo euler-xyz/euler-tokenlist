@@ -1,6 +1,6 @@
 name: verify-bot-pr
 on:
-  pull_request:
+  pull_request_target:
     branches:
       - master
 
@@ -20,11 +20,14 @@ jobs:
       - name: Get changed files
         id: changed-files
         uses: tj-actions/changed-files@v25
+        with:
+          sha: ${{ github.event.pull_request.head.sha }}
+          base_sha: ${{ github.event.pull_request.base.sha }}
 
       - name: Verify changed files
         env:
           DISCORD_HOOK_URL: ${{ secrets.DISCORD_HOOK_URL }}
-        run: node ./scripts/github/verifyFiles.js ${{ steps.changed-files.outputs.all_changed_files }}
+        run: node ./scripts/github/verifyFiles.js ${{ steps.changed-files.outputs.all_modified_files }}
 
       - name: Verify token list
         env:

@@ -10,7 +10,17 @@ const describeToken = token => `${token.address}, ${token.symbol}, ${token.name}
 
 const run = async () => {
   try {
-    const newList = require('../../euler-tokenlist.json');
+    const oldList = require('../../euler-tokenlist.json');
+
+    // WARNING: checking out incoming branch in an action triggered by pull_request_target is potentially a security issue
+    // make sure to switch branches back and disable hooks with -c core.hooksPath=/dev/null
+    // https://securitylab.github.com/research/github-actions-preventing-pwn-requests/
+    await exec(`git -c core.hooksPath=/dev/null checkout ${process.env.HEAD_REF}`);
+
+    const newList = JSON.parse(fs.readFileSync(`${__dirname}/../../euler-tokenlist.json`, { encoding: 'utf8' }));
+
+    await exec(`git -c core.hooksPath=/dev/null checkout ${process.env.BASE_REF}`);
+
 
     // Check for duplicates
 
@@ -20,12 +30,6 @@ const run = async () => {
           throw new Error(`Duplicate address: ${nt.address}`);
       }
     })
-
-    await exec(`git checkout ${process.env.BASE_REF}`);
-
-    const oldList = JSON.parse(fs.readFileSync(`${__dirname}/../../euler-tokenlist.json`, { encoding: 'utf8' }));
-
-    await exec(`git checkout ${process.env.HEAD_REF}`);
 
     // Check for removed or updated activated markets
 
