@@ -6,6 +6,8 @@ on:
 
 jobs:
   verify:
+    strategy:
+      max-parallel: 1
     if: ${{ github.actor == 'euler-dev' }}
     runs-on: ubuntu-latest
     environment: verify-pr-env
@@ -37,6 +39,14 @@ jobs:
           DISCORD_HOOK_URL: ${{ secrets.DISCORD_HOOK_URL }}
         run: node ./scripts/github/verifyTokenlist.js
 
+  merge-verified:
+    strategy:
+      max-parallel: 1
+    needs: verify
+    if: ${{ github.actor == 'euler-dev' }}
+    runs-on: ubuntu-latest
+    environment: verify-pr-env
+    steps:
       - uses: actions-ecosystem/action-add-labels@v1
         with:
           labels: automerge
