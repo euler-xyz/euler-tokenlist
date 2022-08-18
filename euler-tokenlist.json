@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-08-15T15:00:14.759Z",
+  "timestamp": "2022-08-18T17:37:11.555Z",
   "version": {
     "major": 1,
-    "minor": 163,
+    "minor": 164,
     "patch": 0
   },
   "tags": {},
@@ -403,6 +403,25 @@
     },
     {
       "chainId": 1,
+      "address": "0xe0cca86b254005889ac3a81e737f56a14f4a38f5",
+      "name": "Alta Finance",
+      "symbol": "ALTA",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/18713/large/AFN-token-Altafin-200.png?1633079552",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Alta Finance",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0xe0cca86b254005889ac3a81e737f56a14f4a38f5"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x949bed886c739f1a3273629b3320db0c5024c719",
       "name": "AMIS",
       "symbol": "AMIS",
@@ -778,6 +797,14 @@
       "symbol": "ASIA",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/18589/large/Ou7mp_R1TQ5B9vsBiZ8oQnSv36M6hiA2hESxV_7YSw0.png?1632556422"
+    },
+    {
+      "chainId": 1,
+      "address": "0x2565ae0385659badcada1031db704442e1b69982",
+      "name": "Assemble Protocol",
+      "symbol": "ASM",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/11605/large/gpvrlkSq_400x400_%281%29.jpg?1591775789"
     },
     {
       "chainId": 1,
@@ -2204,6 +2231,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x4ddc2d193948926d02f9b1fe9e1daa0718270ed5",
+      "name": "cETH",
+      "symbol": "CETH",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/10643/large/ceth2.JPG?1581389598"
+    },
+    {
+      "chainId": 1,
       "address": "0x63b4f3e3fa4e438698ce330e365e831f7ccd1ef4",
       "name": "CyberFi",
       "symbol": "CFI",
@@ -3491,10 +3526,10 @@
     {
       "chainId": 1,
       "address": "0x92e187a03b6cd19cb6af293ba17f2745fd2357d5",
-      "name": "Unit Protocol New",
+      "name": "Unit Protocol",
       "symbol": "DUCK",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/13359/large/unit_telegram.png?1607878022"
+      "logoURI": "https://assets.coingecko.com/coins/images/13359/large/6f38719f-fe83-44ff-af30-7965fd23ac06.png?1660612730"
     },
     {
       "chainId": 1,
@@ -4195,6 +4230,14 @@
           }
         }
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0xea068fba19ce95f12d252ad8cb2939225c4ea02d",
+      "name": "Fief",
+      "symbol": "FIEF",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/23710/large/61f837d2703b649ab0213d45_Black_logo_-_no_background-p-500.png?1645083867"
     },
     {
       "chainId": 1,
@@ -5357,14 +5400,6 @@
       "symbol": "HNS",
       "decimals": 6,
       "logoURI": "https://assets.coingecko.com/coins/images/10562/large/circle-handshakeLogo.png?1613668983"
-    },
-    {
-      "chainId": 1,
-      "address": "0xb3f822dbbd694901e2051a2495a8755d6cfd5133",
-      "name": "Hoff Coin",
-      "symbol": "HOFF",
-      "decimals": 8,
-      "logoURI": "https://assets.coingecko.com/coins/images/20782/large/qSZekqh.png?1637670583"
     },
     {
       "chainId": 1,
@@ -6980,6 +7015,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x9ccf191169a613eca433a249d3f40131178caebc",
+      "name": "MicroChains Gov Token",
+      "symbol": "MCG",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/26663/large/B2QwV0BL_400x400.jpeg?1659449087"
+    },
+    {
+      "chainId": 1,
       "address": "0xd69f306549e9d96f183b1aeca30b8f4353c2ecc3",
       "name": "MCH Coin",
       "symbol": "MCHC",
@@ -7387,6 +7430,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x602f65bb8b8098ad804e99db6760fd36208cd967",
+      "name": "Mops",
+      "symbol": "MOPS",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/26900/large/mops.png?1660724129"
+    },
+    {
+      "chainId": 1,
       "address": "0xbeef3bb9da340ebdf0f5bae2e85368140d7d85d0",
       "name": "BuyMORE",
       "symbol": "MORE",
@@ -7571,6 +7622,14 @@
       "symbol": "MXC",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/4604/large/mxc.png?1655534336"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4b13006980acb09645131b91d259eaa111eaf5ba",
+      "name": "Mycelium",
+      "symbol": "MYC",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/26874/large/MYC_Token.png?1660670191"
     },
     {
       "chainId": 1,
@@ -10017,6 +10076,14 @@
           }
         }
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0xadf0ac3059400edfb6131b9fe65feea6ca83ad76",
+      "name": "Turtle Shell Islands",
+      "symbol": "SHELL",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/26925/large/slogo.png?1660833387"
     },
     {
       "chainId": 1,
