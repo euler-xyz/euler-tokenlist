@@ -1,6 +1,6 @@
 const axios = require('axios');
 const fs = require('fs');
-const { isEqual } = require('lodash');
+const { isEqual, uniqBy } = require('lodash');
 
 const PermitDetector = require('./lib/PermitDetector');
 const { getExistingUniPools } = require('./lib/uniPools');
@@ -56,6 +56,16 @@ const run = async () => {
 
         const { data: newList }  = await axios.get(process.env.TOKENLIST_URL);
 
+        // Check for duplicates
+
+        newList.tokens.forEach(nt => {
+            if (newList.tokens.filter(t => nt.address.toLowerCase() === t.address.toLowerCase()).length > 1) {
+                logs.push(`Duplicate address found in Coingecko list: ${describeToken(nt)}`);
+            }
+        })
+
+        newList.tokens = uniqBy(newList.tokens, t => t.address.toLowerCase())
+
         // Detect permits and update processed full list
 
         const permitDetector = new PermitDetector(chainId, multicallAddress, logger);
@@ -97,15 +107,17 @@ const run = async () => {
             if (!newToken) return et; // from curated added
 
             if (!isValidToken(newToken)) {
-                logs.push(`REVIEW UPDATE TO INVALID ${JSON.stringify(et)} TO ${JSON.stringify(newToken)}`);
+                logs.push(`REVIEW UPDATE TO INVALID ${describeToken(et)}`);
                 return et;
             }
 
             newToken = replaceLogo(newToken);
 
-            if (et.decimals !== newToken.decimals && await isEulerMarket(et.address)) {
-                logs.push(`REVIEW UPDATED DECIMALS ${JSON.stringify(et)} TO ${JSON.stringify(newToken)}`);
+            if (!isEqual(newToken, et) && await isEulerMarket(et.address)) {
+                logs.push(`REVIEW UPDATE ${describeToken(et)}`);
+                return et;
             }
+
             if (!isEqual(newToken, et)) tokenListCounts.updated++;
 
             return newToken

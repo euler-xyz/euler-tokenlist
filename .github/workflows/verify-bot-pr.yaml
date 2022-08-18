@@ -1,0 +1,57 @@
+name: verify-bot-pr
+on:
+  pull_request_target:
+    branches:
+      - master
+
+jobs:
+  verify:
+    strategy:
+      max-parallel: 1
+    if: ${{ github.actor == 'euler-dev' }}
+    runs-on: ubuntu-latest
+    environment: verify-pr-env
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - run: npm i
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v25
+        with:
+          sha: ${{ github.event.pull_request.head.sha }}
+          base_sha: ${{ github.event.pull_request.base.sha }}
+
+      - name: Verify changed files
+        env:
+          DISCORD_HOOK_URL: ${{ secrets.DISCORD_HOOK_URL }}
+        run: node ./scripts/github/verifyFiles.js ${{ steps.changed-files.outputs.all_modified_files }}
+
+      - name: Verify token list
+        env:
+          BASE_REF: ${{ github.base_ref }}
+          HEAD_REF: ${{ github.head_ref }}
+          JSON_RPC_URL: ${{ secrets.JSON_RPC_URL }}
+          DISCORD_HOOK_URL: ${{ secrets.DISCORD_HOOK_URL }}
+        run: node ./scripts/github/verifyTokenlist.js
+
+  merge-verified:
+    strategy:
+      max-parallel: 1
+    needs: verify
+    if: ${{ github.actor == 'euler-dev' }}
+    runs-on: ubuntu-latest
+    environment: verify-pr-env
+    steps:
+      - uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: automerge
+      - id: automerge
+        name: automerge
+        uses: "pascalgn/automerge-action@v0.15.3"
+        env:
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"

@@ -92,7 +92,9 @@ The script:
 - updates existing token data if necessary
 - adds new tokens if present
 - applies curated overrides
-- commits changes in git and pushes the repo
+- commits changes in git, pushes and creates a pull request in Github 
+
+For the last step, [hub](https://hub.github.com/) needs to be installed and configured.
 
 ### Config
 
