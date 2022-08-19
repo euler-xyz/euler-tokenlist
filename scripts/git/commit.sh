@@ -9,5 +9,7 @@ git commit -m "Tokenlist Update $dt"
 git push -u origin $branch
 
 # TODO: fix brew on ec2 not to require next line 
+echo "running brew shellenv"
 eval $(~/.linuxbrew/bin/brew shellenv)
+echo "running hub"
 hub pull-request -m "Tokenlist Update $dt"
