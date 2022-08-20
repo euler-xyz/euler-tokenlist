@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-08-19T15:39:44.211Z",
+  "timestamp": "2022-08-20T22:18:44.169Z",
   "version": {
     "major": 1,
-    "minor": 164,
+    "minor": 165,
     "patch": 0
   },
   "tags": {},
@@ -2625,7 +2625,7 @@
       "name": "CoW Protocol",
       "symbol": "COW",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/24384/large/COW-token-1024x1024.png?1647488013",
+      "logoURI": "https://assets.coingecko.com/coins/images/24384/large/cow.png?1660960589",
       "extensions": {
         "permit": {
           "type": "EIP2612",
@@ -3785,14 +3785,6 @@
       "symbol": "ELT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/24746/large/voRjghoA_400x400.jpg?1648784263"
-    },
-    {
-      "chainId": 1,
-      "address": "0x9048c33c7bae0bbe9ad702b17b4453a83900d154",
-      "name": "Energy Ledger",
-      "symbol": "ELX",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/13648/large/elx_logo.png?1635846342"
     },
     {
       "chainId": 1,
@@ -10015,6 +10007,14 @@
       "symbol": "SENSO",
       "decimals": 0,
       "logoURI": "https://assets.coingecko.com/coins/images/11064/large/senso.png?1587776458"
+    },
+    {
+      "chainId": 1,
+      "address": "0x97abee33cd075c58bfdd174e0885e08e8f03556f",
+      "name": "Sentiment",
+      "symbol": "SENT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/16388/large/94SwpUOP_400x400.jpg?1623894898"
     },
     {
       "chainId": 1,
