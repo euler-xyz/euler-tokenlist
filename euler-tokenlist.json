@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-08-22T22:18:13.242Z",
+  "timestamp": "2022-08-23T22:19:30.098Z",
   "version": {
     "major": 1,
-    "minor": 166,
+    "minor": 167,
     "patch": 0
   },
   "tags": {},
@@ -11767,6 +11767,14 @@
       "symbol": "VAL",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13299/large/val-gold-256.png?1607242927"
+    },
+    {
+      "chainId": 1,
+      "address": "0xf774dbf3144fc8ade7043c7f6634c88cf83140f3",
+      "name": "void cash",
+      "symbol": "VCASH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/26976/large/Avatar_v2.png?1661168692"
     },
     {
       "chainId": 1,
