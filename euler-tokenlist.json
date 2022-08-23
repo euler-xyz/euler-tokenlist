@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-08-21T22:18:21.045Z",
+  "timestamp": "2022-08-22T22:18:13.242Z",
   "version": {
     "major": 1,
-    "minor": 165,
+    "minor": 166,
     "patch": 0
   },
   "tags": {},
@@ -2792,14 +2792,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x5362799f2228a180b03a68fd41cd39137dd99c42",
-      "name": "Cryb",
-      "symbol": "CRYB",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/23777/large/WakW5tR.png?1645434676"
-    },
-    {
-      "chainId": 1,
       "address": "0x3aadc3bce49724ce299fd9f3850211211c399c8c",
       "name": "Coinstox",
       "symbol": "CSX",
@@ -3129,6 +3121,14 @@
       "symbol": "DEPO",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/19151/large/depo.PNG?1634535965"
+    },
+    {
+      "chainId": 1,
+      "address": "0xde5ed76e7c05ec5e4572cfc88d1acea165109e44",
+      "name": "DEUS Finance",
+      "symbol": "DEUS",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/18778/large/DEUS-logo-200x200.png?1646318385"
     },
     {
       "chainId": 1,
@@ -9875,7 +9875,7 @@
       "name": "Saitama",
       "symbol": "SAITAMA",
       "decimals": 9,
-      "logoURI": "https://assets.coingecko.com/coins/images/16353/large/Capture.PNG?1632126703"
+      "logoURI": "https://assets.coingecko.com/coins/images/16353/large/SOIKDUWf_400x400.jpeg?1661170022"
     },
     {
       "chainId": 1,
@@ -10158,7 +10158,7 @@
       "name": "Shping",
       "symbol": "SHPING",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/2588/large/r_yabKKi_400x400.jpg?1639470164"
+      "logoURI": "https://assets.coingecko.com/coins/images/2588/large/000103_Shping_Logos_Shping_Secondary_Logo.png?1661141481"
     },
     {
       "chainId": 1,
