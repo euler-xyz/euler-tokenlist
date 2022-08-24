@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-08-22T22:18:13.242Z",
+  "timestamp": "2022-08-24T22:19:35.432Z",
   "version": {
     "major": 1,
-    "minor": 166,
+    "minor": 167,
     "patch": 0
   },
   "tags": {},
@@ -2848,6 +2848,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xf650c3d88d12db855b8bf7d11be6c55a4e07dcc9",
+      "name": "cUSDT",
+      "symbol": "CUSDT",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/11621/large/cUSDT.png?1592113270"
+    },
+    {
+      "chainId": 1,
       "address": "0x78a52e12c7b63d05c12f9608307587cf654ec3d0",
       "name": "Crypto Village Accelerator",
       "symbol": "CVA",
@@ -2979,6 +2987,14 @@
           }
         }
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0x33d63ba1e57e54779f7ddaeaa7109349344cf5f1",
+      "name": "Data Economy Index",
+      "symbol": "DATA",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/18500/large/data_32.png?1632209427"
     },
     {
       "chainId": 1,
@@ -5816,6 +5832,24 @@
     },
     {
       "chainId": 1,
+      "address": "0xd909c5862cdb164adb949d92622082f0092efc3d",
+      "name": "Interest Protocol Token",
+      "symbol": "IPT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27000/large/logo.white_%281%29.png?1661328083",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Interest Protocol",
+            "chainId": 1,
+            "verifyingContract": "0xd909c5862cdb164adb949d92622082f0092efc3d"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x579cea1889991f68acc35ff5c3dd0621ff29b0c9",
       "name": "Everipedia",
       "symbol": "IQ",
@@ -7323,6 +7357,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x2c4f1df9c7de0c59778936c9b145ff56813f3295",
+      "name": "AssetMantle",
+      "symbol": "MNTL",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/25181/large/thumbnail.png?1658821784"
+    },
+    {
+      "chainId": 1,
       "address": "0x97a9bac06f90940bce9caec2b880ff17707519e4",
       "name": "Minato",
       "symbol": "MNTO",
@@ -7958,14 +8000,6 @@
       "symbol": "NKN",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/3375/large/nkn.png?1548329212"
-    },
-    {
-      "chainId": 1,
-      "address": "0x4d6b9f281af31916a0f16d1cea2ec7384851eaab",
-      "name": "Neuromorphic io",
-      "symbol": "NMP",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/10650/large/Neuromorphic_io_logo-200x200.png?1581421394"
     },
     {
       "chainId": 1,
@@ -11770,6 +11804,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xf774dbf3144fc8ade7043c7f6634c88cf83140f3",
+      "name": "void cash",
+      "symbol": "VCASH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/26976/large/Avatar_v2.png?1661168692"
+    },
+    {
+      "chainId": 1,
       "address": "0x57c75eccc8557136d32619a191fbcdc88560d711",
       "name": "VeriDocGlobal",
       "symbol": "VDG",
@@ -11847,6 +11889,14 @@
       "symbol": "VIB",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/983/large/Viberate.png?1547034873"
+    },
+    {
+      "chainId": 1,
+      "address": "0xfef4185594457050cc9c23980d301908fe057bb1",
+      "name": "VIDT Datalink",
+      "symbol": "VIDT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/6115/large/V-ID_blockchain_-logo.png?1547042127"
     },
     {
       "chainId": 1,
