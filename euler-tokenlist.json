@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-08-25T22:19:57.130Z",
+  "timestamp": "2022-08-27T22:19:06.721Z",
   "version": {
     "major": 1,
-    "minor": 167,
+    "minor": 168,
     "patch": 0
   },
   "tags": {},
@@ -2139,7 +2139,7 @@
     {
       "chainId": 1,
       "address": "0x7d4b1d793239707445305d8d2456d2c735f6b25b",
-      "name": "BlockSwap Network",
+      "name": "BlockSwap Network  OLD ",
       "symbol": "CBSN",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14781/large/bsn_dp_high.png?1618865566"
@@ -4986,6 +4986,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x83249c6794bca5a77eb8c0af9f1a86e055459cea",
+      "name": "GigaSwap",
+      "symbol": "GIGA",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/26919/large/final_62fcaacdbcc9640975d3fb7c_822256.png?1660815521"
+    },
+    {
+      "chainId": 1,
       "address": "0xf6537fe0df7f0cc0985cf00792cc98249e73efa0",
       "name": "GIV",
       "symbol": "GIV",
@@ -7284,6 +7292,14 @@
       "symbol": "MGH",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/20625/large/mgh.PNG?1637318966"
+    },
+    {
+      "chainId": 1,
+      "address": "0xae86f48c0b00f2a3eaef4ba4c23d17368f0f63f4",
+      "name": "Amatsu Mikaboshi",
+      "symbol": "MIKABOSHI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27048/large/photo_2022-08-25_23-44-10.jpg?1661504716"
     },
     {
       "chainId": 1,
