@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-08-25T22:19:57.130Z",
+  "timestamp": "2022-08-29T22:21:06.591Z",
   "version": {
     "major": 1,
-    "minor": 167,
+    "minor": 168,
     "patch": 0
   },
   "tags": {},
@@ -280,7 +280,7 @@
       "name": "Akita Inu",
       "symbol": "AKITA",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/14115/large/logo_%282%29.png?1644913173"
+      "logoURI": "https://assets.coingecko.com/coins/images/14115/large/akita.png?1661666578"
     },
     {
       "chainId": 1,
@@ -1602,14 +1602,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x5c84bc60a796534bfec3439af0e6db616a966335",
-      "name": "Bone  OLD ",
-      "symbol": "BONE",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/11860/large/photo_2021-06-24_00-48-28.jpg?1625495610"
-    },
-    {
-      "chainId": 1,
       "address": "0x55af5865807b196bd0197e0902746f31fbccfa58",
       "name": "Spookyswap",
       "symbol": "BOO",
@@ -1780,7 +1772,7 @@
       "name": "Bitcoin BR",
       "symbol": "BTCBR",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/21205/large/200x200.png?1638551617"
+      "logoURI": "https://assets.coingecko.com/coins/images/21205/large/btcbr.png?1661666691"
     },
     {
       "chainId": 1,
@@ -1797,25 +1789,6 @@
       "symbol": "BTFA",
       "decimals": 9,
       "logoURI": "https://assets.coingecko.com/coins/images/25032/large/ZZpipp8e_400x400.jpg?1649851881"
-    },
-    {
-      "chainId": 1,
-      "address": "0xc0d4ceb216b3ba9c3701b291766fdcba977cec3a",
-      "name": "Redacted Cartel  OLD ",
-      "symbol": "BTRFLY",
-      "decimals": 9,
-      "logoURI": "https://assets.coingecko.com/coins/images/21718/large/3.png?1640248507",
-      "extensions": {
-        "permit": {
-          "type": "EIP2612",
-          "domain": {
-            "name": "BTRFLY",
-            "version": "1",
-            "chainId": 1,
-            "verifyingContract": "0xc0d4ceb216b3ba9c3701b291766fdcba977cec3a"
-          }
-        }
-      }
     },
     {
       "chainId": 1,
@@ -2139,7 +2112,7 @@
     {
       "chainId": 1,
       "address": "0x7d4b1d793239707445305d8d2456d2c735f6b25b",
-      "name": "BlockSwap Network",
+      "name": "BlockSwap Network  OLD ",
       "symbol": "CBSN",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14781/large/bsn_dp_high.png?1618865566"
@@ -2174,7 +2147,7 @@
       "name": "Capital DAO Starter",
       "symbol": "CDS",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/20332/large/cpdt_logo_200_200.png?1636928398"
+      "logoURI": "https://assets.coingecko.com/coins/images/20332/large/cds.png?1661762062"
     },
     {
       "chainId": 1,
@@ -4986,6 +4959,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x83249c6794bca5a77eb8c0af9f1a86e055459cea",
+      "name": "GigaSwap",
+      "symbol": "GIGA",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/26919/large/final_62fcaacdbcc9640975d3fb7c_822256.png?1660815521"
+    },
+    {
+      "chainId": 1,
       "address": "0xf6537fe0df7f0cc0985cf00792cc98249e73efa0",
       "name": "GIV",
       "symbol": "GIV",
@@ -6188,6 +6169,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x67954768e721fad0f0f21e33e874497c73ed6a82",
+      "name": "KeKChain",
+      "symbol": "KEK",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27061/large/20220816_155427.png?1661668348"
+    },
+    {
+      "chainId": 1,
       "address": "0x4abb9cc67bd3da9eb966d1159a71a0e68bd15432",
       "name": "KelVPN",
       "symbol": "KEL",
@@ -7284,6 +7273,14 @@
       "symbol": "MGH",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/20625/large/mgh.PNG?1637318966"
+    },
+    {
+      "chainId": 1,
+      "address": "0xae86f48c0b00f2a3eaef4ba4c23d17368f0f63f4",
+      "name": "Amatsu Mikaboshi",
+      "symbol": "MIKABOSHI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27048/large/photo_2022-08-25_23-44-10.jpg?1661504716"
     },
     {
       "chainId": 1,
