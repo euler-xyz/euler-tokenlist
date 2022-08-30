@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-08-29T22:21:06.591Z",
+  "timestamp": "2022-08-30T22:19:16.968Z",
   "version": {
     "major": 1,
-    "minor": 168,
+    "minor": 169,
     "patch": 0
   },
   "tags": {},
@@ -83,10 +83,10 @@
     {
       "chainId": 1,
       "address": "0x5ba19d656b65f1684cfea4af428c23b9f3628f97",
-      "name": "AAG Ventures",
+      "name": "AAG",
       "symbol": "AAG",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/21382/large/Logo_AAG_Token_Coingecko_final.png?1639034308"
+      "logoURI": "https://assets.coingecko.com/coins/images/21382/large/aag-token-icon.png?1661849633"
     },
     {
       "chainId": 1,
