@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-08-29T22:21:06.591Z",
+  "timestamp": "2022-09-03T22:19:33.226Z",
   "version": {
     "major": 1,
-    "minor": 168,
+    "minor": 169,
     "patch": 0
   },
   "tags": {},
@@ -83,10 +83,10 @@
     {
       "chainId": 1,
       "address": "0x5ba19d656b65f1684cfea4af428c23b9f3628f97",
-      "name": "AAG Ventures",
+      "name": "AAG",
       "symbol": "AAG",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/21382/large/Logo_AAG_Token_Coingecko_final.png?1639034308"
+      "logoURI": "https://assets.coingecko.com/coins/images/21382/large/aag-token-icon.png?1661849633"
     },
     {
       "chainId": 1,
@@ -931,6 +931,26 @@
     },
     {
       "chainId": 1,
+      "address": "0x030ba81f1c18d280636f32af80b9aad02cf0854e",
+      "name": "Aave WETH",
+      "symbol": "AWETH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/17238/large/aWETH_2x.png?1626940782",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Aave interest bearing WETH",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x030ba81f1c18d280636f32af80b9aad02cf0854e"
+          },
+          "variant": "UNDERSCORE_NONCES"
+        }
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xb89903dde3899f0280b99913168ee833a7896b93",
       "name": "AurusSILVER",
       "symbol": "AWS",
@@ -1231,7 +1251,7 @@
     {
       "chainId": 1,
       "address": "0x0d02755a5700414b26ff040e1de35d337df56218",
-      "name": "BendDao",
+      "name": "BendDAO",
       "symbol": "BEND",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/22829/large/benddao.PNG?1642664553",
@@ -2681,7 +2701,7 @@
       "name": "Clearpool",
       "symbol": "CPOOL",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/19252/large/short_dark.png?1634800836"
+      "logoURI": "https://assets.coingecko.com/coins/images/19252/large/photo_2022-08-31_12.45.02.jpeg?1662105063"
     },
     {
       "chainId": 1,
@@ -7212,6 +7232,25 @@
     },
     {
       "chainId": 1,
+      "address": "0x2ebd53d035150f328bd754d6dc66b99b0edb89aa",
+      "name": "Metronome",
+      "symbol": "MET",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/3249/large/metronome.png?1548084800",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Metronome2",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x2ebd53d035150f328bd754d6dc66b99b0edb89aa"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x364fcd7325c035cc4f2cde8b6c8d7df5e7db6589",
       "name": "Metalk",
       "symbol": "META",
@@ -10580,6 +10619,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xa16a609ff4e1a15b6ccb469e7a5dd14e89305283",
+      "name": "Spume",
+      "symbol": "SPUME",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27089/large/D6lMeW9k_400x400.jpeg?1661824399"
+    },
+    {
+      "chainId": 1,
       "address": "0xeff3f1b9400d6d0f1e8805bdde592f61535f5ecd",
       "name": "Squawk  OLD ",
       "symbol": "SQUAWK",
@@ -12280,6 +12327,14 @@
       "symbol": "WEB3",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/26562/large/WEB3-TOKEN.png?1658798344"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd4eb79a193e7e1a7b998202a9407e5ce3ff02b4f",
+      "name": "Web69",
+      "symbol": "WEB69",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/26928/large/web69200x200.png?1660880767"
     },
     {
       "chainId": 1,
