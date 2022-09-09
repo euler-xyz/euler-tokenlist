@@ -10048,7 +10048,7 @@
       "name": "Saddle Finance",
       "symbol": "SDL",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/20476/thumb/edit_saddle.png?1660734429",
+      "logoURI": "https://assets.coingecko.com/coins/images/20476/large/edit_saddle.png?1660734429",
       "extensions": {
         "permit": {
           "type": "EIP2612",
