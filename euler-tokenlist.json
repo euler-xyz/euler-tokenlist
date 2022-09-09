@@ -571,7 +571,7 @@
       "name": "ApeCoin",
       "symbol": "APE",
       "decimals": 18,
-      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/18876.png"
+      "logoURI": "https://assets.coingecko.com/coins/images/24383/large/apecoin.jpg?1647476455"
     },
     {
       "chainId": 1,
@@ -4025,7 +4025,7 @@
       "name": "Euler",
       "symbol": "EUL",
       "decimals": 18,
-      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/14280.png",
+      "logoURI": "https://assets.coingecko.com/coins/images/26149/large/YCvKDfl8_400x400.jpeg?1656041509",
       "extensions": {
         "permit": {
           "type": "EIP2612",
@@ -4309,7 +4309,7 @@
     {
       "chainId": 1,
       "address": "0xb05097849bca421a3f51b249ba6cca4af4b97cb9",
-      "name": "Float Protocol: FLOAT",
+      "name": "Float Protocol  Float",
       "symbol": "FLOAT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/15502/large/FLOAT_LOGO-reduced_01.png?1621081152",
@@ -4371,7 +4371,7 @@
     {
       "chainId": 1,
       "address": "0x6243d8cea23066d098a15582d81a598b4e8391f4",
-      "name": "Flex Ungovernance Token",
+      "name": "Reflexer Ungovernance",
       "symbol": "FLX",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14123/large/EAfYdwgd_400x400.jpg?1614564508"
@@ -10048,7 +10048,7 @@
       "name": "Saddle Finance",
       "symbol": "SDL",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/20476/large/saddle.PNG?1637113393",
+      "logoURI": "https://assets.coingecko.com/coins/images/20476/large/edit_saddle.png?1660734429",
       "extensions": {
         "permit": {
           "type": "EIP2612",
@@ -10441,7 +10441,7 @@
     {
       "chainId": 1,
       "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
-      "name": "Synthetix Network Token",
+      "name": "Synthetix Network",
       "symbol": "SNX",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/3406/large/SNX.png?1598631139"
