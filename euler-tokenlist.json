@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-09-08T22:18:40.071Z",
+  "timestamp": "2022-09-09T13:31:56.235Z",
   "version": {
     "major": 1,
-    "minor": 169,
+    "minor": 170,
     "patch": 0
   },
   "tags": {},
@@ -4312,6 +4312,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x16484d73ac08d2355f466d448d2b79d2039f6ebb",
+      "name": "FortKnoxster",
+      "symbol": "FKX",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/5050/large/fkx.png?1644048298"
+    },
+    {
+      "chainId": 1,
       "address": "0xfcf8eda095e37a41e002e266daad7efc1579bc0a",
       "name": "FLEX Coin",
       "symbol": "FLEX",
@@ -5455,6 +5463,14 @@
       "symbol": "HOGE",
       "decimals": 9,
       "logoURI": "https://assets.coingecko.com/coins/images/14360/large/hoge.jpg?1615641604"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc4ee0aa2d993ca7c9263ecfa26c6f7e13009d2b6",
+      "name": "Hoichi",
+      "symbol": "HOICHI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27227/large/3dBs4VvW_400x400.jpeg?1662711951"
     },
     {
       "chainId": 1,
