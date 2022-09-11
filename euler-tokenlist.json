@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-09-10T22:20:19.717Z",
+  "timestamp": "2022-09-11T22:19:05.943Z",
   "version": {
     "major": 1,
-    "minor": 171,
+    "minor": 172,
     "patch": 0
   },
   "tags": {},
@@ -4320,6 +4320,25 @@
     },
     {
       "chainId": 1,
+      "address": "0xb1f1f47061a7be15c69f378cb3f69423bd58f2f8",
+      "name": "Flashstake",
+      "symbol": "FLASH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13533/large/FLASH.png?1615182275",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Flashstake",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0xb1f1f47061a7be15c69f378cb3f69423bd58f2f8"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xfcf8eda095e37a41e002e266daad7efc1579bc0a",
       "name": "FLEX Coin",
       "symbol": "FLEX",
@@ -4632,6 +4651,14 @@
       "symbol": "FUSE",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/10347/large/vUXKHEe.png?1601523640"
+    },
+    {
+      "chainId": 1,
+      "address": "0x45080a6531d671ddff20db42f93792a489685e32",
+      "name": "Finance Vote",
+      "symbol": "FVT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13181/large/finance.png?1606015010"
     },
     {
       "chainId": 1,
@@ -5546,6 +5573,14 @@
       "symbol": "HTB",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/5990/large/hotbit-token.png?1547041932"
+    },
+    {
+      "chainId": 1,
+      "address": "0x91a5de30e57831529a3c1af636a78a7e4e83f3aa",
+      "name": "Hulk Inu",
+      "symbol": "HULK",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/26358/large/HULKINU_LOGO.png?1657593698"
     },
     {
       "chainId": 1,
@@ -12708,14 +12743,6 @@
       "symbol": "XCAD",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/15857/large/xcad.PNG?1622164789"
-    },
-    {
-      "chainId": 1,
-      "address": "0xb4272071ecadd69d933adcd19ca99fe80664fc08",
-      "name": "CryptoFranc",
-      "symbol": "XCHF",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/8465/large/WhuiuJBc_400x400.jpg?1558699947"
     },
     {
       "chainId": 1,
