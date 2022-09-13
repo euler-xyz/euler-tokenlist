@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-09-12T22:19:51.241Z",
+  "timestamp": "2022-09-13T22:20:24.504Z",
   "version": {
     "major": 1,
-    "minor": 173,
+    "minor": 174,
     "patch": 0
   },
   "tags": {},
@@ -342,6 +342,14 @@
           }
         }
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0x0100546f2cd4c9d97f798ffc9755e47865ff7ee6",
+      "name": "Alchemix ETH",
+      "symbol": "ALETH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/16271/large/uS04dyYy_400x400.jpeg?1663051098"
     },
     {
       "chainId": 1,
@@ -824,11 +832,27 @@
     },
     {
       "chainId": 1,
+      "address": "0x7e9c15c43f0d6c4a12e6bdff7c7d55d0f80e3e23",
+      "name": "Astra DAO",
+      "symbol": "ASTRA",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27255/large/astra200x200px_blue_%282%29.png?1663035884"
+    },
+    {
+      "chainId": 1,
       "address": "0x2f9411088cef82fd9fb904eb8092f28eb485c8f6",
       "name": "Athens",
       "symbol": "ATH",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/24514/large/ATH-logo-round.png?1647951491"
+    },
+    {
+      "chainId": 1,
+      "address": "0xaa2d8c9a8bd0f7945143bfd509be3ff23dd78918",
+      "name": "Artizen",
+      "symbol": "ATNT",
+      "decimals": 3,
+      "logoURI": "https://assets.coingecko.com/coins/images/27263/large/ATNT-symbol_200.png?1663059371"
     },
     {
       "chainId": 1,
@@ -4325,6 +4349,25 @@
       "symbol": "FKX",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/5050/large/fkx.png?1644048298"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb1f1f47061a7be15c69f378cb3f69423bd58f2f8",
+      "name": "Flashstake",
+      "symbol": "FLASH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13533/large/FLASH.png?1615182275",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Flashstake",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0xb1f1f47061a7be15c69f378cb3f69423bd58f2f8"
+          }
+        }
+      }
     },
     {
       "chainId": 1,
@@ -11012,6 +11055,14 @@
           }
         }
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0xb4b9dc1c77bdbb135ea907fd5a08094d98883a35",
+      "name": "Sweat Economy",
+      "symbol": "SWEAT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25057/large/fhD9Xs16_400x400.jpg?1649947000"
     },
     {
       "chainId": 1,
