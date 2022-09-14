@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-09-13T22:20:24.504Z",
+  "timestamp": "2022-09-14T22:18:49.267Z",
   "version": {
     "major": 1,
-    "minor": 174,
+    "minor": 175,
     "patch": 0
   },
   "tags": {},
@@ -2320,6 +2320,14 @@
       "symbol": "CHAIN",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12257/large/chain-logo-centered-500x500.png?1599617244"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4cd4441f169e472dd7ea462167ba93180b6e6074",
+      "name": "CURE Chain",
+      "symbol": "CHAIN",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/27291/large/cure_chain_logo.png?1663147515"
     },
     {
       "chainId": 1,
@@ -10329,6 +10337,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x6adb2e268de2aa1abf6578e4a8119b960e02928f",
+      "name": "ShibaDoge",
+      "symbol": "SHIBDOGE",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/22018/large/5HMWoFW0_400x400.jpg?1640596392"
+    },
+    {
+      "chainId": 1,
       "address": "0x505a84a03e382331a1be487b632cf357748b65d6",
       "name": "SHIBGF",
       "symbol": "SHIBGF",
@@ -10660,7 +10676,7 @@
     {
       "chainId": 1,
       "address": "0x9b02dd390a603add5c07f9fd9175b7dabe8d63b7",
-      "name": "Shopping io",
+      "name": "Shopping io OLD",
       "symbol": "SPI",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13537/large/SPI_Token.png?1623763713"
@@ -12783,6 +12799,14 @@
       "symbol": "XCAD",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/15857/large/xcad.PNG?1622164789"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb4272071ecadd69d933adcd19ca99fe80664fc08",
+      "name": "CryptoFranc",
+      "symbol": "XCHF",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/8465/large/WhuiuJBc_400x400.jpg?1558699947"
     },
     {
       "chainId": 1,
