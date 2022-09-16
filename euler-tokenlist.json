@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-09-15T22:21:56.395Z",
+  "timestamp": "2022-09-16T22:21:00.350Z",
   "version": {
     "major": 1,
-    "minor": 176,
+    "minor": 177,
     "patch": 0
   },
   "tags": {},
@@ -920,6 +920,14 @@
       "symbol": "AURORA",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/20582/large/aurora.jpeg?1637250883"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0107c4aaa31940ef88760acb1f32424ca8d8bd80",
+      "name": "Authencity",
+      "symbol": "AUTH",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/26960/large/1.png?1661062419"
     },
     {
       "chainId": 1,
@@ -3208,6 +3216,14 @@
       "symbol": "DEPO",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/19151/large/depo.PNG?1634535965"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9fa69536d1cda4a04cfb50688294de75b505a9ae",
+      "name": "DeRace",
+      "symbol": "DERC",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/17438/large/derace-logo-black-coingecko.png?1627656907"
     },
     {
       "chainId": 1,
