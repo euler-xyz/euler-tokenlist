@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-09-16T22:21:00.350Z",
+  "timestamp": "2022-09-17T22:22:46.963Z",
   "version": {
     "major": 1,
-    "minor": 177,
+    "minor": 178,
     "patch": 0
   },
   "tags": {},
@@ -6731,14 +6731,6 @@
       "symbol": "LINU",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/25623/large/output-onlinepngtools.png?1653983337"
-    },
-    {
-      "chainId": 1,
-      "address": "0x739317d519ab3bc640a0058230550089a96a2ca5",
-      "name": "Liquidator DAO",
-      "symbol": "LIQUIDATOR",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/24354/large/LIQUIDATOR_Logo_200pxSQUARE.png?1647434180"
     },
     {
       "chainId": 1,
