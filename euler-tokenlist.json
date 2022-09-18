@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-09-17T22:22:46.963Z",
+  "timestamp": "2022-09-18T22:21:13.668Z",
   "version": {
     "major": 1,
-    "minor": 178,
+    "minor": 179,
     "patch": 0
   },
   "tags": {},
@@ -4591,7 +4591,7 @@
     {
       "chainId": 1,
       "address": "0xc770eefad204b5180df6a14ee197d99d808ee52d",
-      "name": "ShapeShift FOX Token",
+      "name": "ShapeShift FOX",
       "symbol": "FOX",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/9988/large/FOX.png?1574330622"
@@ -6932,14 +6932,6 @@
     },
     {
       "chainId": 1,
-      "address": "0xa4c7963b98838e8f958cf7b87a039249044fe2db",
-      "name": "LogiTron",
-      "symbol": "LTR",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/23635/large/logo.png?1644906873"
-    },
-    {
-      "chainId": 1,
       "address": "0xa5ef74068d04ba0809b7379dd76af5ce34ab7c57",
       "name": "LunaChow",
       "symbol": "LUCHOW",
@@ -8790,6 +8782,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x6c5ba91642f10282b576d91922ae6448c9d52f4e",
+      "name": "Phala Network",
+      "symbol": "PHA",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/12451/large/phala.png?1600061318"
+    },
+    {
+      "chainId": 1,
       "address": "0x37e83a94c6b1bdb816b59ac71dd02cf154d8111f",
       "name": "PhotoChromic",
       "symbol": "PHCR",
@@ -9620,6 +9620,14 @@
       "symbol": "RCN",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/1057/large/ripio-credit-network.png?1548608361"
+    },
+    {
+      "chainId": 1,
+      "address": "0x255aa6df07540cb5d3d297f0d0d4d84cb52bc8e6",
+      "name": "Raiden Network",
+      "symbol": "RDN",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/1132/large/raiden-logo.jpg?1547035131"
     },
     {
       "chainId": 1,
@@ -11850,7 +11858,7 @@
       "name": "UniX",
       "symbol": "UNIX",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/20674/large/unix.png?1637735771"
+      "logoURI": "https://assets.coingecko.com/coins/images/20674/large/unix.png?1663499268"
     },
     {
       "chainId": 1,
