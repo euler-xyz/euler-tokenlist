@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-09-18T22:21:13.668Z",
+  "timestamp": "2022-09-19T22:19:21.889Z",
   "version": {
     "major": 1,
-    "minor": 179,
+    "minor": 180,
     "patch": 0
   },
   "tags": {},
@@ -4089,14 +4089,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x6020da0f7c1857dbe4431ec92a15cc318d933eaa",
-      "name": "En Tan Mo",
-      "symbol": "ETM",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/8652/large/En-tan-mo.jpg?1560148966"
-    },
-    {
-      "chainId": 1,
       "address": "0xd9fcd98c322942075a5c3860693e9f4f03aae07b",
       "name": "Euler",
       "symbol": "EUL",
@@ -7669,6 +7661,25 @@
     },
     {
       "chainId": 1,
+      "address": "0x3fa729b4548becbad4eab6ef18413470e6d5324c",
+      "name": "Mover",
+      "symbol": "MOVE",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13719/large/o0KIvs7T_400x400.jpg?1617672818",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Mover",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x3fa729b4548becbad4eab6ef18413470e6d5324c"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x8888801af4d980682e47f1a9036e589479e835c5",
       "name": "88mph",
       "symbol": "MPH",
@@ -11114,6 +11125,14 @@
           }
         }
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0xb4371da53140417cbb3362055374b10d97e420bb",
+      "name": "Carbon Protocol",
+      "symbol": "SWTH",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/3645/large/SWTH_Symbol_Origin.png?1645000262"
     },
     {
       "chainId": 1,
