@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-09-20T22:25:25.945Z",
+  "timestamp": "2022-09-21T22:21:46.483Z",
   "version": {
     "major": 1,
-    "minor": 181,
+    "minor": 182,
     "patch": 0
   },
   "tags": {},
@@ -3722,6 +3722,25 @@
     },
     {
       "chainId": 1,
+      "address": "0xea5edef1287afdf9eb8a46f9773abfc10820c61c",
+      "name": "EASE",
+      "symbol": "EASE",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27228/large/ease_%281%29.png?1662704894",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Ease Token",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0xea5edef1287afdf9eb8a46f9773abfc10820c61c"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x9b62ec1453cea5dde760aaf662048ca6eeb66e7f",
       "name": "Consensus Cell Network",
       "symbol": "ECELL",
@@ -5359,6 +5378,14 @@
       "symbol": "GXT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12226/large/a.png?1653378779"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc08512927d12348f6620a698105e1baac6ecd911",
+      "name": "GYEN",
+      "symbol": "GYEN",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/14191/large/icon_gyen_200_200.png?1614843343"
     },
     {
       "chainId": 1,
@@ -8655,7 +8682,7 @@
       "name": "Dope Wars Paper",
       "symbol": "PAPER",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/18166/large/paper_logo.png?1630859854",
+      "logoURI": "https://assets.coingecko.com/coins/images/18166/large/EQHGcBO__400x400.jpeg?1663726283",
       "extensions": {
         "permit": {
           "type": "EIP2612",
@@ -12227,7 +12254,7 @@
       "name": "Velas",
       "symbol": "VLX",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/9651/large/velas.png?1607999828"
+      "logoURI": "https://assets.coingecko.com/coins/images/9651/large/logo_blue.png?1663764088"
     },
     {
       "chainId": 1,
