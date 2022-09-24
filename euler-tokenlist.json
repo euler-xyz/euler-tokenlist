@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-09-23T22:20:15.382Z",
+  "timestamp": "2022-09-24T22:19:30.743Z",
   "version": {
     "major": 1,
-    "minor": 184,
+    "minor": 185,
     "patch": 0
   },
   "tags": {},
@@ -1071,6 +1071,14 @@
       "symbol": "BABL",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/20049/large/favicon-260x260.png?1636426809"
+    },
+    {
+      "chainId": 1,
+      "address": "0x3449fc1cd036255ba1eb19d65ff4ba2b8903a69a",
+      "name": "Basis Cash",
+      "symbol": "BAC",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13246/large/BAC.png?1613231642"
     },
     {
       "chainId": 1,
@@ -3042,6 +3050,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xa888d9616c2222788fa19f05f77221a290eef704",
+      "name": "Daruma",
+      "symbol": "DARUMA",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/27357/large/CGlogo.png?1663661942"
+    },
+    {
+      "chainId": 1,
       "address": "0x8f693ca8d21b157107184d29d398a8d082b38b76",
       "name": "Streamr",
       "symbol": "DATA",
@@ -3457,14 +3473,6 @@
       "symbol": "DNXC",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/17321/large/asset_icon_dnxc_200.png?1627292452"
-    },
-    {
-      "chainId": 1,
-      "address": "0x0e498afce58de8651b983f136256fa3b8d9703bc",
-      "name": "Dooropen",
-      "symbol": "DOC",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/24529/large/image.png?1648039452"
     },
     {
       "chainId": 1,
@@ -5530,6 +5538,14 @@
       "symbol": "HLTH",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/18637/large/hlth.png?1639728357"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd1ba9bac957322d6e8c07a160a3a8da11a0d2867",
+      "name": "HUMAN Protocol",
+      "symbol": "HMT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/16412/large/human_protocol.PNG?1623971316"
     },
     {
       "chainId": 1,
@@ -7899,14 +7915,6 @@
       "symbol": "MYNFT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/22835/large/g8hTJXqg_400x400.jpg?1642722045"
-    },
-    {
-      "chainId": 1,
-      "address": "0x50987e6be405ebac691f8988304562e5efc3b2ea",
-      "name": "Mycro",
-      "symbol": "MYO",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/7035/large/130619_MYO_Icon_final.png?1560931928"
     },
     {
       "chainId": 1,
@@ -10621,14 +10629,6 @@
       "symbol": "SMT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/17488/large/swarm-SMT-token-symbol_200x200.png?1655373659"
-    },
-    {
-      "chainId": 1,
-      "address": "0xb8fb35e3406e597e5f86d4f3c0e3063a6fab71a5",
-      "name": "AnySniper",
-      "symbol": "SNIPE",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/23838/large/logo.png?1645516952"
     },
     {
       "chainId": 1,
