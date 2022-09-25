@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-09-24T22:19:30.743Z",
+  "timestamp": "2022-09-25T22:19:51.775Z",
   "version": {
     "major": 1,
-    "minor": 185,
+    "minor": 186,
     "patch": 0
   },
   "tags": {},
@@ -2807,7 +2807,7 @@
     },
     {
       "chainId": 1,
-      "address": "0xcbc1065255cbc3ab41a6868c22d1f1c573ab89fd",
+      "address": "0x49d72e3973900a195a155a46441f0c08179fdb64",
       "name": "Cream ETH 2",
       "symbol": "CRETH2",
       "decimals": 18,
@@ -3734,7 +3734,7 @@
       "name": "EASE",
       "symbol": "EASE",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/27228/large/ease_%281%29.png?1662704894",
+      "logoURI": "https://assets.coingecko.com/coins/images/27228/large/ease_symbol-200x200.png?1664098304",
       "extensions": {
         "permit": {
           "type": "EIP2612",
@@ -5859,14 +5859,6 @@
       "symbol": "IHF",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/3747/large/ihp.png?1547038807"
-    },
-    {
-      "chainId": 1,
-      "address": "0xf784682c82526e245f50975190ef0fff4e4fc077",
-      "name": "INLOCK",
-      "symbol": "ILK",
-      "decimals": 8,
-      "logoURI": "https://assets.coingecko.com/coins/images/9377/large/yfpmaELg_400x400.jpg?1649307014"
     },
     {
       "chainId": 1,
@@ -10772,14 +10764,6 @@
     },
     {
       "chainId": 1,
-      "address": "0xc94f3e2ade5e92389af7e543657211ecccaff11e",
-      "name": "Up Spiral",
-      "symbol": "SPIRAL",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/26615/large/spiral.png?1659072838"
-    },
-    {
-      "chainId": 1,
       "address": "0xf04af3f4e4929f7cd25a751e6149a3318373d4fe",
       "name": "Spring",
       "symbol": "SPRING",
@@ -11716,25 +11700,6 @@
       "symbol": "UCASH",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/2901/large/ucash.png?1547037074"
-    },
-    {
-      "chainId": 1,
-      "address": "0xb1db366890eeb8f28c2813c6a6084353e0b90713",
-      "name": "UniCandy",
-      "symbol": "UCD",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/18974/large/ucd-coin.png?1634094138",
-      "extensions": {
-        "permit": {
-          "type": "EIP2612",
-          "domain": {
-            "name": "UniCandy",
-            "version": "1",
-            "chainId": 1,
-            "verifyingContract": "0xb1db366890eeb8f28c2813c6a6084353e0b90713"
-          }
-        }
-      }
     },
     {
       "chainId": 1,
