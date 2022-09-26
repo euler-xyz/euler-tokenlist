@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-09-25T22:19:51.775Z",
+  "timestamp": "2022-09-26T22:20:14.805Z",
   "version": {
     "major": 1,
-    "minor": 186,
+    "minor": 187,
     "patch": 0
   },
   "tags": {},
@@ -2780,6 +2780,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x64df3aab3b21cc275bb76c4a581cf8b726478ee0",
+      "name": "Cramer Coin",
+      "symbol": "CRAMER",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27463/large/cramercoin.jpg?1664176668"
+    },
+    {
+      "chainId": 1,
       "address": "0xaa61d5dec73971cd4a026ef2820bb87b4a4ed8d6",
       "name": "CRE8R DAO",
       "symbol": "CRE8R",
@@ -3872,14 +3880,6 @@
       "symbol": "ELAND",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14432/large/eland.png?1616044253"
-    },
-    {
-      "chainId": 1,
-      "address": "0x6c37bf4f042712c978a73e3fd56d1f5738dd7c43",
-      "name": "Elementeum",
-      "symbol": "ELET",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/2670/large/ELET.png?1558594342"
     },
     {
       "chainId": 1,
