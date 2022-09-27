@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-09-26T22:20:14.805Z",
+  "timestamp": "2022-09-27T22:20:33.659Z",
   "version": {
     "major": 1,
-    "minor": 187,
+    "minor": 188,
     "patch": 0
   },
   "tags": {},
@@ -297,24 +297,6 @@
       "symbol": "ALBT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12392/large/alliance_block_logo.jpg?1599546617"
-    },
-    {
-      "chainId": 1,
-      "address": "0x0000a1c00009a619684135b824ba02f7fbf3a572",
-      "name": "AlchemyDAO",
-      "symbol": "ALCH",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/14719/large/sbEW5W8.png?1617939648",
-      "extensions": {
-        "permit": {
-          "type": "EIP2612",
-          "domain": {
-            "name": "Alchemy",
-            "chainId": 1,
-            "verifyingContract": "0x0000a1c00009a619684135b824ba02f7fbf3a572"
-          }
-        }
-      }
     },
     {
       "chainId": 1,
@@ -1004,6 +986,25 @@
       "symbol": "AXIS",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/16972/large/lUeFYUeu_400x400.png?1625815058"
+    },
+    {
+      "chainId": 1,
+      "address": "0x467719ad09025fcc6cf6f8311755809d45a5e5f3",
+      "name": "Axelar",
+      "symbol": "AXL",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/27277/large/V-65_xQ1_400x400.jpeg?1663121730",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Axelar",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x467719ad09025fcc6cf6f8311755809d45a5e5f3"
+          }
+        }
+      }
     },
     {
       "name": "Axelar Wrapped ATOM",
@@ -7645,6 +7646,25 @@
     },
     {
       "chainId": 1,
+      "address": "0x1ea48b9965bb5086f3b468e50ed93888a661fc17",
+      "name": "DeFi Franc Moneta",
+      "symbol": "MON",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27493/large/logo-moneta.png?1664268389",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Moneta",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x1ea48b9965bb5086f3b468e50ed93888a661fc17"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x275f5ad03be0fa221b4c6649b8aee09a42d9412a",
       "name": "Monavale",
       "symbol": "MONA",
@@ -9265,6 +9285,14 @@
       "symbol": "PRT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13617/large/OKeO2FI.png?1610327038"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa49811140e1d6f653dec28037be0924c811c4538",
+      "name": "PR F Protocol",
+      "symbol": "PRUF",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27482/large/prufu-200x200_1.png?1664246561"
     },
     {
       "chainId": 1,
