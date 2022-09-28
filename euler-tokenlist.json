@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-09-27T22:20:33.659Z",
+  "timestamp": "2022-09-28T22:22:08.273Z",
   "version": {
     "major": 1,
-    "minor": 188,
+    "minor": 189,
     "patch": 0
   },
   "tags": {},
@@ -10184,6 +10184,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x5afe3855358e112b5647b952709e6165e1c1eeee",
+      "name": "Safe",
+      "symbol": "SAFE",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27032/large/Artboard_1_copy_8circle-1.png?1661498342"
+    },
+    {
+      "chainId": 1,
       "address": "0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359",
       "name": "Sai",
       "symbol": "SAI",
@@ -11266,6 +11274,14 @@
       "symbol": "T",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/22228/large/nFPNiSbL_400x400.jpg?1641220340"
+    },
+    {
+      "chainId": 1,
+      "address": "0x12b6893ce26ea6341919fe289212ef77e51688c8",
+      "name": "Tamadoge",
+      "symbol": "TAMA",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27501/large/CaltNDWu_400x400.jpeg?1664329157"
     },
     {
       "chainId": 1,
