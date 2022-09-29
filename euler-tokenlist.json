@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-09-28T22:22:08.273Z",
+  "timestamp": "2022-09-29T22:23:20.609Z",
   "version": {
     "major": 1,
-    "minor": 189,
+    "minor": 190,
     "patch": 0
   },
   "tags": {},
@@ -1470,14 +1470,6 @@
       "symbol": "BIT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/17627/large/rI_YptK8.png?1653983088"
-    },
-    {
-      "chainId": 1,
-      "address": "0x284b19a5fa65f706422c0c86566e407b0e70e537",
-      "name": "BitAstir",
-      "symbol": "BITA",
-      "decimals": 9,
-      "logoURI": "https://assets.coingecko.com/coins/images/24647/large/Logomark-color.png?1648480914"
     },
     {
       "chainId": 1,
@@ -4055,6 +4047,14 @@
       "symbol": "ESS",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/2483/large/Essentia-token.jpg?1547036604"
+    },
+    {
+      "chainId": 1,
+      "address": "0x04a6b6de116fb8bf57e5ee8b05e0293ea3639fe8",
+      "name": "Proof Of Memes",
+      "symbol": "ETH20",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27305/large/Screenshot_2022-09-22_173342-removebg-preview.png?1664112523"
     },
     {
       "chainId": 1,
@@ -11973,14 +11973,6 @@
       "symbol": "UNT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/17143/large/unity.PNG?1626658763"
-    },
-    {
-      "chainId": 1,
-      "address": "0xe4b5936dce1820f84509c89cce0f28c87988bad8",
-      "name": "Universe Finance",
-      "symbol": "UNT",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/22676/large/1_hMcINXnC7TdqS0TI8_FLmg.png?1642406474"
     },
     {
       "chainId": 1,
