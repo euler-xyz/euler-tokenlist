@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-10-01T22:21:37.082Z",
+  "timestamp": "2022-10-03T22:20:15.323Z",
   "version": {
     "major": 1,
-    "minor": 192,
+    "minor": 193,
     "patch": 0
   },
   "tags": {},
@@ -9437,6 +9437,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x2ec3275f7ace4044e499823f511cd58250be8e3d",
+      "name": "Privilege",
+      "symbol": "PRVG",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/27585/large/prvg.png?1664701884"
+    },
+    {
+      "chainId": 1,
       "address": "0xa5b947687163fe88c3e6af5b17ae69896f4abccf",
       "name": "Poseidon",
       "symbol": "PSDN",
@@ -10298,14 +10306,6 @@
       "symbol": "S4F",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/7405/large/logo_%284%29.png?1547085640"
-    },
-    {
-      "chainId": 1,
-      "address": "0xa6610ed604047e7b76c1da288172d15bcda57596",
-      "name": "Sacks",
-      "symbol": "SACKS",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/15876/large/mockup-a558c23f_1024x1024_2x.jpg?1622186229"
     },
     {
       "chainId": 1,
