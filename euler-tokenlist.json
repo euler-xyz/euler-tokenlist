@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-10-03T22:20:15.323Z",
+  "timestamp": "2022-10-04T22:20:50.013Z",
   "version": {
     "major": 1,
-    "minor": 193,
+    "minor": 194,
     "patch": 0
   },
   "tags": {},
@@ -3508,14 +3508,6 @@
       "symbol": "DIVINE",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/19088/large/afoyozIH_400x400.jpg?1634420762"
-    },
-    {
-      "chainId": 1,
-      "address": "0x87c22615435998d69aca34889d03155b694a94fc",
-      "name": "DiemLibre",
-      "symbol": "DLB",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/22818/large/ckjb5eTG_400x400.jpg?1642660736"
     },
     {
       "chainId": 1,
@@ -11768,6 +11760,14 @@
       "symbol": "TSA",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/17826/large/tsa.PNG?1629358290"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd031edafac6a6ae5425e77f936022e506444c242",
+      "name": "HERUKA TSANGNYON",
+      "symbol": "TSANGNYON",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27611/large/81b3e527-f8a9-47f7-8d4d-10f754f501c2.png?1664853112"
     },
     {
       "chainId": 1,
