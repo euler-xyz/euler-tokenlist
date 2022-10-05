@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-10-04T22:20:50.013Z",
+  "timestamp": "2022-10-05T22:21:50.304Z",
   "version": {
     "major": 1,
-    "minor": 194,
+    "minor": 195,
     "patch": 0
   },
   "tags": {},
@@ -1636,6 +1636,25 @@
       "symbol": "BNTY",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/1444/large/bounty0x.png?1547562674"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b",
+      "name": "BOB",
+      "symbol": "BOB",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27266/large/Bob-logo.png?1663073030",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "BOB",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b"
+          }
+        }
+      }
     },
     {
       "chainId": 1,
@@ -3942,6 +3961,14 @@
           }
         }
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0x1b5036bec1b82d44d52fa953a370b3c6cd9328b5",
+      "name": "Elan",
+      "symbol": "ELAN",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27635/large/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA_%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2022-10-04_%D0%BE_17.23.34.png?1664961737"
     },
     {
       "chainId": 1,
@@ -12380,6 +12407,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x3be7bf1a5f23bd8336787d0289b70602f1940875",
+      "name": "VIDT DAO",
+      "symbol": "VIDT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27552/large/RiHSX2MH_400x400.jpeg?1664501495"
+    },
+    {
+      "chainId": 1,
       "address": "0x3d3d35bb9bec23b06ca00fe472b50e7a4c692c30",
       "name": "Vidya",
       "symbol": "VIDYA",
@@ -12781,14 +12816,6 @@
       "symbol": "WILD",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/15407/large/WWLogo_Gradient_Cirlce.png?1620743969"
-    },
-    {
-      "chainId": 1,
-      "address": "0x403d512ab96103562dcafe4635545e8ee2753f6e",
-      "name": "Wild Credit",
-      "symbol": "WILD",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/17206/large/wild.png?1640155748"
     },
     {
       "chainId": 1,
