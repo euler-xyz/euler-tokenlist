@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-10-05T22:21:50.304Z",
+  "timestamp": "2022-10-06T22:21:48.403Z",
   "version": {
     "major": 1,
-    "minor": 195,
+    "minor": 196,
     "patch": 0
   },
   "tags": {},
@@ -2415,6 +2415,14 @@
       "symbol": "CHANGE",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/26487/large/ChangeX_logo_19_Jul.png?1658282954"
+    },
+    {
+      "chainId": 1,
+      "address": "0xf68d4d917592f3a62417ace42592f15296cc33a0",
+      "name": "COINHUB",
+      "symbol": "CHB",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/26818/large/4DBF1DAE-0930-4925-BD70-1A446F267546.jpeg?1660278721"
     },
     {
       "chainId": 1,
