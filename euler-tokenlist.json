@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-10-08T22:20:29.559Z",
+  "timestamp": "2022-10-09T22:20:00.854Z",
   "version": {
     "major": 1,
-    "minor": 198,
+    "minor": 199,
     "patch": 0
   },
   "tags": {},
@@ -5921,6 +5921,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xfc4913214444af5c715cc9f7b52655e788a569ed",
+      "name": "Icosa",
+      "symbol": "ICSA",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/27708/large/icsa.e2b79cbc.png?1665314034"
+    },
+    {
+      "chainId": 1,
       "address": "0xebd9d99a3982d547c5bb4db7e3b1f9f14b67eb83",
       "name": "Everest",
       "symbol": "ID",
@@ -10090,14 +10098,6 @@
       "symbol": "RIO",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12206/large/0.jpg?1598083003"
-    },
-    {
-      "chainId": 1,
-      "address": "0x98b69ebb4ce228145463d7c08aa71fbb6791fe86",
-      "name": "RocketToken  OLD ",
-      "symbol": "RKTN",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/23942/large/5F8FyJDt_400x400.jpg?1645769245"
     },
     {
       "chainId": 1,
