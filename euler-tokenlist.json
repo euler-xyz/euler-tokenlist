@@ -6024,12 +6024,12 @@
       "name": "Immutable X",
       "symbol": "IMX",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/17233/large/imx.png?1636691817"
+      "logoURI": "https://assets.coingecko.com/coins/images/17233/large/immutableX-symbol-BLK-RGB.png?1665110648"
     },
     {
       "chainId": 1,
       "address": "0x7b35ce522cb72e4077baeb96cb923a5529764a00",
-      "name": "Impermax",
+      "name": "Impermax  OLD ",
       "symbol": "IMX",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/15126/large/Copy_of_200px.png?1619761475"
