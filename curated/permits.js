@@ -118,6 +118,24 @@ module.exports = {
         verifyingContract: '0x41545f8b9472d758bb669ed8eaeeecd7a9c4ec29'
       },
   },
+  '0xc97232527b62efb0d8ed38cf3ea103a6cca4037e': { // LP Yearn CRV Vault (lp-yCRV)
+      permitType: 'Packed',
+      domain: {
+        name: 'Yearn Vault',
+        version: '0.4.3',
+        chainId: 1,
+        verifyingContract: '0xc97232527b62efb0d8ed38cf3ea103a6cca4037e'
+      },
+  },
+  '0x27b5739e22ad9033bcbf192059122d163b60349d': { // Staked Yearn CRV Vault (st-yCRV)
+      permitType: 'Packed',
+      domain: {
+        name: 'Yearn Vault',
+        version: '0.4.3',
+        chainId: 1,
+        verifyingContract: '0x27b5739e22ad9033bcbf192059122d163b60349d'
+      },
+  },
 
   // Contracts with intended permit support with various issues
 
@@ -150,4 +168,12 @@ module.exports = {
   '0x0e498afce58de8651b983f136256fa3b8d9703bc': 'not supported', // DOC - using symbol for version
   '0xc17c30e98541188614df99239cabd40280810ca3': 'not supported', // RISE (new?)- non standard per user domain separator
   '0x4b48068864f77261838c7849a12853fb94c77a91': 'not supported', // LITH - possibly not initialised
+  '0xb4b9dc1c77bdbb135ea907fd5a08094d98883a35': 'not supported', // SWEAT - proxy contract, unknown implementation
+  '0xd31a59c85ae9d8edefec411d448f90841571b89c': 'not supported', // SOL (Wormhole) - proxy contract, unknown implementation
+  '0x1cdd2eab61112697626f7b4bb0e23da4febf7b7c': 'not supported', // USDT (Wormhole) - proxy contract, unknown implementation
+  '0x3ef389f264e07fff3106a3926f2a166d1393086f': 'not supported', // SAO (Wormhole) - proxy contract, unknown implementation
+  '0x418d75f65a02b3d53b2418fb8e1fe493759c7605': 'not supported', // BNB (Wormhole) - proxy contract, unknown implementation
+  '0x93e32efafd24973d45f363a76d73ccb9edf59986': 'not supported', // BTL (Wormhole) - proxy contract, unknown implementation
+  '0xa693b19d2931d498c5b318df961919bb4aee87a5': 'not supported', // UST (Wormhole) - proxy contract, unknown implementation
+  '0x20d60c6eb195868d4643f2c9b0809e4de6cc003d': 'not supported', // PLY (Wormhole) - proxy contract, unknown implementation
 }
