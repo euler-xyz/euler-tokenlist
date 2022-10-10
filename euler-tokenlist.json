@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-10-09T22:20:00.854Z",
+  "timestamp": "2022-10-10T22:20:40.918Z",
   "version": {
     "major": 1,
-    "minor": 199,
+    "minor": 200,
     "patch": 0
   },
   "tags": {},
@@ -3725,14 +3725,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x5adc961d6ac3f7062d2ea45fefb8d8167d44b190",
-      "name": "Dether",
-      "symbol": "DTH",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/2231/large/dether.png?1547036510"
-    },
-    {
-      "chainId": 1,
       "address": "0x92e187a03b6cd19cb6af293ba17f2745fd2357d5",
       "name": "Unit Protocol",
       "symbol": "DUCK",
@@ -6437,7 +6429,7 @@
       "name": "Kawakami",
       "symbol": "KAWA",
       "decimals": 9,
-      "logoURI": "https://assets.coingecko.com/coins/images/16369/large/kawainu.PNG?1623820805"
+      "logoURI": "https://assets.coingecko.com/coins/images/16369/large/kawakami-2022-red-logo.png?1665374338"
     },
     {
       "chainId": 1,
