@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-10-10T22:20:40.918Z",
+  "timestamp": "2022-10-11T22:19:52.466Z",
   "version": {
     "major": 1,
-    "minor": 200,
+    "minor": 201,
     "patch": 0
   },
   "tags": {},
@@ -8933,6 +8933,25 @@
     },
     {
       "chainId": 1,
+      "address": "0x632806bf5c8f062932dd121244c9fbe7becb8b48",
+      "name": "Phuture DeFi Index",
+      "symbol": "PDI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25772/large/2.PDI_logo_solid_blue_-_Circle_3x.png?1665022360",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "PhutureIndex",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x632806bf5c8f062932dd121244c9fbe7becb8b48"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x375abb85c329753b1ba849a601438ae77eec9893",
       "name": "ParagonsDAO",
       "symbol": "PDT",
@@ -13177,6 +13196,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x06450dee7fd2fb8e39061434babcfc05599a6fb8",
+      "name": "XEN Crypto",
+      "symbol": "XEN",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27713/large/Xen.jpeg?1665453190"
+    },
+    {
+      "chainId": 1,
       "address": "0x4aa41bc1649c9c3177ed16caaa11482295fc7441",
       "name": "Xfit",
       "symbol": "XFIT",
@@ -13377,6 +13404,14 @@
       "symbol": "XYZ",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/15809/large/universexyz.png?1621950483"
+    },
+    {
+      "chainId": 1,
+      "address": "0x48f07301e9e29c3c38a80ae8d9ae771f224f1054",
+      "name": "South African Tether",
+      "symbol": "XZAR",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/17447/large/Stablecoin_%281%29.png?1627867769"
     },
     {
       "chainId": 1,
