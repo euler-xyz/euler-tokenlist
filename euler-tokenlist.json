@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-10-11T22:19:52.466Z",
+  "timestamp": "2022-10-12T22:19:39.911Z",
   "version": {
     "major": 1,
-    "minor": 201,
+    "minor": 202,
     "patch": 0
   },
   "tags": {},
@@ -5239,6 +5239,14 @@
       "symbol": "GLCH",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13712/large/glitch_logo.jpeg?1611100011"
+    },
+    {
+      "chainId": 1,
+      "address": "0xfeeb4d0f5463b1b04351823c246bdb84c4320cc2",
+      "name": "Gold Retriever",
+      "symbol": "GLDN",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27529/large/33406C30-2F50-45D8-9F75-5B7EAEB23038.jpeg?1664371749"
     },
     {
       "chainId": 1,
@@ -13428,6 +13436,14 @@
       "symbol": "YCO",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/14128/large/BIG-POTAT-200x200-removebg-preview.png?1614576159"
+    },
+    {
+      "chainId": 1,
+      "address": "0x30dcba0405004cf124045793e1933c798af9e66a",
+      "name": "Yieldification",
+      "symbol": "YDF",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/26699/large/logo.png?1659609811"
     },
     {
       "chainId": 1,
