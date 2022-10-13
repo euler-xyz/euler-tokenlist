@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-10-12T22:19:39.911Z",
+  "timestamp": "2022-10-13T22:19:47.881Z",
   "version": {
     "major": 1,
-    "minor": 202,
+    "minor": 203,
     "patch": 0
   },
   "tags": {},
@@ -13,6 +13,25 @@
     "default"
   ],
   "tokens": [
+    {
+      "chainId": 1,
+      "address": "0x881ba05de1e78f549cc63a8f6cabb1d4ad32250d",
+      "name": "P00LS",
+      "symbol": "00",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27742/large/200x200.png?1665623317",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "00 Token",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x881ba05de1e78f549cc63a8f6cabb1d4ad32250d"
+          }
+        }
+      }
+    },
     {
       "chainId": 1,
       "address": "0x73a83269b9bbafc427e76be0a2c1a1db2a26f4c2",
@@ -2414,7 +2433,7 @@
       "name": "ChangeX",
       "symbol": "CHANGE",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/26487/large/ChangeX_logo_19_Jul.png?1658282954"
+      "logoURI": "https://assets.coingecko.com/coins/images/26487/large/Changex-mark-200x200.png?1665655365"
     },
     {
       "chainId": 1,
@@ -3887,7 +3906,7 @@
         "permit": {
           "type": "EIP2612",
           "domain": {
-            "name": "Eden",
+            "name": "EDEN Hack Inu",
             "version": "1",
             "chainId": 1,
             "verifyingContract": "0x1559fa1b8f28238fd5d76d9f434ad86fd20d1559"
