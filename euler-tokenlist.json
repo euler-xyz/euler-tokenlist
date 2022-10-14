@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-10-13T22:19:47.881Z",
+  "timestamp": "2022-10-14T22:20:12.875Z",
   "version": {
     "major": 1,
-    "minor": 203,
+    "minor": 204,
     "patch": 0
   },
   "tags": {},
@@ -3363,7 +3363,7 @@
       "name": "DeRace",
       "symbol": "DERC",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/17438/large/derace-logo-black-coingecko.png?1627656907"
+      "logoURI": "https://assets.coingecko.com/coins/images/17438/large/DERC_logo_coingecko.png?1665714278"
     },
     {
       "chainId": 1,
@@ -5120,6 +5120,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x9008064e6cf73e27a3aba4b10e69f855a4f8efcc",
+      "name": "Gemie",
+      "symbol": "GEM",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27745/large/icon-transparent.png?1665632270"
+    },
+    {
+      "chainId": 1,
       "address": "0x12e56851ec22874520dc4c7fa0a8a8d7dba1bac8",
       "name": "GENART",
       "symbol": "GENART",
@@ -5523,6 +5531,14 @@
       "symbol": "GUSD",
       "decimals": 2,
       "logoURI": "https://assets.coingecko.com/coins/images/5992/large/gemini-dollar-gusd.png?1536745278"
+    },
+    {
+      "chainId": 1,
+      "address": "0x674c964ac0e89d847d6b0abd144b797bf78ba56b",
+      "name": "GreenWorld",
+      "symbol": "GWD",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/27771/large/200x200logo.png?1665737292"
     },
     {
       "chainId": 1,
@@ -6521,6 +6537,14 @@
       "symbol": "KEY",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/2034/large/selfkey.png?1548608934"
+    },
+    {
+      "chainId": 1,
+      "address": "0xe0a189c975e4928222978a74517442239a0b86ff",
+      "name": "Keys",
+      "symbol": "KEYS",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/20604/large/200x200_%2843%29.png?1637289427"
     },
     {
       "chainId": 1,
@@ -10466,7 +10490,7 @@
       "name": "SingularityDAO",
       "symbol": "SDAO",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/15385/large/singularitydao_icon_logo.png?1628255890"
+      "logoURI": "https://assets.coingecko.com/coins/images/15385/large/200x200_logo.png?1665743635"
     },
     {
       "chainId": 1,
