@@ -5749,7 +5749,7 @@
       "name": "Hop Protocol",
       "symbol": "HOP",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/25445/large/BVcNR51u_400x400.jpg?1651797443",
+      "logoURI": "https://assets.coingecko.com/coins/images/25445/large/hop.png?1665541677",
       "extensions": {
         "permit": {
           "type": "EIP2612",
