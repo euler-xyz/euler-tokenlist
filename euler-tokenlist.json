@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-10-14T22:20:12.875Z",
+  "timestamp": "2022-10-15T22:19:39.081Z",
   "version": {
     "major": 1,
-    "minor": 204,
+    "minor": 205,
     "patch": 0
   },
   "tags": {},
@@ -16,7 +16,7 @@
     {
       "chainId": 1,
       "address": "0x881ba05de1e78f549cc63a8f6cabb1d4ad32250d",
-      "name": "P00LS",
+      "name": "ZER0ZER0",
       "symbol": "00",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/27742/large/200x200.png?1665623317",
@@ -2198,7 +2198,7 @@
       "name": "A Hunters Dream",
       "symbol": "CAW",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/25130/large/JbxuuZvC_400x400.jpg?1650414046"
+      "logoURI": "https://assets.coingecko.com/coins/images/25130/large/x-Logo-color-10x.png?1665831216"
     },
     {
       "chainId": 1,
@@ -7978,14 +7978,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x2132f6f5a45ab821e99dc1275da764776ceb2530",
-      "name": "MetaSpace REIT",
-      "symbol": "MREIT",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/21803/large/mreit-logo-black.png?1640065879"
-    },
-    {
-      "chainId": 1,
       "address": "0x0913ddae242839f8995c0375493f9a1a3bddc977",
       "name": "Marshall Inu",
       "symbol": "MRI",
@@ -12801,14 +12793,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x123151402076fc819b7564510989e475c9cd93ca",
-      "name": "Wrapped DGLD",
-      "symbol": "WDGLD",
-      "decimals": 8,
-      "logoURI": "https://assets.coingecko.com/coins/images/13301/large/wrappeddgld_32.png?1607310693"
-    },
-    {
-      "chainId": 1,
       "address": "0xe8e8486228753e01dbc222da262aa706bd67e601",
       "name": "Arch Ethereum Web3",
       "symbol": "WEB3",
@@ -12926,6 +12910,25 @@
       "symbol": "WJXN",
       "decimals": 0,
       "logoURI": "https://assets.coingecko.com/coins/images/18737/large/photo.jpg?1633360887"
+    },
+    {
+      "chainId": 1,
+      "address": "0x3b79a28264fc52c7b4cea90558aa0b162f7faf57",
+      "name": "Wonderful Memories",
+      "symbol": "WMEMO",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/22392/large/wMEMO.png?1665832927",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Wrapped MEMO",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x3b79a28264fc52c7b4cea90558aa0b162f7faf57"
+          }
+        }
+      }
     },
     {
       "chainId": 1,
