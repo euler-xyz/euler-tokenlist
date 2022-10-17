@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-10-16T22:20:34.054Z",
+  "timestamp": "2022-10-17T22:19:43.087Z",
   "version": {
     "major": 1,
-    "minor": 206,
+    "minor": 207,
     "patch": 0
   },
   "tags": {},
@@ -90,14 +90,6 @@
       "symbol": "2KEY",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/6090/large/2key.png?1591591830"
-    },
-    {
-      "chainId": 1,
-      "address": "0x43b72464a93687dc2f14d5e49086e641d011b890",
-      "name": "4Bulls",
-      "symbol": "4B",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/20448/large/7966.png?1637043277"
     },
     {
       "chainId": 1,
@@ -1974,6 +1966,14 @@
       "symbol": "BTU",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/3697/large/btuprotocol.jpeg?1549597021"
+    },
+    {
+      "chainId": 1,
+      "address": "0x66bcd0c22bb15cd1ba7199c7a383dc89528f4427",
+      "name": "Buhund",
+      "symbol": "BUH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27835/large/CG.jpeg?1665996180"
     },
     {
       "chainId": 1,
@@ -5593,14 +5593,6 @@
     },
     {
       "chainId": 1,
-      "address": "0xeb1112ac78d537853150e2a07e8b765e29d3f019",
-      "name": "Hashbon",
-      "symbol": "HASH",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/17105/large/Logo_V1.png?1628508791"
-    },
-    {
-      "chainId": 1,
       "address": "0xf2051511b9b121394fa75b8f7d4e7424337af687",
       "name": "DAOhaus",
       "symbol": "HAUS",
@@ -6577,14 +6569,6 @@
       "symbol": "KISHU",
       "decimals": 9,
       "logoURI": "https://assets.coingecko.com/coins/images/14890/large/uVLzCoP.png?1622445866"
-    },
-    {
-      "chainId": 1,
-      "address": "0x2bf91c18cd4ae9c2f2858ef9fe518180f7b5096d",
-      "name": "KIWI Token",
-      "symbol": "KIWI",
-      "decimals": 8,
-      "logoURI": "https://assets.coingecko.com/coins/images/10799/large/kiwi_256.png?1583736957"
     },
     {
       "chainId": 1,
@@ -8121,7 +8105,7 @@
       "name": "Mycelium",
       "symbol": "MYC",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/26874/large/MYC_Token.png?1660670191"
+      "logoURI": "https://assets.coingecko.com/coins/images/26874/large/MYC_Token.png?1665971552"
     },
     {
       "chainId": 1,
