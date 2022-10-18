@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-10-17T22:19:43.087Z",
+  "timestamp": "2022-10-18T22:20:22.425Z",
   "version": {
     "major": 1,
-    "minor": 207,
+    "minor": 208,
     "patch": 0
   },
   "tags": {},
@@ -11577,6 +11577,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x0cba60ca5ef4d42f92a5070a8fedd13be93e2861",
+      "name": "The Protocol",
+      "symbol": "THE",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27849/large/cSar5sDM_400x400.jpg?1666085191"
+    },
+    {
+      "chainId": 1,
       "address": "0x2e95cea14dd384429eb3c4331b776c4cfbb6fcd9",
       "name": "Throne",
       "symbol": "THN",
@@ -12699,6 +12707,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x88800092ff476844f74dc2fc427974bbee2794ae",
+      "name": "Ambire Wallet",
+      "symbol": "WALLET",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/23154/large/wallet.PNG?1643352408"
+    },
+    {
+      "chainId": 1,
       "address": "0xedb171c18ce90b633db442f2a6f72874093b49ef",
       "name": "Wrapped Ampleforth",
       "symbol": "WAMPL",
@@ -13165,7 +13181,7 @@
       "name": "XCAD Network",
       "symbol": "XCAD",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/15857/large/xcad.PNG?1622164789"
+      "logoURI": "https://assets.coingecko.com/coins/images/15857/large/xcad.jpeg?1666085792"
     },
     {
       "chainId": 1,
