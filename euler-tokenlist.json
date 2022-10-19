@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-10-18T22:20:22.425Z",
+  "timestamp": "2022-10-19T22:20:11.069Z",
   "version": {
     "major": 1,
-    "minor": 208,
+    "minor": 209,
     "patch": 0
   },
   "tags": {},
@@ -1247,10 +1247,10 @@
     {
       "chainId": 1,
       "address": "0xf4b5470523ccd314c6b9da041076e7d79e0df267",
-      "name": "BlockBank",
+      "name": "blockbank",
       "symbol": "BBANK",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/15081/large/O0EZIVAu_400x400.jpg?1619656539"
+      "logoURI": "https://assets.coingecko.com/coins/images/15081/large/dark_transparent.png?1666167714"
     },
     {
       "chainId": 1,
@@ -9185,14 +9185,6 @@
       "symbol": "PLBT",
       "decimals": 6,
       "logoURI": "https://assets.coingecko.com/coins/images/766/large/polybius.png?1547034516"
-    },
-    {
-      "chainId": 1,
-      "address": "0x3873965e73d9a21f88e645ce40b7db187fde4931",
-      "name": "Plethori",
-      "symbol": "PLE",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/15236/large/Medium_icon.png?1637740539"
     },
     {
       "chainId": 1,
