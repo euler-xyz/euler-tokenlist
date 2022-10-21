@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-10-20T22:20:35.417Z",
+  "timestamp": "2022-10-21T22:22:07.382Z",
   "version": {
     "major": 1,
-    "minor": 210,
+    "minor": 211,
     "patch": 0
   },
   "tags": {},
@@ -1752,6 +1752,14 @@
           }
         }
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0x8013266cb5c9dd48be3ad7d1ce832874d64b3ce1",
+      "name": "Boop",
+      "symbol": "BOOP",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27918/large/boop.png?1666351418"
     },
     {
       "chainId": 1,
@@ -3525,6 +3533,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x6ef6610d24593805144d73b13d4405e00a4e4ac7",
+      "name": "Die Protocol",
+      "symbol": "DIE",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27903/large/newlogo.jpg?1666334549"
+    },
+    {
+      "chainId": 1,
       "address": "0x798d1be841a82a273720ce31c822c61a67a601c3",
       "name": "DIGG",
       "symbol": "DIGG",
@@ -3653,6 +3669,14 @@
       "symbol": "DONUT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/7538/large/Donut.png?1548234345"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7d48fbe0a877bb1f511fcf9b57f12420c75841e9",
+      "name": "DOOR",
+      "symbol": "DOOR",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/16885/large/door256.png?1625548384"
     },
     {
       "chainId": 1,
@@ -10446,7 +10470,7 @@
     },
     {
       "chainId": 1,
-      "address": "0x2fcf250cadba1d08f38b5b4705ecc4d0fe0d81dc",
+      "address": "0xf6af18f94d55b8888b557cb3da0ec623ba245f80",
       "name": "SocialBlox",
       "symbol": "SBLX",
       "decimals": 18,
