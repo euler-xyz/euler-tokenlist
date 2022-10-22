@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-10-21T22:22:07.382Z",
+  "timestamp": "2022-10-22T22:20:38.766Z",
   "version": {
     "major": 1,
-    "minor": 211,
+    "minor": 212,
     "patch": 0
   },
   "tags": {},
@@ -6249,7 +6249,7 @@
     {
       "chainId": 1,
       "address": "0x579cea1889991f68acc35ff5c3dd0621ff29b0c9",
-      "name": "Everipedia",
+      "name": "IQ",
       "symbol": "IQ",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/5010/large/YAIS3fUh.png?1626267646"
@@ -9708,6 +9708,14 @@
       "symbol": "QDT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/26493/large/mu-N6mCY_400x400.png?1658285089"
+    },
+    {
+      "chainId": 1,
+      "address": "0xea26c4ac16d4a5a106820bc8aee85fd0b7b2b664",
+      "name": "QuarkChain",
+      "symbol": "QKC",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/3849/large/quarkchain.png?1548387524"
     },
     {
       "chainId": 1,
