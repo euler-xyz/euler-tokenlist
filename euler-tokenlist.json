@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-10-22T22:20:38.766Z",
+  "timestamp": "2022-10-23T22:21:41.632Z",
   "version": {
     "major": 1,
-    "minor": 212,
+    "minor": 213,
     "patch": 0
   },
   "tags": {},
@@ -3009,6 +3009,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x42a501903afaa1086b5975773375c80e363f4063",
+      "name": "Cryptyk",
+      "symbol": "CTK",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/2729/large/ctk.PNG?1631091279"
+    },
+    {
+      "chainId": 1,
       "address": "0x491604c0fdf08347dd1fa4ee062a822a5dd06b5d",
       "name": "Cartesi",
       "symbol": "CTSI",
@@ -3570,14 +3578,6 @@
       "symbol": "DIP",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/4586/large/dip.png?1547039863"
-    },
-    {
-      "chainId": 1,
-      "address": "0xb5e09e6bf6a5e96934b3fd99a40f7edaca1173ed",
-      "name": "Divine DAO",
-      "symbol": "DIVINE",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/19088/large/afoyozIH_400x400.jpg?1634420762"
     },
     {
       "chainId": 1,
