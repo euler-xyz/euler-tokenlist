@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-10-23T22:21:41.632Z",
+  "timestamp": "2022-10-24T22:21:24.963Z",
   "version": {
     "major": 1,
-    "minor": 213,
+    "minor": 214,
     "patch": 0
   },
   "tags": {},
@@ -2533,6 +2533,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x72953a5c32413614d24c29c84a66ae4b59581bbf",
+      "name": "CLever",
+      "symbol": "CLEV",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27727/large/%E6%88%AA%E5%B1%8F2022-10-12_%E4%B8%8A%E5%8D%8810.40.19.png?1665550689"
+    },
+    {
+      "chainId": 1,
       "address": "0xd7d8f3b8bc8bc48d3acc37879eaba7b85889fa52",
       "name": "ClearDAO",
       "symbol": "CLH",
@@ -4611,7 +4619,7 @@
     {
       "chainId": 1,
       "address": "0xcf0c122c6b73ff809c693db761e7baebe62b6a2e",
-      "name": "Floki Inu",
+      "name": "FLOKI",
       "symbol": "FLOKI",
       "decimals": 9,
       "logoURI": "https://assets.coingecko.com/coins/images/16746/large/PNG_image.png?1643184642"
