@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-10-24T22:21:24.963Z",
+  "timestamp": "2022-10-25T22:21:09.189Z",
   "version": {
     "major": 1,
-    "minor": 214,
+    "minor": 215,
     "patch": 0
   },
   "tags": {},
@@ -825,6 +825,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x347a96a5bd06d2e15199b032f46fb724d6c73047",
+      "name": "ASIC Token",
+      "symbol": "ASIC",
+      "decimals": 12,
+      "logoURI": "https://assets.coingecko.com/coins/images/27952/large/ASIC_Token_Logo.png?1666668286"
+    },
+    {
+      "chainId": 1,
       "address": "0x2565ae0385659badcada1031db704442e1b69982",
       "name": "Assemble Protocol",
       "symbol": "ASM",
@@ -929,6 +937,14 @@
       "symbol": "AURA",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/25942/large/logo.png?1654784187"
+    },
+    {
+      "chainId": 1,
+      "address": "0x616e8bfa43f920657b3497dbf40d6b1a02d4608d",
+      "name": "Aura BAL",
+      "symbol": "AURABAL",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/26538/large/auraBAL.png?1658721102"
     },
     {
       "chainId": 1,
