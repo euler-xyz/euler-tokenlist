@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-10-25T22:21:09.189Z",
+  "timestamp": "2022-10-26T22:21:05.425Z",
   "version": {
     "major": 1,
-    "minor": 215,
+    "minor": 216,
     "patch": 0
   },
   "tags": {},
@@ -241,6 +241,14 @@
       "symbol": "AGLD",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/18125/large/lpgblc4h_400x400.jpg?1630570955"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd1420af453fd7bf940573431d416cace7ff8280c",
+      "name": "Answer Governance",
+      "symbol": "AGOV",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/14383/large/AgoV_Logo1.png?1622448433"
     },
     {
       "chainId": 1,
@@ -510,7 +518,7 @@
       "name": "ANGLE",
       "symbol": "ANGLE",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/19060/large/ANGLE_Token_Logo.png?1635281291",
+      "logoURI": "https://assets.coingecko.com/coins/images/19060/large/ANGLE_Token-light.png?1666774221",
       "extensions": {
         "permit": {
           "type": "EIP2612",
@@ -4170,14 +4178,6 @@
     },
     {
       "chainId": 1,
-      "address": "0xc3761eb917cd790b30dad99f6cc5b4ff93c4f9ea",
-      "name": "ERC20",
-      "symbol": "ERC20",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/1141/large/0c213e0a1ee44bd8a3c952ffc5bc5a45.png?1628771346"
-    },
-    {
-      "chainId": 1,
       "address": "0xbbc2ae13b23d715c30720f079fcd9b4a74093505",
       "name": "Ethernity Chain",
       "symbol": "ERN",
@@ -5128,6 +5128,24 @@
       "symbol": "GDT",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/15335/large/gdt.PNG?1620597146"
+    },
+    {
+      "chainId": 1,
+      "address": "0xba3335588d9403515223f109edc4eb7269a9ab5d",
+      "name": "Gearbox",
+      "symbol": "GEAR",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/21630/large/gear.png?1640330291",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Gearbox",
+            "chainId": 1,
+            "verifyingContract": "0xba3335588d9403515223f109edc4eb7269a9ab5d"
+          }
+        }
+      }
     },
     {
       "chainId": 1,
@@ -7304,7 +7322,7 @@
       "name": "MESSIER",
       "symbol": "M87",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/25957/large/logo200x200.png?1660027336"
+      "logoURI": "https://assets.coingecko.com/coins/images/25957/large/MESSIERlogonew_%281%29.png?1666773848"
     },
     {
       "chainId": 1,
@@ -10398,14 +10416,6 @@
     },
     {
       "chainId": 1,
-      "address": "0xd80f72a6558ec337e0d4cf76b8752b17fa770860",
-      "name": "Rewards",
-      "symbol": "RWD",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/17436/large/rwd_200x200.png?1627631164"
-    },
-    {
-      "chainId": 1,
       "address": "0x08ad83d779bdf2bbe1ad9cc0f78aa0d24ab97802",
       "name": "Robonomics Web Services",
       "symbol": "RWS",
@@ -11860,6 +11870,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x72955ecff76e48f2c8abcce11d54e5734d6f3657",
+      "name": "TrustVerse",
+      "symbol": "TRV",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/8793/large/trv_256px.png?1623928469"
+    },
+    {
+      "chainId": 1,
       "address": "0xd47bdf574b4f76210ed503e0efe81b58aa061f3d",
       "name": "TRVL",
       "symbol": "TRVL",
@@ -12033,6 +12051,14 @@
       "symbol": "UCO",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12330/large/Archethic_logo.png?1665916980"
+    },
+    {
+      "chainId": 1,
+      "address": "0x549044000a94870ab7c5017cd8fb0aefa9239a13",
+      "name": "UCONetwork",
+      "symbol": "UCOIL",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27633/large/logo.png?1664961037"
     },
     {
       "chainId": 1,
