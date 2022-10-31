@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-10-30T22:20:49.095Z",
+  "timestamp": "2022-10-31T22:22:31.920Z",
   "version": {
     "major": 1,
-    "minor": 220,
+    "minor": 221,
     "patch": 0
   },
   "tags": {},
@@ -1274,7 +1274,7 @@
       "name": "blockbank",
       "symbol": "BBANK",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/15081/large/dark_transparent.png?1666167714"
+      "logoURI": "https://assets.coingecko.com/coins/images/15081/large/blockbank.jpg?1667183379"
     },
     {
       "chainId": 1,
@@ -13534,14 +13534,6 @@
       "symbol": "XYZ",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/15809/large/universexyz.png?1621950483"
-    },
-    {
-      "chainId": 1,
-      "address": "0x48f07301e9e29c3c38a80ae8d9ae771f224f1054",
-      "name": "South African Tether",
-      "symbol": "XZAR",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/17447/large/Stablecoin_%281%29.png?1627867769"
     },
     {
       "chainId": 1,
