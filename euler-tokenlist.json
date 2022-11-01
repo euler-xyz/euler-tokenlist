@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-10-31T22:22:31.920Z",
+  "timestamp": "2022-11-01T22:23:01.794Z",
   "version": {
     "major": 1,
-    "minor": 221,
+    "minor": 222,
     "patch": 0
   },
   "tags": {},
@@ -3263,6 +3263,14 @@
       "symbol": "DBD",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/21691/large/DBD-icon_200x200_%281%29.png?1639721079"
+    },
+    {
+      "chainId": 1,
+      "address": "0x2de509bf0014ddf697b220be628213034d320ece",
+      "name": "Don t Buy Inu",
+      "symbol": "DBI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28058/large/1Artboard_1_%282%29.png?1667298091"
     },
     {
       "chainId": 1,
@@ -10423,7 +10431,7 @@
     {
       "chainId": 1,
       "address": "0x5afe3855358e112b5647b952709e6165e1c1eeee",
-      "name": "Safe",
+      "name": "Safe Token",
       "symbol": "SAFE",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/27032/large/Artboard_1_copy_8circle-1.png?1661498342"
@@ -10758,6 +10766,14 @@
       "symbol": "SIFU",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/24692/large/token_%283%29.png?1648620836"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb045f7f363fe4949954811b113bd56d208c67b23",
+      "name": "Spider Tanks",
+      "symbol": "SILK",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/28057/large/SILK_Logo.png?1667295996"
     },
     {
       "chainId": 1,
@@ -13070,25 +13086,6 @@
       "symbol": "WPCI",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/24390/large/new_logo_square_%281%29.png?1648792416"
-    },
-    {
-      "chainId": 1,
-      "address": "0xe4174143f0d6b1ebc0e25e1acd975c8f9fd06539",
-      "name": "Wrapped aRIA Currency",
-      "symbol": "WRIA",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/27066/large/wRIA-logo-200x200-1.png?1661673526",
-      "extensions": {
-        "permit": {
-          "type": "EIP2612",
-          "domain": {
-            "name": "Wrapped aRIA Currency",
-            "version": "1",
-            "chainId": 1,
-            "verifyingContract": "0xe4174143f0d6b1ebc0e25e1acd975c8f9fd06539"
-          }
-        }
-      }
     },
     {
       "chainId": 1,
