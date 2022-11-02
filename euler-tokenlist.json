@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-11-01T22:23:01.794Z",
+  "timestamp": "2022-11-02T22:21:44.990Z",
   "version": {
     "major": 1,
-    "minor": 222,
+    "minor": 223,
     "patch": 0
   },
   "tags": {},
@@ -6612,6 +6612,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x005d1123878fc55fbd56b54c73963b234a64af3c",
+      "name": "Kiba Inu",
+      "symbol": "KIBA",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/19525/large/kiba.png?1648549322"
+    },
+    {
+      "chainId": 1,
       "address": "0xcbfef8fdd706cde6f208460f2bf39aa9c785f05d",
       "name": "Kine Protocol",
       "symbol": "KINE",
@@ -9457,6 +9465,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x9565c2036963697786705120fc59310f747bcfd0",
+      "name": "PoorPleb",
+      "symbol": "PP",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28063/large/pp-logo-roundall-black_2x_%282%29.png?1667306520"
+    },
+    {
+      "chainId": 1,
       "address": "0x054d64b73d3d8a21af3d764efd76bcaa774f3bb2",
       "name": "Plasma Finance",
       "symbol": "PPAY",
@@ -10951,6 +10967,14 @@
       "symbol": "SOCKS",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/10717/large/qFrcoiM.png?1582525244"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4c3a8eceb656ec63eae80a4ebd565e4887db6160",
+      "name": "SokuSwap",
+      "symbol": "SOKU",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/18378/large/VCIEHaG.png?1653547690"
     },
     {
       "chainId": 1,
@@ -13344,6 +13368,14 @@
       "symbol": "XFT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/11977/large/CsBrPiA.png?1614570441"
+    },
+    {
+      "chainId": 1,
+      "address": "0x892a6f9df0147e5f079b0993f486f9aca3c87881",
+      "name": "xFUND",
+      "symbol": "XFUND",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/13770/large/xfund.png?1611697744"
     },
     {
       "chainId": 1,
