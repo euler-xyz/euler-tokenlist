@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-11-02T22:21:44.990Z",
+  "timestamp": "2022-11-03T22:23:40.151Z",
   "version": {
     "major": 1,
-    "minor": 223,
+    "minor": 224,
     "patch": 0
   },
   "tags": {},
@@ -3089,6 +3089,25 @@
     },
     {
       "chainId": 1,
+      "address": "0x50bc2ecc0bfdf5666640048038c1aba7b7525683",
+      "name": "carVertical",
+      "symbol": "CV",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/2098/large/carvertical.png?1547738903",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "cVToken",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x50bc2ecc0bfdf5666640048038c1aba7b7525683"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x78a52e12c7b63d05c12f9608307587cf654ec3d0",
       "name": "Crypto Village Accelerator",
       "symbol": "CVA",
@@ -4446,7 +4465,7 @@
     },
     {
       "chainId": 1,
-      "address": "0xdefac16715671b7b6aeefe012125f1e19ee4b7d7",
+      "address": "0xe0bceef36f3a6efdd5eebfacd591423f8549b9d5",
       "name": "Defactor",
       "symbol": "FACTR",
       "decimals": 18,
@@ -6443,6 +6462,25 @@
       "symbol": "JPYC",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/17277/large/WoZ8rruL_400x400.png?1627016492"
+    },
+    {
+      "chainId": 1,
+      "address": "0x431d5dff03120afa4bdf332c61a6e1766ef37bdb",
+      "name": "JPY Coin",
+      "symbol": "JPYC",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25971/large/JPYC_logo_3D_cmyk_0-1_%282%29.jpg?1667467959",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "JPY Coin",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x431d5dff03120afa4bdf332c61a6e1766ef37bdb"
+          }
+        }
+      }
     },
     {
       "chainId": 1,
