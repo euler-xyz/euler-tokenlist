@@ -13891,6 +13891,25 @@
       "symbol": "ZZ",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/26141/large/zig_zag.?1656248564"
+    },
+    {
+      "name": "Goo",
+      "address": "0x600000000a36f3cd48407e35eb7c5c910dc1f7a8",
+      "symbol": "GOO",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/22514.png",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Goo",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x600000000a36f3cd48407e35eb7c5c910dc1f7a8"
+          }
+        }
+      }
     }
   ]
 }
