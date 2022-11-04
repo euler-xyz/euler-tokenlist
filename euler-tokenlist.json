@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-11-03T22:23:40.151Z",
+  "timestamp": "2022-11-04T22:21:11.198Z",
   "version": {
     "major": 1,
-    "minor": 224,
+    "minor": 225,
     "patch": 0
   },
   "tags": {},
@@ -3089,6 +3089,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x135783b60cf5d71daff7a377f9eb7db8d2deab9e",
+      "name": "Ctrl X",
+      "symbol": "CUT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28068/large/logo.png?1667567710"
+    },
+    {
+      "chainId": 1,
       "address": "0x50bc2ecc0bfdf5666640048038c1aba7b7525683",
       "name": "carVertical",
       "symbol": "CV",
@@ -5464,6 +5472,25 @@
       "symbol": "GOL",
       "decimals": 4,
       "logoURI": "https://assets.coingecko.com/coins/images/14824/large/GOL.png?1618559300"
+    },
+    {
+      "name": "Goo",
+      "address": "0x600000000a36f3cd48407e35eb7c5c910dc1f7a8",
+      "symbol": "GOO",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/22514.png",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Goo",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x600000000a36f3cd48407e35eb7c5c910dc1f7a8"
+          }
+        }
+      }
     },
     {
       "chainId": 1,
@@ -8512,6 +8539,14 @@
       "symbol": "NIL",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/19667/large/_AoPtxGt_400x400.jpg?1635737598"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0eb638648207d00b9025684d13b1cb53806debe4",
+      "name": "NIL",
+      "symbol": "NIL",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/21612/large/nil.PNG?1639608851"
     },
     {
       "chainId": 1,
@@ -12203,7 +12238,7 @@
     {
       "chainId": 1,
       "address": "0xa499648fd0e80fd911972bbeb069e4c20e68bf22",
-      "name": "Jenny Metaverse DAO",
+      "name": "Jenny DAO V1",
       "symbol": "UJENNY",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/15453/large/ujenny.png?1620870247"
@@ -13891,25 +13926,6 @@
       "symbol": "ZZ",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/26141/large/zig_zag.?1656248564"
-    },
-    {
-      "name": "Goo",
-      "address": "0x600000000a36f3cd48407e35eb7c5c910dc1f7a8",
-      "symbol": "GOO",
-      "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/22514.png",
-      "extensions": {
-        "permit": {
-          "type": "EIP2612",
-          "domain": {
-            "name": "Goo",
-            "version": "1",
-            "chainId": 1,
-            "verifyingContract": "0x600000000a36f3cd48407e35eb7c5c910dc1f7a8"
-          }
-        }
-      }
     }
   ]
 }
