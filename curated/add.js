@@ -13,6 +13,10 @@ module.exports = [
     "name": "Universal Basic Income",
   },
   {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+  },
+  {
     "name": "Axelar Wrapped ATOM",
     "address": "0x27292cf0016e5df1d8b37306b2a98588acbd6fca",
     "symbol": "axlATOM",
