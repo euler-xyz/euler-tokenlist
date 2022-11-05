@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-11-04T22:21:11.198Z",
+  "timestamp": "2022-11-05T22:21:37.844Z",
   "version": {
     "major": 1,
-    "minor": 225,
+    "minor": 226,
     "patch": 0
   },
   "tags": {},
@@ -2621,14 +2621,6 @@
       "symbol": "CND",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/1006/large/cindicator.png?1547034913"
-    },
-    {
-      "chainId": 1,
-      "address": "0x3d97edb1c1d87c0cbf098a0d2230d7380d4b1432",
-      "name": "Candle",
-      "symbol": "CNDL",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/23958/large/candleenlargedicon.png?1653552548"
     },
     {
       "chainId": 1,
@@ -7823,14 +7815,6 @@
     },
     {
       "chainId": 1,
-      "address": "0xae353daeed8dcc7a9a12027f7e070c0a50b7b6a4",
-      "name": "InnovaMinex",
-      "symbol": "MINX",
-      "decimals": 6,
-      "logoURI": "https://assets.coingecko.com/coins/images/7116/large/innovaminex.jpg?1547043613"
-    },
-    {
-      "chainId": 1,
       "address": "0x09a3ecafa817268f77be1283176b946c4ff2e608",
       "name": "Mirror Protocol",
       "symbol": "MIR",
@@ -12756,6 +12740,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x1bbf25e71ec48b84d773809b4ba55b6f4be946fb",
+      "name": "Vow",
+      "symbol": "VOW",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/18202/large/72Nd63R0_400x400.png?1630974351"
+    },
+    {
+      "chainId": 1,
       "address": "0x2ac8172d8ce1c5ad3d869556fd708801a42c1c0e",
       "name": "enVoy DeFi",
       "symbol": "VOY",
@@ -12839,6 +12831,14 @@
       "symbol": "VVT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13380/large/HkfxEtWh_400x400.jpg?1608031723"
+    },
+    {
+      "chainId": 1,
+      "address": "0x16cc8367055ae7e9157dbcb9d86fd6ce82522b31",
+      "name": "Voxel X Network",
+      "symbol": "VXL",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/21419/large/Voxel-Logo-200x200-Transparent.png?1639093664"
     },
     {
       "chainId": 1,
@@ -13183,6 +13183,25 @@
       "symbol": "WPCI",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/24390/large/new_logo_square_%281%29.png?1648792416"
+    },
+    {
+      "chainId": 1,
+      "address": "0xe4174143f0d6b1ebc0e25e1acd975c8f9fd06539",
+      "name": "Wrapped aRIA Currency",
+      "symbol": "WRIA",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27066/large/wRIA-logo-200x200-1.png?1661673526",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Wrapped aRIA Currency",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0xe4174143f0d6b1ebc0e25e1acd975c8f9fd06539"
+          }
+        }
+      }
     },
     {
       "chainId": 1,
