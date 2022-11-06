@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-11-05T22:21:37.844Z",
+  "timestamp": "2022-11-06T22:21:38.080Z",
   "version": {
     "major": 1,
-    "minor": 226,
+    "minor": 227,
     "patch": 0
   },
   "tags": {},
@@ -9526,7 +9526,7 @@
       "name": "PoorPleb",
       "symbol": "PP",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/28063/large/pp-logo-roundall-black_2x_%282%29.png?1667306520"
+      "logoURI": "https://assets.coingecko.com/coins/images/28063/large/pp-logo-roundall-black-large.png?1667725674"
     },
     {
       "chainId": 1,
@@ -11273,7 +11273,7 @@
       "name": "Student Coin",
       "symbol": "STC",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/6260/large/stc.jpeg?1627310796"
+      "logoURI": "https://assets.coingecko.com/coins/images/6260/large/logo_in_circle_%281%29.png?1667725082"
     },
     {
       "chainId": 1,
