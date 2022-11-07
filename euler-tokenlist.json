@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-11-06T22:21:38.080Z",
+  "timestamp": "2022-11-07T22:21:53.019Z",
   "version": {
     "major": 1,
-    "minor": 227,
+    "minor": 228,
     "patch": 0
   },
   "tags": {},
@@ -3977,6 +3977,25 @@
       "symbol": "ECO",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14803/large/logo_-_2021-04-16T081409.817.png?1618532056"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8dbf9a4c99580fc7fd4024ee08f3994420035727",
+      "name": "ECO",
+      "symbol": "ECO",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27961/large/_ECO.png?1666751247",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "ECO",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x8dbf9a4c99580fc7fd4024ee08f3994420035727"
+          }
+        }
+      }
     },
     {
       "chainId": 1,
