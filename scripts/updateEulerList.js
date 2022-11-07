@@ -114,7 +114,9 @@ const run = async () => {
             newToken = replaceLogo(newToken);
 
             if (!isEqual(newToken, et) && await isEulerMarket(et.address)) {
-                logs.push(`REVIEW UPDATE ${describeToken(et)}`);
+                if (!isInList(newToken, curatedAdded))
+                    logs.push(`REVIEW UPDATE ${describeToken(et)}`);
+
                 return et;
             }
 
