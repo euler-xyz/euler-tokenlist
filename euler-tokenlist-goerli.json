@@ -75,6 +75,15 @@
     },
     {
       "chainId": 5,
+      "address": "0x02022bD689f6fd3Aad28E24fE302a74A80a77e13",
+      "mainnetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+      "name": "WETH_1",
+      "symbol": "WETH_1",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/2518/thumb/weth.png?1628852295"
+    },
+    {
+      "chainId": 5,
       "address": "0x67cF0FF98bE17bF02F7c6346028C9e8BB3c203B2",
       "mainnetAddress": "0x9A7DA6F8c64230671f0C6c26159FC6B255d5d9E5",
       "name": "Dogecoin",
