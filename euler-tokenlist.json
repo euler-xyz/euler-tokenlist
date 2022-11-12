@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-11-11T22:22:07.311Z",
+  "timestamp": "2022-11-12T22:18:36.843Z",
   "version": {
     "major": 1,
-    "minor": 232,
+    "minor": 233,
     "patch": 0
   },
   "tags": {},
@@ -7785,6 +7785,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x97e6e31afb2d93d437301e006d9da714616766a5",
+      "name": "Midas",
+      "symbol": "MIDAS",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/6453/large/OMrkHMb.png?1547042650"
+    },
+    {
+      "chainId": 1,
       "address": "0xae86f48c0b00f2a3eaef4ba4c23d17368f0f63f4",
       "name": "Amatsu Mikaboshi",
       "symbol": "MIKABOSHI",
@@ -9097,6 +9105,14 @@
       "symbol": "PATH",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/21146/large/thumbnail.png?1655283979"
+    },
+    {
+      "chainId": 1,
+      "address": "0x45804880de22913dafe09f4980848ece6ecbaf78",
+      "name": "PAX Gold",
+      "symbol": "PAXG",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/9519/large/paxg.PNG?1568542565"
     },
     {
       "chainId": 1,
@@ -12894,7 +12910,7 @@
     {
       "chainId": 1,
       "address": "0xb2279b6769cfba691416f00609b16244c0cf4b20",
-      "name": "Waifu",
+      "name": "Waifu Genesis Card Collection",
       "symbol": "WAIF",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12100/large/Small-Waifu_token.png?1597120029"
