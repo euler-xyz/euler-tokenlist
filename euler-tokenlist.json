@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-11-12T22:18:36.843Z",
+  "timestamp": "2022-11-13T22:18:16.104Z",
   "version": {
     "major": 1,
-    "minor": 233,
+    "minor": 234,
     "patch": 0
   },
   "tags": {},
@@ -747,6 +747,14 @@
       "symbol": "ARIA20",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/5054/large/Aria_Logo_256.png?1610097866"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7495e5cc8f27e0bd5bd4cb86d17f0d841ca58ee4",
+      "name": "Arnoya classic",
+      "symbol": "ARNC",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28194/large/ARNC_200.png?1668332937"
     },
     {
       "chainId": 1,
@@ -3918,6 +3926,25 @@
     },
     {
       "chainId": 1,
+      "address": "0x88aa4a6c5050b9a1b2aa7e34d0582025ca6ab745",
+      "name": "Vela Exchange",
+      "symbol": "DXP",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25114/large/1_0w4P8R5heRFwRomJ4vPCWQ.png?1650348942",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Dexpools Token",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x88aa4a6c5050b9a1b2aa7e34d0582025ca6ab745"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x92d6c1e31e14520e676a687f0a93788b716beff5",
       "name": "dYdX",
       "symbol": "DYDX",
@@ -5052,7 +5079,7 @@
     {
       "chainId": 1,
       "address": "0x15d4c048f83bd7e37d49ea4c83a07267ec4203da",
-      "name": "Gala",
+      "name": "GALA",
       "symbol": "GALA",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/12493/large/GALA-COINGECKO.png?1600233435"
@@ -5785,6 +5812,24 @@
             "version": "1",
             "chainId": 1,
             "verifyingContract": "0xeef9f339514298c6a857efcfc1a762af84438dee"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xb3999f658c0391d94a37f7ff328f3fec942bcadc",
+      "name": "Hashflow",
+      "symbol": "HFT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/26136/large/hashflow-icon-cmc.png?1668345672",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Hashflow",
+            "chainId": 1,
+            "verifyingContract": "0xb3999f658c0391d94a37f7ff328f3fec942bcadc"
           }
         }
       }
@@ -7990,7 +8035,7 @@
     {
       "chainId": 1,
       "address": "0x1ea48b9965bb5086f3b468e50ed93888a661fc17",
-      "name": "DeFi Franc Moneta",
+      "name": "Defi Franc Moneta",
       "symbol": "MON",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/27493/large/logo-moneta.png?1664268389",
