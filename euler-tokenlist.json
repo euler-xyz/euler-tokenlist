@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-11-13T22:18:16.104Z",
+  "timestamp": "2022-11-14T22:16:06.659Z",
   "version": {
     "major": 1,
-    "minor": 234,
+    "minor": 235,
     "patch": 0
   },
   "tags": {},
@@ -5857,14 +5857,6 @@
       "symbol": "HIT",
       "decimals": 6,
       "logoURI": "https://assets.coingecko.com/coins/images/5555/large/hitchain.png?1547041361"
-    },
-    {
-      "chainId": 1,
-      "address": "0x260df160d6554e6a05619f2e9188c119b3e35f1e",
-      "name": "HLTH",
-      "symbol": "HLTH",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/18637/large/hlth.png?1639728357"
     },
     {
       "chainId": 1,
