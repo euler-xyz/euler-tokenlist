@@ -11571,14 +11571,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x57ab1ec28d129707052df4df418d58a2d46d5f51",
-      "name": "sUSD",
-      "symbol": "SUSD",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/5013/large/sUSD.png?1616150765"
-    },
-    {
-      "chainId": 1,
       "address": "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
       "name": "Sushi",
       "symbol": "SUSHI",

@@ -26,4 +26,12 @@ module.exports = [
       }
     }
   },
+  {
+    "chainId": 1,
+    "address": "0x57ab1ec28d129707052df4df418d58a2d46d5f51",
+    "name": "sUSD",
+    "symbol": "SUSD",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/5013/large/sUSD.png?1616150765"
+  },
 ];
