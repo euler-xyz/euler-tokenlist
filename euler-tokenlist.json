@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-11-15T22:15:41.033Z",
+  "timestamp": "2022-11-16T22:15:59.742Z",
   "version": {
     "major": 1,
-    "minor": 236,
+    "minor": 237,
     "patch": 0
   },
   "tags": {},
@@ -3632,6 +3632,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x49642110b712c1fd7261bc074105e9e44676c68f",
+      "name": "DinoLFG",
+      "symbol": "DINO",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28239/large/photo_2022-11-16_04-57-23.jpg?1668581540"
+    },
+    {
+      "chainId": 1,
       "address": "0xbb1ee07d6c7baeb702949904080eb61f5d5e7732",
       "name": "Dogey Inu",
       "symbol": "DINU",
@@ -5849,6 +5857,14 @@
       "symbol": "HIGH",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/18973/large/logosq200200Coingecko.png?1634090470"
+    },
+    {
+      "chainId": 1,
+      "address": "0x33bd66c334274989b673a8e8c8d1a3f1b8de5889",
+      "name": "hiODBS",
+      "symbol": "HIODBS",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27296/large/hiodbs.png?1668579342"
     },
     {
       "chainId": 1,
