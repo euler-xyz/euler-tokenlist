@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-11-16T22:15:59.742Z",
+  "timestamp": "2022-11-17T22:15:00.398Z",
   "version": {
     "major": 1,
-    "minor": 237,
+    "minor": 238,
     "patch": 0
   },
   "tags": {},
@@ -4559,6 +4559,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x23352036e911a22cfc692b5e2e196692658aded9",
+      "name": "Friendz",
+      "symbol": "FDZ",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/3685/large/download_%2812%29.png?1547038682"
+    },
+    {
+      "chainId": 1,
       "address": "0x88a9a52f944315d5b4e917b9689e65445c401e83",
       "name": "Fear",
       "symbol": "FEAR",
@@ -6766,10 +6774,10 @@
     {
       "chainId": 1,
       "address": "0xb1191f691a355b43542bea9b8847bc73e7abb137",
-      "name": "Kirobo",
+      "name": "KIRO",
       "symbol": "KIRO",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/12688/large/QmScxyKBwqbGJZmp38EwaoRpXbzPkq3tvuMjeuJE1YLZeG.png?1601672684"
+      "logoURI": "https://assets.coingecko.com/coins/images/12688/large/logo_kirobo-04.png?1668683315"
     },
     {
       "chainId": 1,
@@ -7368,7 +7376,7 @@
       "name": "Luffy",
       "symbol": "LUFFY",
       "decimals": 9,
-      "logoURI": "https://assets.coingecko.com/coins/images/17736/large/LUFFY_TOKEN-200x200.png?1645001895"
+      "logoURI": "https://assets.coingecko.com/coins/images/17736/large/LUFFY_LOGO.png?1668675291"
     },
     {
       "chainId": 1,
@@ -10501,7 +10509,7 @@
       "name": "ResearchCoin",
       "symbol": "RSC",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/28146/large/RH_Flask_Logo_%281%29.png?1667893925"
+      "logoURI": "https://assets.coingecko.com/coins/images/28146/large/RH_Logo_200x200.png?1668678529"
     },
     {
       "chainId": 1,
@@ -13145,7 +13153,7 @@
     {
       "chainId": 1,
       "address": "0xdc524e3c6910257744c1f93cf15e9f472b5bd236",
-      "name": "Witch",
+      "name": "Witch Token",
       "symbol": "WITCH",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/17205/large/download_%2829%29.png?1626848072"
