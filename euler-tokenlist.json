@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-11-17T22:15:00.398Z",
+  "timestamp": "2022-11-18T22:15:31.381Z",
   "version": {
     "major": 1,
-    "minor": 238,
+    "minor": 239,
     "patch": 0
   },
   "tags": {},
@@ -2732,14 +2732,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x832c8b1bf8c89f1f827c2bdee2a951530a4e712f",
-      "name": "BitCoke",
-      "symbol": "COKE",
-      "decimals": 6,
-      "logoURI": "https://assets.coingecko.com/coins/images/25622/large/bitcoke_32.png?1652857605"
-    },
-    {
-      "chainId": 1,
       "address": "0x957891c11616d3e0b0a76a76fb42724c382e0ef3",
       "name": "Collateral Pay",
       "symbol": "COLL",
@@ -4489,14 +4481,6 @@
       "symbol": "EZ",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12742/large/Logo_Icon.png?1624471467"
-    },
-    {
-      "chainId": 1,
-      "address": "0x9e8bfe46f9af27c5ea5c9c72b86d71bb86953a0c",
-      "name": "EZDex",
-      "symbol": "EZX",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/17345/large/EZX-200.png?1627365170"
     },
     {
       "chainId": 1,
@@ -11244,6 +11228,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x9b02dd390a603add5c07f9fd9175b7dabe8d63b7",
+      "name": "Shopping io OLD",
+      "symbol": "SPI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13537/large/SPI_Token.png?1623763713"
+    },
+    {
+      "chainId": 1,
       "address": "0x9b6db7597a74602a5a806e33408e7e2dafa58193",
       "name": "Spice DAO",
       "symbol": "SPICE",
@@ -11646,6 +11638,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x0bb217e40f8a5cb79adf04e1aab60e5abd0dfc1e",
+      "name": "SWFTCOIN",
+      "symbol": "SWFTC",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/2346/large/SWFTCoin.jpg?1618392022"
+    },
+    {
+      "chainId": 1,
       "address": "0x48c3399719b582dd63eb5aadf12a40b4c3f52fa2",
       "name": "StakeWise",
       "symbol": "SWISE",
@@ -11748,6 +11748,14 @@
       "symbol": "T",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/22228/large/nFPNiSbL_400x400.jpg?1641220340"
+    },
+    {
+      "chainId": 1,
+      "address": "0xfeeeef4d7b4bf3cc8bd012d02d32ba5fd3d51e31",
+      "name": "Tail",
+      "symbol": "TAIL",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28260/large/Tail_logo.png?1668762735"
     },
     {
       "chainId": 1,
