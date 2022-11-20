@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-11-19T22:15:00.689Z",
+  "timestamp": "2022-11-20T22:15:48.350Z",
   "version": {
     "major": 1,
-    "minor": 240,
+    "minor": 241,
     "patch": 0
   },
   "tags": {},
@@ -11440,14 +11440,6 @@
     },
     {
       "chainId": 1,
-      "address": "0xbe9375c6a420d2eeb258962efb95551a5b722803",
-      "name": "StormX",
-      "symbol": "STMX",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/1369/large/StormX.png?1603113002"
-    },
-    {
-      "chainId": 1,
       "address": "0x9040e237c3bf18347bb00957dc22167d0f2b999d",
       "name": "Standard Protocol",
       "symbol": "STND",
@@ -13496,6 +13488,25 @@
       "symbol": "XCHF",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/8465/large/WhuiuJBc_400x400.jpg?1558699947"
+    },
+    {
+      "chainId": 1,
+      "address": "0x36ac219f90f5a6a3c77f2a7b660e3cc701f68e25",
+      "name": "Coinmetro",
+      "symbol": "XCM",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/3125/large/XCM_Token_Logo_.png?1646280053",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "CoinMetro Token",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x36ac219f90f5a6a3c77f2a7b660e3cc701f68e25"
+          }
+        }
+      }
     },
     {
       "chainId": 1,
