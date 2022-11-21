@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-11-20T22:15:48.350Z",
+  "timestamp": "2022-11-21T22:15:21.943Z",
   "version": {
     "major": 1,
-    "minor": 241,
+    "minor": 242,
     "patch": 0
   },
   "tags": {},
@@ -2613,6 +2613,14 @@
           }
         }
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0xc538143202f3b11382d8606aae90a96b042a19db",
+      "name": "Coinsbit Token",
+      "symbol": "CNB",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/10340/large/cbicon.png?1578637386"
     },
     {
       "chainId": 1,
@@ -12715,14 +12723,6 @@
       "symbol": "VIB",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/983/large/Viberate.png?1547034873"
-    },
-    {
-      "chainId": 1,
-      "address": "0xfef4185594457050cc9c23980d301908fe057bb1",
-      "name": "VIDT Datalink",
-      "symbol": "VIDT",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/6115/large/V-ID_blockchain_-logo.png?1547042127"
     },
     {
       "chainId": 1,
