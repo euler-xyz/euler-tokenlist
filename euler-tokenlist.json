@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-11-21T22:15:21.943Z",
+  "timestamp": "2022-11-22T22:15:32.288Z",
   "version": {
     "major": 1,
-    "minor": 242,
+    "minor": 243,
     "patch": 0
   },
   "tags": {},
@@ -1620,6 +1620,14 @@
       "symbol": "BLZ",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/2848/large/ColorIcon_3x.png?1622516510"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb113c6cf239f60d380359b762e95c13817275277",
+      "name": "BitMEX",
+      "symbol": "BMEX",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/21831/large/bitmex-token.jpeg?1640081706"
     },
     {
       "chainId": 1,
@@ -10911,6 +10919,14 @@
       "symbol": "SHIT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/25945/large/PCNoOl8.png?1654833800"
+    },
+    {
+      "chainId": 1,
+      "address": "0x64b78325d7495d6d4be92f234fa3f3b8d8964b8b",
+      "name": "Shopping io",
+      "symbol": "SHOP",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27242/large/shop.png?1663123573"
     },
     {
       "chainId": 1,
