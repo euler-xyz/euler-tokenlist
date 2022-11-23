@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-11-22T22:15:32.288Z",
+  "timestamp": "2022-11-23T22:16:32.085Z",
   "version": {
     "major": 1,
-    "minor": 243,
+    "minor": 244,
     "patch": 0
   },
   "tags": {},
@@ -4963,6 +4963,25 @@
     },
     {
       "chainId": 1,
+      "address": "0x5e8422345238f34275888049021821e8e08caa1f",
+      "name": "Frax Ether",
+      "symbol": "FRXETH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28284/large/JjqQ9ROz_400x400.jpeg?1669170320",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Frax Ether",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x5e8422345238f34275888049021821e8e08caa1f"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x0e192d382a36de7011f795acc4391cd302003606",
       "name": "Futureswap",
       "symbol": "FST",
@@ -7908,6 +7927,14 @@
       "symbol": "MINDS",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/11517/large/Minds.png?1590580465"
+    },
+    {
+      "chainId": 1,
+      "address": "0xae353daeed8dcc7a9a12027f7e070c0a50b7b6a4",
+      "name": "InnovaMinex",
+      "symbol": "MINX",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/7116/large/innovaminex.jpg?1547043613"
     },
     {
       "chainId": 1,
@@ -12218,6 +12245,14 @@
       "symbol": "TXL",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12432/large/txl.png?1646463631"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8ee325ae3e54e83956ef2d5952d3c8bc1fa6ec27",
+      "name": "Fable Of The Dragon",
+      "symbol": "TYRANT",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/27911/large/da9bdde1-d446-4291-a79d-1b1c2ec183ff.png?1666342614"
     },
     {
       "chainId": 1,
