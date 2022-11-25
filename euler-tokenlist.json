@@ -4938,7 +4938,7 @@
       "name": "Frax",
       "symbol": "FRAX",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/13422/large/frax_logo.png?1608476506"
+      "logoURI": "https://assets.coingecko.com/coins/images/13422/large/ethCanonicalFRAX.png?1669277108"
     },
     {
       "chainId": 1,
@@ -5093,7 +5093,7 @@
       "name": "Frax Share",
       "symbol": "FXS",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/13423/large/frax_share.png?1608478989"
+      "logoURI": "https://assets.coingecko.com/coins/images/13423/large/ethCanonicalFXS.png?1669276861"
     },
     {
       "chainId": 1,
@@ -12631,7 +12631,7 @@
       "name": "Tether",
       "symbol": "USDT",
       "decimals": 6,
-      "logoURI": "https://assets.coingecko.com/coins/images/325/large/tether.png?1667933073"
+      "logoURI": "https://assets.coingecko.com/coins/images/325/large/Tether.png?1668148663"
     },
     {
       "chainId": 1,
