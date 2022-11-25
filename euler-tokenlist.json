@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-11-24T22:15:49.416Z",
+  "timestamp": "2022-11-25T22:15:49.367Z",
   "version": {
     "major": 1,
-    "minor": 245,
+    "minor": 246,
     "patch": 0
   },
   "tags": {},
@@ -6275,6 +6275,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x2d5c73f3597b07f23c2bb3f2422932e67eca4543",
+      "name": "Imperial Obelisk",
+      "symbol": "IMP",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27625/large/dxanVPfL_400x400.jpeg?1664935231"
+    },
+    {
+      "chainId": 1,
       "address": "0xf57e7e7c23978c3caec3c3548e3d615c346e79ff",
       "name": "ImmutableX",
       "symbol": "IMX",
@@ -9684,7 +9692,7 @@
       "name": "PoorPleb",
       "symbol": "PP",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/28063/large/pp-logo-roundall-black-large.png?1667725674"
+      "logoURI": "https://assets.coingecko.com/coins/images/28063/large/PP_TOKEN_LOGO.png?1669366801"
     },
     {
       "chainId": 1,
@@ -14032,10 +14040,10 @@
     {
       "chainId": 1,
       "address": "0xb9ef770b6a5e12e45983c5d80545258aa38f3b78",
-      "name": "0chain",
+      "name": "Z s",
       "symbol": "ZCN",
       "decimals": 10,
-      "logoURI": "https://assets.coingecko.com/coins/images/4934/large/0_Black-svg.png?1600757954"
+      "logoURI": "https://assets.coingecko.com/coins/images/4934/large/200x200_transparent.png?1669366739"
     },
     {
       "chainId": 1,
