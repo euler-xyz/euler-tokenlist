@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-11-25T22:15:49.367Z",
+  "timestamp": "2022-11-26T22:15:55.322Z",
   "version": {
     "major": 1,
-    "minor": 246,
+    "minor": 247,
     "patch": 0
   },
   "tags": {},
@@ -3599,7 +3599,7 @@
       "name": "DeGate",
       "symbol": "DG",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/14415/large/80035388.png?1615951031"
+      "logoURI": "https://assets.coingecko.com/coins/images/14415/large/DG_token_brand_web_rgb_blue.png?1669460087"
     },
     {
       "chainId": 1,
@@ -4066,6 +4066,14 @@
           }
         }
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0xda4dd9586d27202a338843dd6b9824d267006783",
+      "name": "Echain Network",
+      "symbol": "ECT",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/28133/large/1666808362379-8226c3c3451e049842cfe21d65cb91ad.png?1667719253"
     },
     {
       "chainId": 1,
@@ -5148,14 +5156,6 @@
     },
     {
       "chainId": 1,
-      "address": "0xa1ea9aa32cbba8c203ddc510a144ad1f439d436c",
-      "name": "MetaPortal Gaming Index",
-      "symbol": "GAME",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/24071/large/GAME.Logo.png?1646216027"
-    },
-    {
-      "chainId": 1,
       "address": "0x882e5b370d595e50c24b2a0e7a94e87cc32adda1",
       "name": "X Consoles",
       "symbol": "GAME",
@@ -6048,6 +6048,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x6f259637dcd74c767781e37bc6133cd6a68aa161",
+      "name": "Huobi",
+      "symbol": "HT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/2822/large/huobi-token-logo.png?1547036992"
+    },
+    {
+      "chainId": 1,
       "address": "0x6be61833fc4381990e82d7d4a9f4c9b3f67ea941",
       "name": "Hotbit",
       "symbol": "HTB",
@@ -6884,10 +6892,10 @@
     {
       "chainId": 1,
       "address": "0x1e0b2992079b620aa13a7c2e7c88d2e1e18e46e9",
-      "name": "Kompete",
+      "name": "KOMPETE Token",
       "symbol": "KOMPETE",
       "decimals": 10,
-      "logoURI": "https://assets.coingecko.com/coins/images/24298/large/sdkSQyZ.jpeg?1647268750"
+      "logoURI": "https://assets.coingecko.com/coins/images/24298/large/KOMPETE_LOGO.?1669463130"
     },
     {
       "chainId": 1,
@@ -7316,14 +7324,6 @@
       "symbol": "LORDS",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/22171/large/Frame_1.png?1642334107"
-    },
-    {
-      "chainId": 1,
-      "address": "0xb0dfd28d3cf7a5897c694904ace292539242f858",
-      "name": "Lotto",
-      "symbol": "LOTTO",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/13822/large/Lotto-Logo256x256.png?1612150421"
     },
     {
       "chainId": 1,
@@ -8226,7 +8226,7 @@
     {
       "chainId": 1,
       "address": "0x6731827cb6879a2091ce3ab3423f7bf20539b579",
-      "name": "ClubRare Empower",
+      "name": "Empower",
       "symbol": "MPWR",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/25456/large/MPWR_200x200.png?1651815610"
@@ -9436,10 +9436,10 @@
     {
       "chainId": 1,
       "address": "0x8b39b70e39aa811b69365398e0aace9bee238aeb",
-      "name": "PolkaFoundry",
+      "name": "Firebird",
       "symbol": "PKF",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/14422/large/M7vmFGbV_400x400.png?1615972784"
+      "logoURI": "https://assets.coingecko.com/coins/images/14422/large/LOGO_FB.png?1669460464"
     },
     {
       "chainId": 1,
@@ -11378,6 +11378,26 @@
       "symbol": "SSV",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/19155/large/ssv.png?1638181902"
+    },
+    {
+      "chainId": 1,
+      "address": "0x27b5739e22ad9033bcbf192059122d163b60349d",
+      "name": "Staked Yearn CRV Vault",
+      "symbol": "ST-YCRV",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27623/large/styearncrv_32.png?1664885292",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Yearn Vault",
+            "version": "0.4.3",
+            "chainId": 1,
+            "verifyingContract": "0x27b5739e22ad9033bcbf192059122d163b60349d"
+          },
+          "variant": "PACKED"
+        }
+      }
     },
     {
       "chainId": 1,
@@ -14040,7 +14060,7 @@
     {
       "chainId": 1,
       "address": "0xb9ef770b6a5e12e45983c5d80545258aa38f3b78",
-      "name": "Z s",
+      "name": "Zus",
       "symbol": "ZCN",
       "decimals": 10,
       "logoURI": "https://assets.coingecko.com/coins/images/4934/large/200x200_transparent.png?1669366739"
