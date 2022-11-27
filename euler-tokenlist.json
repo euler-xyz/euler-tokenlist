@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-11-26T22:15:55.322Z",
+  "timestamp": "2022-11-27T22:15:24.955Z",
   "version": {
     "major": 1,
-    "minor": 247,
+    "minor": 248,
     "patch": 0
   },
   "tags": {},
@@ -1958,14 +1958,6 @@
       "symbol": "BT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13224/large/bt.png?1606358296"
-    },
-    {
-      "chainId": 1,
-      "address": "0xe57425f1598f9b0d6219706b77f4b3da573a3695",
-      "name": "Bitcoin BR",
-      "symbol": "BTCBR",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/21205/large/btcbr.png?1661666691"
     },
     {
       "chainId": 1,
