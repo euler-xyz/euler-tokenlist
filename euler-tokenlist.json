@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-11-27T22:15:24.955Z",
+  "timestamp": "2022-11-28T22:16:05.463Z",
   "version": {
     "major": 1,
-    "minor": 248,
+    "minor": 249,
     "patch": 0
   },
   "tags": {},
@@ -150,6 +150,14 @@
       "symbol": "ACH",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/12390/large/ACH_%281%29.png?1599691266"
+    },
+    {
+      "chainId": 1,
+      "address": "0x44108f0223a3c3028f5fe7aec7f9bb2e66bef82f",
+      "name": "Across Protocol",
+      "symbol": "ACX",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28161/large/across-200x200.png?1668168201"
     },
     {
       "chainId": 1,
@@ -5013,7 +5021,7 @@
       "name": "Fantom",
       "symbol": "FTM",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/4001/large/Fantom.png?1558015016"
+      "logoURI": "https://assets.coingecko.com/coins/images/4001/large/Fantom_round.png?1669652346"
     },
     {
       "chainId": 1,
@@ -6256,6 +6264,14 @@
       "symbol": "IHF",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/3747/large/ihp.png?1547038807"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc7ff1e126cc81e816915ff48c940ed9d4e6d05d6",
+      "name": "IjasCoin",
+      "symbol": "IJC",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/14099/large/Ijascode-Flat-Logo-2-24-2021.png?1614304358"
     },
     {
       "chainId": 1,
@@ -12904,14 +12920,6 @@
       "symbol": "VLX",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/9651/large/logo_blue.png?1663764088"
-    },
-    {
-      "chainId": 1,
-      "address": "0xbf900809f4c73e5a3476eb183d8b06a27e61f8e5",
-      "name": "Vanilla",
-      "symbol": "VNL",
-      "decimals": 12,
-      "logoURI": "https://assets.coingecko.com/coins/images/14679/large/vnl_logo.jpg?1635746910"
     },
     {
       "chainId": 1,
