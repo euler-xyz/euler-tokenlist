@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-11-28T22:16:05.463Z",
+  "timestamp": "2022-11-29T22:22:15.806Z",
   "version": {
     "major": 1,
-    "minor": 249,
+    "minor": 250,
     "patch": 0
   },
   "tags": {},
@@ -1642,6 +1642,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xb9d7dddca9a4ac480991865efef82e01273f79c3",
+      "name": "Boosted LUSD",
+      "symbol": "BLUSD",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27681/large/bLUSD_logo.png?1665213755"
+    },
+    {
+      "chainId": 1,
       "address": "0x5732046a883704404f284ce41ffadd5b007fd668",
       "name": "Bluzelle",
       "symbol": "BLZ",
@@ -3016,7 +3024,7 @@
       "name": "Cronos",
       "symbol": "CRO",
       "decimals": 8,
-      "logoURI": "https://assets.coingecko.com/coins/images/7310/large/oCw2s3GI_400x400.jpeg?1645172042"
+      "logoURI": "https://assets.coingecko.com/coins/images/7310/large/cro_token_logo.png?1669699773"
     },
     {
       "chainId": 1,
@@ -5049,6 +5057,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xe9b076b476d8865cdf79d1cf7df420ee397a7f75",
+      "name": "Unification",
+      "symbol": "FUND",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/7845/large/DV80FOp.png?1554953278"
+    },
+    {
+      "chainId": 1,
       "address": "0x970b9bb2c0444f5e81e9d0efb84c8ccdcdcaf84d",
       "name": "Fuse",
       "symbol": "FUSE",
@@ -6513,6 +6529,14 @@
       "symbol": "ITGR",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/18381/large/icon.png?1650331643"
+    },
+    {
+      "chainId": 1,
+      "address": "0x2b1d36f5b61addaf7da7ebbd11b35fd8cfb0de31",
+      "name": "Interport Token",
+      "symbol": "ITP",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28338/large/ITP_200.png?1669683552"
     },
     {
       "chainId": 1,
