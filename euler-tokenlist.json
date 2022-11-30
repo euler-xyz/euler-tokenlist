@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-11-29T22:22:15.806Z",
+  "timestamp": "2022-11-30T22:19:43.647Z",
   "version": {
     "major": 1,
-    "minor": 250,
+    "minor": 251,
     "patch": 0
   },
   "tags": {},
@@ -2961,6 +2961,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x24bcec1afda63e622a97f17cff9a61ffcfd9b735",
+      "name": "Crab Market",
+      "symbol": "CRAB",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28356/large/200-icon.png?1669776793"
+    },
+    {
+      "chainId": 1,
       "address": "0x64df3aab3b21cc275bb76c4a581cf8b726478ee0",
       "name": "Cramer Coin",
       "symbol": "CRAMER",
@@ -3632,14 +3640,6 @@
       "symbol": "DIA",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/11955/large/image.png?1646041751"
-    },
-    {
-      "chainId": 1,
-      "address": "0x2e071d2966aa7d8decb1005885ba1977d6038a65",
-      "name": "Etheroll",
-      "symbol": "DICE",
-      "decimals": 16,
-      "logoURI": "https://assets.coingecko.com/coins/images/1232/large/etheroll.png?1548125481"
     },
     {
       "chainId": 1,
@@ -5050,7 +5050,7 @@
     {
       "chainId": 1,
       "address": "0x419d0d8bdd9af5e606ae2232ed285aff190e711b",
-      "name": "FUN",
+      "name": "FUN Token",
       "symbol": "FUN",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/761/large/funfair.png?1592404368"
@@ -6536,7 +6536,7 @@
       "name": "Interport Token",
       "symbol": "ITP",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/28338/large/ITP_200.png?1669683552"
+      "logoURI": "https://assets.coingecko.com/coins/images/28338/large/ITP_Logo_200.png?1669794314"
     },
     {
       "chainId": 1,
@@ -9039,7 +9039,7 @@
       "name": "Ooki",
       "symbol": "OOKI",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/21719/large/Ooki.png?1640699416",
+      "logoURI": "https://assets.coingecko.com/coins/images/21719/large/Ooki_Token.png?1669772543",
       "extensions": {
         "permit": {
           "type": "EIP2612",
