@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-11-30T22:19:43.647Z",
+  "timestamp": "2022-12-01T22:19:03.977Z",
   "version": {
     "major": 1,
-    "minor": 251,
+    "minor": 252,
     "patch": 0
   },
   "tags": {},
@@ -2116,6 +2116,14 @@
       "symbol": "BXR",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/19857/large/bxr-left2.png?1636064209"
+    },
+    {
+      "chainId": 1,
+      "address": "0x6b1a8f210ec6b7b6643cea3583fb0c079f367898",
+      "name": "Baanx",
+      "symbol": "BXX",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/17108/large/BXX_Token_logo.png?1626311836"
     },
     {
       "chainId": 1,
@@ -8332,6 +8340,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xf433089366899d83a9f26a773d59ec7ecf30355e",
+      "name": "Metal DAO",
+      "symbol": "MTL",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/763/large/Metal.png?1592195010"
+    },
+    {
+      "chainId": 1,
       "address": "0xe66b3aa360bb78468c00bebe163630269db3324f",
       "name": "Merchant",
       "symbol": "MTO",
@@ -9651,6 +9667,14 @@
       "symbol": "POLY",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/2784/large/inKkF01.png?1605007034"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9d93692e826a4bd9e903e2a27d7fbd1e116efdad",
+      "name": "POLY Maximus",
+      "symbol": "POLY",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/28236/large/photo_2022-11-09_12-53-56.jpg?1668576107"
     },
     {
       "chainId": 1,
@@ -12284,14 +12308,6 @@
       "symbol": "TTX",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12770/large/ttx.png?1640758151"
-    },
-    {
-      "chainId": 1,
-      "address": "0x5e3002dff591c5e75bb9dedae268049742e6b13a",
-      "name": "Tutor s Diary",
-      "symbol": "TUDA",
-      "decimals": 8,
-      "logoURI": "https://assets.coingecko.com/coins/images/7846/large/dbOq7_JEa8Vzq1ljCHJygOrLjk-GmQj3qo3XuwFxa3-vKb9kbe4sFi7msqJE5eRie0WMbcPf29qS_nmNGfI_96lYJZlssCwlk-mDlBoC-LbJNxEBpMFN1gBxZLHzoHtbOn5Yk9BnKhRaz6rKA8QbMWcvXHWjK7hAqOBCqnkHdpQ_iGXHJcMkyWZJ0sMbDR4Lbi9wfrJ2vEurY45q3.jpg?1551149529"
     },
     {
       "chainId": 1,
