@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-12-01T22:19:03.977Z",
+  "timestamp": "2022-12-02T22:18:14.298Z",
   "version": {
     "major": 1,
-    "minor": 252,
+    "minor": 253,
     "patch": 0
   },
   "tags": {},
@@ -2659,6 +2659,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xe910c2a090516fb7a7be07f96a464785f2d5dc18",
+      "name": "CheckMate Token",
+      "symbol": "CMT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28382/large/cmt.png?1669974415"
+    },
+    {
+      "chainId": 1,
       "address": "0xc538143202f3b11382d8606aae90a96b042a19db",
       "name": "Coinsbit Token",
       "symbol": "CNB",
@@ -3647,7 +3655,7 @@
       "name": "DIA",
       "symbol": "DIA",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/11955/large/image.png?1646041751"
+      "logoURI": "https://assets.coingecko.com/coins/images/11955/large/Token_Logo.png?1669981526"
     },
     {
       "chainId": 1,
@@ -11389,6 +11397,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x8790f2fc7ca2e7db841307fb3f4e72a03baf7b47",
+      "name": "Spillways",
+      "symbol": "SPILLWAYS",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28358/large/1669791775144_%281%29.png?1669794825"
+    },
+    {
+      "chainId": 1,
       "address": "0xf04af3f4e4929f7cd25a751e6149a3318373d4fe",
       "name": "Spring",
       "symbol": "SPRING",
@@ -11702,10 +11718,10 @@
     {
       "chainId": 1,
       "address": "0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55",
-      "name": "SuperFarm",
+      "name": "SuperVerse",
       "symbol": "SUPER",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/14040/large/6YPdWn6.png?1613975899"
+      "logoURI": "https://assets.coingecko.com/coins/images/14040/large/SuperVerse_Logo_200x200.png?1669963064"
     },
     {
       "chainId": 1,
@@ -12347,7 +12363,7 @@
       "name": "Fable Of The Dragon",
       "symbol": "TYRANT",
       "decimals": 9,
-      "logoURI": "https://assets.coingecko.com/coins/images/27911/large/da9bdde1-d446-4291-a79d-1b1c2ec183ff.png?1666342614"
+      "logoURI": "https://assets.coingecko.com/coins/images/27911/large/XX45VJKq_400x400.jpeg?1669956200"
     },
     {
       "chainId": 1,
