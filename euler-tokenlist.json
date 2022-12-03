@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-12-02T22:18:14.298Z",
+  "timestamp": "2022-12-03T22:18:47.395Z",
   "version": {
     "major": 1,
-    "minor": 253,
+    "minor": 254,
     "patch": 0
   },
   "tags": {},
@@ -6109,6 +6109,14 @@
       "symbol": "HUNT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/7989/large/HUNT.png?1571024256"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4bd70556ae3f8a6ec6c4080a0c327b24325438f3",
+      "name": "Hxro",
+      "symbol": "HXRO",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/7805/large/Hxro_Profile_Transparent.png?1622443308"
     },
     {
       "chainId": 1,
