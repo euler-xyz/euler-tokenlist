@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-12-03T22:18:47.395Z",
+  "timestamp": "2022-12-04T22:18:40.212Z",
   "version": {
     "major": 1,
-    "minor": 254,
+    "minor": 255,
     "patch": 0
   },
   "tags": {},
@@ -11781,25 +11781,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x1fd154b4d0e3753b714b511a53fe1fb72dc7ae1c",
-      "name": "SW DAO",
-      "symbol": "SWD",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/19336/large/mxhLivtN.png?1635122459",
-      "extensions": {
-        "permit": {
-          "type": "EIP2612",
-          "domain": {
-            "name": "SW DAO",
-            "version": "1",
-            "chainId": 1,
-            "verifyingContract": "0x1fd154b4d0e3753b714b511a53fe1fb72dc7ae1c"
-          }
-        }
-      }
-    },
-    {
-      "chainId": 1,
       "address": "0xb4b9dc1c77bdbb135ea907fd5a08094d98883a35",
       "name": "Sweatcoin   Sweat Economy",
       "symbol": "SWEAT",
@@ -12813,6 +12794,14 @@
       "symbol": "VAL",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13299/large/val-gold-256.png?1607242927"
+    },
+    {
+      "chainId": 1,
+      "address": "0x37cd4e8875e3edaffdfe9be63958f07effbd0bfd",
+      "name": "void cash",
+      "symbol": "VCASH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/26976/large/Avatar_v2.png?1661168692"
     },
     {
       "chainId": 1,
