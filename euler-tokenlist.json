@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-12-04T22:18:40.212Z",
+  "timestamp": "2022-12-05T22:26:07.921Z",
   "version": {
     "major": 1,
-    "minor": 255,
+    "minor": 256,
     "patch": 0
   },
   "tags": {},
@@ -10409,6 +10409,25 @@
             "version": "1",
             "chainId": 1,
             "verifyingContract": "0x3832d2f059e55934220881f831be501d180671a7"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xd5147bc8e386d91cc5dbe72099dac6c9b99276f5",
+      "name": "renFIL",
+      "symbol": "RENFIL",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13375/large/Filecoin.jpg?1628072923",
+      "extensions": {
+        "permit": {
+          "type": "ALLOWED",
+          "domain": {
+            "name": "renFIL",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0xd5147bc8e386d91cc5dbe72099dac6c9b99276f5"
           }
         }
       }
