@@ -34,4 +34,12 @@ module.exports = [
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/5013/large/sUSD.png?1616150765"
   },
+  {
+    "chainId": 1,
+    "address": "0xd1ba9bac957322d6e8c07a160a3a8da11a0d2867",
+    "name": "HUMAN Protocol",
+    "symbol": "HMT",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/16412/large/human_protocol.PNG?1623971316"
+  },
 ];

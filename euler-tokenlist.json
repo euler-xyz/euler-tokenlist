@@ -5954,14 +5954,6 @@
     },
     {
       "chainId": 1,
-      "address": "0xd1ba9bac957322d6e8c07a160a3a8da11a0d2867",
-      "name": "HUMAN Protocol",
-      "symbol": "HMT",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/16412/large/human_protocol.PNG?1623971316"
-    },
-    {
-      "chainId": 1,
       "address": "0x10010078a54396f62c96df8532dc2b4847d47ed3",
       "name": "Hundred Finance",
       "symbol": "HND",
