@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-12-06T22:18:42.139Z",
+  "timestamp": "2022-12-07T22:16:08.476Z",
   "version": {
     "major": 1,
-    "minor": 257,
+    "minor": 258,
     "patch": 0
   },
   "tags": {},
@@ -3498,14 +3498,6 @@
       "symbol": "DEPAY",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13183/large/DEPAY.png?1650615816"
-    },
-    {
-      "chainId": 1,
-      "address": "0xa5def515cfd373d17830e7c1de1639cb3530a112",
-      "name": "Depo",
-      "symbol": "DEPO",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/19151/large/depo.PNG?1634535965"
     },
     {
       "chainId": 1,
@@ -7521,7 +7513,7 @@
     {
       "chainId": 1,
       "address": "0x8686525d6627a25c68de82c228448f43c97999f2",
-      "name": "Lilly Finance",
+      "name": "Lilly Token",
       "symbol": "LY",
       "decimals": 9,
       "logoURI": "https://assets.coingecko.com/coins/images/23787/large/jQlMieu.png?1645437427"
