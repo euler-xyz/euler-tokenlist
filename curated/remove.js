@@ -42,4 +42,12 @@ module.exports = [
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/16412/large/human_protocol.PNG?1623971316"
   },
+  {
+    "chainId": 1,
+    "address": "0x99ea4db9ee77acd40b119bd1dc4e33e1c070b80d",
+    "name": "Quantstamp",
+    "symbol": "QSP",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/1219/large/0_E0kZjb4dG4hUnoDD_.png?1604815917"
+  },
 ];
