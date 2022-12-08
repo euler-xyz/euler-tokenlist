@@ -50,4 +50,22 @@ module.exports = [
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/1219/large/0_E0kZjb4dG4hUnoDD_.png?1604815917"
   },
+  {
+    "chainId": 1,
+    "address": "0xd909c5862cdb164adb949d92622082f0092efc3d",
+    "name": "Interest Protocol Token",
+    "symbol": "IPT",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/27000/large/logo.white_%281%29.png?1661328083",
+    "extensions": {
+      "permit": {
+        "type": "EIP2612",
+        "domain": {
+          "name": "Interest Protocol",
+          "chainId": 1,
+          "verifyingContract": "0xd909c5862cdb164adb949d92622082f0092efc3d"
+        }
+      }
+    }
+  },
 ];
