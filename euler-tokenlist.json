@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-12-07T22:16:08.476Z",
+  "timestamp": "2022-12-08T22:15:52.392Z",
   "version": {
     "major": 1,
-    "minor": 258,
+    "minor": 259,
     "patch": 0
   },
   "tags": {},
@@ -1366,6 +1366,14 @@
       "symbol": "BDP",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14222/large/logo_BDP_200.png?1615088501"
+    },
+    {
+      "chainId": 1,
+      "address": "0x1856bc58f5511269afe2ca1e89bf08cbdcd01100",
+      "name": "Black Dragon Society",
+      "symbol": "BDS",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28413/large/black_dragon_society_logo_200x200.png?1670387609"
     },
     {
       "chainId": 1,
@@ -7076,6 +7084,14 @@
       "symbol": "LEASH",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/15802/large/Leash.png?1621931543"
+    },
+    {
+      "chainId": 1,
+      "address": "0x72de803b67b6ab05b61efab2efdcd414d16ebf6d",
+      "name": "LedgerScore",
+      "symbol": "LED",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/16144/large/photo-2021-06-05-07-45-06.jpg?1623119314"
     },
     {
       "chainId": 1,
