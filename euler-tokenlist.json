@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-12-08T22:15:52.392Z",
+  "timestamp": "2022-12-09T22:18:38.825Z",
   "version": {
     "major": 1,
-    "minor": 259,
+    "minor": 260,
     "patch": 0
   },
   "tags": {},
@@ -379,7 +379,7 @@
     {
       "chainId": 1,
       "address": "0x6b0b3a982b4634ac68dd83a4dbf02311ce324181",
-      "name": "Alethea Artificial Liquid Intelligence",
+      "name": "Artificial Liquid Intelligence",
       "symbol": "ALI",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/22062/large/alethea-logo-transparent-colored.png?1642748848",
@@ -4406,14 +4406,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x871baed4088b863fd6407159f3672d70cd34837d",
-      "name": "3X Long Ethereum Token",
-      "symbol": "ETHBULL",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/10163/large/683JEXMN_400x400_%281%29.png?1576504568"
-    },
-    {
-      "chainId": 1,
       "address": "0xfd09911130e6930bf87f2b0554c44f400bd80d3e",
       "name": "EthicHub",
       "symbol": "ETHIX",
@@ -4619,7 +4611,7 @@
     {
       "chainId": 1,
       "address": "0x88a9a52f944315d5b4e917b9689e65445c401e83",
-      "name": "Fear",
+      "name": "FEAR",
       "symbol": "FEAR",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/15825/large/fear-logo-400-400.png?1625552865"
@@ -5604,6 +5596,14 @@
       "symbol": "GOL",
       "decimals": 4,
       "logoURI": "https://assets.coingecko.com/coins/images/14824/large/GOL.png?1618559300"
+    },
+    {
+      "chainId": 1,
+      "address": "0x486f4641ef2b50cc130dadbd27b6f271723873b8",
+      "name": "Adventurer Gold",
+      "symbol": "GOLD",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28427/large/anon-npc-pixel.png?1670548056"
     },
     {
       "name": "Goo",
@@ -6985,6 +6985,14 @@
       "symbol": "KUMA",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/15526/large/kuma_inu.PNG?1621128824"
+    },
+    {
+      "chainId": 1,
+      "address": "0x2223bf1d7c19ef7c06dab88938ec7b85952ccd89",
+      "name": "Kryxivia Game",
+      "symbol": "KXA",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/21225/large/kxa.png?1638742914"
     },
     {
       "chainId": 1,
@@ -12381,14 +12389,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x8564653879a18c560e7c0ea0e084c516c62f5653",
-      "name": "UpBots",
-      "symbol": "UBXT",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/12476/large/UBXT.png?1600132967"
-    },
-    {
-      "chainId": 1,
       "address": "0x92e52a1a235d9a103d970901066ce910aacefd37",
       "name": "U CASH",
       "symbol": "UCASH",
@@ -13830,7 +13830,7 @@
       "name": "MetalSwap",
       "symbol": "XMT",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/22075/large/xmt.png?1640943637",
+      "logoURI": "https://assets.coingecko.com/coins/images/22075/large/Logo_COIN_-_Gradiente.png?1670579810",
       "extensions": {
         "permit": {
           "type": "EIP2612",
