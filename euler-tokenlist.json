@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-12-10T22:16:32.060Z",
+  "timestamp": "2022-12-11T22:15:46.327Z",
   "version": {
     "major": 1,
-    "minor": 261,
+    "minor": 262,
     "patch": 0
   },
   "tags": {},
@@ -11915,7 +11915,7 @@
       "name": "Tail",
       "symbol": "TAIL",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/28260/large/Tail_logo.png?1668762735"
+      "logoURI": "https://assets.coingecko.com/coins/images/28260/large/IMG_20221210_122215_723.jpg?1670744910"
     },
     {
       "chainId": 1,
@@ -13009,14 +13009,6 @@
       "symbol": "VOW",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/18202/large/72Nd63R0_400x400.png?1630974351"
-    },
-    {
-      "chainId": 1,
-      "address": "0x2ac8172d8ce1c5ad3d869556fd708801a42c1c0e",
-      "name": "enVoy DeFi",
-      "symbol": "VOY",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/22105/large/voy_tokenconcepts-01-32x32-1-e1640735076388.png?1640828528"
     },
     {
       "chainId": 1,
