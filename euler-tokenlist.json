@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-12-11T22:15:46.327Z",
+  "timestamp": "2022-12-12T22:20:24.414Z",
   "version": {
     "major": 1,
-    "minor": 262,
+    "minor": 263,
     "patch": 0
   },
   "tags": {},
@@ -7823,6 +7823,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x1892f6ff5fbe11c31158f8c6f6f6e33106c5b10e",
+      "name": "MegaWorld",
+      "symbol": "MEGA",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28456/large/Twitter_AVA1.jpg?1670810440"
+    },
+    {
+      "chainId": 1,
       "address": "0x1afb69dbc9f54d08dab1bd3436f8da1af819e647",
       "name": "Melos Studio",
       "symbol": "MELOS",
@@ -8367,6 +8375,14 @@
       "symbol": "MTRM",
       "decimals": 0,
       "logoURI": "https://assets.coingecko.com/coins/images/24613/large/mtrm.png?1648373908"
+    },
+    {
+      "chainId": 1,
+      "address": "0x6226e00bcac68b0fe55583b90a1d727c14fab77f",
+      "name": "MultiVAC",
+      "symbol": "MTV",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/4937/large/MultiVAC.png?1558598585"
     },
     {
       "chainId": 1,
@@ -9805,6 +9821,25 @@
       "symbol": "PRE",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/1299/large/presearch.png?1548331942"
+    },
+    {
+      "chainId": 1,
+      "address": "0x6399c842dd2be3de30bf99bc7d1bbf6fa3650e70",
+      "name": "Premia",
+      "symbol": "PREMIA",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13962/large/apple-touch-icon.png?1623679482",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Premia",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x6399c842dd2be3de30bf99bc7d1bbf6fa3650e70"
+          }
+        }
+      }
     },
     {
       "chainId": 1,
