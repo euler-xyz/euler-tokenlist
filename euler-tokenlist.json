@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-12-12T22:20:24.414Z",
+  "timestamp": "2022-12-13T22:16:06.949Z",
   "version": {
     "major": 1,
-    "minor": 263,
+    "minor": 264,
     "patch": 0
   },
   "tags": {},
@@ -1350,14 +1350,6 @@
       "symbol": "BDG",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/1653/large/bitdegree.jpg?1547035900"
-    },
-    {
-      "chainId": 1,
-      "address": "0x0309c98b1bffa350bcb3f9fb9780970ca32a5060",
-      "name": "BasketDAO DeFi Index",
-      "symbol": "BDI",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/14664/large/BDI_200.png?1621851285"
     },
     {
       "chainId": 1,
@@ -9041,6 +9033,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x3593d125a4f7849a1b059e64f4517a86dd60c95d",
+      "name": "MANTRA",
+      "symbol": "OM",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/12151/large/OM_Token.png?1666056782"
+    },
+    {
+      "chainId": 1,
       "address": "0xd26114cd6ee289accf82350c8d8487fedb8a0c07",
       "name": "OMG Network",
       "symbol": "OMG",
@@ -12686,6 +12686,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x0c10bf8fcb7bf5412187a595ab97a3609160b5c6",
+      "name": "USDD",
+      "symbol": "USDD",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25380/large/UUSD.jpg?1651823371"
+    },
+    {
+      "chainId": 1,
       "address": "0x674c6ad92fd080e4004b2312b45f796a192d27a0",
       "name": "Neutrino USD",
       "symbol": "USDN",
@@ -13859,14 +13867,6 @@
       "symbol": "XNL",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/18413/large/xnl_logo.png?1633517024"
-    },
-    {
-      "chainId": 1,
-      "address": "0x79c71d3436f39ce382d0f58f1b011d88100b9d91",
-      "name": "Xeonbit XNS",
-      "symbol": "XNS",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/8744/large/200x200_icon_darkbg.png?1560826732"
     },
     {
       "chainId": 1,
