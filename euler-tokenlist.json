@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-12-13T22:16:06.949Z",
+  "timestamp": "2022-12-14T22:16:16.042Z",
   "version": {
     "major": 1,
-    "minor": 264,
+    "minor": 265,
     "patch": 0
   },
   "tags": {},
@@ -4042,14 +4042,6 @@
     },
     {
       "chainId": 1,
-      "address": "0xfea300256736dc102f63552303a5b0995b15f79e",
-      "name": "Echelon",
-      "symbol": "ECH",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/25498/large/SpO_F8a0_400x400.jpg?1652077746"
-    },
-    {
-      "chainId": 1,
       "address": "0xca47bc04ecfcd324b238ed411741efb65b3c777b",
       "name": "Ecosystem Coin Network",
       "symbol": "ECN",
@@ -5835,6 +5827,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xe5097d9baeafb89f9bcb78c9290d545db5f9e9cb",
+      "name": "Hummingbot",
+      "symbol": "HBOT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/21717/large/PDPuf0tJ_400x400.jpg?1639863782"
+    },
+    {
+      "chainId": 1,
       "address": "0x0ace32f6e87ac1457a5385f8eb0208f37263b415",
       "name": "Habitat",
       "symbol": "HBT",
@@ -6045,6 +6045,14 @@
       "symbol": "HOTCROSS",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/15706/large/Hotcross.png?1632197570"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa0ed3c520dc0632657ad2eaaf19e26c4fd431a84",
+      "name": "Hippo Wallet",
+      "symbol": "HPO",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28089/large/b77170dd-1dd1-4581-91b2-e352794fa045.jpg?1667446200"
     },
     {
       "chainId": 1,
@@ -9497,14 +9505,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x5718af2dd07cd76ab0606f66565275f6c29f132f",
-      "name": "Pixul",
-      "symbol": "PIXUL",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/25992/large/jHyoPis.png?1655192889"
-    },
-    {
-      "chainId": 1,
       "address": "0x8b39b70e39aa811b69365398e0aace9bee238aeb",
       "name": "Firebird",
       "symbol": "PKF",
@@ -10156,6 +10156,24 @@
       "symbol": "RAC",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12675/large/rac_logo_%281%29.jpg?1601526417"
+    },
+    {
+      "chainId": 1,
+      "address": "0x31c8eacbffdd875c74b94b077895bd78cf1e64a3",
+      "name": "Radicle",
+      "symbol": "RAD",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/14013/large/radicle.png?1614402918",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Radicle",
+            "chainId": 1,
+            "verifyingContract": "0x31c8eacbffdd875c74b94b077895bd78cf1e64a3"
+          }
+        }
+      }
     },
     {
       "chainId": 1,
@@ -14182,7 +14200,7 @@
       "name": "Panther Protocol",
       "symbol": "ZKP",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/18611/large/1_FVXTRf8HogOiXOQDzonE5g.png?1653199708",
+      "logoURI": "https://assets.coingecko.com/coins/images/18611/large/panther.jpg?1670986454",
       "extensions": {
         "permit": {
           "type": "EIP2612",
@@ -14245,24 +14263,6 @@
       "symbol": "ZZ",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/26141/large/zig_zag.?1656248564"
-    },
-    {
-      "chainId": 1,
-      "address": "0x31c8eacbffdd875c74b94b077895bd78cf1e64a3",
-      "name": "Radicle",
-      "symbol": "RAD",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/14013/large/radicle.png?1614402918",
-      "extensions": {
-        "permit": {
-          "type": "EIP2612",
-          "domain": {
-            "name": "Radicle",
-            "chainId": 1,
-            "verifyingContract": "0x31c8eacbffdd875c74b94b077895bd78cf1e64a3"
-          }
-        }
-      }
     }
   ]
 }
