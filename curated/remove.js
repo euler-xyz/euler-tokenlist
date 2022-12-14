@@ -68,22 +68,4 @@ module.exports = [
       }
     }
   },
-  {
-    "chainId": 1,
-    "address": "0x31c8eacbffdd875c74b94b077895bd78cf1e64a3",
-    "name": "Radicle",
-    "symbol": "RAD",
-    "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/14013/large/radicle.png?1614402918",
-    "extensions": {
-      "permit": {
-        "type": "EIP2612",
-        "domain": {
-          "name": "Radicle",
-          "chainId": 1,
-          "verifyingContract": "0x31c8eacbffdd875c74b94b077895bd78cf1e64a3"
-        }
-      }
-    }
-  },
 ];
