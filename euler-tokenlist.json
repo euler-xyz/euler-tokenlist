@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-12-14T22:16:16.042Z",
+  "timestamp": "2022-12-15T22:16:18.099Z",
   "version": {
     "major": 1,
-    "minor": 265,
+    "minor": 266,
     "patch": 0
   },
   "tags": {},
@@ -6328,6 +6328,25 @@
       "symbol": "IMP",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/27625/large/dxanVPfL_400x400.jpeg?1664935231"
+    },
+    {
+      "chainId": 1,
+      "address": "0x04c17b9d3b29a78f7bd062a57cf44fc633e71f85",
+      "name": "IMPT",
+      "symbol": "IMPT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28486/large/IMPT_logo.png?1671077901",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "IMPT",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x04c17b9d3b29a78f7bd062a57cf44fc633e71f85"
+          }
+        }
+      }
     },
     {
       "chainId": 1,
