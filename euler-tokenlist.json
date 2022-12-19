@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-12-18T22:16:23.142Z",
+  "timestamp": "2022-12-19T22:16:17.932Z",
   "version": {
     "major": 1,
-    "minor": 269,
+    "minor": 270,
     "patch": 0
   },
   "tags": {},
@@ -6162,6 +6162,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x60a16b9efd33bb45c18833aed45ca66045b3b714",
+      "name": "i9X Coin",
+      "symbol": "I9X",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/14124/large/unnamed_%282%29.jpg?1614565794"
+    },
+    {
+      "chainId": 1,
       "address": "0x40eb746dee876ac1e78697b7ca85142d178a1fc8",
       "name": "Iagon",
       "symbol": "IAG",
@@ -6346,14 +6354,6 @@
       "symbol": "ILV",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14468/large/ILV.JPG?1617182121"
-    },
-    {
-      "chainId": 1,
-      "address": "0x9631be8566fc71d91970b10acfdee29f21da6c27",
-      "name": "Intelligent Monsters",
-      "symbol": "IMON",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/26077/large/imonToken.png?1655690407"
     },
     {
       "chainId": 1,
@@ -13543,25 +13543,6 @@
       "symbol": "WPCI",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/24390/large/new_logo_square_%281%29.png?1648792416"
-    },
-    {
-      "chainId": 1,
-      "address": "0xe4174143f0d6b1ebc0e25e1acd975c8f9fd06539",
-      "name": "Wrapped aRIA Currency",
-      "symbol": "WRIA",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/27066/large/wRIA-logo-200x200-1.png?1661673526",
-      "extensions": {
-        "permit": {
-          "type": "EIP2612",
-          "domain": {
-            "name": "Wrapped aRIA Currency",
-            "version": "1",
-            "chainId": 1,
-            "verifyingContract": "0xe4174143f0d6b1ebc0e25e1acd975c8f9fd06539"
-          }
-        }
-      }
     },
     {
       "chainId": 1,
