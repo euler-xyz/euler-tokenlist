@@ -68,4 +68,23 @@ module.exports = [
       }
     }
   },
+  {
+    "chainId": 1,
+    "address": "0x383518188c0c6d7730d91b2c03a03c837814a899",
+    "name": "Olympus v1",
+    "symbol": "OHM",
+    "decimals": 9,
+    "logoURI": "https://assets.coingecko.com/coins/images/21496/large/OHM.jpg?1639620224",
+    "extensions": {
+      "permit": {
+        "type": "EIP2612",
+        "domain": {
+          "name": "Olympus",
+          "version": "1",
+          "chainId": 1,
+          "verifyingContract": "0x383518188c0c6d7730d91b2c03a03c837814a899"
+        }
+      }
+    }
+  },
 ];
