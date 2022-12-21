@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-12-20T22:16:17.309Z",
+  "timestamp": "2022-12-21T22:16:37.378Z",
   "version": {
     "major": 1,
-    "minor": 271,
+    "minor": 272,
     "patch": 0
   },
   "tags": {},
@@ -6966,14 +6966,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x66d28cb58487a7609877550e1a34691810a6b9fc",
-      "name": "Koinos",
-      "symbol": "KOIN",
-      "decimals": 8,
-      "logoURI": "https://assets.coingecko.com/coins/images/13116/large/koinos-mark-circle-250px.png?1614870541"
-    },
-    {
-      "chainId": 1,
       "address": "0x1e0b2992079b620aa13a7c2e7c88d2e1e18e46e9",
       "name": "KOMPETE Token",
       "symbol": "KOMPETE",
@@ -9303,6 +9295,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x21018cbc9ad730542130be180b577b74db2a9397",
+      "name": " PAPER",
+      "symbol": "PAPER",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28544/large/gj_VMyrN.png?1671589414"
+    },
+    {
+      "chainId": 1,
       "address": "0x1beef31946fbbb40b877a72e4ae04a8d1a5cee06",
       "name": "Parachute",
       "symbol": "PAR",
@@ -10310,14 +10310,6 @@
       "symbol": "RAZOR",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13797/large/icon.png?1611919354"
-    },
-    {
-      "chainId": 1,
-      "address": "0xa4eed63db85311e22df4473f87ccfc3dadcfa3e3",
-      "name": "Rubic",
-      "symbol": "RBC",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/12629/large/200x200.png?1607952509"
     },
     {
       "chainId": 1,
@@ -11456,6 +11448,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x3a0b022f32b3191d44e5847da12dc0b63fb07c91",
+      "name": "Spellfire",
+      "symbol": "SPELLFIRE",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/23107/large/17316.png?1643261163"
+    },
+    {
+      "chainId": 1,
       "address": "0x9b02dd390a603add5c07f9fd9175b7dabe8d63b7",
       "name": "Shopping io OLD",
       "symbol": "SPI",
@@ -11693,6 +11693,14 @@
       "symbol": "STKR",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14535/large/stakerdao_logo.png?1616812877"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa62cc35625b0c8dc1faea39d33625bb4c15bd71c",
+      "name": "StormX",
+      "symbol": "STMX",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/1369/large/StormX.png?1603113002"
     },
     {
       "chainId": 1,
@@ -12367,14 +12375,6 @@
       "symbol": "TSUKA",
       "decimals": 9,
       "logoURI": "https://assets.coingecko.com/coins/images/26405/large/Tsuka_200x200.png?1657923568"
-    },
-    {
-      "chainId": 1,
-      "address": "0xecacab6725ac1711d97e55df35d525b863b8b9f7",
-      "name": "Trillion",
-      "symbol": "TT",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/17216/large/EC65-CF15-3575-41-C7-8-D2-F-0-B2-FDC82-DF96.jpg?1626877437"
     },
     {
       "chainId": 1,
@@ -14196,7 +14196,7 @@
     {
       "chainId": 1,
       "address": "0xc50ef449171a51fbeafd7c562b064b6471c36caa",
-      "name": "Zombie Inu",
+      "name": "Zombie Inu  OLD ",
       "symbol": "ZINU",
       "decimals": 9,
       "logoURI": "https://assets.coingecko.com/coins/images/19516/large/zinu.jpeg?1635321575"
