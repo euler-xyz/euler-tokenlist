@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-12-21T22:16:37.378Z",
+  "timestamp": "2022-12-23T22:16:28.123Z",
   "version": {
     "major": 1,
-    "minor": 272,
+    "minor": 273,
     "patch": 0
   },
   "tags": {},
@@ -206,14 +206,6 @@
       "symbol": "AETHB",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/18777/large/aETHb.png?1633402302"
-    },
-    {
-      "chainId": 1,
-      "address": "0xe95a203b1a91a908f9b9ce46459d101078c2c3cb",
-      "name": "Ankr Reward Bearing Staked ETH",
-      "symbol": "AETHC",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/13403/large/aETHc.png?1625756490"
     },
     {
       "chainId": 1,
@@ -565,6 +557,14 @@
       "symbol": "ANKR",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/4324/large/U85xTl2.png?1608111978"
+    },
+    {
+      "chainId": 1,
+      "address": "0xe95a203b1a91a908f9b9ce46459d101078c2c3cb",
+      "name": "Ankr Staked ETH",
+      "symbol": "ANKRETH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13403/large/aETHc.png?1625756490"
     },
     {
       "chainId": 1,
@@ -2500,7 +2500,7 @@
       "name": "Chain Games",
       "symbol": "CHAIN",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/12257/large/chain-logo-centered-500x500.png?1599617244"
+      "logoURI": "https://assets.coingecko.com/coins/images/12257/large/chain-pfp-logo.png?1671678582"
     },
     {
       "chainId": 1,
@@ -3041,14 +3041,6 @@
       "symbol": "CRI",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/24700/large/logo200x200.png?1648641961"
-    },
-    {
-      "chainId": 1,
-      "address": "0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b",
-      "name": "Cronos",
-      "symbol": "CRO",
-      "decimals": 8,
-      "logoURI": "https://assets.coingecko.com/coins/images/7310/large/cro_token_logo.png?1669699773"
     },
     {
       "chainId": 1,
@@ -3763,6 +3755,14 @@
       "symbol": "DOGEGF",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/18651/large/dogf.png?1632758659"
+    },
+    {
+      "chainId": 1,
+      "address": "0x1b4dd5ea240732ddac8d74fd1cd9026addc02e3c",
+      "name": "Dogens",
+      "symbol": "DOGENS",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/28545/large/IMG_20221220_122417_314.jpg?1671596289"
     },
     {
       "chainId": 1,
@@ -5022,14 +5022,6 @@
       "symbol": "FST",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14520/large/futureswap_logo.png?1634122916"
-    },
-    {
-      "chainId": 1,
-      "address": "0x4e15361fd6b4bb609fa63c81a2be19d873717870",
-      "name": "Fantom",
-      "symbol": "FTM",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/4001/large/Fantom_round.png?1669652346"
     },
     {
       "chainId": 1,
@@ -11736,14 +11728,6 @@
     },
     {
       "chainId": 1,
-      "address": "0xa3c22370de5f9544f0c4de126b1e46ceadf0a51b",
-      "name": "Stratis",
-      "symbol": "STRAX",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/531/large/stratis.png?1547034209"
-    },
-    {
-      "chainId": 1,
       "address": "0x74232704659ef37c08995e386a2e26cc27a8d7b1",
       "name": "Strike",
       "symbol": "STRK",
@@ -13293,6 +13277,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b",
+      "name": "Wrapped CRO",
+      "symbol": "WCRO",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/20401/large/cro.jpg?1636970445"
+    },
+    {
+      "chainId": 1,
       "address": "0xe8e8486228753e01dbc222da262aa706bd67e601",
       "name": "Arch Ethereum Web3",
       "symbol": "WEB3",
@@ -13322,6 +13314,14 @@
       "symbol": "WFLOW",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/24045/large/wrapped-flow.png?1646187143"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4e15361fd6b4bb609fa63c81a2be19d873717870",
+      "name": "Wrapped Fantom",
+      "symbol": "WFTM",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/16036/large/Fantom.png?1622679930"
     },
     {
       "chainId": 1,
@@ -13583,6 +13583,14 @@
       "symbol": "WSTR",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/23972/large/wstr.png?1645870711"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa3c22370de5f9544f0c4de126b1e46ceadf0a51b",
+      "name": "Wrapped Strax",
+      "symbol": "WSTRAX",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28561/large/stratis.jpeg?1671723023"
     },
     {
       "chainId": 1,
