@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-12-23T22:16:28.123Z",
+  "timestamp": "2022-12-24T22:16:46.253Z",
   "version": {
     "major": 1,
-    "minor": 273,
+    "minor": 274,
     "patch": 0
   },
   "tags": {},
@@ -7313,6 +7313,14 @@
       "symbol": "LKR",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14692/large/lokr.png?1648886932"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7bec98609cb6378d6f995e8f8097ee78376fbec9",
+      "name": "LeisureMeta",
+      "symbol": "LM",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25761/large/SVG_16533804486374586M.jpg?1653548604"
     },
     {
       "chainId": 1,
