@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-12-28T22:16:52.944Z",
+  "timestamp": "2022-12-29T22:16:48.170Z",
   "version": {
     "major": 1,
-    "minor": 278,
+    "minor": 279,
     "patch": 0
   },
   "tags": {},
@@ -150,6 +150,14 @@
       "symbol": "ACH",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/12390/large/ACH_%281%29.png?1599691266"
+    },
+    {
+      "chainId": 1,
+      "address": "0x44f5909e97e1cbf5fbbdf0fc92fd83cde5d5c58a",
+      "name": "ACRIA",
+      "symbol": "ACRIA",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28598/large/23075.png?1672284924"
     },
     {
       "chainId": 1,
@@ -1717,6 +1725,14 @@
       "symbol": "BNB",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/22884/large/BNB_wh_small.png?1644224553"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7707aada3ce7722ac63b91727daf1999849f6835",
+      "name": "Bankera",
+      "symbol": "BNK",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/1949/large/bankera.png?1650883375"
     },
     {
       "chainId": 1,
