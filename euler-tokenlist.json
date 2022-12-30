@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-12-29T22:16:48.170Z",
+  "timestamp": "2022-12-30T22:17:05.001Z",
   "version": {
     "major": 1,
-    "minor": 279,
+    "minor": 280,
     "patch": 0
   },
   "tags": {},
@@ -5556,6 +5556,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xd70240dd62f4ea9a6a2416e0073d72139489d2aa",
+      "name": "GLYPH Vault  NFTX ",
+      "symbol": "GLYPH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/17050/large/Glyph.png?1626149071"
+    },
+    {
+      "chainId": 1,
       "address": "0x7f0693074f8064cfbcf9fa6e5a3fa0e4f58ccccf",
       "name": "we love gm",
       "symbol": "GM",
@@ -7753,6 +7761,14 @@
       "symbol": "MAXI",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/25126/large/maxilogo200.png?1650372648"
+    },
+    {
+      "chainId": 1,
+      "address": "0x94c9ceb2f9741230fad3a62781b27cc79a9460d4",
+      "name": "MAYC Vault  NFTX ",
+      "symbol": "MAYC",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28606/large/MAYC_200x200.png?1672385670"
     },
     {
       "chainId": 1,
@@ -10612,7 +10628,7 @@
     {
       "chainId": 1,
       "address": "0xf21661d0d1d76d3ecb8e1b9f1c923dbfffae4097",
-      "name": "Realio Network",
+      "name": "Realio",
       "symbol": "RIO",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12206/large/0.jpg?1598083003"
@@ -13507,14 +13523,6 @@
       "symbol": "WOO",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12921/large/w2UiemF__400x400.jpg?1603670367"
-    },
-    {
-      "chainId": 1,
-      "address": "0x1f56ae850930460d076e8c2177d92daa6dd046c3",
-      "name": "Woof Token",
-      "symbol": "WOOF",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/22518/large/S2s77NqfYuMOh7r8xno5JmkkeqdX_wMsNlCbKU5on2CWnyd3FHb92aDb15CrVaz1zedzKUqyNcs8V4mXhBsfZqQQkeduUQyj6yVSXAkgTrW8itxKOqn3TMQtip4Ca__DPHuaW_Dyt_TmqYxeeIp6CU-lMFGjUlVPKz6pRFd2r0XRFrei77gK1iddcY6LGy0WdF_6lvdscHVkm-.jpg?1641969715"
     },
     {
       "chainId": 1,
