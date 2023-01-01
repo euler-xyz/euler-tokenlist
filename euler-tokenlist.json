@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2022-12-31T22:16:49.290Z",
+  "timestamp": "2023-01-01T22:16:51.638Z",
   "version": {
     "major": 1,
-    "minor": 281,
+    "minor": 282,
     "patch": 0
   },
   "tags": {},
@@ -8147,14 +8147,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x426ca1ea2406c07d75db9585f22781c096e3d0e0",
-      "name": "Minereum",
-      "symbol": "MNE",
-      "decimals": 8,
-      "logoURI": "https://assets.coingecko.com/coins/images/702/large/mne.png?1587615060"
-    },
-    {
-      "chainId": 1,
       "address": "0x2c4f1df9c7de0c59778936c9b145ff56813f3295",
       "name": "AssetMantle",
       "symbol": "MNTL",
@@ -12242,6 +12234,14 @@
       "symbol": "TRAC",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/1877/large/TRAC.jpg?1635134367"
+    },
+    {
+      "chainId": 1,
+      "address": "0xe225aca29524bb65fd82c79a9602f3b4f9c6fe3f",
+      "name": "Tratok",
+      "symbol": "TRAT",
+      "decimals": 5,
+      "logoURI": "https://assets.coingecko.com/coins/images/6791/large/tratok.png?1547043075"
     },
     {
       "chainId": 1,
