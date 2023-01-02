@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-01-01T22:16:51.638Z",
+  "timestamp": "2023-01-02T22:16:56.701Z",
   "version": {
     "major": 1,
-    "minor": 282,
+    "minor": 283,
     "patch": 0
   },
   "tags": {},
@@ -4696,6 +4696,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xef3a930e1ffffacd2fc13434ac81bd278b0ecc8d",
+      "name": "Stafi",
+      "symbol": "FIS",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/12423/large/stafi_logo.jpg?1599730991"
+    },
+    {
+      "chainId": 1,
       "address": "0x30bcd71b8d21fe830e493b30e90befba29de9114",
       "name": "Penguin Party Fish",
       "symbol": "FISH",
@@ -6963,14 +6971,6 @@
       "symbol": "KNIGHT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/22848/large/KNIGHT_TOKEN_LOGO.png?1643190758"
-    },
-    {
-      "chainId": 1,
-      "address": "0x7cc62d8e80be9bea3947f3443ad136f50f75b505",
-      "name": "Knekted",
-      "symbol": "KNT",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/6488/large/42318068_480165755801061_8741315709394485248_n.jpg?1565651343"
     },
     {
       "chainId": 1,
@@ -10920,6 +10920,25 @@
       "symbol": "SCCN",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/25377/large/sccn.png?1651410204"
+    },
+    {
+      "chainId": 1,
+      "address": "0x30d20208d987713f46dfd34ef128bb16c404d10f",
+      "name": "Stader",
+      "symbol": "SD",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/20658/large/sd.png?1642927667",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Stader",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x30d20208d987713f46dfd34ef128bb16c404d10f"
+          }
+        }
+      }
     },
     {
       "chainId": 1,
