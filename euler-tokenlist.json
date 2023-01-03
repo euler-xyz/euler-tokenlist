@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-01-02T22:16:56.701Z",
+  "timestamp": "2023-01-03T22:17:09.462Z",
   "version": {
     "major": 1,
-    "minor": 283,
+    "minor": 284,
     "patch": 0
   },
   "tags": {},
@@ -13331,7 +13331,7 @@
       "address": "0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b",
       "name": "Wrapped CRO",
       "symbol": "WCRO",
-      "decimals": 6,
+      "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/20401/large/cro.jpg?1636970445"
     },
     {
