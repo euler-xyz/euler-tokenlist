@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-01-03T22:17:09.462Z",
+  "timestamp": "2023-01-04T22:17:14.930Z",
   "version": {
     "major": 1,
-    "minor": 284,
+    "minor": 285,
     "patch": 0
   },
   "tags": {},
@@ -1720,6 +1720,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xb8c77482e45f1f44de1745f52c74426c631bdd52",
+      "name": "BNB",
+      "symbol": "BNB",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/825/large/bnb-icon2_2x.png?1644979850"
+    },
+    {
+      "chainId": 1,
       "address": "0x7707aada3ce7722ac63b91727daf1999849f6835",
       "name": "Bankera",
       "symbol": "BNK",
@@ -3049,6 +3057,14 @@
       "symbol": "CRI",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/24700/large/logo200x200.png?1648641961"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b",
+      "name": "Cronos",
+      "symbol": "CRO",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/7310/large/cro_token_logo.png?1669699773"
     },
     {
       "chainId": 1,
@@ -5681,6 +5697,14 @@
       "symbol": "GPOOL",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/18122/large/GP_BRAND_GREEN_Main_Icon_.png?1630562175"
+    },
+    {
+      "chainId": 1,
+      "address": "0xce593a29905951e8fc579bc092eca72577da575c",
+      "name": "GROM",
+      "symbol": "GR",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/13216/large/gr.png?1606278269"
     },
     {
       "chainId": 1,
@@ -13325,14 +13349,6 @@
       "symbol": "WCK",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/8797/large/WCK.png?1561705836"
-    },
-    {
-      "chainId": 1,
-      "address": "0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b",
-      "name": "Wrapped CRO",
-      "symbol": "WCRO",
-      "decimals": 8,
-      "logoURI": "https://assets.coingecko.com/coins/images/20401/large/cro.jpg?1636970445"
     },
     {
       "chainId": 1,
