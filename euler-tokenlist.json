@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-01-04T22:17:14.930Z",
+  "timestamp": "2023-01-05T22:17:45.270Z",
   "version": {
     "major": 1,
-    "minor": 285,
+    "minor": 286,
     "patch": 0
   },
   "tags": {},
@@ -444,25 +444,6 @@
       "symbol": "ALPHR",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/15029/large/alphr.jpg?1619495712"
-    },
-    {
-      "chainId": 1,
-      "address": "0xe0cca86b254005889ac3a81e737f56a14f4a38f5",
-      "name": "Alta Finance",
-      "symbol": "ALTA",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/18713/large/AFN-token-Altafin-200.png?1633079552",
-      "extensions": {
-        "permit": {
-          "type": "EIP2612",
-          "domain": {
-            "name": "Alta Finance",
-            "version": "1",
-            "chainId": 1,
-            "verifyingContract": "0xe0cca86b254005889ac3a81e737f56a14f4a38f5"
-          }
-        }
-      }
     },
     {
       "chainId": 1,
@@ -1056,14 +1037,6 @@
           "variant": "UNDERSCORE_NONCES"
         }
       }
-    },
-    {
-      "chainId": 1,
-      "address": "0xb89903dde3899f0280b99913168ee833a7896b93",
-      "name": "AurusSILVER",
-      "symbol": "AWS",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/14965/large/2021-12-06-Aurus-tokens-for-coingecko-AWS-flat-color-v1-r1-AS.png?1640223368"
     },
     {
       "chainId": 1,
@@ -2009,6 +1982,14 @@
       "symbol": "BT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13224/large/bt.png?1606358296"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0b498ff89709d3838a063f1dfa463091f9801c2b",
+      "name": "BTC 2x Flexible Leverage Index",
+      "symbol": "BTC2X-FLI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/15406/large/Copy_of_BTC2x-FLI_token_logo.png?1646749417"
     },
     {
       "chainId": 1,
@@ -11166,6 +11147,14 @@
       "symbol": "SHIH",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/15309/large/shit.PNG?1620374274"
+    },
+    {
+      "chainId": 1,
+      "address": "0x24da31e7bb182cb2cabfef1d88db19c2ae1f5572",
+      "name": "Shikoku",
+      "symbol": "SHIK",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28560/large/shikoku_inu02.png?1671706822"
     },
     {
       "chainId": 1,
