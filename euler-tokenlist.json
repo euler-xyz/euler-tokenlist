@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-01-06T22:17:03.647Z",
+  "timestamp": "2023-01-07T22:17:00.961Z",
   "version": {
     "major": 1,
-    "minor": 287,
+    "minor": 288,
     "patch": 0
   },
   "tags": {},
@@ -4599,6 +4599,25 @@
     },
     {
       "chainId": 1,
+      "address": "0xed1480d12be41d92f36f5f7bdd88212e381a3677",
+      "name": "Fiat DAO",
+      "symbol": "FDT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/20388/large/MLamPGZI_400x400.jpg?1636960965",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "FDT",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0xed1480d12be41d92f36f5f7bdd88212e381a3677"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x23352036e911a22cfc692b5e2e196692658aded9",
       "name": "Friendz",
       "symbol": "FDZ",
@@ -7857,6 +7876,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xfeead860ffa43e5660ca62ea5953a74f695c1d5b",
+      "name": "MedCareCoin",
+      "symbol": "MDCY",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/23995/large/mcc.png?1645953027"
+    },
+    {
+      "chainId": 1,
       "address": "0x814e0908b12a99fecf5bc101bb5d0b8b5cdf7d26",
       "name": "Measurable Data",
       "symbol": "MDT",
@@ -7941,7 +7968,7 @@
       "name": "Metronome",
       "symbol": "MET",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/3249/large/metronome.png?1548084800",
+      "logoURI": "https://assets.coingecko.com/coins/images/3249/large/met.png?1673081184",
       "extensions": {
         "permit": {
           "type": "EIP2612",
@@ -9061,6 +9088,14 @@
       "symbol": "OIN",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/12339/large/OIN_FInance_-_cLogo-01.png?1631796334"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd3ac016b1b8c80eeadde4d186a9138c9324e4189",
+      "name": "Okcash",
+      "symbol": "OK",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/274/large/ok-logo-200px.png?1665792994"
     },
     {
       "chainId": 1,
