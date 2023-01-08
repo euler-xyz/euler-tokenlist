@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-01-07T22:17:00.961Z",
+  "timestamp": "2023-01-08T22:16:47.761Z",
   "version": {
     "major": 1,
-    "minor": 288,
+    "minor": 289,
     "patch": 0
   },
   "tags": {},
@@ -9083,6 +9083,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x4159862bcf6b4393a80550b1ed03dffa6f90533c",
+      "name": "One Hundred Million Inu",
+      "symbol": "OHMI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28625/large/ohmi_icon_circle.png?1672716079"
+    },
+    {
+      "chainId": 1,
       "address": "0x9aeb50f542050172359a0e1a25a9933bc8c01259",
       "name": "OIN Finance",
       "symbol": "OIN",
@@ -9938,6 +9946,25 @@
       "symbol": "PRINTS",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/18143/large/prints.png?1634698868"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7cfea0dd176651e7b5a1ced9c4faf8ee295315fd",
+      "name": "Prime Numbers Ecosystem",
+      "symbol": "PRNT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/22669/large/sGFM0un9_400x400.jpg?1642404297",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "PrimeNumbers",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x7cfea0dd176651e7b5a1ced9c4faf8ee295315fd"
+          }
+        }
+      }
     },
     {
       "chainId": 1,
