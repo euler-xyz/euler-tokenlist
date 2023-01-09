@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-01-08T22:16:47.761Z",
+  "timestamp": "2023-01-09T22:16:58.932Z",
   "version": {
     "major": 1,
-    "minor": 289,
+    "minor": 290,
     "patch": 0
   },
   "tags": {},
@@ -308,6 +308,14 @@
       "symbol": "AIRX",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/9201/large/Aircoins.png?1591615033"
+    },
+    {
+      "chainId": 1,
+      "address": "0x79650799e7899a802cb96c0bc33a6a8d4ce4936c",
+      "name": "AICHAIN",
+      "symbol": "AIT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/2525/large/aichain.png?1547036638"
     },
     {
       "chainId": 1,
@@ -6902,14 +6910,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x4cd988afbad37289baaf53c13e98e2bd46aaea8c",
-      "name": "Key",
-      "symbol": "KEY",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/4182/large/bihu-key-token.png?1547039459"
-    },
-    {
-      "chainId": 1,
       "address": "0x4cc19356f2d37338b9802aa8e8fc58b0373296e7",
       "name": "SelfKey",
       "symbol": "KEY",
@@ -8326,6 +8326,14 @@
       "symbol": "MORE",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/26769/large/0BD4687E-6C18-43D2-87C7-C5BC144B49D0_200x200.jpeg?1660040979"
+    },
+    {
+      "chainId": 1,
+      "address": "0x848578e351d25b6ec0d486e42677891521c3d743",
+      "name": "moSOLID",
+      "symbol": "MOSOLID",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28677/large/black_mono_logopng.png?1673227338"
     },
     {
       "chainId": 1,
@@ -10460,14 +10468,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x011864d37035439e078d64630777ec518138af05",
-      "name": "Zerogoki",
-      "symbol": "REI",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/17015/large/iconZerogoki.png?1626618921"
-    },
-    {
-      "chainId": 1,
       "address": "0x5d843fa9495d23de997c394296ac7b4d721e841c",
       "name": "Relay Chain",
       "symbol": "RELAY",
@@ -11474,6 +11474,14 @@
       "symbol": "SOL",
       "decimals": 9,
       "logoURI": "https://assets.coingecko.com/coins/images/22876/large/SOL_wh_small.png?1644224316"
+    },
+    {
+      "chainId": 1,
+      "address": "0x777172d858dc1599914a1c4c6c9fc48c99a60990",
+      "name": "Solidly",
+      "symbol": "SOLID",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28676/large/solid.png?1673226406"
     },
     {
       "chainId": 1,
