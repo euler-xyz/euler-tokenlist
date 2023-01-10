@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-01-09T22:16:58.932Z",
+  "timestamp": "2023-01-10T22:16:28.994Z",
   "version": {
     "major": 1,
-    "minor": 290,
+    "minor": 291,
     "patch": 0
   },
   "tags": {},
@@ -13658,6 +13658,14 @@
       "symbol": "WRLD",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/22112/large/ZyBrRgfO.jpg?1640842284"
+    },
+    {
+      "chainId": 1,
+      "address": "0x5da21d9e63f1ea13d34e48b7223bcc97e3ecd687",
+      "name": "Wrapped StakeWise sETH2",
+      "symbol": "WSETH2",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28682/large/Stakewise-Component-Logo.png?1673318760"
     },
     {
       "chainId": 1,
