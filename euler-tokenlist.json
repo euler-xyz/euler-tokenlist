@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-01-10T22:16:28.994Z",
+  "timestamp": "2023-01-12T22:17:37.281Z",
   "version": {
     "major": 1,
-    "minor": 291,
+    "minor": 292,
     "patch": 0
   },
   "tags": {},
@@ -1115,6 +1115,14 @@
       "symbol": "AXS",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13029/large/axie_infinity_logo.png?1604471082"
+    },
+    {
+      "chainId": 1,
+      "address": "0x56322c14cb5f53531c231b8f9ab178bf5d893a5e",
+      "name": "AzaCoin",
+      "symbol": "AZA",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28443/large/Azarus_Logo_Mark-XXL.png?1670664404"
     },
     {
       "chainId": 1,
@@ -2238,7 +2246,7 @@
       "name": "Cap",
       "symbol": "CAP",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/11775/large/CAP.png?1594083244"
+      "logoURI": "https://assets.coingecko.com/coins/images/11775/large/cap.png?1673549056"
     },
     {
       "chainId": 1,
@@ -4403,14 +4411,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x96b52b5bf8d902252d0714a1bd2651a785fd2660",
-      "name": "EtherBone",
-      "symbol": "ETHBN",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/11596/large/ETHBN.png?1615803426"
-    },
-    {
-      "chainId": 1,
       "address": "0xfd09911130e6930bf87f2b0554c44f400bd80d3e",
       "name": "EthicHub",
       "symbol": "ETHIX",
@@ -5598,6 +5598,14 @@
       "symbol": "GMI",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/22238/large/GMI_LOGO-07.png?1641266293"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4b19c70da4c6fa4baa0660825e889d2f7eabc279",
+      "name": "Gamium",
+      "symbol": "GMM",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/22749/large/14304.png?1642557454"
     },
     {
       "chainId": 1,
@@ -8032,10 +8040,10 @@
     {
       "chainId": 1,
       "address": "0xdf2c7238198ad8b389666574f2d8bc411a4b7428",
-      "name": "Hifi Finance",
+      "name": "Hifi Finance  OLD ",
       "symbol": "MFT",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/3293/large/hifi_logo.png?1613102742"
+      "logoURI": "https://assets.coingecko.com/coins/images/3293/large/hft.png?1673534781"
     },
     {
       "chainId": 1,
@@ -9675,6 +9683,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x5ee84583f67d5ecea5420dbb42b462896e7f8d06",
+      "name": "PulseBitcoin",
+      "symbol": "PLSB",
+      "decimals": 12,
+      "logoURI": "https://assets.coingecko.com/coins/images/28690/large/%E2%82%BF.png?1673404685"
+    },
+    {
+      "chainId": 1,
       "address": "0x34f0915a5f15a66eba86f6a58be1a471fb7836a7",
       "name": "PulseDogecoin",
       "symbol": "PLSD",
@@ -11124,6 +11140,25 @@
       "symbol": "SG",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/3948/large/logo_200.png?1596589686"
+    },
+    {
+      "chainId": 1,
+      "address": "0x24c19f7101c1731b85f1127eaa0407732e36ecdd",
+      "name": "SharedStake Governance v2",
+      "symbol": "SGTV2",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13948/large/sgt-png.png?1615189100",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Sharedstake.finance",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x24c19f7101c1731b85f1127eaa0407732e36ecdd"
+          }
+        }
+      }
     },
     {
       "chainId": 1,
@@ -12974,6 +13009,14 @@
       "symbol": "VADER",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/20497/large/AcF08Jk1_400x400.jpg?1637131991"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd13cfd3133239a3c73a9e535a5c4dadee36b395c",
+      "name": "Vaiot",
+      "symbol": "VAI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13981/large/VAIOT_logo.png?1613456546"
     },
     {
       "chainId": 1,
