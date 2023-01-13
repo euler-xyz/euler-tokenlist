@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-01-12T22:17:37.281Z",
+  "timestamp": "2023-01-13T22:16:54.614Z",
   "version": {
     "major": 1,
-    "minor": 292,
+    "minor": 293,
     "patch": 0
   },
   "tags": {},
@@ -2820,6 +2820,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x5a9780bfe63f3ec57f01b087cd65bd656c9034a8",
+      "name": "Communis",
+      "symbol": "COM",
+      "decimals": 12,
+      "logoURI": "https://assets.coingecko.com/coins/images/28723/large/strongestshapetransparent-200h.png?1673595687"
+    },
+    {
+      "chainId": 1,
       "address": "0x752efadc0a7e05ad1bcccda22c141d01a75ef1e4",
       "name": "CompliFi",
       "symbol": "COMFI",
@@ -4115,7 +4123,7 @@
     {
       "chainId": 1,
       "address": "0xe9fa21e671bcfb04e6868784b89c19d5aa2424ea",
-      "name": "Eurocoin ECTE",
+      "name": "EurocoinToken",
       "symbol": "ECTE",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/7634/large/logotoken200x200.png?1550742362"
@@ -4412,7 +4420,7 @@
     {
       "chainId": 1,
       "address": "0xfd09911130e6930bf87f2b0554c44f400bd80d3e",
-      "name": "EthicHub",
+      "name": "Ethix",
       "symbol": "ETHIX",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/3031/large/ETHIX_icon_256x256-256.png?1622195164",
@@ -13704,14 +13712,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x5da21d9e63f1ea13d34e48b7223bcc97e3ecd687",
-      "name": "Wrapped StakeWise sETH2",
-      "symbol": "WSETH2",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/28682/large/Stakewise-Component-Logo.png?1673318760"
-    },
-    {
-      "chainId": 1,
       "address": "0x9b00e6e8d787b13756eb919786c9745054db64f9",
       "name": "Sienna  ERC 20 ",
       "symbol": "WSIENNA",
@@ -13921,14 +13921,6 @@
       "symbol": "XDATA",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/1115/large/streamr.png?1547035101"
-    },
-    {
-      "chainId": 1,
-      "address": "0xb9eefc4b0d472a44be93970254df4f4016569d27",
-      "name": "DigitalBits",
-      "symbol": "XDB",
-      "decimals": 7,
-      "logoURI": "https://assets.coingecko.com/coins/images/8089/large/digitalbits-logo.jpg?1554454902"
     },
     {
       "chainId": 1,
