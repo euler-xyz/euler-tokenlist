@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-01-13T22:16:54.614Z",
+  "timestamp": "2023-01-14T22:16:29.924Z",
   "version": {
     "major": 1,
-    "minor": 293,
+    "minor": 294,
     "patch": 0
   },
   "tags": {},
@@ -1928,14 +1928,6 @@
       "symbol": "BRD",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/1440/large/bread.png?1547563238"
-    },
-    {
-      "chainId": 1,
-      "address": "0x4639cd8cd52ec1cf2e496a606ce28d8afb1c792f",
-      "name": "CBDAO",
-      "symbol": "BREE",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/12096/large/cbdao_logo.jpg?1597059848"
     },
     {
       "chainId": 1,
