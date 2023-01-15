@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-01-14T22:16:29.924Z",
+  "timestamp": "2023-01-15T22:17:31.597Z",
   "version": {
     "major": 1,
-    "minor": 294,
+    "minor": 295,
     "patch": 0
   },
   "tags": {},
@@ -2084,14 +2084,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x6e36556b3ee5aa28def2a8ec3dae30ec2b208739",
-      "name": "BUILD Finance",
-      "symbol": "BUILD",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/12380/large/build.PNG?1599463828"
-    },
-    {
-      "chainId": 1,
       "address": "0xb439b8731ee047799019ef0b745a51d256b116af",
       "name": "BullionFX",
       "symbol": "BULL",
@@ -2562,6 +2554,14 @@
       "symbol": "CHPZ",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/17598/large/chipz-logo-22.png?1628591100"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8a2279d4a90b6fe1c4b30fa660cc9f926797baa2",
+      "name": "Chromia",
+      "symbol": "CHR",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/5000/large/Chromia.png?1559038018"
     },
     {
       "chainId": 1,
@@ -5014,6 +5014,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xb4bd4628e6efb0cb521d9ec35050c75840320374",
+      "name": "frETH",
+      "symbol": "FRETH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28734/large/freth.png?1673764725"
+    },
+    {
+      "chainId": 1,
       "address": "0xc9fe6e1c76210be83dc1b5b20ec7fd010b0b1d15",
       "name": "Fringe Finance",
       "symbol": "FRIN",
@@ -5054,6 +5062,14 @@
           }
         }
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0x55b1e2d8b13e7acad03353fad58fc3fa065c5822",
+      "name": "TrueFreeze",
+      "symbol": "FRZ",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28735/large/FrZicon.png?1673764966"
     },
     {
       "chainId": 1,
@@ -7380,25 +7396,6 @@
     },
     {
       "chainId": 1,
-      "address": "0xdec41db0c33f3f6f3cb615449c311ba22d418a8d",
-      "name": "Lobis",
-      "symbol": "LOBI",
-      "decimals": 9,
-      "logoURI": "https://assets.coingecko.com/coins/images/20813/large/0tOZIQ0B_400x400.jpg?1637718276",
-      "extensions": {
-        "permit": {
-          "type": "EIP2612",
-          "domain": {
-            "name": "Lobi",
-            "version": "1",
-            "chainId": 1,
-            "verifyingContract": "0xdec41db0c33f3f6f3cb615449c311ba22d418a8d"
-          }
-        }
-      }
-    },
-    {
-      "chainId": 1,
       "address": "0xc64500dd7b0f1794807e67802f8abbf5f8ffb054",
       "name": "Locus Chain",
       "symbol": "LOCUS",
@@ -7670,11 +7667,22 @@
     },
     {
       "chainId": 1,
-      "address": "0xb4d930279552397bba2ee473229f89ec245bc365",
+      "address": "0x745407c86df8db893011912d3ab28e68b62e49b0",
       "name": "MahaDAO",
       "symbol": "MAHA",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/13404/large/MAHA_Token.png?1625651604"
+      "logoURI": "https://assets.coingecko.com/coins/images/13404/large/MAHA_Token.png?1625651604",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "MahaDAO",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x745407c86df8db893011912d3ab28e68b62e49b0"
+          }
+        }
+      }
     },
     {
       "chainId": 1,
@@ -7873,14 +7881,6 @@
       "symbol": "MCRT",
       "decimals": 9,
       "logoURI": "https://assets.coingecko.com/coins/images/21318/large/mcrt.png?1638932009"
-    },
-    {
-      "chainId": 1,
-      "address": "0x2fdf40c484b1bd6f1c214acac737fedc8b03e5a8",
-      "name": "MCS",
-      "symbol": "MCS",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/18925/large/MCS.png?1633928135"
     },
     {
       "chainId": 1,
