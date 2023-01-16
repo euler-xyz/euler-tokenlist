@@ -12281,10 +12281,10 @@
     {
       "chainId": 1,
       "address": "0x582d872a1b094fc48f5de31d3b73f2d9be47def1",
-      "name": "The Open Network",
+      "name": "Toncoin",
       "symbol": "TON",
       "decimals": 9,
-      "logoURI": "https://assets.coingecko.com/coins/images/17980/large/ton.PNG?1630023132"
+      "logoURI": "https://assets.coingecko.com/coins/images/17980/large/ton_symbol.png?1670498136"
     },
     {
       "chainId": 1,
