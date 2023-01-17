@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-01-16T22:16:58.415Z",
+  "timestamp": "2023-01-17T22:18:25.987Z",
   "version": {
     "major": 1,
-    "minor": 296,
+    "minor": 297,
     "patch": 0
   },
   "tags": {},
@@ -2357,6 +2357,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xcb17cd357c7acd594717d899ecb9df540f633f27",
+      "name": "CoinDeal Token",
+      "symbol": "CDL",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/9960/large/2ZP5JaIL_400x400.jpg?1574233581"
+    },
+    {
+      "chainId": 1,
       "address": "0x3c48ca59bf2699e51d4974d4b6d284ae52076e5e",
       "name": "Capital DAO Starter",
       "symbol": "CDS",
@@ -3118,6 +3126,14 @@
       "symbol": "CTK",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/2729/large/th.jpg?1667122361"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb3ad645db386d7f6d753b2b9c3f4b853da6890b8",
+      "name": "Concentrator",
+      "symbol": "CTR",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/26364/large/%E6%9C%AA%E5%91%BD%E5%90%8D%E7%9A%84%E8%AE%BE%E8%AE%A1.jpg?1657596066"
     },
     {
       "chainId": 1,
@@ -3912,6 +3928,14 @@
       "symbol": "DSD",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13249/large/DSD.jpg?1606713628"
+    },
+    {
+      "chainId": 1,
+      "address": "0x341c05c0e9b33c0e38d64de76516b2ce970bb3be",
+      "name": "Diversified Staked ETH",
+      "symbol": "DSETH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28751/large/dsETH-logo.png?1673929867"
     },
     {
       "chainId": 1,
@@ -7364,6 +7388,25 @@
     },
     {
       "chainId": 1,
+      "address": "0xfd0205066521550d7d7ab19da8f72bb004b4c341",
+      "name": "Timeless",
+      "symbol": "LIT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28714/large/timeless-logo_3x.png?1673575624",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Liquidity Incentive Token",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0xfd0205066521550d7d7ab19da8f72bb004b4c341"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xd0345d30fd918d7682398acbcdf139c808998709",
       "name": "Lixir Finance",
       "symbol": "LIX",
@@ -7921,6 +7964,14 @@
       "symbol": "MEDIA",
       "decimals": 6,
       "logoURI": "https://assets.coingecko.com/coins/images/15142/large/media50x50.png?1620122020"
+    },
+    {
+      "chainId": 1,
+      "address": "0x64b5a241b829bca14eb42d00097ba8fd8135841e",
+      "name": "MEFLEX",
+      "symbol": "MEF",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28752/large/_200x200_%28png%29white_logo_meflex.png?1673941234"
     },
     {
       "chainId": 1,
@@ -10108,6 +10159,14 @@
       "symbol": "PTOY",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/746/large/patientory.png?1548330777"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8c088775e4139af116ac1fa6f281bbf71e8c1c73",
+      "name": "PUMLx",
+      "symbol": "PUMLX",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27253/large/pumlx.png?1665154140"
     },
     {
       "chainId": 1,
@@ -12385,6 +12444,25 @@
             "version": "1",
             "chainId": 1,
             "verifyingContract": "0x297d33e17e61c2ddd812389c2105193f8348188a"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x93eeb426782bd88fcd4b48d7b0368cf061044928",
+      "name": "The Rug Game",
+      "symbol": "TRG",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28750/large/TRG_Logo_Circular_200px.png?1673925129",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "The Rug Game",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x93eeb426782bd88fcd4b48d7b0368cf061044928"
           }
         }
       }
