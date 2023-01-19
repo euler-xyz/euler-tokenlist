@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-01-17T22:18:25.987Z",
+  "timestamp": "2023-01-19T22:17:12.484Z",
   "version": {
     "major": 1,
-    "minor": 297,
+    "minor": 298,
     "patch": 0
   },
   "tags": {},
@@ -624,6 +624,25 @@
     },
     {
       "chainId": 1,
+      "address": "0x4332f8a38f14bd3d8d1553af27d7c7ac6c27278d",
+      "name": "Ape Finance",
+      "symbol": "APEFI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25625/large/APEFI.png?1652857977",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Ape Finance",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x4332f8a38f14bd3d8d1553af27d7c7ac6c27278d"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x8bbf1dccbedd5c70d8e793d432fb56b848dd1698",
       "name": "Ape In",
       "symbol": "APEIN",
@@ -645,14 +664,6 @@
       "symbol": "API3",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13256/large/api3.jpg?1606751424"
-    },
-    {
-      "chainId": 1,
-      "address": "0x475db18d764df7fadfbd3e73fccbbc1e14342ab3",
-      "name": "ApolloFi",
-      "symbol": "APO",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/26451/large/apo.png?1660311541"
     },
     {
       "chainId": 1,
@@ -786,7 +797,7 @@
       "name": "ARTH",
       "symbol": "ARTH",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/16876/large/ARTH_Token.png?1625651538",
+      "logoURI": "https://assets.coingecko.com/coins/images/16876/large/Ik5dhOq.png?1674126397",
       "extensions": {
         "permit": {
           "type": "EIP2612",
@@ -6631,6 +6642,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x1e4746dc744503b53b4a082cb3607b169a289090",
+      "name": "IPOR",
+      "symbol": "IPOR",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28373/large/IPOR-token-200x200.png?1670480793"
+    },
+    {
+      "chainId": 1,
       "address": "0x579cea1889991f68acc35ff5c3dd0621ff29b0c9",
       "name": "IQ",
       "symbol": "IQ",
@@ -8583,14 +8602,6 @@
       "symbol": "MVL",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/3476/large/mass-vehicle-ledger.png?1547978299"
-    },
-    {
-      "chainId": 1,
-      "address": "0xcdeeeaaf2e96c25c679155e3854169c2f336b931",
-      "name": "MetaverseAir",
-      "symbol": "MVRS",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/21426/large/mvrs.jpg?1639117594"
     },
     {
       "chainId": 1,
@@ -11376,6 +11387,14 @@
           }
         }
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0x41c21693e60fc1a5dbb7c50e54e7a6016aa44c99",
+      "name": "SOCOL",
+      "symbol": "SIMP",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28760/large/Frame_427318605.png?1673998547"
     },
     {
       "chainId": 1,
