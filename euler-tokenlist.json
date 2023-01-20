@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-01-19T22:17:12.484Z",
+  "timestamp": "2023-01-20T22:17:39.127Z",
   "version": {
     "major": 1,
-    "minor": 298,
+    "minor": 299,
     "patch": 0
   },
   "tags": {},
@@ -8233,6 +8233,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x14449de7937fe1c1207006e92f89dee17bbe418a",
+      "name": "Melecoin",
+      "symbol": "MLC",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/12471/large/61743002.png?1600119257"
+    },
+    {
+      "chainId": 1,
       "address": "0xec67005c4e498ec7f55e092bd1d35cbc47c91892",
       "name": "Enzyme",
       "symbol": "MLN",
@@ -11756,7 +11764,7 @@
       "name": "Staked Yearn CRV Vault",
       "symbol": "ST-YCRV",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/27623/large/styearncrv_32.png?1664885292",
+      "logoURI": "https://assets.coingecko.com/coins/images/27623/large/st-yCRV-128-0x27B5739e22ad9033bcBf192059122d163b60349D.png?1674200862",
       "extensions": {
         "permit": {
           "type": "EIP2612",
@@ -12662,7 +12670,7 @@
       "name": "Fable Of The Dragon",
       "symbol": "TYRANT",
       "decimals": 9,
-      "logoURI": "https://assets.coingecko.com/coins/images/27911/large/XX45VJKq_400x400.jpeg?1669956200"
+      "logoURI": "https://assets.coingecko.com/coins/images/27911/large/image_%283%29.png?1674184985"
     },
     {
       "chainId": 1,
@@ -13420,6 +13428,14 @@
       "symbol": "VXV",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/2063/large/vectorspace-ai-logo.jpeg?1547036362"
+    },
+    {
+      "chainId": 1,
+      "address": "0xdf4ef6ee483953fe3b84abd08c6a060445c01170",
+      "name": "Wrapped Accumulate",
+      "symbol": "WACME",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/27207/large/accumulate-logo-200x200.png?1662607409"
     },
     {
       "chainId": 1,
