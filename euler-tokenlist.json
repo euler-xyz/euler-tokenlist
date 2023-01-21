@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-01-20T22:17:39.127Z",
+  "timestamp": "2023-01-21T22:18:02.880Z",
   "version": {
     "major": 1,
-    "minor": 299,
+    "minor": 300,
     "patch": 0
   },
   "tags": {},
@@ -2356,7 +2356,7 @@
       "name": "CryptoCoinPay",
       "symbol": "CCP",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/7127/large/T9ywgTGYuoYBFagC3PzdSVNKHxZSPB6Kmz.png?1647433798"
+      "logoURI": "https://assets.coingecko.com/coins/images/7127/large/PNGLOGO.png?1674306197"
     },
     {
       "chainId": 1,
@@ -6461,6 +6461,14 @@
       "symbol": "ILV",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14468/large/ILV.JPG?1617182121"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa735a3af76cc30791c61c10d585833829d36cbe0",
+      "name": "Image Generation AI",
+      "symbol": "IMGNAI",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/28666/large/200x200-Nai.png?1672990319"
     },
     {
       "chainId": 1,
@@ -11399,7 +11407,7 @@
     {
       "chainId": 1,
       "address": "0x41c21693e60fc1a5dbb7c50e54e7a6016aa44c99",
-      "name": "SOCOL",
+      "name": "SO COL",
       "symbol": "SIMP",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/28760/large/Frame_427318605.png?1673998547"
