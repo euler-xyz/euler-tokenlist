@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-01-22T22:18:26.049Z",
+  "timestamp": "2023-01-23T22:19:29.592Z",
   "version": {
     "major": 1,
-    "minor": 301,
+    "minor": 302,
     "patch": 0
   },
   "tags": {},
@@ -5148,6 +5148,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x9d1089802ee608ba84c5c98211afe5f37f96b36c",
+      "name": "Fluid USDC",
+      "symbol": "FUSDC",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/28471/large/fUSDC-200x200.png?1671002126"
+    },
+    {
+      "chainId": 1,
       "address": "0x970b9bb2c0444f5e81e9d0efb84c8ccdcdcaf84d",
       "name": "Fuse",
       "symbol": "FUSE",
@@ -5448,6 +5456,25 @@
             "name": "GEN.ART",
             "chainId": 1,
             "verifyingContract": "0x12e56851ec22874520dc4c7fa0a8a8d7dba1bac8"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x444444444444c1a66f394025ac839a535246fcc8",
+      "name": "Genius",
+      "symbol": "GENI",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/28621/large/GENI200x200.png?1672707726",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Genius",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x444444444444c1a66f394025ac839a535246fcc8"
           }
         }
       }
@@ -9548,7 +9575,7 @@
       "name": "ParagonsDAO",
       "symbol": "PDT",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/22642/large/6_Ms7ltG_400x400.jpg?1642395792"
+      "logoURI": "https://assets.coingecko.com/coins/images/22642/large/PDT_LOGO_200.jpg?1674482648"
     },
     {
       "chainId": 1,
@@ -9773,7 +9800,7 @@
       "name": "PulseDogecoin",
       "symbol": "PLSD",
       "decimals": 12,
-      "logoURI": "https://assets.coingecko.com/coins/images/25327/large/token-icon-200x200.png?1651234941"
+      "logoURI": "https://assets.coingecko.com/coins/images/25327/large/Final_Doge.png?1674461869"
     },
     {
       "chainId": 1,
@@ -11200,6 +11227,25 @@
       "symbol": "SFI",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13117/large/sfi_red_250px.png?1606020144"
+    },
+    {
+      "chainId": 1,
+      "address": "0xac3e018457b222d93114458476f3e3416abbe38f",
+      "name": "Staked Frax Ether",
+      "symbol": "SFRXETH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28285/large/JjqQ9ROz_400x400.jpeg?1669170466",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Staked Frax Ether",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0xac3e018457b222d93114458476f3e3416abbe38f"
+          }
+        }
+      }
     },
     {
       "chainId": 1,
