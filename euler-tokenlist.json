@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-01-23T22:19:29.592Z",
+  "timestamp": "2023-01-24T22:18:26.786Z",
   "version": {
     "major": 1,
-    "minor": 302,
+    "minor": 303,
     "patch": 0
   },
   "tags": {},
@@ -2190,7 +2190,7 @@
       "name": "Swarm",
       "symbol": "BZZ",
       "decimals": 16,
-      "logoURI": "https://assets.coingecko.com/coins/images/16509/large/Swarm_Logo_1_%E2%97%8B_1_200px.png?1628508564"
+      "logoURI": "https://assets.coingecko.com/coins/images/16509/large/Swarm_Mark_Orange_200px.png?1674546158"
     },
     {
       "chainId": 1,
