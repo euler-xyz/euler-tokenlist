@@ -1,0 +1,114 @@
+{
+    "name": "Euler Markets Optimism Goerli",
+    "timestamp": "2023-01-27",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "patch": 0
+    },
+    "tags": {},
+    "logoURI": "https://www.euler.finance/static/media/EF_logo__EF_social_element_lite-bg.18ad02c6.svg",
+    "keywords": ["euler", "default", "optimism", "goerli"],
+    "tokens": [
+      {
+        "chainId": 420,
+        "address": "0x90E644678b43399659010DD07259ED61E372ddb5",
+        "name": "USD Coin",
+        "mainnetAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "symbol": "USDC",
+        "decimals": 6,
+        "logoURI": "https://assets.coingecko.com/coins/images/6319/thumb/USD_Coin_icon.png?1547042389"
+      },
+      {
+        "chainId": 420,
+        "address": "0x3d96928242D0585B45b1218f671875E209081fdd",
+        "mainnetAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "name": "Tether USDT",
+        "symbol": "USDT",
+        "decimals": 6,
+        "logoURI": "https://assets.coingecko.com/coins/images/325/thumb/Tether-logo.png?1598003707"
+      },
+      {
+        "chainId": 420,
+        "address": "0x1231343C8595FC2Da9C16F871e000fa69B68b9b8",
+        "mainnetAddress": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+        "name": "Wrapped BTC",
+        "symbol": "WBTC",
+        "decimals": 8,
+        "logoURI": "https://assets.coingecko.com/coins/images/7598/thumb/wrapped_bitcoin_wbtc.png?1548822744"
+      },
+      {
+        "chainId": 420,
+        "address": "0x7FbE772506080fE1261d2Df2d7dA839Ec4Dfac99",
+        "mainnetAddress": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+        "name": "Uniswap",
+        "symbol": "UNI",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/12504/thumb/uniswap-uni.png?1600306604"
+      },
+      {
+        "chainId": 420,
+        "address": "0xCb8Ca7100Cf883769364BAd2324E710E8C17c96f",
+        "mainnetAddress": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+        "name": "Compound",
+        "symbol": "COMP",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/10775/thumb/COMP.png?1592625425"
+      },
+      {
+        "chainId": 420,
+        "address": "0xc847F5f8de257D48B3c55CB868187381F6B441aA",
+        "mainnetAddress": "0xd533a949740bb3306d119cc777fa900ba034cd52",
+        "name": "Curve DAO Token",
+        "symbol": "CRV",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/12124/thumb/Curve.png?1597369484"
+      },
+      {
+        "chainId": 420,
+        "address": "0x830e930B18C795192ac20e680bcDd3ce0984B4fB",
+        "mainnetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped ETH",
+        "symbol": "WETH",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/2518/thumb/weth.png?1628852295"
+      },
+      {
+        "chainId": 420,
+        "address": "0x3189e190202050ae3E54f49bBD79569Ab48FF0dF",
+        "mainnetAddress": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "name": "Dai Stablecoin",
+        "symbol": "DAI",
+        "decimals": 8,
+        "logoURI": ""
+      },
+      {
+        "chainId": 420,
+        "address": "0x2815C34e27af8Cf632049De1693FbAA0FA10F307",
+        "mainnetAddress": "0xad32A8e6220741182940c5aBF610bDE99E737b2D",
+        "name": "PieDAO DOUGH v2",
+        "symbol": "DOUGH",
+        "decimals": 8,
+        "logoURI": ""
+      },
+      {
+        "chainId": 420,
+        "address": "0x598419fB7cD8829E7471aFe1aFd5c2b35c9A82BC",
+        "mainnetAddress": "0xd9Fcd98c322942075A5C3860693e9f4f03AAE07b",
+        "name": "Euler",
+        "symbol": "EUL",
+        "decimals": 18,
+        "logoURI": ""
+      },
+      {
+        "chainId": 420,
+        "address": "0xfa8FABB91200A381fC74433B3aC3B8A6BF9eA3d0",
+        "mainnetAddress": "0x221657776846890989a759BA2973e427DfF5C9bB",
+        "name": "Reputation",
+        "symbol": "REP",
+        "decimals": 8,
+        "logoURI": ""
+      }
+    ]
+  }
+  
