@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-01-31T11:56:47.558Z",
+  "timestamp": "2023-02-01T22:19:23.754Z",
   "version": {
     "major": 1,
-    "minor": 304,
+    "minor": 305,
     "patch": 0
   },
   "tags": {},
@@ -2222,7 +2222,7 @@
       "name": "Swarm",
       "symbol": "BZZ",
       "decimals": 16,
-      "logoURI": "https://assets.coingecko.com/coins/images/16509/large/Swarm_Mark_Orange_200px.png?1674546158"
+      "logoURI": "https://assets.coingecko.com/coins/images/16509/large/Circle_Orange_onWhite.png?1675184920"
     },
     {
       "chainId": 1,
@@ -2421,6 +2421,14 @@
       "symbol": "CDT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/1231/large/Blox_Staking_Logo_2.png?1609117544"
+    },
+    {
+      "chainId": 1,
+      "address": "0xcdb37a4fbc2da5b78aa4e41a432792f9533e85cc",
+      "name": "CheckDot",
+      "symbol": "CDT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/20370/large/token-200x200_%281%29.png?1636949075"
     },
     {
       "chainId": 1,
@@ -4287,7 +4295,7 @@
       "name": "Elan",
       "symbol": "ELAN",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/27635/large/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA_%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2022-10-04_%D0%BE_17.23.34.png?1664961737"
+      "logoURI": "https://assets.coingecko.com/coins/images/27635/large/coin_logo_512x512.png?1675184763"
     },
     {
       "chainId": 1,
@@ -4596,6 +4604,14 @@
       "symbol": "EVED",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/7721/large/Variations-09.png?1549979992"
+    },
+    {
+      "chainId": 1,
+      "address": "0x29d578cec46b50fa5c88a99c6a4b70184c062953",
+      "name": "Everscale",
+      "symbol": "EVER",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/12783/large/everscale_badge_main_round_1x.png?1640050196"
     },
     {
       "chainId": 1,
@@ -6460,7 +6476,7 @@
       "name": "IDEAS",
       "symbol": "IDEAS",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/21535/large/ids.png?1640578499"
+      "logoURI": "https://assets.coingecko.com/coins/images/21535/large/IDEAS_logo_200.png?1675166407"
     },
     {
       "chainId": 1,
@@ -7698,7 +7714,7 @@
       "name": "Liquid Staked ETH Index",
       "symbol": "LSETH",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/28856/large/LSETH_logo_2376x2376.png?1674973249"
+      "logoURI": "https://assets.coingecko.com/coins/images/28856/large/LSETH_logo.png?1675166249"
     },
     {
       "chainId": 1,
@@ -12595,6 +12611,25 @@
     },
     {
       "chainId": 1,
+      "address": "0x6e5970dbd6fc7eb1f29c6d2edf2bc4c36124c0c1",
+      "name": "Polytrade",
+      "symbol": "TRADE",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/16416/large/Logo_colored_200.png?1623979654",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Polytrade",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x6e5970dbd6fc7eb1f29c6d2edf2bc4c36124c0c1"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xe225aca29524bb65fd82c79a9602f3b4f9c6fe3f",
       "name": "Tratok",
       "symbol": "TRAT",
@@ -13144,14 +13179,6 @@
       "symbol": "USDD",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/25380/large/UUSD.jpg?1651823371"
-    },
-    {
-      "chainId": 1,
-      "address": "0x674c6ad92fd080e4004b2312b45f796a192d27a0",
-      "name": "Neutrino USD",
-      "symbol": "USDN",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/10117/large/78GWcZu.png?1600845716"
     },
     {
       "chainId": 1,
@@ -13900,6 +13927,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x6bc08509b36a98e829dffad49fde5e412645d0a3",
+      "name": "WoofWork io",
+      "symbol": "WOOF",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28903/large/WWlogoTransparent_200x200.png?1675241564"
+    },
+    {
+      "chainId": 1,
       "address": "0xd0660cd418a64a1d44e9214ad8e459324d8157f1",
       "name": "Woofy",
       "symbol": "WOOFY",
@@ -14040,6 +14075,25 @@
       "symbol": "WTLOS",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/23952/large/tL4cEmvt_400x400.png?1645772510"
+    },
+    {
+      "chainId": 1,
+      "address": "0x068e3563b1c19590f822c0e13445c4fa1b9eefa5",
+      "name": "Wrapped USD",
+      "symbol": "WUSD",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28854/large/glo.png?1674969980",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "Wrapped USD",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x068e3563b1c19590f822c0e13445c4fa1b9eefa5"
+          }
+        }
+      }
     },
     {
       "chainId": 1,
@@ -14389,6 +14443,14 @@
       "symbol": "XTK",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14089/large/xtk.png?1659278233"
+    },
+    {
+      "chainId": 1,
+      "address": "0x674c6ad92fd080e4004b2312b45f796a192d27a0",
+      "name": "Neutrino Index Token",
+      "symbol": "XTN",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/10117/large/USDN_Logo.jpg?1675223697"
     },
     {
       "chainId": 1,
