@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-02-01T22:19:23.754Z",
+  "timestamp": "2023-02-02T22:20:12.154Z",
   "version": {
     "major": 1,
-    "minor": 305,
+    "minor": 306,
     "patch": 0
   },
   "tags": {},
@@ -4240,14 +4240,6 @@
     },
     {
       "chainId": 1,
-      "address": "0xd0983dd6a0334c71d0478255d1f794508026b888",
-      "name": "EGG Protocol",
-      "symbol": "EGG",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/18735/large/EGG_%281%29.png?1633308617"
-    },
-    {
-      "chainId": 1,
       "address": "0x4ae2cd1f5b8806a973953b76f9ce6d5fab9cdcfd",
       "name": "eHive",
       "symbol": "EHIVE",
@@ -6829,6 +6821,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x23894dc9da6c94ecb439911caf7d337746575a72",
+      "name": "Geojam",
+      "symbol": "JAM",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24648/large/200px_Transparent_Bubble_Token_Icon.png?1668597490"
+    },
+    {
+      "chainId": 1,
       "address": "0x7420b4b9a0110cdc71fb720908340c03f9bc03ec",
       "name": "JasmyCoin",
       "symbol": "JASMY",
@@ -8080,14 +8080,6 @@
     },
     {
       "chainId": 1,
-      "address": "0xfeead860ffa43e5660ca62ea5953a74f695c1d5b",
-      "name": "MedCareCoin",
-      "symbol": "MDCY",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/23995/large/mcc.png?1645953027"
-    },
-    {
-      "chainId": 1,
       "address": "0x814e0908b12a99fecf5bc101bb5d0b8b5cdf7d26",
       "name": "Measurable Data",
       "symbol": "MDT",
@@ -9182,6 +9174,14 @@
       "symbol": "NU",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/3318/large/photo1198982838879365035.jpg?1547037916"
+    },
+    {
+      "chainId": 1,
+      "address": "0x981dc247745800bd2ca28a4bf147f0385eaa0bc0",
+      "name": "NutsDAO",
+      "symbol": "NUTS",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28165/large/NSD.png?1668171752"
     },
     {
       "chainId": 1,
