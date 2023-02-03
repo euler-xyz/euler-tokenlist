@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-02-02T22:20:12.154Z",
+  "timestamp": "2023-02-03T22:19:27.624Z",
   "version": {
     "major": 1,
-    "minor": 306,
+    "minor": 307,
     "patch": 0
   },
   "tags": {},
@@ -2306,6 +2306,14 @@
       "symbol": "CAST",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/25216/large/19705.png?1650866493"
+    },
+    {
+      "chainId": 1,
+      "address": "0xf9d4daae1300cff251979722c4a3c45857973079",
+      "name": "bitcastle",
+      "symbol": "CASTLE",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/26551/large/blue_logo03.png?1658753049"
     },
     {
       "chainId": 1,
@@ -9198,6 +9206,14 @@
       "symbol": "NYM",
       "decimals": 6,
       "logoURI": "https://assets.coingecko.com/coins/images/24488/large/NYM_Token.png?1649926353"
+    },
+    {
+      "chainId": 1,
+      "address": "0x6f9c26fa731c7ea4139fa669962cf8f1ce6c8b0b",
+      "name": "OATH",
+      "symbol": "OATH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24075/large/oath.png?1646233885"
     },
     {
       "chainId": 1,
