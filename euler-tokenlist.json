@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-02-03T22:19:27.624Z",
+  "timestamp": "2023-02-04T22:18:35.408Z",
   "version": {
     "major": 1,
-    "minor": 307,
+    "minor": 308,
     "patch": 0
   },
   "tags": {},
@@ -734,25 +734,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x1321f1f1aa541a56c31682c57b80ecfccd9bb288",
-      "name": "ARC Governance",
-      "symbol": "ARCX",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/15652/large/coingecko-arcx-400x400.png?1634285525",
-      "extensions": {
-        "permit": {
-          "type": "EIP2612",
-          "domain": {
-            "name": "ARCx Governance Token",
-            "version": "1",
-            "chainId": 1,
-            "verifyingContract": "0x1321f1f1aa541a56c31682c57b80ecfccd9bb288"
-          }
-        }
-      }
-    },
-    {
-      "chainId": 1,
       "address": "0xb8e2e2101ed11e9138803cd3e06e16dd19910647",
       "name": "ArdCoin",
       "symbol": "ARDX",
@@ -1233,6 +1214,14 @@
       "symbol": "BALPHA",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14224/large/logo_bAlpha_200.png?1615089190"
+    },
+    {
+      "chainId": 1,
+      "address": "0x5955f7d312c5d84b004d259d55072c4f0a478dbc",
+      "name": "Balto Token",
+      "symbol": "BALTO",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28928/large/Balto-Token-logo_sq.png?1675489816"
     },
     {
       "chainId": 1,
@@ -9458,6 +9447,14 @@
       "symbol": "ORAI",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12931/large/orai.png?1647077378"
+    },
+    {
+      "chainId": 1,
+      "address": "0xff56cc6b1e6ded347aa0b7676c85ab0b3d08b0fa",
+      "name": "Orbs",
+      "symbol": "ORBS",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/4630/large/Orbs.jpg?1547039896"
     },
     {
       "chainId": 1,
