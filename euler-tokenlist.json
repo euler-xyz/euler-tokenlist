@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-02-04T22:18:35.408Z",
+  "timestamp": "2023-02-05T22:18:40.633Z",
   "version": {
     "major": 1,
-    "minor": 308,
+    "minor": 309,
     "patch": 0
   },
   "tags": {},
@@ -2311,6 +2311,14 @@
       "symbol": "CAT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12177/large/happy2-2.jpg?1619593488"
+    },
+    {
+      "chainId": 1,
+      "address": "0x523426ba1cea850457a0e405b005d739e8dfd0d8",
+      "name": "Catgirl AI",
+      "symbol": "CATAI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28945/large/Catgirl_AI.png?1675570384"
     },
     {
       "chainId": 1,
@@ -7012,6 +7020,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xb097dd6a23175c10eaa45a1f410d7eb4cfdafc8a",
+      "name": "KAINET",
+      "symbol": "KAINET",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/19071/large/kaiinu.1d3b6110.png?1675593102"
+    },
+    {
+      "chainId": 1,
       "address": "0x1410434b0346f5be678d0fb554e5c7ab620f8f4a",
       "name": "BitKan",
       "symbol": "KAN",
@@ -9624,6 +9640,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xdc63269ea166b70d4780b3a11f5c825c2b761b01",
+      "name": "PAWSWAP",
+      "symbol": "PAW",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28946/large/PAWSWAP.png?1675570590"
+    },
+    {
+      "chainId": 1,
       "address": "0x45804880de22913dafe09f4980848ece6ecbaf78",
       "name": "PAX Gold",
       "symbol": "PAXG",
@@ -10569,7 +10593,7 @@
     {
       "chainId": 1,
       "address": "0xeb953eda0dc65e3246f43dc8fa13f35623bdd5ed",
-      "name": "Rainicorn",
+      "name": "Raini",
       "symbol": "RAINI",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14491/large/logo-200x200.png?1633314246"
@@ -12458,6 +12482,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xcfcffe432a48db53f59c301422d2edd77b2a88d7",
+      "name": "Texan",
+      "symbol": "TEXAN",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28731/large/texan_logo_200x200.png?1673690316"
+    },
+    {
+      "chainId": 1,
       "address": "0x4057db5bd9f67a566aa10e5587b1a964affc6a16",
       "name": "Truefeedback",
       "symbol": "TFBX",
@@ -14095,7 +14127,7 @@
       "name": "Wrapped USD",
       "symbol": "WUSD",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/28854/large/glo.png?1674969980",
+      "logoURI": "https://assets.coingecko.com/coins/images/28854/large/wusd.png?1675567058",
       "extensions": {
         "permit": {
           "type": "EIP2612",
