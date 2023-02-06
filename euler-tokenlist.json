@@ -13933,7 +13933,7 @@
       "name": "Wrapped NXM",
       "symbol": "WNXM",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/11890/large/wrapped-nexus-mutual.jpg?1595811559",
+      "logoURI": "https://assets.coingecko.com/coins/images/11890/large/wNXM.png?1674799594",
       "extensions": {
         "permit": {
           "type": "EIP2612",
@@ -14237,10 +14237,10 @@
     {
       "chainId": 1,
       "address": "0xa2cd3d43c775978a96bdbf12d733d5a1ed94fb18",
-      "name": "Chain",
+      "name": "Onyxcoin",
       "symbol": "XCN",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/24210/large/Chain_icon_200x200.png?1646895054"
+      "logoURI": "https://assets.coingecko.com/coins/images/24210/large/onyxlogo.jpg?1675049876"
     },
     {
       "chainId": 1,
