@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-02-05T22:18:40.633Z",
+  "timestamp": "2023-02-07T22:19:31.009Z",
   "version": {
     "major": 1,
-    "minor": 309,
+    "minor": 310,
     "patch": 0
   },
   "tags": {},
@@ -1325,7 +1325,7 @@
       "name": "blockbank",
       "symbol": "BBANK",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/15081/large/blockbank.jpg?1667183379"
+      "logoURI": "https://assets.coingecko.com/coins/images/15081/large/blockbank.jpg.png?1675767121"
     },
     {
       "chainId": 1,
@@ -1516,6 +1516,14 @@
       "symbol": "BGAN",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/17051/large/bgan.png?1626149084"
+    },
+    {
+      "chainId": 1,
+      "address": "0xcc802c45b55581713cecd1eb17be9ab7fccb0844",
+      "name": "SBU Honey",
+      "symbol": "BHNY",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/26079/large/honey.png?1655694712"
     },
     {
       "chainId": 1,
@@ -1944,6 +1952,14 @@
       "symbol": "BPT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/15887/large/uyO7dQzR_400x400.jpg?1622199432"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc162e59cf158c0e9aa06c4c3c66a2ce2961777ee",
+      "name": "Black Rabbit AI",
+      "symbol": "BRAIN",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28966/large/200x200.png?1675745240"
     },
     {
       "chainId": 1,
@@ -2602,6 +2618,14 @@
       "symbol": "CHI",
       "decimals": 0,
       "logoURI": "https://assets.coingecko.com/coins/images/11583/large/chi.png?1591331659"
+    },
+    {
+      "chainId": 1,
+      "address": "0x26ff6d16549a00ba8b36ce3159b5277e6e798d18",
+      "name": "Chihua",
+      "symbol": "CHIHUA",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/15655/large/chihua_token_icon_200x200.png?1622129847"
     },
     {
       "chainId": 1,
@@ -3329,6 +3353,14 @@
       "symbol": "CYC",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14065/large/b3_DFjFp_400x400.jpg?1614128740"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4dd942baa75810a3c1e876e79d5cd35e09c97a76",
+      "name": "Dash 2 Trade",
+      "symbol": "D2T",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28707/large/logo.png?1675762068"
     },
     {
       "chainId": 1,
@@ -5213,7 +5245,7 @@
       "name": "Fuse",
       "symbol": "FUSE",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/10347/large/vUXKHEe.png?1601523640"
+      "logoURI": "https://assets.coingecko.com/coins/images/10347/large/fuse.png?1675703585"
     },
     {
       "chainId": 1,
@@ -11978,6 +12010,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xa4eb9c64ec359d093eac7b65f51ef933d6e5f7cd",
+      "name": "Stablz",
+      "symbol": "STABLZ",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28983/large/Frame_2869.png?1675760347"
+    },
+    {
+      "chainId": 1,
       "address": "0x56a86d648c435dc707c8405b78e2ae8eb4e60ba4",
       "name": "StackOS",
       "symbol": "STACK",
@@ -13353,6 +13393,14 @@
       "symbol": "VAL",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13299/large/val-gold-256.png?1607242927"
+    },
+    {
+      "chainId": 1,
+      "address": "0xcfe4eb08e33272d98cb31e37a7be78d5c1b740c1",
+      "name": "Very Banking",
+      "symbol": "VB",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28863/large/2x2.png?1674984035"
     },
     {
       "chainId": 1,
