@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-02-07T22:19:31.009Z",
+  "timestamp": "2023-02-08T22:19:50.445Z",
   "version": {
     "major": 1,
-    "minor": 310,
+    "minor": 311,
     "patch": 0
   },
   "tags": {},
@@ -2665,7 +2665,7 @@
       "name": "Chiliz",
       "symbol": "CHZ",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/8834/large/Chiliz.png?1561970540"
+      "logoURI": "https://assets.coingecko.com/coins/images/8834/large/CHZ_Token_updated.png?1675848257"
     },
     {
       "chainId": 1,
@@ -3329,6 +3329,14 @@
       "symbol": "CVXCRV",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/15586/large/convex-crv.png?1621255952"
+    },
+    {
+      "chainId": 1,
+      "address": "0xfeef77d3f69374f66429c91d732a244f074bdf74",
+      "name": "Convex FXS",
+      "symbol": "CVXFXS",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/29001/large/cvxfxs.png?1675872793"
     },
     {
       "chainId": 1,
@@ -6936,6 +6944,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x8b937af714ac7e2129bd33d93641f52b665ca352",
+      "name": "JizzRocket",
+      "symbol": "JIZZ",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28985/large/bLQvXuh_%281%29.png?1675818176"
+    },
+    {
+      "chainId": 1,
       "address": "0xe80c0cd204d654cebe8dd64a4857cab6be8345a3",
       "name": "JPEG d",
       "symbol": "JPEG",
@@ -7268,6 +7284,14 @@
           }
         }
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0x93ad9b819c88d98b4c9641470a96e24769ae7922",
+      "name": "KRYZA Exchange",
+      "symbol": "KRX",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/21249/large/257857376_3111326609090037_1514615544865128134_n.png?1638773135"
     },
     {
       "chainId": 1,
@@ -8936,6 +8960,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x98585dfc8d9e7d48f0b1ae47ce33332cf4237d96",
+      "name": "New Order",
+      "symbol": "NEWO",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/21440/large/new-order-icon-256px.png?1639125759"
+    },
+    {
+      "chainId": 1,
       "address": "0xe2dc070524a6e305ddb64d8513dc444b6a1ec845",
       "name": "Nash",
       "symbol": "NEX",
@@ -9787,6 +9819,14 @@
       "symbol": "PERP",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12381/large/60d18e06844a844ad75901a9_mark_only_03.png?1628674771"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb870679a7fa65b924026f496de7f27c1dd0e5c5f",
+      "name": "Hello Pets",
+      "symbol": "PET",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/14354/large/hello_pets.jpg?1675847422"
     },
     {
       "chainId": 1,
