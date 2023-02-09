@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-02-08T22:19:50.445Z",
+  "timestamp": "2023-02-09T22:19:35.942Z",
   "version": {
     "major": 1,
-    "minor": 311,
+    "minor": 312,
     "patch": 0
   },
   "tags": {},
@@ -2263,6 +2263,14 @@
       "symbol": "CAG",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/1021/large/200x200.png?1610766224"
+    },
+    {
+      "chainId": 1,
+      "address": "0xf36c5f04127f7470834ed6f98bddc1be62aba48d",
+      "name": "CryptoAI",
+      "symbol": "CAI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28899/large/200blue.png?1675229934"
     },
     {
       "chainId": 1,
@@ -6999,7 +7007,7 @@
       "name": "JPY Coin",
       "symbol": "JPYC",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/25971/large/JPYC_logo_3D_cmyk_0-1_%282%29.jpg?1667467959",
+      "logoURI": "https://assets.coingecko.com/coins/images/25971/large/2023jpyc.png?1675935375",
       "extensions": {
         "permit": {
           "type": "EIP2612",
@@ -8149,6 +8157,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xfeead860ffa43e5660ca62ea5953a74f695c1d5b",
+      "name": "MedCareCoin",
+      "symbol": "MDCY",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/23995/large/mcc.png?1645953027"
+    },
+    {
+      "chainId": 1,
       "address": "0x814e0908b12a99fecf5bc101bb5d0b8b5cdf7d26",
       "name": "Measurable Data",
       "symbol": "MDT",
@@ -9243,6 +9259,14 @@
       "symbol": "NPICK",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/25151/large/Logo200_%281%29.png?1650459923"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8f006d1e1d9dc6c98996f50a4c810f17a47fbf19",
+      "name": "Pleasure Coin",
+      "symbol": "NSFW",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/15315/large/pleasurecoin-icon.png?1648724879"
     },
     {
       "chainId": 1,
