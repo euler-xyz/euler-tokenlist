@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-02-09T22:19:35.942Z",
+  "timestamp": "2023-02-10T22:20:30.915Z",
   "version": {
     "major": 1,
-    "minor": 312,
+    "minor": 313,
     "patch": 0
   },
   "tags": {},
@@ -1921,6 +1921,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x9dfad1b7102d46b1b197b90095b5c4e9f5845bba",
+      "name": "Botto",
+      "symbol": "BOTTO",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/18892/large/bottos_logo.jpg?1633791571"
+    },
+    {
+      "chainId": 1,
       "address": "0x426fc8be95573230f6e6bc4af91873f0c67b21b4",
       "name": "BlackPearl",
       "symbol": "BPLC",
@@ -3388,6 +3396,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xfc979087305a826c2b2a0056cfaba50aad3e6439",
+      "name": "Dafi Protocol",
+      "symbol": "DAFI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/14428/large/Dafi_Black_Icon.png?1616040406"
+    },
+    {
+      "chainId": 1,
       "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
       "name": "Dai",
       "symbol": "DAI",
@@ -4290,6 +4306,14 @@
       "symbol": "EGAME",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/20758/large/egame.png?1637648306"
+    },
+    {
+      "chainId": 1,
+      "address": "0x2e516ba5bf3b7ee47fb99b09eadb60bde80a82e0",
+      "name": "Eggs",
+      "symbol": "EGGS",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/29024/large/egg200x200.png?1676016342"
     },
     {
       "chainId": 1,
