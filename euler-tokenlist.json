@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-02-10T22:20:30.915Z",
+  "timestamp": "2023-02-11T22:19:19.544Z",
   "version": {
     "major": 1,
-    "minor": 313,
+    "minor": 314,
     "patch": 0
   },
   "tags": {},
@@ -3377,6 +3377,14 @@
       "symbol": "CYC",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14065/large/b3_DFjFp_400x400.jpg?1614128740"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7449c93abe66457e83b3799bcf1a99e92d58a93b",
+      "name": "CryptMi",
+      "symbol": "CYMI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/29032/large/Screen_Shot_2023-02-10_at_1.22.01_PM.png?1676094438"
     },
     {
       "chainId": 1,
@@ -14728,14 +14736,6 @@
       "symbol": "YFO",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13670/large/256.png?1610676054"
-    },
-    {
-      "chainId": 1,
-      "address": "0x706cb9e741cbfee00ad5b3f5acc8bd44d1644a74",
-      "name": "YFOX Finance",
-      "symbol": "YFOX",
-      "decimals": 6,
-      "logoURI": "https://assets.coingecko.com/coins/images/12702/large/Yfox.png?1601865990"
     },
     {
       "chainId": 1,
