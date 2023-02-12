@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-02-11T22:19:19.544Z",
+  "timestamp": "2023-02-12T22:20:08.424Z",
   "version": {
     "major": 1,
-    "minor": 314,
+    "minor": 315,
     "patch": 0
   },
   "tags": {},
@@ -2509,14 +2509,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x504cde95dbc5d90d09b802f43b371971adbecf79",
-      "name": "Centralex",
-      "symbol": "CENX",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/16025/large/Centralex_Logo.png?1622618498"
-    },
-    {
-      "chainId": 1,
       "address": "0x2da719db753dfa10a62e140f436e1d67f2ddb0d6",
       "name": "Cere Network",
       "symbol": "CERE",
@@ -3877,6 +3869,14 @@
       "symbol": "DMR",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/18307/large/DMR_SYMBOL_OFFICIAL_200X200.png?1631508227"
+    },
+    {
+      "chainId": 1,
+      "address": "0x51cb253744189f11241becb29bedd3f1b5384fdb",
+      "name": "Dimitra",
+      "symbol": "DMTR",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/18530/large/HqEiru32_400x400.jpg?1632293527"
     },
     {
       "chainId": 1,
@@ -9302,6 +9302,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xf0d33beda4d734c72684b5f9abbebf715d0a7935",
+      "name": "NuNet",
+      "symbol": "NTX",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/20950/large/8Zb2W2Wi_400x400.png?1638137477"
+    },
+    {
+      "chainId": 1,
       "address": "0x4fe83213d56308330ec302a8bd641f1d0113a4cc",
       "name": "NuCypher",
       "symbol": "NU",
@@ -11681,6 +11689,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x549020a9cb845220d66d3e9c6d9f9ef61c981102",
+      "name": "Sidus",
+      "symbol": "SIDUS",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/21401/large/SIDUS_coin_logo.png?1639405031"
+    },
+    {
+      "chainId": 1,
       "address": "0x29127fe04ffa4c32acac0ffe17280abd74eac313",
       "name": "SIFU",
       "symbol": "SIFU",
@@ -11796,6 +11812,14 @@
       "symbol": "SKULL",
       "decimals": 4,
       "logoURI": "https://assets.coingecko.com/coins/images/10641/large/skull.png?1581339740"
+    },
+    {
+      "chainId": 1,
+      "address": "0x090fc4d5436d98e13473c4d6109de6a18bcfb0d4",
+      "name": "SkyToken",
+      "symbol": "SKY",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28037/large/sky.png?1667129732"
     },
     {
       "chainId": 1,
