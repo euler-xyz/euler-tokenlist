@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-02-12T22:20:08.424Z",
+  "timestamp": "2023-02-13T22:19:29.255Z",
   "version": {
     "major": 1,
-    "minor": 315,
+    "minor": 316,
     "patch": 0
   },
   "tags": {},
@@ -4322,14 +4322,6 @@
       "symbol": "EGGS",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/29024/large/egg200x200.png?1676016342"
-    },
-    {
-      "chainId": 1,
-      "address": "0x4ae2cd1f5b8806a973953b76f9ce6d5fab9cdcfd",
-      "name": "eHive",
-      "symbol": "EHIVE",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/27239/large/ehive_200x200.png?1662714434"
     },
     {
       "chainId": 1,
@@ -10979,8 +10971,8 @@
     {
       "chainId": 1,
       "address": "0x9559aaa82d9649c7a7b220e7c461d2e74c9a3593",
-      "name": "StaFi",
-      "symbol": "StaFi RETH",
+      "name": "rETH",
+      "symbol": "RETH",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14452/large/rETH.png?1616660903"
     },
