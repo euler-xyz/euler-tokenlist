@@ -62,4 +62,12 @@ module.exports = [
       }
     }
   },
+  {
+    "chainId": 1,
+    "address": "0x7b35ce522cb72e4077baeb96cb923a5529764a00",
+    "name": "Impermax  OLD ",
+    "symbol": "IMX",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/15126/large/Copy_of_200px.png?1619761475"
+  },
 ];
