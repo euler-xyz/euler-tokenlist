@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-02-14T22:20:28.176Z",
+  "timestamp": "2023-02-15T22:20:16.403Z",
   "version": {
     "major": 1,
-    "minor": 317,
+    "minor": 318,
     "patch": 0
   },
   "tags": {},
@@ -10539,14 +10539,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x30c084890fc07d78f3499ffc818b3225bc8812ea",
-      "name": "PUNKS Comic",
-      "symbol": "PUNKS",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/22337/large/PunksIcon_Small.png?1641520641"
-    },
-    {
-      "chainId": 1,
       "address": "0x81dbc1c8e40c3095071949eda9800c2209a7279a",
       "name": "Pupper",
       "symbol": "PUP",
@@ -12040,14 +12032,6 @@
       "symbol": "SPELLFIRE",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/23107/large/17316.png?1643261163"
-    },
-    {
-      "chainId": 1,
-      "address": "0x9b02dd390a603add5c07f9fd9175b7dabe8d63b7",
-      "name": "Shopping io OLD",
-      "symbol": "SPI",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/13537/large/SPI_Token.png?1623763713"
     },
     {
       "chainId": 1,
@@ -14213,6 +14197,14 @@
       "symbol": "WPCI",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/24390/large/new_logo_square_%281%29.png?1648792416"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd075e95423c5c4ba1e122cae0f4cdfa19b82881b",
+      "name": "OPES  Wrapped PE ",
+      "symbol": "WPE",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/16647/large/opes.png?1625834316"
     },
     {
       "chainId": 1,
