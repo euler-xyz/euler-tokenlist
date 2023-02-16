@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-02-15T22:20:16.403Z",
+  "timestamp": "2023-02-16T22:21:09.467Z",
   "version": {
     "major": 1,
-    "minor": 318,
+    "minor": 319,
     "patch": 0
   },
   "tags": {},
@@ -2708,7 +2708,7 @@
       "name": "Cigarette",
       "symbol": "CIG",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/22145/large/cig.png?1640929916"
+      "logoURI": "https://assets.coingecko.com/coins/images/22145/large/logo200.png?1676535394"
     },
     {
       "chainId": 1,
@@ -6702,6 +6702,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x7b35ce522cb72e4077baeb96cb923a5529764a00",
+      "name": "Impermax  OLD ",
+      "symbol": "IMX",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/15126/large/Copy_of_200px.png?1619761475"
+    },
+    {
+      "chainId": 1,
       "address": "0xf8e386eda857484f5a12e4b5daa9984e06e73705",
       "name": "Indorse",
       "symbol": "IND",
@@ -9714,6 +9722,14 @@
       "symbol": "PAINT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14103/large/paint_logo_200x200.png?1614325640"
+    },
+    {
+      "chainId": 1,
+      "address": "0x536381a8628dbcc8c70ac9a30a7258442eab4c92",
+      "name": "Pantos",
+      "symbol": "PAN",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/9639/large/Pantos-logo-compact.png?1619079883"
     },
     {
       "chainId": 1,
@@ -14264,6 +14280,14 @@
       "symbol": "WSTRAX",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/28561/large/stratis.jpeg?1671723023"
+    },
+    {
+      "chainId": 1,
+      "address": "0x77e06c9eccf2e797fd462a92b6d7642ef85b0a44",
+      "name": "Wrapped TAO",
+      "symbol": "WTAO",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/29087/large/wtao.png?1676519685"
     },
     {
       "chainId": 1,
