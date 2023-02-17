@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-02-16T22:21:09.467Z",
+  "timestamp": "2023-02-17T22:21:05.820Z",
   "version": {
     "major": 1,
-    "minor": 319,
+    "minor": 320,
     "patch": 0
   },
   "tags": {},
@@ -6266,6 +6266,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xcbcc0f036ed4788f63fc0fee32873d6a7487b908",
+      "name": "Humaniq",
+      "symbol": "HMQ",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/647/large/humaniq.jpg?1547034375"
+    },
+    {
+      "chainId": 1,
       "address": "0x10010078a54396f62c96df8532dc2b4847d47ed3",
       "name": "Hundred Finance",
       "symbol": "HND",
@@ -6445,14 +6453,6 @@
       "symbol": "HYVE",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13072/large/bAe1G-lD_400x400.png?1654056255"
-    },
-    {
-      "chainId": 1,
-      "address": "0x7cf74238d48ce383db00a1efff8da99303552cb0",
-      "name": "i9 Coin",
-      "symbol": "I9C",
-      "decimals": 8,
-      "logoURI": "https://assets.coingecko.com/coins/images/12399/large/Vvm9V6YM_400x400.png?1599556271"
     },
     {
       "chainId": 1,
