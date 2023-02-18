@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-02-17T22:21:05.820Z",
+  "timestamp": "2023-02-18T22:19:31.164Z",
   "version": {
     "major": 1,
-    "minor": 320,
+    "minor": 321,
     "patch": 0
   },
   "tags": {},
@@ -468,6 +468,14 @@
       "symbol": "ALPHR",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/15029/large/alphr.jpg?1619495712"
+    },
+    {
+      "chainId": 1,
+      "address": "0xbc6da0fe9ad5f3b0d58160288917aa56653660e9",
+      "name": "Alchemix USD",
+      "symbol": "ALUSD",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/14114/large/Alchemix_USD.png?1614410406"
     },
     {
       "chainId": 1,
@@ -8859,6 +8867,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xa49d7499271ae71cd8ab9ac515e6694c755d400c",
+      "name": "Mute",
+      "symbol": "MUTE",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/14331/large/MUTE.png?1617618967"
+    },
+    {
+      "chainId": 1,
       "address": "0x2ee543b8866f46cc3dc93224c6742a8911a59750",
       "name": "MetaVerse Dog",
       "symbol": "MVDG",
@@ -10934,25 +10950,6 @@
             "version": "1",
             "chainId": 1,
             "verifyingContract": "0x3832d2f059e55934220881f831be501d180671a7"
-          }
-        }
-      }
-    },
-    {
-      "chainId": 1,
-      "address": "0xd5147bc8e386d91cc5dbe72099dac6c9b99276f5",
-      "name": "renFIL",
-      "symbol": "RENFIL",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/13375/large/Filecoin.jpg?1628072923",
-      "extensions": {
-        "permit": {
-          "type": "ALLOWED",
-          "domain": {
-            "name": "renFIL",
-            "version": "1",
-            "chainId": 1,
-            "verifyingContract": "0xd5147bc8e386d91cc5dbe72099dac6c9b99276f5"
           }
         }
       }
