@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-02-18T22:19:31.164Z",
+  "timestamp": "2023-02-19T22:20:43.695Z",
   "version": {
     "major": 1,
-    "minor": 321,
+    "minor": 322,
     "patch": 0
   },
   "tags": {},
@@ -1040,7 +1040,7 @@
       "name": "Aventus",
       "symbol": "AVT",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/901/large/Aventus.png?1625122968"
+      "logoURI": "https://assets.coingecko.com/coins/images/901/large/1673958879448.jpeg?1676793873"
     },
     {
       "chainId": 1,
@@ -9491,7 +9491,7 @@
       "name": "One Hundred Million Inu",
       "symbol": "OHMI",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/28625/large/ohmi_icon_circle.png?1672716079"
+      "logoURI": "https://assets.coingecko.com/coins/images/28625/large/ohmi-shield-200.png?1676794632"
     },
     {
       "chainId": 1,
@@ -11579,14 +11579,6 @@
     },
     {
       "chainId": 1,
-      "address": "0xadf0ac3059400edfb6131b9fe65feea6ca83ad76",
-      "name": "Turtle Shell Islands",
-      "symbol": "SHELL",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/26925/large/slogo.png?1660833387"
-    },
-    {
-      "chainId": 1,
       "address": "0xad996a45fd2373ed0b10efa4a8ecb9de445a4302",
       "name": "Shirtum",
       "symbol": "SHI",
@@ -12371,6 +12363,25 @@
     },
     {
       "chainId": 1,
+      "address": "0x3446dd70b2d52a6bf4a5a192d9b0a161295ab7f9",
+      "name": "sudoswap",
+      "symbol": "SUDO",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/27151/large/sudo.png?1662105271",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "SUDO GOVERNANCE TOKEN",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x3446dd70b2d52a6bf4a5a192d9b0a161295ab7f9"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x0763fdccf1ae541a5961815c0872a8c5bc6de4d7",
       "name": "SUKU",
       "symbol": "SUKU",
@@ -12692,6 +12703,14 @@
       "symbol": "THN",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/16965/large/aXhD3i_g_400x400.jpg?1625804145"
+    },
+    {
+      "chainId": 1,
+      "address": "0x207e14389183a94343942de7afbc607f57460618",
+      "name": "AngelBlock",
+      "symbol": "THOL",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25058/large/Unknown-copy.png?1649947413"
     },
     {
       "chainId": 1,
