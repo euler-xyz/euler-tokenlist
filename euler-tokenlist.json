@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-02-20T22:20:29.784Z",
+  "timestamp": "2023-02-21T22:21:05.661Z",
   "version": {
     "major": 1,
-    "minor": 323,
+    "minor": 324,
     "patch": 0
   },
   "tags": {},
@@ -5033,6 +5033,14 @@
       "symbol": "FLP",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/2173/large/flp.png?1547036470"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4f08705fb8f33affc231ed66e626b40e84a71870",
+      "name": "Flute",
+      "symbol": "FLUT",
+      "decimals": 11,
+      "logoURI": "https://assets.coingecko.com/coins/images/29148/large/TheFlute200x200.png?1676966950"
     },
     {
       "chainId": 1,
@@ -10697,7 +10705,7 @@
       "name": "Quickswap  OLD ",
       "symbol": "QUICK",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/13970/large/1_pOU6pBMEmiL-ZJVb0CYRjQ.png?1613386659"
+      "logoURI": "https://assets.coingecko.com/coins/images/13970/large/quick.png?1676951177"
     },
     {
       "chainId": 1,
@@ -13295,10 +13303,10 @@
     {
       "chainId": 1,
       "address": "0xadb2437e6f65682b85f814fbc12fec0508a7b1d0",
-      "name": "UniCrypt",
+      "name": "UNCX Network",
       "symbol": "UNCX",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/12871/large/unicrypt_logo.png?1603178739"
+      "logoURI": "https://assets.coingecko.com/coins/images/12871/large/uncx.png?1676952157"
     },
     {
       "chainId": 1,
