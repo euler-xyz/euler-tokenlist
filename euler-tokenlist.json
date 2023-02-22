@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-02-21T22:21:05.661Z",
+  "timestamp": "2023-02-22T22:30:10.632Z",
   "version": {
     "major": 1,
-    "minor": 324,
+    "minor": 325,
     "patch": 0
   },
   "tags": {},
@@ -6080,6 +6080,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x36c833eed0d376f75d1ff9dfdee260191336065e",
+      "name": "Gitcoin Staked ETH Index",
+      "symbol": "GTCETH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/29171/large/gtcETH-token-logo.png?1677060167"
+    },
+    {
+      "chainId": 1,
       "address": "0x056fd409e1d7a124bd7017459dfea2f387b6d5cd",
       "name": "Gemini Dollar",
       "symbol": "GUSD",
@@ -9397,7 +9405,7 @@
       "name": "OATH",
       "symbol": "OATH",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/24075/large/oath.png?1646233885"
+      "logoURI": "https://assets.coingecko.com/coins/images/24075/large/OATH_ICON_Updated.png?1677061912"
     },
     {
       "chainId": 1,
@@ -12718,7 +12726,7 @@
       "name": "AngelBlock",
       "symbol": "THOL",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/25058/large/Unknown-copy.png?1649947413"
+      "logoURI": "https://assets.coingecko.com/coins/images/25058/large/thol_200.jpg?1677062012"
     },
     {
       "chainId": 1,
