@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-02-22T22:30:10.632Z",
+  "timestamp": "2023-02-23T22:21:00.717Z",
   "version": {
     "major": 1,
-    "minor": 325,
+    "minor": 326,
     "patch": 0
   },
   "tags": {},
@@ -425,6 +425,14 @@
       "symbol": "ALK",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/18391/large/alkemi-logo-icon-256x256.png?1631760166"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0425e5bf7f52591a04fbe24c454ac004179c4318",
+      "name": "ALL BEST ICO",
+      "symbol": "ALLBI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/26468/large/allbestico256x256.png?1670491748"
     },
     {
       "chainId": 1,
@@ -910,6 +918,14 @@
       "symbol": "ASTRA",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/27255/large/astra200x200px_blue_%282%29.png?1663035884"
+    },
+    {
+      "chainId": 1,
+      "address": "0x201332bd45c8628d814f870bfb584b385a7c351e",
+      "name": "Astra Protocol",
+      "symbol": "ASTRA",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24083/large/Astra_%281%29_%281%29.png?1673947531"
     },
     {
       "chainId": 1,
@@ -9978,7 +9994,7 @@
     {
       "chainId": 1,
       "address": "0x6c5ba91642f10282b576d91922ae6448c9d52f4e",
-      "name": "Phala Network",
+      "name": "Phala",
       "symbol": "PHA",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12451/large/phala.png?1600061318"
@@ -11351,6 +11367,14 @@
       "symbol": "SALE",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12250/large/dx-light.png?1613965390"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7c5a0ce9267ed19b22f8cae653f198e3e8daf098",
+      "name": "Santiment Network",
+      "symbol": "SAN",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/797/large/santiment-network-token.png?1547034571"
     },
     {
       "chainId": 1,
