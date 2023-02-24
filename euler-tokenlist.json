@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-02-23T22:21:00.717Z",
+  "timestamp": "2023-02-24T22:20:21.320Z",
   "version": {
     "major": 1,
-    "minor": 326,
+    "minor": 327,
     "patch": 0
   },
   "tags": {},
@@ -6719,7 +6719,7 @@
       "name": "IMPT",
       "symbol": "IMPT",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/28486/large/IMPT_logo.png?1671077901",
+      "logoURI": "https://assets.coingecko.com/coins/images/28486/large/Artboard_2_4x.png?1677223293",
       "extensions": {
         "permit": {
           "type": "EIP2612",
@@ -7875,6 +7875,14 @@
       "symbol": "LRC",
       "decimals": 2,
       "logoURI": "https://assets.coingecko.com/coins/images/25925/large/lorologo.png?1654673196"
+    },
+    {
+      "chainId": 1,
+      "address": "0x97d4f49eeb0e2c96d5ebaa71ab8418e563ecd9fd",
+      "name": "Liquid Staking Derivative",
+      "symbol": "LSD",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/29188/large/LSD.jpg?1677219444"
     },
     {
       "chainId": 1,
@@ -14043,6 +14051,14 @@
       "symbol": "WETH",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/2518/large/weth.png?1628852295"
+    },
+    {
+      "chainId": 1,
+      "address": "0xbea269038eb75bdab47a9c04d0f5c572d94b93d5",
+      "name": "Wrapped FIO",
+      "symbol": "WFIO",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/29183/large/fio_light_favicon_transparent_200x200.png?1677200040"
     },
     {
       "chainId": 1,
