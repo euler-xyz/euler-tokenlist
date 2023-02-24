@@ -1,0 +1,52 @@
+{
+    "name": "Euler Markets Base Testnet",
+    "timestamp": "2023-02-24",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "patch": 0
+    },
+    "tags": {},
+    "logoURI": "https://www.euler.finance/static/media/EF_logo__EF_social_element_lite-bg.18ad02c6.svg",
+    "keywords": ["euler", "default", "binance", "testnet"],
+    "tokens": [
+      {
+        "name": "Euler",
+        "chainId": 84531,
+        "address": "0x6ad40cE1C9D3A518dCE8D89295008ECA1bf0F321",
+        "symbol": "EUL",
+        "decimals": 18,
+        "logoURI": "https://app.euler.finance/assets/EF_logo__EF_social_element_lite-bg.cfa9c6d3.svg",
+        "extensions": {
+          "permit": {
+            "type": "EIP2612",
+            "domain": {
+              "name": "Eul",
+              "version": "1",
+              "chainId": 84531,
+              "verifyingContract": "0x6ad40cE1C9D3A518dCE8D89295008ECA1bf0F321"
+            }
+          }
+        }
+      },
+      {
+        "chainId": 84531,
+        "address": "0xE392Ee380A9917D08B521E9488a66C83364678d2",
+        "mainnetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name": "Wrapped ETH",
+        "symbol": "WETH",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/2518/thumb/weth.png?1628852295"
+      },
+      {
+        "chainId": 84531,
+        "address": "0xe727D925Ab233273d87fAb6Da58446Ed610CEdC7",
+        "name": "USD Coin",
+        "mainnetAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "symbol": "USDC",
+        "decimals": 6,
+        "logoURI": "https://assets.coingecko.com/coins/images/6319/thumb/USD_Coin_icon.png?1547042389"
+      }
+    ]
+  }
+  
