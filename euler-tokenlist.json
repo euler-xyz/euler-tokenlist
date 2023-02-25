@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-02-24T22:20:21.320Z",
+  "timestamp": "2023-02-25T22:21:21.752Z",
   "version": {
     "major": 1,
-    "minor": 327,
+    "minor": 328,
     "patch": 0
   },
   "tags": {},
@@ -5348,6 +5348,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x0ff534801e98a4976246d1f418e441783fc9aa15",
+      "name": "Future AI",
+      "symbol": "FUTURE-AI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28841/large/200x200.png?1674797020"
+    },
+    {
+      "chainId": 1,
       "address": "0x45080a6531d671ddff20db42f93792a489685e32",
       "name": "Finance Vote",
       "symbol": "FVT",
@@ -10653,7 +10661,7 @@
     },
     {
       "chainId": 1,
-      "address": "0xaaa7a10a8ee237ea61e8ac46c50a8db8bcc1baaa",
+      "address": "0xaaa9214f675316182eaa21c85f0ca99160cc3aaa",
       "name": "QANplatform",
       "symbol": "QANX",
       "decimals": 18,
