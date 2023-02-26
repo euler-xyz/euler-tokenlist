@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-02-25T22:21:21.752Z",
+  "timestamp": "2023-02-26T22:19:57.760Z",
   "version": {
     "major": 1,
-    "minor": 328,
+    "minor": 329,
     "patch": 0
   },
   "tags": {},
@@ -2100,6 +2100,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xe57425f1598f9b0d6219706b77f4b3da573a3695",
+      "name": "Bitcoin BR",
+      "symbol": "BTCBR",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/21205/large/btcbr.png?1661666691"
+    },
+    {
+      "chainId": 1,
       "address": "0x723cbfc05e2cfcc71d3d89e770d32801a5eef5ab",
       "name": "Bitcoin Pro",
       "symbol": "BTCP",
@@ -2792,25 +2800,6 @@
     },
     {
       "chainId": 1,
-      "address": "0xc6db556fd9ec09bab6dfea320e52d8476f61d424",
-      "name": "Cool Monke Banana",
-      "symbol": "CMB",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/23385/large/cmb-200x200.png?1643965383",
-      "extensions": {
-        "permit": {
-          "type": "EIP2612",
-          "domain": {
-            "name": "Cool Monke Banana",
-            "version": "1",
-            "chainId": 1,
-            "verifyingContract": "0xc6db556fd9ec09bab6dfea320e52d8476f61d424"
-          }
-        }
-      }
-    },
-    {
-      "chainId": 1,
       "address": "0xe910c2a090516fb7a7be07f96a464785f2d5dc18",
       "name": "CheckMate Token",
       "symbol": "CMT",
@@ -3404,6 +3393,14 @@
       "symbol": "CWS",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13835/large/crowns_logo.png?1612176905"
+    },
+    {
+      "chainId": 1,
+      "address": "0x5a56da75c50aa2733f5fa9a2442aaefcbc60b2e6",
+      "name": "CortexDAO",
+      "symbol": "CXD",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25224/large/cortex.jpg?1650979502"
     },
     {
       "chainId": 1,
@@ -5694,6 +5691,14 @@
       "symbol": "GETH",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14001/large/guarda-shield-logo.png?1613603915"
+    },
+    {
+      "chainId": 1,
+      "address": "0xdd69db25f6d620a7bad3023c5d32761d353d3de9",
+      "name": "Goerli ETH",
+      "symbol": "GETH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/29217/large/goerli-eth.png?1677429831"
     },
     {
       "chainId": 1,
@@ -11335,14 +11340,6 @@
       "symbol": "S4F",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/7405/large/logo_%284%29.png?1547085640"
-    },
-    {
-      "chainId": 1,
-      "address": "0x5afe3855358e112b5647b952709e6165e1c1eeee",
-      "name": "Safe Token",
-      "symbol": "SAFE",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/27032/large/Artboard_1_copy_8circle-1.png?1661498342"
     },
     {
       "chainId": 1,
