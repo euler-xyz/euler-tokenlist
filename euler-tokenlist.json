@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-02-26T22:19:57.760Z",
+  "timestamp": "2023-02-27T22:21:26.065Z",
   "version": {
     "major": 1,
-    "minor": 329,
+    "minor": 330,
     "patch": 0
   },
   "tags": {},
@@ -8751,6 +8751,14 @@
       "symbol": "MOSOLID",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/28677/large/black_mono_logopng.png?1673227338"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa848a1d33d8ef1633397a6acf617620fab8e5da8",
+      "name": "MouseWorm",
+      "symbol": "MOUSEWORM",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/28940/large/51E17AB5-6CB7-4975-AD03-6F7F86B72188.jpeg?1675504454"
     },
     {
       "chainId": 1,
