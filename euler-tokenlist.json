@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-02-27T22:21:26.065Z",
+  "timestamp": "2023-02-28T22:21:29.027Z",
   "version": {
     "major": 1,
-    "minor": 330,
+    "minor": 331,
     "patch": 0
   },
   "tags": {},
@@ -4003,6 +4003,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x517abf1fcdbd76bc75b532683ada9113e313a128",
+      "name": "Doke Inu",
+      "symbol": "DOKE",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/29234/large/Doke_logo.jpg?1677555400"
+    },
+    {
+      "chainId": 1,
       "address": "0x4576e6825b462b6916d2a41e187626e9090a92c6",
       "name": "Donkey DON",
       "symbol": "DON",
@@ -6732,7 +6740,7 @@
       "name": "IMPT",
       "symbol": "IMPT",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/28486/large/Artboard_2_4x.png?1677223293",
+      "logoURI": "https://assets.coingecko.com/coins/images/28486/large/IMPT_logo.png?1677543087",
       "extensions": {
         "permit": {
           "type": "EIP2612",
@@ -9438,6 +9446,25 @@
     },
     {
       "chainId": 1,
+      "address": "0x644192291cc835a93d6330b24ea5f5fedd0eef9e",
+      "name": "AllianceBlock Nexera",
+      "symbol": "NXRA",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/29181/large/nxra.png?1677148772",
+      "extensions": {
+        "permit": {
+          "type": "EIP2612",
+          "domain": {
+            "name": "AllianceBlock Nexera Token",
+            "version": "1",
+            "chainId": 1,
+            "verifyingContract": "0x644192291cc835a93d6330b24ea5f5fedd0eef9e"
+          }
+        }
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x525a8f6f3ba4752868cde25164382bfbae3990e1",
       "name": "Nym",
       "symbol": "NYM",
@@ -9510,6 +9537,14 @@
           }
         }
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0x419e35e3515c2fdb652c898bf7a0b21fb20497dc",
+      "name": "Ordinals Finance",
+      "symbol": "OFI",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/29226/large/symbol-bbg.png?1677485044"
     },
     {
       "chainId": 1,
@@ -12228,14 +12263,6 @@
           }
         }
       }
-    },
-    {
-      "chainId": 1,
-      "address": "0xf70a642bd387f94380ffb90451c2c81d4eb82cbc",
-      "name": "Starbase",
-      "symbol": "STAR",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/1449/large/starbase.png?1548610771"
     },
     {
       "chainId": 1,
