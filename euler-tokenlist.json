@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-02-28T22:21:29.027Z",
+  "timestamp": "2023-03-02T22:21:00.564Z",
   "version": {
     "major": 1,
-    "minor": 331,
+    "minor": 332,
     "patch": 0
   },
   "tags": {},
@@ -586,6 +586,14 @@
       "symbol": "ANKRETH",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13403/large/aETHc.png?1625756490"
+    },
+    {
+      "chainId": 1,
+      "address": "0x5a7e6c8204a1359db9aacab7ba5fc309b7981efd",
+      "name": "Offshift anonUSD",
+      "symbol": "ANONUSD",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/29254/large/anonUSD_200x200.png?1677646616"
     },
     {
       "chainId": 1,
@@ -2354,6 +2362,14 @@
       "symbol": "CAP",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/11775/large/cap.png?1673549056"
+    },
+    {
+      "chainId": 1,
+      "address": "0x03be5c903c727ee2c8c4e9bc0acc860cca4715e2",
+      "name": "Ternoa",
+      "symbol": "CAPS",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/15921/large/e55393fa-7b4d-40f5-9f36-9a8a6bdcb570.png?1622430581"
     },
     {
       "chainId": 1,
@@ -4464,14 +4480,6 @@
     },
     {
       "chainId": 1,
-      "address": "0xdb0acc14396d108b3c5574483acb817855c9dc8d",
-      "name": "Overline Emblem",
-      "symbol": "EMB",
-      "decimals": 8,
-      "logoURI": "https://assets.coingecko.com/coins/images/3335/large/czcuIce.png?1621842831"
-    },
-    {
-      "chainId": 1,
       "address": "0xf0d243ee0d7517b1fcf2445ab624ded2dbe3ba54",
       "name": "Engine Token",
       "symbol": "ENGN",
@@ -6335,6 +6343,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xb012be90957d70d9a070918027655f998c123a88",
+      "name": "Hermes DAO",
+      "symbol": "HMX",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/29283/large/Hermes_DAO.png?1677750686"
+    },
+    {
+      "chainId": 1,
       "address": "0x10010078a54396f62c96df8532dc2b4847d47ed3",
       "name": "Hundred Finance",
       "symbol": "HND",
@@ -7479,6 +7495,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xf9ca9523e5b5a42c3018c62b084db8543478c400",
+      "name": "Data Lake",
+      "symbol": "LAKE",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/29279/large/VWlCfLlX_400x400.jpeg?1677738702"
+    },
+    {
+      "chainId": 1,
       "address": "0x0e2ef8aecb3c01ad5d596f1b67134e178199984d",
       "name": "LandBox",
       "symbol": "LAND",
@@ -8596,6 +8620,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x42b91f1d05afea671a2da3c780eda2abf0a2a366",
+      "name": "Mineable",
+      "symbol": "MNB",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/29272/large/mnb.png?1677735665"
+    },
+    {
+      "chainId": 1,
       "address": "0xcdb9d30a3ba48cdfcb0ecbe19317e6cf783672f1",
       "name": "Mondo Community Coin",
       "symbol": "MNDCC",
@@ -9176,6 +9208,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x0f9b80fc3c8b9123d0aef43df58ebdbc034a8901",
+      "name": "NFTEarth",
+      "symbol": "NFTE",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/29116/large/20230223_224134.jpg?1677224110"
+    },
+    {
+      "chainId": 1,
       "address": "0xbf6ff49ffd3d104302ef0ab0f10f5a84324c091c",
       "name": "Nftfy",
       "symbol": "NFTFY",
@@ -9245,6 +9285,14 @@
       "symbol": "NFY",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12766/large/NFY_logo.png?1602686886"
+    },
+    {
+      "chainId": 1,
+      "address": "0x72dd4b6bd852a3aa172be4d6c5a6dbec588cf131",
+      "name": "NAGA",
+      "symbol": "NGC",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/1439/large/naga.jpg?1547035515"
     },
     {
       "chainId": 1,
@@ -9486,6 +9534,14 @@
       "symbol": "OBTC",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13525/large/gWzm2dr.png?1609390713"
+    },
+    {
+      "chainId": 1,
+      "address": "0xff770e4c68e35db85c6e0e89a43750ec02bdb2ac",
+      "name": "Ordinal BTC",
+      "symbol": "OBTC",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/29244/large/Ordinal_token.png?1677636798"
     },
     {
       "chainId": 1,
@@ -10033,6 +10089,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x6bf765c43030387a983f429c1438e9d2025b7e12",
+      "name": "McPepe s",
+      "symbol": "PEPES",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/29265/large/pepes-logo_%282%29.png?1677666477"
+    },
+    {
+      "chainId": 1,
       "address": "0xbc396689893d065f41bc2c6ecbee5e0085233447",
       "name": "Perpetual Protocol",
       "symbol": "PERP",
@@ -10475,6 +10539,14 @@
           }
         }
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0xb23d80f5fefcddaa212212f028021b41ded428cf",
+      "name": "Echelon Prime",
+      "symbol": "PRIME",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/29053/large/PRIMELOGOOO.png?1676976222"
     },
     {
       "chainId": 1,
@@ -12380,7 +12452,7 @@
       "name": "Standard Protocol",
       "symbol": "STND",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/15100/large/standard.jpeg?1619691869"
+      "logoURI": "https://assets.coingecko.com/coins/images/15100/large/STND_logo_black_bg.png?1677657688"
     },
     {
       "chainId": 1,
@@ -14859,14 +14931,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x4b34c0cbeef271f895d339c5f76322d71a60782b",
-      "name": "Yearn Finance Management",
-      "symbol": "YEFIM",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/12836/large/jOVGT0Y.png?1602886889"
-    },
-    {
-      "chainId": 1,
       "address": "0xf4cd3d3fda8d7fd6c5a500203e38640a70bf9577",
       "name": "YfDAI finance",
       "symbol": "YF-DAI",
@@ -15007,6 +15071,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x5b52bfb8062ce664d74bbcd4cd6dc7df53fd7233",
+      "name": "ZENIQ",
+      "symbol": "ZENIQ",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/29284/large/zeniq.png?1677754455"
+    },
+    {
+      "chainId": 1,
       "address": "0xe5b826ca2ca02f09c1725e9bd98d9a8874c30532",
       "name": "ZEON Network",
       "symbol": "ZEON",
@@ -15020,6 +15092,14 @@
       "symbol": "ZERO",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/21530/large/UlyJW87D_400x400.jpg?1639384115"
+    },
+    {
+      "chainId": 1,
+      "address": "0x88303fed02b31db9c7a9eafb711da9ef4a03e5d3",
+      "name": "Ziktalk",
+      "symbol": "ZIK",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/8991/large/ziktalk.logo.jpeg?1650437845"
     },
     {
       "chainId": 1,
