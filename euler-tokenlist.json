@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-03-02T22:21:00.564Z",
+  "timestamp": "2023-03-03T22:13:59.571Z",
   "version": {
     "major": 1,
-    "minor": 332,
+    "minor": 333,
     "patch": 0
   },
   "tags": {},
@@ -2418,14 +2418,6 @@
       "symbol": "CAT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12177/large/happy2-2.jpg?1619593488"
-    },
-    {
-      "chainId": 1,
-      "address": "0x523426ba1cea850457a0e405b005d739e8dfd0d8",
-      "name": "Catgirl AI",
-      "symbol": "CATAI",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/28945/large/Catgirl_AI.png?1675570384"
     },
     {
       "chainId": 1,
@@ -14696,7 +14688,7 @@
     },
     {
       "chainId": 1,
-      "address": "0xabe580e7ee158da464b51ee1a83ac0289622e6be",
+      "address": "0x76bc677d444f1e9d57daf5187ee2b7dc852745ae",
       "name": "Offshift",
       "symbol": "XFT",
       "decimals": 18,
