@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-03-03T22:13:59.571Z",
+  "timestamp": "2023-03-04T22:14:11.931Z",
   "version": {
     "major": 1,
-    "minor": 333,
+    "minor": 334,
     "patch": 0
   },
   "tags": {},
@@ -2828,7 +2828,7 @@
       "name": "Conic",
       "symbol": "CNC",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/24747/large/MJEDO-OY_400x400.png?1648785199"
+      "logoURI": "https://assets.coingecko.com/coins/images/24747/large/cnc.png?1677911934"
     },
     {
       "chainId": 1,
@@ -3661,6 +3661,14 @@
       "symbol": "DEC",
       "decimals": 3,
       "logoURI": "https://assets.coingecko.com/coins/images/12923/large/DEC_token.png?1603683753"
+    },
+    {
+      "chainId": 1,
+      "address": "0x6b32022693210cd2cfc466b9ac0085de8fc34ea6",
+      "name": "Maximus DECI",
+      "symbol": "DECI",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/27693/large/Deci.png?1665222159"
     },
     {
       "chainId": 1,
@@ -8386,6 +8394,14 @@
       "symbol": "MEME",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/20755/large/photo_2021-11-20_13-39-45.jpg?1637638928"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa203eb78fee91c8459c6d4ef3a899d8724ee5b35",
+      "name": "Liquid Mercury",
+      "symbol": "MERC",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/29297/large/cda56b6a-146c-4348-b4ff-5b87980c0f83.jpg?1677914858"
     },
     {
       "chainId": 1,
