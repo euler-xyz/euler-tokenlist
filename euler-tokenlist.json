@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-03-04T22:14:11.931Z",
+  "timestamp": "2023-03-05T22:14:15.267Z",
   "version": {
     "major": 1,
-    "minor": 334,
+    "minor": 335,
     "patch": 0
   },
   "tags": {},
@@ -4444,7 +4444,7 @@
       "name": "Etherland",
       "symbol": "ELAND",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/14432/large/eland.png?1616044253"
+      "logoURI": "https://assets.coingecko.com/coins/images/14432/large/eland_logo.png?1678003898"
     },
     {
       "chainId": 1,
@@ -9549,7 +9549,7 @@
       "name": "Ordinal BTC",
       "symbol": "OBTC",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/29244/large/Ordinal_token.png?1677636798"
+      "logoURI": "https://assets.coingecko.com/coins/images/29244/large/Ordinal_BTC.png?1678010144"
     },
     {
       "chainId": 1,
@@ -10228,14 +10228,6 @@
       "symbol": "PKF",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14422/large/LOGO_FB.png?1669460464"
-    },
-    {
-      "chainId": 1,
-      "address": "0x02f2d4a04e6e01ace88bd2cd632875543b2ef577",
-      "name": "PKG",
-      "symbol": "PKG",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/5422/large/pkg-token.png?1548331357"
     },
     {
       "chainId": 1,
