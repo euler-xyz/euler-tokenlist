@@ -10,6 +10,14 @@ module.exports = [
   },
   {
     "chainId": 1,
+    "address": "0x9559aaa82d9649c7a7b220e7c461d2e74c9a3593",
+    "name": "rETH",
+    "symbol": "RETH",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/14452/large/rETH.png?1616660903"
+  },
+  {
+    "chainId": 1,
     "address": "0x321c2fe4446c7c963dc41dd58879af648838f98d",
     "name": "Cryptex Finance",
     "symbol": "CTX",
