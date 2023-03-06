@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-03-05T22:14:15.267Z",
+  "timestamp": "2023-03-06T22:14:38.144Z",
   "version": {
     "major": 1,
-    "minor": 335,
+    "minor": 336,
     "patch": 0
   },
   "tags": {},
@@ -9601,6 +9601,14 @@
           }
         }
       }
+    },
+    {
+      "chainId": 1,
+      "address": "0x796a4503b444a71b331c9556bef0815237ddeabc",
+      "name": "Ordinal Doge",
+      "symbol": "ODOGE",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/29323/large/o-DOGE-200x200.png?1678070029"
     },
     {
       "chainId": 1,
