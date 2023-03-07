@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-03-06T22:14:38.144Z",
+  "timestamp": "2023-03-07T22:14:46.394Z",
   "version": {
     "major": 1,
-    "minor": 336,
+    "minor": 337,
     "patch": 0
   },
   "tags": {},
@@ -653,14 +653,6 @@
       "symbol": "APE",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/24383/large/apecoin.jpg?1647476455"
-    },
-    {
-      "chainId": 1,
-      "address": "0xfa898efdb91e35bd311c45b9b955f742b6719aa2",
-      "name": "Baddest Alpha Ape Bundle",
-      "symbol": "APED",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/18874/large/bteKOcAH_400x400.jpg?1633658256"
     },
     {
       "chainId": 1,
@@ -7447,6 +7439,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x14cc8dfaf2258e1b8b2869300dba1b734dc0fe43",
+      "name": "K Tune",
+      "symbol": "KTT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13939/large/KakaoTalk_20220928_162525453.png?1664356062"
+    },
+    {
+      "chainId": 1,
       "address": "0x96543ef8d2c75c26387c1a319ae69c0bee6f3fe7",
       "name": "Kujira",
       "symbol": "KUJI",
@@ -7939,6 +7939,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x8c1bed5b9a0928467c9b1341da1d7bd5e10b6549",
+      "name": "Liquid Staked ETH",
+      "symbol": "LSETH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28848/large/LsETH-receipt-token-circle.png?1674866187"
+    },
+    {
+      "chainId": 1,
       "address": "0x3b9be07d622accaed78f479bc0edabfd6397e320",
       "name": "Lossless",
       "symbol": "LSS",
@@ -8381,6 +8389,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x6e39a587691b8c9d4341ce0a960998ed6f537af6",
+      "name": "Meta Masters Guild",
+      "symbol": "MEMAG",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/29329/large/Meta_Masters_Guild_Logo_%283%29.png?1678171368"
+    },
+    {
+      "chainId": 1,
       "address": "0xd5525d397898e5502075ea5e830d8914f6f0affe",
       "name": "Meme",
       "symbol": "MEME",
@@ -8717,7 +8733,7 @@
     {
       "chainId": 1,
       "address": "0x1ea48b9965bb5086f3b468e50ed93888a661fc17",
-      "name": "Defi Franc Moneta",
+      "name": "Moneta DAO",
       "symbol": "MON",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/27493/large/logo-moneta.png?1664268389",
@@ -13611,6 +13627,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xe60779cc1b2c1d0580611c526a8df0e3f870ec48",
+      "name": "unshETH",
+      "symbol": "USH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/29337/large/unsheth_large_logo.png?1678175082"
+    },
+    {
+      "chainId": 1,
       "address": "0x1b3c515f58857e141a966b33182f2f3feecc10e9",
       "name": "USK",
       "symbol": "USK",
@@ -14689,7 +14713,7 @@
     {
       "chainId": 1,
       "address": "0x4aa41bc1649c9c3177ed16caaa11482295fc7441",
-      "name": "Xfit",
+      "name": "XFai",
       "symbol": "XFIT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14904/large/xfit_logo.png?1618967174"
@@ -15151,6 +15175,14 @@
       "symbol": "ZORA",
       "decimals": 9,
       "logoURI": "https://assets.coingecko.com/coins/images/13255/large/zora.png?1606747018"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd79f43113b22d1ea9f29cfcc7bb287489f8ee5e0",
+      "name": "Protocol Zero",
+      "symbol": "ZRO",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28557/large/photo_2022-08-16_02-50-00.jpg?1671705583"
     },
     {
       "chainId": 1,
