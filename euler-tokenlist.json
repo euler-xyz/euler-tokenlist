@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-03-07T22:14:46.394Z",
+  "timestamp": "2023-03-08T22:15:13.767Z",
   "version": {
     "major": 1,
-    "minor": 337,
+    "minor": 338,
     "patch": 0
   },
   "tags": {},
@@ -8485,6 +8485,14 @@
       "symbol": "METRIC",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12664/large/metric_exchange_logo.png?1601453711"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc4c346edc55504574cceb00aa1091d22404a4bc3",
+      "name": "MEZZ",
+      "symbol": "MEZZ",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/29344/large/20230307_234212.png?1678239961"
     },
     {
       "chainId": 1,
