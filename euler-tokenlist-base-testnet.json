@@ -46,6 +46,22 @@
       "symbol": "USDC",
       "decimals": 6,
       "logoURI": "https://assets.coingecko.com/coins/images/6319/thumb/USD_Coin_icon.png?1547042389"
+    },
+    {
+      "chainId": 84531,
+      "address": "0x5171Be04CdBF5e958a947f7CFED4cAb0EE0D329d",
+      "name": "Wrapped Bitcoin",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/7598/large/wrapped_bitcoin_wbtc.png?1548822744"
+    },
+    {
+      "chainId": 84531,
+      "address": "0xCAF841C852132f32738eecbd0b4f5d482e16b262",
+      "name": "Compound",
+      "symbol": "COMP",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/10775/large/COMP.png?1592625425"
     }
   ]
 }
