@@ -23,7 +23,7 @@
           "domain": {
             "name": "Eul",
             "version": "1",
-            "chainId": 3,
+            "chainId": 97,
             "verifyingContract": "0x427Dc179e9Aabbf890322c88B5b7eCB449D7a224"
           }
         }
