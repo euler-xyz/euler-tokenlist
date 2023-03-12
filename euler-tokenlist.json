@@ -1,9 +1,9 @@
 {
   "name": "Euler Markets",
-  "timestamp": "2023-03-11T22:14:53.902Z",
+  "timestamp": "2023-03-12T22:15:12.810Z",
   "version": {
     "major": 1,
-    "minor": 340,
+    "minor": 341,
     "patch": 0
   },
   "tags": {},
@@ -4695,6 +4695,14 @@
       "symbol": "FARM",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12304/large/Harvest.png?1613016180"
+    },
+    {
+      "chainId": 1,
+      "address": "0x171b1daefac13a0a3524fcb6beddc7b31e58e079",
+      "name": "Freechat",
+      "symbol": "FCC",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/29413/large/FCC_logo.png?1678598952"
     },
     {
       "chainId": 1,
